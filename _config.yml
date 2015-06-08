@@ -6,7 +6,6 @@ exclude:
 - copy-template
 - Gemfile
 - Gemfile.lock
-- README.md
 - LICENSE.md
 
 permalink: pretty
@@ -25,9 +24,6 @@ logoalt: 18F logo
 navigation:
 - text: Introduction
   url: index.html
-  internal: true
-- text: Another test
-  url: test/
   internal: true
 
 repos:
