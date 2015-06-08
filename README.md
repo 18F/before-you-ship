@@ -36,6 +36,12 @@ Designed to reduce the government forms and paperwork required of private busine
 
 Asking 10 or more members of the public the same questions.
 
+##### Additional Resources
+
+* [Memo on _Social Media, Web-Based Interactive Technologies, and the Paperwork
+Reduction Act _](https://www.whitehouse.gov/sites/default/files/omb/assets/inforeg/SocialMediaGuidance_04072010.pdf)
+* [Page from HHS CIO](http://www.hhs.gov/ocio/policy/collection/index.html)
+
 #### Privacy Act of of 1974 and System of Records Notice (SORN)
 
 Regulates the collection, maintenance, use, and dissemination of personally identifiable information (PII) about people (referred to as a "system of records") by the government.
