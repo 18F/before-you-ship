@@ -6,7 +6,7 @@ DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT
 
 ### Security
 
-* **ATO, Authority to Operate** A review process designed to ensure the security of public government sites.
+* [**ATO, Authority to Operate**](understanding_atos.md) A review process designed to ensure the security of public government sites.
   * **Triggers:** This is required for public websites. You should check with Noah at the beginning of any project so he can help start this process. You should also check in with him periodically as any new features or languages are added to the project.
 
 ### Information Collection
