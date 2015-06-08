@@ -26,7 +26,7 @@ navigation:
 - text: Introduction
   url: index.html
   internal: true
-- text: Test
+- text: Another test
   url: test/
   internal: true
 
