@@ -74,7 +74,7 @@ You may need to write a PIA or Adapted PIA for any IT system that collects, stor
 
 #### Section 508 Amendment to the Rehabilitation Act of 1973
 
-_Bristow and Yuda are good contacts for this and they are developing training._
+_Bristow and Yuda are good contacts for this and they are developing training._ You can also look at the [Accessibility Guide](https://pages.18f.gov/accessibility/).
 
 ##### Triggers
 
@@ -91,6 +91,7 @@ Accessibility should be incorporated and tested throughout the design and develo
 * Agency or Organization Communications Office
 * Legislative Affairs
 * Office of General Counsel
+* **Writing Your README:** We have [guidelines for writing a clear and concise README](https://github.com/18F/open-source-guide) so that you include all of the information your users need to understand and use your code. 
 
 ## 18F Internal
 
