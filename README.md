@@ -74,7 +74,7 @@ You may need to write a PIA or Adapted PIA for any IT system that collects, stor
 
 #### Section 508 Amendment to the Rehabilitation Act of 1973
 
-_Bristow and Yuda are good contacts for this and they are developing training._
+_Bristow and Yuda are good contacts for this and they are developing training._ See the [Accessibility Guide](https://pages.18f.gov/accessibility/checklist/) for a checklist.
 
 ##### Triggers
 
