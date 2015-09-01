@@ -1,5 +1,7 @@
-# ATOs, the 18F Way
-
+---
+title: ATOs, the 18F way
+permalink: /ato/
+---
 ## What is the Authority to Operate Process
 
 * Governed by the Federal Information Security Management Act of 2002, or FISMA
