@@ -1,9 +1,7 @@
 ---
 permalink: /
-layout: default
 title: Introduction
 ---
-
 # Government Requirements for Shipping Products
 
 DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT

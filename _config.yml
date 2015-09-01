@@ -1,14 +1,18 @@
-baseurl: /before-you-ship
 markdown: redcarpet
 name: Before you ship
 exclude:
-- go
-- copy-template
+- CONTRIBUTING.md
 - Gemfile
 - Gemfile.lock
 - LICENSE.md
+- README.md
+- go
 
 permalink: pretty
+highlighter: rouge
+
+sass:
+  style: :compressed
 
 # Author/Organization info to be displayed in the templates
 author:
@@ -25,13 +29,24 @@ navigation:
 - text: Introduction
   url: index.html
   internal: true
+- text: ATOs, the 18F way
+  url: ato/
+  internal: true
 
 repos:
 - name: Guides Template
   description: Main repository
   url: https://github.com/18F/before-you-ship
 
-# Style Variables
-brand_color: "#1188ff"
-
 google_analytics_ua: UA-48605964-19
+
+back_link:
+  url: "https://pages.18f.gov/guides/"
+  text: Read more 18F Guides
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "guides_style_18f_default"
