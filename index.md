@@ -10,7 +10,7 @@ DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT
 
 ### Security
 
-#### [ATO, Authority to Operate](understanding_atos.md)
+#### [ATO, Authority to Operate]({{ site.baseurl }}/ato/)
 
 A review process designed to ensure the security of public government sites. See [our security guide](https://hub.18f.gov/private/standards/security/) (internal only).
 
