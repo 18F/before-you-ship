@@ -12,7 +12,7 @@ DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT
 
 #### [ATO, Authority to Operate]({{ site.baseurl }}/ato/)
 
-A review process designed to ensure the security of public government sites. See [our security guide](https://hub.18f.gov/private/standards/security/) (internal only).
+A review process designed to ensure the security of public government sites. See [our security guide](https://18f.gsa.gov/hub/standards/security/) for more information.
 
 ##### Triggers
 
