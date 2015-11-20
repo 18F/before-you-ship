@@ -27,10 +27,13 @@ logoalt: 18F logo
 # List links that should appear in the site sidebar here
 navigation:
 - text: Introduction
-  url: index.html
+  url: ''
   internal: true
 - text: ATOs, the 18F way
   url: ato/
+  internal: true
+- text: Vulnerability scanning
+  url: zap/
   internal: true
 
 repos:
