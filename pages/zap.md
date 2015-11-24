@@ -13,6 +13,8 @@ You will need a running application to test, which you will want to be as produc
 
 1. [Install the ZAP desktop app](https://github.com/zaproxy/zaproxy/wiki/Downloads).
 1. In the Quick Start tab, enter the URL of your application.
+    * While you will need to run against production for the official ATO, you can also try out ZAP running against a local server.
+        * If you're using Rails on Mac, start it with `rails server --binding 0.0.0.0`.
 1. Click "Attack".
     * You should see a bunch of URLs start to pop up in the Spider tab, then the Active Scan tab.
     * This will take a while.
