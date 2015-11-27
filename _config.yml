@@ -1,4 +1,3 @@
-markdown: redcarpet
 name: Before you ship
 exclude:
 - CONTRIBUTING.md
@@ -9,7 +8,6 @@ exclude:
 - go
 
 permalink: pretty
-highlighter: rouge
 
 sass:
   style: :compressed
