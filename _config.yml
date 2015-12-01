@@ -27,8 +27,14 @@ navigation:
 - text: Introduction
   url: ''
   internal: true
+- text: Security
+  url: security/
+  internal: true
 - text: ATOs, the 18F way
   url: ato/
+  internal: true
+- text: Amazon Web Services
+  url: aws/
   internal: true
 - text: Vulnerability scanning
   url: zap/
