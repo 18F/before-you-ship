@@ -2,7 +2,10 @@
 title: ATOs, the 18F way
 permalink: /ato/
 ---
+
 ## What is the Authority to Operate Process
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T1S52B1-NT4" frameborder="0" allowfullscreen></iframe>
 
 * Governed by the Federal Information Security Management Act of 2002, or FISMA
     * FISMA does a few things. It puts the Chief Information Security Officer in charge of consulting the agency head with the process they should have for the security clearance process. FISMA also empowers the agency head with accepting all the risk posed by information systems.
