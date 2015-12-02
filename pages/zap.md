@@ -24,8 +24,7 @@ You will need a running application to test, which you will want to be as produc
 
 You can now click on each alert to see more details.
 
-### Authorized requests
+### Authentication
 
-TODO
-
+* https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsAuthentication
 * https://github.com/zaproxy/zaproxy/wiki/FAQformauth
