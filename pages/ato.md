@@ -18,7 +18,7 @@ permalink: /ato/
 
 ## Steps to obtain an Authority to Operate
 
-Prior to entering the security clearance process, the following must be completed. [Create an issue in the Devops repository](https://github.com/18F/DevOps/issues/new?title=ATO+for+%3Cproject%3E) using this template, replacing the items in angle brackets (`<...>`).
+Prior to entering the security clearance process, the following must be completed. [Create an issue in the DevOps repository](https://github.com/18F/DevOps/issues/new?title=ATO+for+%3Cproject%3E) using this template, replacing the items in angle brackets (`<...>`).
 
 ```markdown
 * **Main repository:** <url>
@@ -35,7 +35,9 @@ Prior to entering the security clearance process, the following must be complete
 * [ ] Add scanning badges from static analysis tool(s) to the README
 * [ ] Select the security controls
 * [ ] Implement the controls
-* [ ] [Run OWASP ZAP](https://pages.18f.gov/before-you-ship/zap/), and add the report to Google Drive
+* [ ] Scan the system, and add the reports to [Google Drive](https://drive.google.com/a/gsa.gov/folderview?id=0BynIxtx-CfkdckljM3BPSkdQT1U&usp=sharing)
+    * [ ] Run Nessus
+    * [ ] [Run OWASP ZAP](https://pages.18f.gov/before-you-ship/zap/)
 * [ ] Resolve any visible security issues
 * [ ] Conduct a preliminary code review
 * [ ] Update relevant documentation, primarily the README
@@ -43,10 +45,11 @@ Prior to entering the security clearance process, the following must be complete
 
 ## Security team TODOs
 
-* [ ] Final review and risk acceptance signatures (ATO)
+* [ ] Final review
+* [ ] Risk acceptance signatures (ATO)
 ```
 
-DevOps will schedule a time to meet with you and discuss the ATO.
+Feel free to add a username after each task to assign it, or make corresponding items in your issue tracker. After the DevOps issue is created, DevOps will schedule a time to meet with you and discuss the ATO.
 
 ### ATO tips
 
