@@ -25,7 +25,7 @@ permalink: /ato/
 * Once the technical architecture is stable, a system security plan (SSP) will be created. The system architecture must be drawn out to assist with this process, but can be done so at a high level.
     * For 18F, the CIO office will complete the SSP. Once the SSP is complete, the system will be scanned in three ways for a static code analysis. The scans include:
         * Web vulnerability scan;
-        * Infrastructure level scan; and
+          * Infrastructure level scan; and
         * Penetration test
 * The static code analysis grants one of four categorizations of vulnerabilities; low, medium, high, and critical. These vulnerabilities affect your ability to receive an ATO.
     * Low and medium can be resolved after the ATO is granted
@@ -37,16 +37,34 @@ permalink: /ato/
         * If a web framework has new backend administrative frameworks; and
         * The kinds of information you begin to store (e.g., personally identifiable information).
 
-### Pre-ATO Checklist
+### Template
 
-Prior to entering the security clearance process, the following must be completed:
+Prior to entering the security clearance process, the following must be completed. [Create an issue in the Devops repository](https://github.com/18F/DevOps/issues/new?title=ATO+for+%3Cproject%3E) using this template:
 
-* Selecting the security controls;
-* Implementing the controls;
-* Resolving any visible security issues;
-* Conducting a preliminary code review;
-* Updating relevant documentation, primarily the readme; and
-* Drawing a top level diagram the system architecture.
+```markdown
+* **Main repository:** <url>
+* **Running libraries:**
+    * <url>
+    * ...
+* **Site:** <url>
+
+## Project team TODOs
+
+* [ ] Add an [`about.yml`](https://github.com/18F/about_yml) for the main repository
+* [ ] Add a `system-security-plan.yml` to the repository
+* [ ] Add scanning badges from static analysis tool(s) to the README
+* [ ] Select the security controls
+* [ ] Implement the controls
+* [ ] [Run OWASP ZAP](https://pages.18f.gov/before-you-ship/zap/), and add the report to Google Drive
+* [ ] Resolve any visible security issues
+* [ ] Conduct a preliminary code review
+* [ ] Update relevant documentation, primarily the README
+* [ ] Draw a top-level diagram of the system architecture
+
+## Security team TODOs
+
+* [ ] Final review and risk acceptance signatures (ATO)
+```
 
 ### During the ATO Process
 
