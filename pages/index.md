@@ -21,5 +21,12 @@ This list is a general guide to review periodically, especially when you are sta
 * Are your APIs up to [18F API Standards](https://github.com/18f/api-standards)? _You can also talk to the API working group (#wg-api) if you have questions._
 * Have you installed Google Analytics and [DAP](https://www.digitalgov.gov/services/dap/) on all public-facing web properties? [Analytics Standards](https://github.com/18F/analytics-standards) (_You can also talk to the analytics working group (#wg-analytics) if you have questions._
 * Open Source is much more than just the license we choose. Are your GitHub repos (and their descriptions, READMEs, issues, etc.) up to our standards? [Open Source Style Guide](https://pages.18f.gov/open-source-guide/index.html).
+* You need to update our outreach and communications front office teams. [Complete this document](https://docs.google.com/document/d/1xc7H6m7lfesCN-phJGvGSDPmtoinB5sM9KAA8deMNTQ/edit).
+
+
+
+Also consider:
+* Are you addressing user needs?  How will you validate this a few months after launch?
+* Do you have a metrics and measurements strategy? Who owns this?
 * Review the [18F Guides](https://guides.18f.gov) (many of which are also specifically referenced above.)
 * Once you have reviewed everything here, the DigitalGov team has collected a list of [Requirements for Federal Websites and Digital Services](http://www.digitalgov.gov/resources/checklist-of-requirements-for-federal-digital-services/) that you should familiarize yourself with. We recommend reviewing this last, because many of the requirements are explained or managed in the above guides and processes.
