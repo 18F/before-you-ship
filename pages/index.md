@@ -3,7 +3,7 @@ permalink: /
 title: Introduction
 ---
 
-This list is a general guide to review periodically, especially when you are starting to consider a potential future launch. It is not a comprehensive pre-launch checklist because many of the items listed here _should_ be completed or updated well before launch (and sometimes regularly). But just in case, here are some things to review. It's very much a work in progress, and we'll probably reframe and reorganize.
+This list is a general guide to review periodically, especially when you are starting to consider a potential future launch. It is not a comprehensive pre-launch checklist because many of the items listed here _should_ be completed or updated well before launch (and sometimes regularly). But just in case, here are some things to review.
 
 * Are your project's details up to date on the [18F Dashboard](https://18f.gsa.gov/dashboard)? _The Dashboard team recommends you update this monthly, at a minimum._
 * Is [SSL](https://github.com/18f/https) enabled for everything? (Does everything start with https?)
