@@ -24,11 +24,12 @@ This list is a general guide to review periodically, especially when you are sta
 * You need to update our outreach and communications front office teams. [Complete this document](https://docs.google.com/document/d/1xc7H6m7lfesCN-phJGvGSDPmtoinB5sM9KAA8deMNTQ/edit).
 * Make sure you have all the social media metadata and preview images.
 * What will you do if something breaks? Have you talked to your client about their expectations of up time and their budget? 18F currently does not offer Service Level Agreements (SLAs) where we guarantee uptime, but you should have an "escalation protocol" in place. Here is an example from the [betaFEC](https://beta.fec.gov) team.
-  18F does not officially offer Service Level Agreements (SLAs), but we would still like to clarify expectations of up time for our client and users:
 
-  Three main components are responsible for hosting [beta.fec.gov](https://beta.fec.gov) and its data: the betaFEC web app, cloud.gov, and api.data.gov. These services are all under constant monitoring and set up for low or zero-downtime deployments, and should be expected to operate continuously. Data is updated nightly. Cloud.gov's current status and history of uptime is available at https://cloudgov.statuspage.io and api.data.gov's is at https://synthetics.newrelic.com/report/UIoF9.
+> 18F does not officially offer Service Level Agreements (SLAs), but we would still like to clarify expectations of up time for our client and users:
 
-  Problems should be reported by opening an issue on https://github.com/18F/openfec. If you would like to escalate the issue, you can reach out to your 18F Product Manager. Reports outside of business hours may not be addressed until the next day.
+> Three main components are responsible for hosting [beta.fec.gov](https://beta.fec.gov) and its data: the betaFEC web app, cloud.gov, and api.data.gov. These services are all under constant monitoring and set up for low or zero-downtime deployments, and should be expected to operate continuously. Data is updated nightly. Cloud.gov's current status and history of uptime is available at https://cloudgov.statuspage.io and api.data.gov's is at https://synthetics.newrelic.com/report/UIoF9.
+
+> Problems should be reported by opening an issue on https://github.com/18F/openfec. If you would like to escalate the issue, you can reach out to your 18F Product Manager. Reports outside of business hours may not be addressed until the next day.
 
 
 Also consider:
