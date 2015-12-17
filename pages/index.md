@@ -7,7 +7,7 @@ This list is a general guide to review periodically, especially when you are sta
 
 * ATO
 * Is [SSL](https://github.com/18f/https) enabled for everything? (Does everything start with https?)
-* Is your project accessible and Section 508 compliant? X weeks before launch, developers should review [this checklist](https://pages.18f.gov/accessibility/checklist/). Then, you should give Nick Bristow a heads up on slack and open an issue in the [Accessibility Reviews](https://github.com/18F/Accessibility_Reviews) repo using this template:
+* Is your project accessible and Section 508 compliant? Developers should first review [this checklist](https://pages.18f.gov/accessibility/checklist/). Once that is complete and at least *2 weeks* before launch, you should give Nick Bristow a heads up on slack and open an issue in the [Accessibility Reviews](https://github.com/18F/Accessibility_Reviews) repo using this template:
 ```markdown
 * Name of the Project: 
 * URL:
