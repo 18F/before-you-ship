@@ -5,7 +5,7 @@ title: Introduction
 
 Everything on this list should be considered early and often. This list is: a general guide to review periodically, _especially_ when you are starting to consider a potential future launch or releasing new features. This list is not: a final pre-launch checklist.
 
-* You need an Authority to Operate (ATO). At a very high level, it covers the governmental security reviews and approvals required for public websites. [Learn about requirements and timelines for ATO approval here.](https://pages.18f.gov/before-you-ship/ato/)
+* You need an Authority to Operate (ATO). At a very high level, it covers the governmental security reviews and approvals required for public websites. [Learn about requirements and timelines for ATO approval here.](https://pages.18f.gov/before-you-ship/ato-and-you/)
 * Is [SSL](https://github.com/18f/https) enabled for everything? (Does everything start with https?)
 * Is your project accessible and Section 508 compliant? Developers should first review [this checklist](https://pages.18f.gov/accessibility/checklist/). Once that is complete and at least **2 weeks** before launch, you should give Nick Bristow a heads up on slack and open an issue in the [Accessibility Reviews](https://github.com/18F/Accessibility_Reviews) repo using this template:
 ```markdown
