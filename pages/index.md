@@ -16,8 +16,8 @@ This list is a general guide to review periodically, especially when you are sta
 * Is this a DHS project?
 ```
 
-
-* Are your project's details up to date on the [18F Dashboard](https://18f.gsa.gov/dashboard)? _The Dashboard team recommends you update this monthly, at a minimum._
+* How good is your test coverage? Before shipping, you should have codecov badges on your GitHub repo READMEs and coverage should be above 90% (green). (This is not an accurate measure for code quality, but a helpful check.) _The testing working group recommends reviewing your status early and often. Refer to [this PM guide section]() or the testing working group #wg-testing for more information about this._
+* Are your project's details up to date on the [18F Dashboard](https://18f.gsa.gov/dashboard)? _The dashboard team recommends you create this at the beginning of your project and update it monthly._
 * Are your APIs up to [18F API Standards](https://github.com/18f/api-standards)? _You can also talk to the API working group (#wg-api) if you have questions._
 * Have you installed Google Analytics and [DAP](https://www.digitalgov.gov/services/dap/) on all public-facing web properties? [Analytics Standards](https://github.com/18F/analytics-standards) (_You can also talk to the analytics working group (#wg-analytics) if you have questions._
 * Open Source is much more than just the license we choose. Are your GitHub repos (and their descriptions, READMEs, issues, etc.) up to our standards? [Open Source Style Guide](https://pages.18f.gov/open-source-guide/index.html).
