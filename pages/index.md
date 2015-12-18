@@ -39,7 +39,7 @@ Also consider:
 * Review the [18F Guides](https://guides.18f.gov) (many of which are also specifically referenced above.)
 * Once you have reviewed everything here, the DigitalGov team has collected a list of [Requirements for Federal Websites and Digital Services](http://www.digitalgov.gov/resources/checklist-of-requirements-for-federal-digital-services/) that you should familiarize yourself with. We recommend reviewing this last, because many of the requirements are explained or managed in the above guides and processes.
 
-## Post-Launch Releases
+## Post-Launch Release Planning
 
 For every release after you've already publicly launched your product, you should consider: _(Explained in detail above.)_
 
