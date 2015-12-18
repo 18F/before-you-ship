@@ -38,3 +38,13 @@ Also consider:
 * Do you have a metrics and measurements strategy? Who owns this?
 * Review the [18F Guides](https://guides.18f.gov) (many of which are also specifically referenced above.)
 * Once you have reviewed everything here, the DigitalGov team has collected a list of [Requirements for Federal Websites and Digital Services](http://www.digitalgov.gov/resources/checklist-of-requirements-for-federal-digital-services/) that you should familiarize yourself with. We recommend reviewing this last, because many of the requirements are explained or managed in the above guides and processes.
+
+## Post-Launch Releases
+
+For every release after you've already done the above for a public launch, you should consider: _(Explained in detail above.)_
+
+* Accessibility review
+* Adding milestone features to the event calendar
+* Should we promote the new features with a blog post, tweets, etc?
+* Do you need to update your technical documentation?
+* Is this significant enough for a [dashboard](https://18f.gsa.gov/dashboard) update?
