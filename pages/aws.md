@@ -1,6 +1,7 @@
 ---
 title: Amazon Web Services Standards
-permalink: /aws/
+permalink: /infrastructure/aws/
+parent: Infrastructure
 ---
 
 At 18F, we use [Amazon Web Services](http://aws.amazon.com/) (AWS) as our

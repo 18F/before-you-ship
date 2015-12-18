@@ -37,9 +37,13 @@ navigation:
 - text: ATOs, the 18F way
   url: ato/
   internal: true
-- text: Amazon Web Services
-  url: aws/
+- text: Infrastructure
+  url: infrastructure/
   internal: true
+  children:
+  - text: Amazon Web Services
+    url: aws/
+    internal: true
 - text: Vulnerability scanning
   url: zap/
   internal: true
