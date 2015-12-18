@@ -7,6 +7,8 @@ In the Federal government, the principal law governing the security of informati
 
 _**Before reading the rest of this policy**_, you must read the [readme file at FISMA Ready](https://github.com/fisma-ready/fisma-ready.github.io/blob/master/README.md), a community project co-managed by 18F. You should also take a quick glance at the [components that are already FISMA Ready](https://github.com/fisma-ready).
 
+Also, the _document_ for an ATO requires a something known as System Security Plan (SSP). @geramirez is working on a tool to help with that capture process. Check this out: https://github.com/opencontrol/compliance-masonry
+
 ## Compliance
 
 Hopefully, at this point you're not **too** burned out on bureacracy! What all of that boils down is we need to always _document_ our security procedures and then be sure to _follow_ them by creating appropriate controls.
