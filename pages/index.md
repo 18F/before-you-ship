@@ -41,7 +41,7 @@ Also consider:
 
 ## Post-Launch Releases
 
-For every release after you've already done the above for a public launch, you should consider: _(Explained in detail above.)_
+For every release after you've already publicly launched your product, you should consider: _(Explained in detail above.)_
 
 * Accessibility review
 * Adding milestone features to the event calendar
