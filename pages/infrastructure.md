@@ -3,7 +3,7 @@ title: Infrastructure
 permalink: /infrastructure/
 ---
 
-Below is a list of "good" production ops practices, which product and tech leads should consider as part of their launch. We will be adding more documentation about how to achieve these within 18F's infrastructure soon, but [docs.cloud.gov](https://docs.cloud.gov/) is a good place to start.
+Below is a list of "good" production ops practices, which product and tech leads should consider early in their development and review as part of any major launch. Items in **bold** are considered must-haves. We will be adding more documentation about how to achieve these within 18F's infrastructure soon, but [docs.cloud.gov](https://docs.cloud.gov/) is a good place to start.
 
 ### Backups
 
@@ -42,14 +42,15 @@ Below is a list of "good" production ops practices, which product and tech leads
 - **User-representative tests (eg can access service, can perform a critical operation) running regularly**
 - Tests of sub-components also running regularly
 - Historical graph
-- Low latency
-- Track vs stated service-level targets
+- Tests are run frequently
+- Tests are reported with low-latency
+- Behavior vs stated service-level targets is tracked
 
 ### Alerting
 
 - **_Someone_ is alerted, somehow, if a monitor test is failing**
 - Flexible targets (for vacation, by component, etc), eg PagerDuty
-- "out of the norm" thresholds
+- Alerts triggered based on "out of the norm" thresholds
 - Flapping status does not result in excess/bouncing alerts
 
 ### Status communication
@@ -61,7 +62,7 @@ Below is a list of "good" production ops practices, which product and tech leads
 
 ### Security
 
-- **In-person discussion/audit around launch and disruptive changes**
+- **In-person discussion/audit around launch and major changes**
 - **Third-party services are approved to hold the data being sent to them**
 - Automated pen-testing in a staging environment as part of continuous deployment
 - Automated vuln-scanning in production environment that is fed with newly-discovered vulns
