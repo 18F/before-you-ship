@@ -1,4 +1,4 @@
-## 18F Before You Ship Guide
+## 18F Before You Ship Guide [![Build Status](https://travis-ci.org/18F/before-you-ship.svg?branch=18f-pages)](https://travis-ci.org/18F/before-you-ship)
 
 This is the source repository for the 18F [Before You
 Ship](https://pages.18f.gov/before-you-ship/) guide.
