@@ -19,7 +19,8 @@ Despite the "Before You Ship" title, everything on this list should be considere
 * Date the review is needed: 
 * Is this a DHS project?
 ```
-* Reach out to the #devops team at least a month in advance of launch to give them a heads up. **They also have infrastructure review checklist coming soon to PM guide and here. For now,** here's [a trello board with required items in bold](https://trello.com/c/8o8LQrbI/273-checklist-of-prodops-best-practices-for-app-teams-with-cloud-gov-specifics) and some [cloud.gov docs about deployment](https://docs.cloud.gov/apps/deployment/). Does this include stress tests?
+* Reach out to the #devops team at least a month in advance of launch to give them a heads up.
+* An extensive infrastructure review checklist is coming soon.** For now, here's [a trello board with required items in bold](https://trello.com/c/8o8LQrbI/273-checklist-of-prodops-best-practices-for-app-teams-with-cloud-gov-specifics) and some [cloud.gov docs about deployment](https://docs.cloud.gov/apps/deployment/). Does this include stress tests?
 * How good is your code test coverage? Before shipping, you should have codecov badges on your GitHub repo READMEs and coverage should be above 90% (green). (This is not a perfect measure for code quality, but a helpful check.) _The testing working group recommends reviewing your status early and often. Refer to this PM guide section **coming soon** or the testing working group #wg-testing for more information about this._
 * What will you do if something breaks? Have you talked to your client about their expectations of up time and their budget? 18F currently does not offer Service Level Agreements (SLAs), which normally include agreements about uptime and response time to downtime, but you should have an escalation protocol in place. Here is an example from the [betaFEC](https://beta.fec.gov) team.
 
