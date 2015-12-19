@@ -29,13 +29,13 @@ Despite the "Before You Ship" title, everything on this list should be considere
 > Problems should be reported by opening an issue on [GitHub](https://github.com/18F/openfec). If you would like to escalate the issue, you can reach out to your 18F Product Manager by [texting/calling (555)555-5555/slack DMing/emailing/etc.]. We may not address issues outside of business hours until the next day.
 
 * Are your project's details up to date on the [18F Dashboard](https://18f.gsa.gov/dashboard)? For now, the best way to do this is to reach out to the #dashboard slack channel. **update coming soon** _The dashboard team recommends you create this at the beginning of your project and update it monthly._
-* Are your APIs up to [18F API Standards](https://github.com/18f/api-standards)? _You can also talk to the API working group (#wg-api) if you have questions._
-* Have you installed Google Analytics and [DAP](https://www.digitalgov.gov/services/dap/) on all public-facing web properties? [Analytics Standards](https://github.com/18F/analytics-standards) _You can also talk to the analytics working group (#wg-analytics) if you have questions._
-* Open Source is much more than just the license we choose. Are your GitHub repos (and their descriptions, READMEs, issues, etc.) up to our standards? [Open Source Style Guide](https://pages.18f.gov/open-source-guide/index.html).
-* You need to share details about your project and plan a blog post announcement with our outreach and communications front office teams. [To do this, complete this communications plan template.](https://docs.google.com/document/d/1xc7H6m7lfesCN-phJGvGSDPmtoinB5sM9KAA8deMNTQ/edit)
+* Are your APIs up to [18F's API Standards](https://github.com/18f/api-standards)? You can talk to the API working group (#wg-api) if you have questions.
+* Have you installed Google Analytics and [DAP](https://www.digitalgov.gov/services/dap/) on everything? You can learn more about how to do this in our [Analytics Standards](https://github.com/18F/analytics-standards). If you have questions, you can talk to the analytics working group (#wg-analytics).
+* Open Source is much more than just the license we choose. Are your GitHub repos (and their descriptions, READMEs, issues, etc.) up to our standards? [Check the open source style guide](https://pages.18f.gov/open-source-guide/index.html). The #content team can help you with documentation.
+* You need to share details about your project and develop a communications plan with our outreach team (who will also help coordinate with the necessary GSA front office, such as communications and congressional affairs). [To do this, complete this communications plan template.](https://docs.google.com/document/d/1xc7H6m7lfesCN-phJGvGSDPmtoinB5sM9KAA8deMNTQ/edit)
 * Make sure you have all the social media metadata and preview images.
-* Let the 18F team know this is happening (or happened) by telling Kara deFrias or Leah Gitter that you'd like to announce something at the next 18F all hands meeting.
-* How'd it go? Got anything to add that you wish you had considered? Submit a pull request to this list! This is a long list, so consider linking to another guide or page.
+* Share the good news about your launch with everyone at 18F by telling Kara DeFrias or Leah Gitter that you'd like to announce something at the next Tuesday all hands meeting.
+* How'd it go? Is this list missing anything important? [Submit a pull request or open an issue!](https://github.com/18f/before-you-ship) To keep this manageable, consider linking to another guide or page.
 
 Also consider:
 * Are you addressing user needs?  How will you validate this a few months after launch?
@@ -43,15 +43,14 @@ Also consider:
 * Review the [18F Guides](https://guides.18f.gov) (many of which are also specifically referenced above.)
 * Once you have reviewed everything here, the DigitalGov team has collected a list of [Requirements for Federal Websites and Digital Services](http://www.digitalgov.gov/resources/checklist-of-requirements-for-federal-digital-services/) that you should familiarize yourself with. We recommend reviewing this last, because many of the requirements are explained or managed in the above guides and processes.
 
-## Post-Launch release planning
+## Post-launch releases
 
-For every release after you've already publicly launched your product, you should consider: _(Explained in detail above.)_
+For every release after your public launch, you should consider: _(Explained in detail above.)_
 
-* Accessibility reviews should be done for any new features or content.
-* Add project milestones and new features to the event calendar.
+* Accessibility reviews should be done for any changes.
+* Add project milestones and new features to the events calendar and 18F dashboard.
 * Should we promote the new features with a blog post, tweets, etc?
 * Do you need to update your GitHub documentation?
-* Is this significant enough for a dashboard update?
 * Planning for comp time might be necessary, especially in case there are problems.
 
 ## Additional resources
