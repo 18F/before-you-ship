@@ -34,6 +34,7 @@ Everything on this list should be considered early and often. This list is: a ge
 * You need to share details about your project and plan a blog post announcement with our outreach and communications front office teams. [To do this, complete this communications plan template.](https://docs.google.com/document/d/1xc7H6m7lfesCN-phJGvGSDPmtoinB5sM9KAA8deMNTQ/edit)
 * Make sure you have all the social media metadata and preview images.
 * Let the 18F team know this is happening (or happened) by telling Kara deFrias or Leah Gitter that you'd like to announce something at the next 18F all hands meeting.
+* How'd it go? Got anything to add that you wish you had considered? Submit a pull request to this list! This is a long list, so consider linking to another guide or page.
 
 Also consider:
 * Are you addressing user needs?  How will you validate this a few months after launch?
