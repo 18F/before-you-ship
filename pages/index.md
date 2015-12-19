@@ -53,4 +53,4 @@ For every release after you've already publicly launched your product, you shoul
 
 * [CFPB's open source checklist](https://github.com/cfpb/ckan-installer/blob/master/opensource-checklist.md)
 * [Thoughtbot's playbook](https://playbook.thoughtbot.com/#production)
-* [pixel lab website pre-launch checklist](http://thepixellab.com.au/the-website-pre-launch-checklist/)
+* [pixel lab's website pre-launch checklist](http://thepixellab.com.au/the-website-pre-launch-checklist/)
