@@ -16,7 +16,6 @@ permalink: /ato/
     * Controls can range from human controls to business processes to mechanical ones.
 * Before a system is made publicly accessible on the Internet, it must go through either the full ATO process or a 90-Day Authority to Test. If either are not yet complete, the system must have some level of authentication required for a user to enter.
 
-
 ### The ATO process
 
 While you’re in the ATO process, the following things will occur. These are largely done by the CIO shop in tandem with the 18F DevOps team, but may create some requirements for your team.

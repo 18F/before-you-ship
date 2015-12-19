@@ -1,18 +1,19 @@
 ---
 title: Your ATO
-permalink: /ato/
+permalink: /ato-and-you/
 ---
 
-An Authority to Operate (ATO) is a complicated security review process that is required for deploying any web service on the public web. [You can learn more about ATOs here](https://pages.18f.gov/before-you-ship/ato/)
+An Authority to Operate (ATO) is a complicated security review process that is required for deploying any web service on the public web. [Learn more about ATOs](ato/).
 
 First, make sure that your project is not more complicated than the typical Open Data ATO. The following are signs that your ATO process will be more complicated and you should consult Noah when you begin planning:
-* Anytime you touch Sensitive PII (see explanation: https://hub.18f.gov/standards/aws/)
+
+* Are you dealing with Sensitive Personally Identifiable Information (PII)? ([see explanation](../infrastructure/aws/))
 * Any authentication?
 * Any authorization?
 * Is this the only place in the world you can do x? Is that x fundamental to what that agency does? (e.g. EPA tracking hazardous waste)
 * Is the data not open?
 
-If you project is none of the above, you will likely be able to get an Open Data ATO, which is less complicated. 
+If you project is none of the above, you will likely be able to get an Open Data ATO, which is less complicated.
 
 Second, as soon as you have a stable server that isn’t changing its security boundary (talk to your devs about this, but it can be very early on), you should start this process. As long as there aren’t those significant changes, the tests will run periodically on any updates you make. At the very latest, start this process at least 2 months before launch. Do not commit to a launch date without coordinating with Noah Kunin on this first.
 
