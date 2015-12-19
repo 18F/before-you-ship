@@ -3,7 +3,7 @@ permalink: /
 title: Introduction
 ---
 
-Despite the "Before You Ship" title, everything on this list should be considered early and often. **This list is:** a general guide to review periodically, _especially_ when you are starting to consider a future project launch or feature release. **This list is not:** a last minute pre-launch checklist.
+Despite the "Before You Ship" title, everything on this list should be considered early and often. **This list is:** a general guide to review periodically, _especially_ when you are starting to consider a future project launch or feature release. **This list is not:** just a last minute pre-launch checklist.
 
 * You need an Authority to Operate (ATO). At a very high level, it covers the security reviews and approvals **required** for public government websites. It is very important and can take months. [Learn about requirements and timelines for ATO approval here.](https://pages.18f.gov/before-you-ship/ato-and-you/)
 * Add your launch plans and project milestones to the 18F Events calendar (a shared Google calendar). This helps several teams, primarily the #outreach team. Rough estimates are fine; the earlier you can add to the calendar, the better.
