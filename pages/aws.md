@@ -76,7 +76,7 @@ Every inter-agency agreement (IAA) at 18F needs to have a line item on a total v
 
 For AWS, the cost of almost every service can be tracked through the usage of **tags**. Tags are just simple `key`:`value` pieces of metadata. Unfortunately, there does not seem to be any canonical list of which AWS services supports tags, nor is there any consistent way within the AWS Management Console of each particular service to apply or change a tag. Once you gain access to the AWS Management Console, you can click on various resources and see if a *Tags* tab or link is available. In this example, the 18F Hub site has two tags:
 
-![Screenshot of tag usage in AWS](../assets/aws-tags-display-console.png)
+![Screenshot of tag usage in AWS](../../assets/aws-tags-display-console.png)
 
 AWS has recently deployed significant improvements for tag management. There is now a [global viewer and editor](https://resources.console.aws.amazon.com/r/tags) for all tags.
 
