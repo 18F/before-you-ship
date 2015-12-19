@@ -47,11 +47,12 @@ Also consider:
 
 For every release after you've already publicly launched your product, you should consider: _(Explained in detail above.)_
 
-* Accessibility review
-* Adding milestone features to the event calendar
+* Accessibility reviews should be done for any new features or content.
+* Add project milestones and new features to the event calendar.
 * Should we promote the new features with a blog post, tweets, etc?
-* Do you need to update your technical documentation?
-* Is this significant enough for a [dashboard](https://18f.gsa.gov/dashboard) update?
+* Do you need to update your GitHub documentation?
+* Is this significant enough for a dashboard update?
+* Planning for comp time might be necessary, especially in case there are problems.
 
 ## Additional resources
 
