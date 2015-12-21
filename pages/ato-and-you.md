@@ -3,7 +3,7 @@ title: Your ATO
 permalink: /ato-and-you/
 ---
 
-An Authority to Operate (ATO) is a complicated security review process that is required for deploying any web service on the public web. [Learn more about ATOs](ato/).
+An Authority to Operate (ATO) is a complicated security review process that is required for deploying any web service on the public web. [Learn more about ATOs](/ato/).
 
 First, make sure that your project is not more complicated than the typical Open Data ATO. The following are signs that your ATO process will be more complicated and you should consult Noah when you begin planning:
 
