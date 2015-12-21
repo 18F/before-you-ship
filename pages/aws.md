@@ -4,7 +4,7 @@ permalink: /infrastructure/aws/
 parent: Infrastructure
 ---
 
-At 18F, we use [Amazon Web Services](http://aws.amazon.com/) (AWS) as our [infrastructure as a service](http://en.wikipedia.org/wiki/Cloud_computing#Infrastructure_as_a_service_.28IaaS.29) (IaaS). AWS hosts not just our production systems, but everything else too: development, staging, testing, etc. If you're used to developing locally, you should feel empowered to do everything in AWS if you'd like. Note that AWS is currently the **only** approved IaaS provider. You're free to develop purely locally as long as you'd like, but if you want to get something online, AWS is the only option.
+At 18F, we use [Amazon Web Services](https://aws.amazon.com/) (AWS) as our [infrastructure as a service](https://en.wikipedia.org/wiki/Cloud_computing#Infrastructure_as_a_service_.28IaaS.29) (IaaS). AWS hosts not just our production systems, but everything else too: development, staging, testing, etc. If you're used to developing locally, you should feel empowered to do everything in AWS if you'd like. Note that AWS is currently the **only** approved IaaS provider. You're free to develop purely locally as long as you'd like, but if you want to get something online, AWS is the only option.
 
 Even if you are familiar with IaaS providers in general, or AWS specifically, before you are given access you **must go through on-boarding with the 18F DevOps team**.
 
@@ -12,7 +12,7 @@ Sometime in 2015, this on-boarding will be part of 18F On-boarding for all relev
 
 ## Fundamentals
 
-If you are familiar with running virtual machines on your own computer, through Parallels, VirtualBox, or VMWare, AWS operates on the same principles but on a truly massive [scale](http://www.enterprisetech.com/2014/11/14/rare-peek-massive-scale-aws/). Pretty much everything in AWS can be orchestrated via the [AWS API](https://aws.amazon.com/documentation/) & [command-line interface](http://docs.aws.amazon.com/cli/latest/reference/).
+If you are familiar with running virtual machines on your own computer, through Parallels, VirtualBox, or VMWare, AWS operates on the same principles but on a truly massive [scale](http://www.enterprisetech.com/2014/11/14/rare-peek-massive-scale-aws/). Pretty much everything in AWS can be orchestrated via the [AWS API](https://aws.amazon.com/documentation/) & [command-line interface](https://docs.aws.amazon.com/cli/latest/reference/).
 
 ### Log-in
 
@@ -22,21 +22,21 @@ Your username will be created for you during onboarding. Check the MFA Token box
 
 ### Servers
 
-The core service of AWS is the [Elastic Compute Cloud](http://aws.amazon.com/documentation/ec2/) (EC2). These are virtual machines just like on your computer, but hosted in the AWS environment. You receive access through a GUI, the [AWS Management Console](https://18f.signin.aws.com), an [API](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/query-apis.html), and to the guest [OS through SSH](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html).
+The core service of AWS is the [Elastic Compute Cloud](https://aws.amazon.com/documentation/ec2/) (EC2). These are virtual machines just like on your computer, but hosted in the AWS environment. You receive access through a GUI, the [AWS Management Console](https://18f.signin.aws.com), an [API](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/query-apis.html), and to the guest [OS through SSH](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html).
 
 ### Network security
 
-At 18F, we require all EC2 instances to be launched into a [virtual private cloud](http://aws.amazon.com/vpc/) (VPC). Your network security settings are set at the VPC level: on what ports, from what IP addresses, can EC2 instances communicate with each other and back out to the internet. Occasionally, out-of-date documentation from third parties and Amazon itself may reference *EC2 Classic*. We at 18F do not support this environment.
+At 18F, we require all EC2 instances to be launched into a [virtual private cloud](https://aws.amazon.com/vpc/) (VPC). Your network security settings are set at the VPC level: on what ports, from what IP addresses, can EC2 instances communicate with each other and back out to the internet. Occasionally, out-of-date documentation from third parties and Amazon itself may reference *EC2 Classic*. We at 18F do not support this environment.
 
 ### Object storage
 
-If you want very basic and cheap object storage, AWS provides the [Simple Storage Service](http://aws.amazon.com/s3/) (S3).
+If you want very basic and cheap object storage, AWS provides the [Simple Storage Service](https://aws.amazon.com/s3/) (S3).
 
 ### Permissions
 
-AWS [Identity and Access Management](http://aws.amazon.com/iam/) IAM is where  all permissions are set, both for human users and EC2 instances themselves if they need to communicate commands to other AWS services. Currently, modifications to anything under IAM must go through 18F DevOps.
+AWS [Identity and Access Management](https://aws.amazon.com/iam/) IAM is where  all permissions are set, both for human users and EC2 instances themselves if they need to communicate commands to other AWS services. Currently, modifications to anything under IAM must go through 18F DevOps.
 
-These are just the concepts necessary for initial on-boarding. AWS has an [extensive list](http://aws.amazon.com/products/) of other services.
+These are just the concepts necessary for initial on-boarding. AWS has an [extensive list](https://aws.amazon.com/products/) of other services.
 
 ## Constraints
 
@@ -109,7 +109,7 @@ These are things like your AWS password, secret API key, and the mobile device t
 
 #### OS baseline
 
-We use a pre-hardened version of [Ubuntu](http://en.wikipedia.org/wiki/Ubuntu_%28operating_system%29) as our baseline OS for all EC2 instances in AWS. In AWS, there are [Amazon Machine Images](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html) (AMIs) in each AWS Region that these controls already implemented. You should always launch new instances from this baseline.
+We use a pre-hardened version of [Ubuntu](https://en.wikipedia.org/wiki/Ubuntu_%28operating_system%29) as our baseline OS for all EC2 instances in AWS. In AWS, there are [Amazon Machine Images](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html) (AMIs) in each AWS Region that these controls already implemented. You should always launch new instances from this baseline.
 
 #### HTTPS Everywhere
 
