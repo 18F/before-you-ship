@@ -1,4 +1,5 @@
 name: Before you ship
+baseurl: /before-you-ship
 exclude:
 - CONTRIBUTING.md
 - Gemfile
