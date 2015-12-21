@@ -12,7 +12,7 @@ First, make sure that your project is not more complicated than the typical Open
 * Is this the only place in the world you can do x? Is that x fundamental to what that agency does? (e.g. EPA tracking hazardous waste)
 * Is the data not open?
 
-If you project is none of the above, you will likely be able to get an Open Data ATO, which is less complicated. 
+If you project is none of the above, you will likely be able to get an Open Data ATO, which is less complicated.
 
 Second, as soon as you have a stable server that isn’t changing its security boundary (talk to your devs about this, but it can be very early on), you should start this process. As long as there aren’t those significant changes, the tests will run periodically on any updates you make. At the very latest, start this process at least 2 months before launch. Do not commit to a launch date without coordinating with Noah Kunin on this first.
 
@@ -28,6 +28,8 @@ To start the security clearance process, [create an issue in the DevOps reposito
     * <url>
     * ...
 * **Site:** <url>
+* **Product manager:** @username
+* **Technical point of contact:** @username
 * **Launch date/deadline:** <date>
 
 ## TODOs
