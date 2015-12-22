@@ -1,7 +1,8 @@
 require 'html/proofer'
 
 task :build do
-  sh 'bundle exec jekyll build'
+  # https://github.com/jekyll/jekyll/issues/4122#issuecomment-159439360
+  sh 'bundle exec jekyll build -d _site/before-you-ship/'
 end
 
 task ci_test: [:build] do
