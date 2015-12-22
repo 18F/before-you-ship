@@ -94,7 +94,7 @@ Accessibility should be incorporated and tested throughout the design and develo
 
 ## 18F Internal
 
-* [18F Dashboard](https://18f.gsa.gov/dashboard): Projects should add themselves [here](https://github.com/18F/dashboard/blob/gh-pages/_data/projects.yml).
+* [18F Dashboard](https://18f.gsa.gov/dashboard): Projects should follow [these instructions](https://github.com/18F/dashboard/#creating-an-entry-in-the-dashboard) to add themselves.
 
 ## Additional Resources
 
