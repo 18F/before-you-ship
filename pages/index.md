@@ -9,7 +9,7 @@ Despite the "Before You Ship" title, everything on this list should be considere
 
 * You need an Authority to Operate (ATO). At a very high level, it covers the security reviews and approvals **required** for public government websites. It is very important and can take months (albeit rarely). [Learn about requirements and timelines for getting your ATO here.](ato-and-you/)
 
-### Communications
+### Outreach
 
 * Add your launch plans and project milestones to the 18F events calendar (a shared Google calendar). This helps several teams, especially the #outreach team. Rough estimates are welcome; the earlier you can update the calendar, the better.
 * Are you doing a big, splashy public launch? We recommend that you start releasing the site to more and more users slowly in advance of the announcement. This will require planning with public affairs folks who want to help you avoid getting scooped, but it is also an incredibly important way to prevent last minute problems. Additionally, make sure at least one engineer is available to troubleshoot&mdash;somewhere with reliable internet&mdash;during an announcement (instead of, for example, on stage at the White House conference center).
