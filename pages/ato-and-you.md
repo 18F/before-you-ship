@@ -1,12 +1,13 @@
 ---
 title: Your ATO
-permalink: /ato/
+permalink: /ato-and-you/
 ---
 
-An Authority to Operate (ATO) is a complicated security review process that is required for deploying any web service on the public web. [You can learn more about ATOs here](https://pages.18f.gov/before-you-ship/ato/)
+An Authority to Operate (ATO) is a complicated security review process that is required for deploying any web service on the public web. [Learn more about ATOs](../ato/).
 
 First, make sure that your project is not more complicated than the typical Open Data ATO. The following are signs that your ATO process will be more complicated and you should consult Noah when you begin planning:
-* Anytime you touch Sensitive PII (see explanation: https://hub.18f.gov/standards/aws/)
+
+* Are you dealing with Sensitive Personally Identifiable Information (PII)? ([see explanation](../infrastructure/aws/))
 * Any authentication?
 * Any authorization?
 * Is this the only place in the world you can do x? Is that x fundamental to what that agency does? (e.g. EPA tracking hazardous waste)
