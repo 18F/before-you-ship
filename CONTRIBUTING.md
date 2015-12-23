@@ -20,11 +20,11 @@ To run the site locally, you will need Ruby 1.9+. Run:
 
 ```bash
 bundle
-bundle exec jekyll serve
+bundle exec ./go serve
 ```
 
 ### Running the tests
 
 ```bash
-bundle exec rake
+bundle exec ./go test
 ```

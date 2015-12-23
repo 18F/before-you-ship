@@ -55,7 +55,6 @@ GEM
     nokogiri (1.6.7.1)
       mini_portile2 (~> 2.0.0.rc2)
     parallel (1.6.1)
-    rake (10.4.2)
     rb-fsevent (0.9.6)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
@@ -77,7 +76,6 @@ DEPENDENCIES
   guides_style_18f
   html-proofer
   jekyll
-  rake
 
 BUNDLED WITH
    1.10.6

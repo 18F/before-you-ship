@@ -51,4 +51,33 @@ def_command :build, 'Build the site' do
   build_jekyll
 end
 
+def_command :test_build, 'Build the site for testing' do
+  # https://github.com/jekyll/jekyll/issues/4122#issuecomment-159439360
+  build_jekyll('-d _test_site/before-you-ship/')
+end
+
+
+require 'html/proofer'
+
+BASE_PROOFER_OPTS = {
+  url_ignore: [
+    %r{https://github.com/18F/Accessibility_Reviews}i,
+    %r{https://github.com/18F/DevOps}i,
+    %r{https://github.com/18F/handbook}i
+  ]
+}.freeze
+
+
+def_command :ci_test, 'Build and test the site, checking local URLs only' do
+  test_build
+  HTML::Proofer.new('./_test_site', BASE_PROOFER_OPTS.merge(
+    disable_external: true
+  )).run
+end
+
+def_command :test, 'Build and test the site, checking all URLs' do
+  test_build
+  HTML::Proofer.new('./_test_site', BASE_PROOFER_OPTS).run
+end
+
 execute_command ARGV
