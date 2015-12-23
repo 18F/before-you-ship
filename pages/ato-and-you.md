@@ -7,7 +7,7 @@ An Authority to Operate (ATO) is a complicated security review process that is r
 
 First, make sure that your project is not more complicated than the typical Open Data ATO. The following are signs that your ATO process will be more complicated and you should consult Noah when you begin planning:
 
-* Are you dealing with Sensitive Personally Identifiable Information (PII)? ([see explanation](../infrastructure/aws/))
+* Are you dealing with Sensitive Personally Identifiable Information (PII)? ([see explanation](../security/pii/))
 * Any authentication?
 * Any authorization?
 * Is this the only place in the world you can do x? Is that x fundamental to what that agency does? (e.g. EPA tracking hazardous waste)
