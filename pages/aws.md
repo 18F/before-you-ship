@@ -22,7 +22,7 @@ Your username will be created for you during onboarding. Check the MFA Token box
 
 ### Servers
 
-The core service of AWS is the [Elastic Compute Cloud](https://aws.amazon.com/documentation/ec2/) (EC2). These are virtual machines just like on your computer, but hosted in the AWS environment. You receive access through a GUI, the [AWS Management Console](https://18f.signin.aws.com), an [API](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/query-apis.html), and to the guest [OS through SSH](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html).
+The core service of AWS is the [Elastic Compute Cloud](https://aws.amazon.com/documentation/ec2/) (EC2). These are virtual machines just like on your computer, but hosted in the AWS environment. You receive access through a GUI, the [AWS Management Console](https://18f.signin.aws.amazon.com/console), an [API](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/query-apis.html), and to the guest [OS through SSH](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html).
 
 ### Network security
 

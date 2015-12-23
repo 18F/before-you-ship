@@ -25,17 +25,17 @@ There are three tracks of documentation available:
 
 You may operate without authorization under the following conditions.
 
-The system is deployed to the [18F AWS East/West environment](../aws/).
+The system is deployed to the [18F AWS East/West environment](../infrastructure/aws/).
 
 The system is _only_ available to:
 
 * staff of the General Services Administration
-* other Federal staff / agencies (either by IP CIDR block or some kind of auth mechanism, HTTP Basic Auth, Oauth (MyUSA), etc)
+* other Federal staff / agencies (either by IP CIDR block or some kind of auth mechanism, HTTP Basic Auth, OAuth (MyUSA), etc)
 
 The system does _not_:
 
-* interact with or change the state of any production Federal information system, whether it is operated by 18F or our Federal partners.
-* collect or store any [sensitive PII](../security/pii).
+* interact with or change the state of any production Federal information system, whether it is operated by 18F or our Federal partners
+* collect or store any [sensitive PII](../security/pii)
 
 
 ### 90 Day authorization
@@ -124,7 +124,7 @@ We use a [hardened baseline](https://github.com/fisma-ready/ubuntu-lts) of Ubunt
 
 ### Infrastructure as a service
 
-Development environments are exclusively in the [AWS East/West regions](https://18f.signin.aws.amazon.com/console). All AWS users must go through a DevOps [onboarding session and comply with all relevant policies of use](../aws/).
+Development environments are exclusively in the [AWS East/West regions](https://18f.signin.aws.amazon.com/console). All AWS users must go through a DevOps [onboarding session and comply with all relevant policies of use](../infrastructure/aws/).
 
 * SC-7 Boundary protection
 * AC-3 Access enforcement

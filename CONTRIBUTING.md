@@ -13,3 +13,18 @@ the [CC0 1.0 Universal public domain dedication](https://creativecommons.org/pub
 All contributions to this project will be released under the CC0
 dedication. By submitting a pull request, you are agreeing to comply
 with this waiver of copyright interest.
+
+## Usage
+
+To run the site locally, you will need Ruby 1.9+. Run:
+
+```bash
+bundle
+bundle exec ./go serve
+```
+
+### Running the tests
+
+```bash
+bundle exec ./go test
+```
