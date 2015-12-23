@@ -38,6 +38,10 @@ navigation:
 - text: Security
   url: security/
   internal: true
+  children:
+  - text: Personally Identifiable Information
+    url: pii/
+    internal: true
 - text: ATOs, the 18F way
   url: ato/
   internal: true

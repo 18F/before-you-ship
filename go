@@ -65,7 +65,7 @@ BASE_PROOFER_OPTS = {
     %r{https://github.com/18F/DevOps}i,
     %r{https://github.com/18F/handbook}i
   ]
-}.freeze
+}
 
 
 def_command :ci_test, 'Build and test the site, checking local URLs only' do

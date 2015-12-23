@@ -30,12 +30,12 @@ The system is deployed to the [18F AWS East/West environment](../infrastructure/
 The system is _only_ available to:
 
 * staff of the General Services Administration
-* other Federal staff / agencies (either by IP CIDR block or some kind of auth mechanism, HTTP Basic Auth, Oauth (MyUSA), etc)
+* other Federal staff / agencies (either by IP CIDR block or some kind of auth mechanism, HTTP Basic Auth, OAuth (MyUSA), etc)
 
 The system does _not_:
 
-* interact with or change the state of any production Federal information system, whether it is operated by 18F or our Federal partners.
-* collect or store any [sensitive PII](../infrastructure/aws/#other-peoples-information).
+* interact with or change the state of any production Federal information system, whether it is operated by 18F or our Federal partners
+* collect or store any [sensitive PII](../security/pii)
 
 
 ### 90 Day authorization
