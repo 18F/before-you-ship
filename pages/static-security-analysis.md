@@ -68,7 +68,7 @@ ___TODO: DECISION ON GEMNASIUM. IF YES, UPDATE RUBY AND JS SECTIONS ACCORDINGLY_
 
 ### Static code analysis
 
-There are suprisingly few security focused static code analyzers for Python.  The best seems to be OpenStack's [Bandit](https://github.com/openstack/bandit).
+There are surprisingly few security focused static code analyzers for Python.  The best seems to be OpenStack's [Bandit](https://github.com/openstack/bandit).
 
 To install (preferably in a virtual environment):
 
@@ -80,6 +80,6 @@ To scan, from your project directory:
 
 ## Automation and future plans
 
-A representative from Code Climate recently gave a presentation at 18F about their new platform and CLI tool. It acts as a wrapper around Docker images that can run any number of scans across projects, and many of the above tools are already available as engines for the platform (Brakeman, bundler-audit, nsp, and ESLint). The lift to create a new engine seems relatively low, so plans are in the works to attempt to package Bandit as an engine as well. Using Code Climate Platform for all of our static security analysis would allow all projects to use the same toolset, regardless of language, with minor config changes required. It also would allow for easy insertion intoa project's existing CI workflow.
+A representative from Code Climate recently gave a presentation at 18F about their new platform and CLI tool. It acts as a wrapper around Docker images that can run any number of scans across projects, and many of the above tools are already available as engines for the platform (Brakeman, bundler-audit, nsp, and ESLint). The lift to create a new engine seems relatively low, so plans are in the works to attempt to package Bandit as an engine as well. Using Code Climate Platform for all of our static security analysis would allow all projects to use the same toolset, regardless of language, with minor config changes required. It also would allow for easy insertion into a project's existing CI workflow.
 
 Additionally, Gemnasium currently supports dependency checking for all of our languages. We are currently looking into it, but it's highly possible that we will discard NSP and Bundler Audit in favor of standardizing on Gemnasium for all projects. Again, this allows for all projects and teams to use use the same toolset.
