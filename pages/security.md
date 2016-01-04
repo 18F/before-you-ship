@@ -141,7 +141,7 @@ All code must be checked into a `git` repository and a remote must be placed wit
 All 18F sites are required to use Transport Layer Security (TLS). You must follow the the [18F TLS standards](https://github.com/18F/tls-standards).
 
 * SC-13 Cryptographic protection
-* SC-28 (1) Protection of Information At Rest | Cryptographic Protection: applicable to systems with Sensitive Personally Identifiable Information Only
+* SC-28 (1) Protection of Information At Rest &#124; Cryptographic Protection: applicable to systems with Sensitive Personally Identifiable Information Only
 
 ### Authorization and authentication
 
@@ -149,9 +149,9 @@ We use AWS IAM to manage authorization and authentication.
 
 * AC-2 Account Management
 * IA-2 Identification and Authentication (Organizational Users)
-* IA-2 (1) Identification and Authentication (Organizational Users) | Network Access to Privileged Accounts  
-* IA-2 (2) Identification and Authentication (Organizational Users) | Network Access to Non-Privileged Accounts
-* IA-2 (12) Identification and Authentication | Acceptance of PIV Credentials:  consult with DevOps/CyberSec for Applicability
+* IA-2 (1) Identification and Authentication (Organizational Users) &#124; Network Access to Privileged Accounts  
+* IA-2 (2) Identification and Authentication (Organizational Users) &#124; Network Access to Non-Privileged Accounts
+* IA-2 (12) Identification and Authentication &#124; Acceptance of PIV Credentials:  consult with DevOps/CyberSec for Applicability
 
 ### Continuous integration and testing
 
@@ -159,7 +159,7 @@ InfoSec does penetration testing, everything is 18F DevOps.
 
 * CA-8 Penetration testing
 * RA-5 Vulnerability Scanning
-* SA-11 (1) Developer Security Testing and Evaluation| Static Code Analysis
+* SA-11 (1) Developer Security Testing and Evaluation &#124; Static Code Analysis
 * SI-2 Flaw Remediation
 * SI-10 Information Input Validation
 
