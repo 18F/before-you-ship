@@ -1,6 +1,6 @@
 ---
-permalink: /
 title: Introduction
+permalink: /
 ---
 
 Despite the "Before You Ship" title, everything on this list should be considered early and often. **This list is:** a general guide to review periodically, _especially_ when you are starting to consider a future project launch or feature release. **This list is not:** just a last minute pre-launch checklist.

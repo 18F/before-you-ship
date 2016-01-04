@@ -1,6 +1,5 @@
 ---
 title: Temporary Notes
-permalink: /notes/
 ---
 
 # Government Requirements for Shipping Products

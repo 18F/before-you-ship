@@ -1,6 +1,5 @@
 ---
 title: General Security Standards
-permalink: /security/
 ---
 
 In the Federal government, the principal law governing the security of information systems is the Federal Information Security Management Act or FISMA.

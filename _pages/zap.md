@@ -1,6 +1,5 @@
 ---
 title: Using OWASP ZAP
-permalink: /zap/
 ---
 
 # The OWASP Zed Attack Proxy (ZAP)
