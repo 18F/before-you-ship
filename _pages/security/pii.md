@@ -1,6 +1,5 @@
 ---
-title: Personally Identifiable Information 
-permalink: /security/pii/
+title: Personally Identifiable Information
 parent: Security
 ---
 
@@ -26,4 +25,3 @@ Because we live in an increasingly connected world, sometimes sensitive PII can 
 * Date of birth
 
 Sensitive PII **cannot be on a system unless it has received an [Authority to Operate](../../ato).** If you are uncertain if the information you want to work with is Sensitive PII in your context, speak with 18F DevOps beforehand.
-

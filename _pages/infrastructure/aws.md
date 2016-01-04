@@ -1,6 +1,5 @@
 ---
 title: Amazon Web Services Standards
-permalink: /infrastructure/aws/
 parent: Infrastructure
 ---
 

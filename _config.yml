@@ -67,6 +67,11 @@ back_link:
   url: "https://pages.18f.gov/guides/"
   text: Read more 18F Guides
 
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
 defaults:
   -
     scope:

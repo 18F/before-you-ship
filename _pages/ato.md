@@ -1,6 +1,5 @@
 ---
 title: ATOs, the 18F way
-permalink: /ato/
 ---
 
 ## What is the Authority to Operate process
