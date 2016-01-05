@@ -67,7 +67,7 @@ To scan, from your project directory:
 
 ### Dependency analysis
 
-[Gemnasium](https://gemnasium.com) provides dependency scanning for all our supported languages. The CLI tool requires a higher tier account then we currently have, but you can currently use their web version using the 18F account. You can get account details by asking in #______
+[Gemnasium](https://gemnasium.com) provides dependency scanning for all our supported languages. The CLI tool requires a higher tier account then we currently have, but you can currently use their web version using the 18F account. You can get account details by asking in #devops or filing an issue in the [devops repo](https://github.com/18F/DevOps)
 
 ### Static code analysis
 
@@ -83,7 +83,7 @@ To scan, from your project directory:
 
 ## Automation and future plans
 
-A representative from Code Climate recently gave a presentation at 18F about their new platform and CLI tool. It acts as a wrapper around Docker images that can run any number of scans across projects, and many of the above tools are already available as engines for the platform (Brakeman, bundler-audit, nsp, and ESLint). The lift to create a new engine seems relatively low, so plans are in the works to attempt to package Bandit as an engine as well. 
+A representative from Code Climate recently gave a presentation at 18F about their new platform and CLI tool. It acts as a wrapper around Docker images that can run any number of scans across projects, and many of the above tools are already available as engines for the platform (Brakeman, bundler-audit, nsp, and ESLint). The lift to create a new engine seems relatively low, so plans are in the works to attempt to package Bandit as an engine as well.
 
 Using a single tool for all of our static security analysis would allow all projects and teams, regardless of language, to have the same workflow with minor config changes required. It also would allow for easy insertion into a project's existing CI workflow.
 
