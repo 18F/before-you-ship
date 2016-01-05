@@ -42,9 +42,22 @@ navigation:
   - text: Personally Identifiable Information
     url: pii/
     internal: true
-- text: ATOs, the 18F way
+- text: ATOs
   url: ato/
   internal: true
+  children:
+  - text: Background
+    url: background/
+    internal: true
+  - text: Levels
+    url: levels/
+    internal: true
+  - text: Checklist
+    url: checklist/
+    internal: true
+  - text: Authority to Test
+    url: authority-to-test/
+    internal: true
 - text: Infrastructure
   url: infrastructure/
   internal: true
