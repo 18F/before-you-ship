@@ -9,6 +9,5 @@ title: Background on the ATO Process
         * Good news is that agency head can delegate that authority at their choosing.
     * This agency-specific process then binds agency heads with the process that they must then follow.
         * In practice, what this means is setting up a series of controls for each new system that will be launched.
-* 18F simplifies this process by implementing the bulk of the controls at the infrastructure level to the AWS account. This is reflected in a baseline minimum controls we’ve created.
+* 18F simplifies this process by implementing the bulk of the controls [at the infrastructure level](../../infrastructure/aws/) to the AWS account. This is reflected in a baseline minimum controls we’ve created.
     * Controls can range from human controls to business processes to mechanical ones.
-* Before a system is made publicly accessible on the Internet, it must go through either the full ATO process or a 90-Day Authority to Test. If either are not yet complete, the system must have some level of authentication required for a user to enter.
