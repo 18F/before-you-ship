@@ -3,7 +3,12 @@ title: Static Security Analysis
 permalink: /static-security-analysis/
 ---
 
-Static analysis is an important part of the development process, and is required for ATO. There are two main types of static security testing that needs to be done: dependency analysis, where the ruby gems, python modules, and js packages your app uses are checked against a list of known vulnerabilities; and code analysis in which your code is checked against a list of antipatterns. There are tools for JS, Ruby, and Python, and you are encouraged to set up this scanning early on in the development cycle to prevent unexpected delays when it's time to get your ATO.
+Static analysis is an important part of the development process, and is required for ATO. There are two main types of static security testing that needs to be done:
+
+1. Dependency analysis, where the ruby gems, python modules, and js packages your app uses are checked against a list of known vulnerabilities; and
+1. Code analysis in which your code is checked against a list of antipatterns.
+
+There are tools for JS, Ruby, and Python, and you are encouraged to set up this scanning early on in the development cycle to prevent unexpected delays when it's time to get your ATO.
 
 ## Javascript
 
@@ -13,7 +18,7 @@ We recommend using the Node Security Project's [NSP tool](https://nodesecurity.i
 
 To install:
 
-    $ npm install nsp
+    $ npm install nsp --global
 
 To run, from your project directory:
 
@@ -28,9 +33,7 @@ To install:
     $ npm install eslint
     $ npm install eslint-plugin-scanjs-rules
 
-___TODO: PROVIDE BASELINE .eslintrc___
-
-To scan, from your project directory:
+To scan, from your project directory (for now, you can use the eslintrc file found [here](https://github.com/mozfreddyb/eslint-config-scanjs/blob/master/.eslintrc)):
 
     $ eslint -c <PATH_TO_ESLINTRC> .
 
@@ -64,7 +67,7 @@ To scan, from your project directory:
 
 ### Dependency analysis
 
-___TODO: DECISION ON GEMNASIUM. IF YES, UPDATE RUBY AND JS SECTIONS ACCORDINGLY___
+[Gemnasium](https://gemnasium.com) provides dependency scanning for all our supported languages. The CLI tool requires a higher tier account then we currently have, but you can currently use their web version using the 18F account. You can get account details by asking in #______
 
 ### Static code analysis
 
@@ -80,6 +83,8 @@ To scan, from your project directory:
 
 ## Automation and future plans
 
-A representative from Code Climate recently gave a presentation at 18F about their new platform and CLI tool. It acts as a wrapper around Docker images that can run any number of scans across projects, and many of the above tools are already available as engines for the platform (Brakeman, bundler-audit, nsp, and ESLint). The lift to create a new engine seems relatively low, so plans are in the works to attempt to package Bandit as an engine as well. Using Code Climate Platform for all of our static security analysis would allow all projects to use the same toolset, regardless of language, with minor config changes required. It also would allow for easy insertion into a project's existing CI workflow.
+A representative from Code Climate recently gave a presentation at 18F about their new platform and CLI tool. It acts as a wrapper around Docker images that can run any number of scans across projects, and many of the above tools are already available as engines for the platform (Brakeman, bundler-audit, nsp, and ESLint). The lift to create a new engine seems relatively low, so plans are in the works to attempt to package Bandit as an engine as well. 
 
-Additionally, Gemnasium currently supports dependency checking for all of our languages. We are currently looking into it, but it's highly possible that we will discard NSP and Bundler Audit in favor of standardizing on Gemnasium for all projects. Again, this allows for all projects and teams to use use the same toolset.
+Using a single tool for all of our static security analysis would allow all projects and teams, regardless of language, to have the same workflow with minor config changes required. It also would allow for easy insertion into a project's existing CI workflow.
+
+We may also standardize on a single tool for dependency analysis, for the same reason.
