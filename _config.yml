@@ -55,6 +55,9 @@ navigation:
 - text: Vulnerability scanning
   url: zap/
   internal: true
+- text: Static Analysis
+  url: static-security-analysis/
+  internal: true
 
 repos:
 - name: Guides Template
