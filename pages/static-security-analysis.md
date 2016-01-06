@@ -10,21 +10,13 @@ Static analysis is an important part of the development process, and is required
 
 There are tools for JS, Ruby, and Python, and you are encouraged to set up this scanning early on in the development cycle to prevent unexpected delays when it's time to get your ATO.
 
-## Javascript
+## Dependency Analysis (All Languages)
 
-### Dependency analysis
+[Gemnasium](https://gemnasium.com) provides dependency scanning for all our supported languages. The CLI tool requires a higher tier account then we currently have, but you can currently use their web version using the 18F account. You can get account details by asking in #devops or filing an issue in the [devops repo](https://github.com/18F/DevOps)
 
-We recommend using the Node Security Project's [NSP tool](https://nodesecurity.io/tools) to scan your package.json or npm-shrinkwrap.json file for known security issues.
+## Static Analysis
 
-To install:
-
-    $ npm install nsp --global
-
-To run, from your project directory:
-
-    $ nsp check
-
-### Static code analysis
+### Javascript
 
 There are several tools available for running analysis on JS projects, but the most full featured seems to be [ESLint](https://eslint.org). ESLint doesn't offer security scanning out of the box, but it is pluggable and Mozilla has provided a set of rules that mimic the behavior of their now deprecated ScanJS. These rules are available on [github](https://github.com/mozfreddyb/eslint-plugin-scanjs-rules).
 
@@ -37,21 +29,7 @@ To scan, from your project directory (for now, you can use the eslintrc file fou
 
     $ eslint -c <PATH_TO_ESLINTRC> .
 
-## Ruby
-
-### Dependency analysis
-
-We recommend using [Bundler Audit](https://github/com/rubysec/bundler-audit) to scan your gems for known vulnerabilities. There are other tools available, most notably Gemnasium, but we are currently suggesting Bundler Audit until we can evaluate whether Gemnasium will work as a replacement for all of our languages.
-
-To install:
-
-    $ gem install bundler-audit
-
-To scan, from your project directory:
-
-    $ bundle-audit
-
-### Static code analysis
+### Ruby
 
 There are several free and paid services that will do static security analysis of Ruby code, but almost all of them appear to be wrappers around [Brakeman](https://github.com/presidentbeef/brakeman). As such, we suggest going straight to the source.
 
@@ -63,13 +41,7 @@ To scan, from your project directory:
 
     $ brakeman
 
-## Python
-
-### Dependency analysis
-
-[Gemnasium](https://gemnasium.com) provides dependency scanning for all our supported languages. The CLI tool requires a higher tier account then we currently have, but you can currently use their web version using the 18F account. You can get account details by asking in #devops or filing an issue in the [devops repo](https://github.com/18F/DevOps)
-
-### Static code analysis
+### Python
 
 There are surprisingly few security focused static code analyzers for Python.  The best seems to be OpenStack's [Bandit](https://github.com/openstack/bandit).
 
@@ -85,6 +57,4 @@ To scan, from your project directory:
 
 A representative from Code Climate recently gave a presentation at 18F about their new platform and CLI tool. It acts as a wrapper around Docker images that can run any number of scans across projects, and many of the above tools are already available as engines for the platform (Brakeman, bundler-audit, nsp, and ESLint). The lift to create a new engine seems relatively low, so plans are in the works to attempt to package Bandit as an engine as well.
 
-Using a single tool for all of our static security analysis would allow all projects and teams, regardless of language, to have the same workflow with minor config changes required. It also would allow for easy insertion into a project's existing CI workflow.
-
-We may also standardize on a single tool for dependency analysis, for the same reason.
+Using a single tool for all of our static security analysis would allow all projects and teams, regardless of language, to have the same workflow with minor config changes required. It also would allow for easy insertion into a project's existing CI workflow. We already have this advantage with dependency analysis.
