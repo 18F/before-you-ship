@@ -52,14 +52,14 @@ navigation:
   - text: Amazon Web Services
     url: aws/
     internal: true
+  - text: Common Questions
+    url: common-questions/
+    internal: true
 - text: Vulnerability scanning
   url: zap/
   internal: true
 - text: Static Analysis
   url: static-security-analysis/
-  internal: true
-- text: Common Infrastructure Questions
-  url: common-infrastructure-questions/
   internal: true
 
 repos:

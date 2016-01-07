@@ -6,7 +6,7 @@ title: Common Infrastructure Questions we get from clients
 
 DNSSEC compliance is currently impossible, and even if it was possible, it would be without merit on web based systems. If a client wants to set up DNSSEC systems in cloud.gov, for either internal or external based resolution, there's technically nothing that would prevent that. However, we strongly recommend not investing in it, as there are many things you should be doing instead to secure your communications. 
 
-For more read the [18F DNSSEC policy here](../assets/18F DNSSEC Policy 2015.pdf).
+For more read the [18F DNSSEC policy here](../../assets/18F DNSSEC Policy 2015.pdf).
 
 ### Do you support IPv6?
 
