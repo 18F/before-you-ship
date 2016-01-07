@@ -3,7 +3,15 @@ title: Introduction
 permalink: /
 ---
 
-Despite the "Before You Ship" title, everything on this list should be considered early and often. **This list is:** a general guide to review periodically, _especially_ when you are starting to consider a future project launch or feature release. **This list is not:** just a last minute pre-launch checklist.
+The goal of this site is to provide 18F staff with the information they need to launch software. It is a mix of requirements and best practices for projects at 18F, which may or may not be applicable for other teams inside or outside of government.
+
+---
+
+* **This list is:**
+    * A general guide to review early and often
+    * _Especially_ important when you are starting to consider a future project launch or feature release
+* **This list is not:**
+    * A last-minute pre-launch checklist, despite the "Before You Ship" title
 
 ### Compliance
 
@@ -38,6 +46,7 @@ Despite the "Before You Ship" title, everything on this list should be considere
         * Login details:
         * Date the review is needed:
         * Is this a DHS project?
+
 * How good is your code test coverage? Before shipping, you should have codecov badges on your GitHub repo READMEs and coverage should be above 90% (green). (This is not a perfect measure for code quality, but a helpful check.) _The testing working group recommends reviewing your status early and often. Refer to this PM guide section **coming soon** or the testing working group #wg-testing for more information about this._
 * Are your APIs up to [18F's API Standards](https://github.com/18f/api-standards)? You can talk to the API working group (#wg-api) if you have questions.
 * Have you installed Google Analytics and [DAP](https://www.digitalgov.gov/services/dap/) on everything? You can learn more about how to do this in our [Analytics Standards](https://github.com/18F/analytics-standards). If you have questions, you can talk to the analytics working group (#wg-analytics).
@@ -79,4 +88,4 @@ For every release after your public launch, you should consider: _(Explained in 
 
 ---
 
-How'd it go? Is this list missing anything important? [Submit a pull request or open an issue!](https://github.com/18f/before-you-ship) To keep this manageable, consider linking to another guide or page.
+How'd it go? Is this list missing anything important? [Submit a pull request](https://github.com/18f/before-you-ship) or [open an issue](https://github.com/18f/before-you-ship/issues/new)!
