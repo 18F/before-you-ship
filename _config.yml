@@ -52,6 +52,9 @@ navigation:
   - text: Amazon Web Services
     url: aws/
     internal: true
+  - text: Good Production Practices
+    url: good-production-practices/
+    internal: false
 - text: Vulnerability scanning
   url: zap/
   internal: true
