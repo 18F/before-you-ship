@@ -58,8 +58,8 @@ navigation:
 - text: Static Analysis
   url: static-security-analysis/
   internal: true
-- text: Common Questions
-  url: common-questions/
+- text: Common Infrastructure Questions
+  url: common-infrastructure-questions/
   internal: true
 
 repos:

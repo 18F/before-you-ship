@@ -1,5 +1,5 @@
 ---
-title: Common Questions we get from clients
+title: Common Infrastructure Questions we get from clients
 ---
 
 ### Do you support DNSSEC?
