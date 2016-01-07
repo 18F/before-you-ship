@@ -58,6 +58,9 @@ navigation:
 - text: Static Analysis
   url: static-security-analysis/
   internal: true
+- text: Common Questions
+  url: common-questions/
+  internal: true
 
 repos:
 - name: Guides Template
