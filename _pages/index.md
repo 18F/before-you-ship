@@ -41,7 +41,10 @@ Despite the "Before You Ship" title, everything on this list should be considere
 * How good is your code test coverage? Before shipping, you should have codecov badges on your GitHub repo READMEs and coverage should be above 90% (green). (This is not a perfect measure for code quality, but a helpful check.) _The testing working group recommends reviewing your status early and often. Refer to this PM guide section **coming soon** or the testing working group #wg-testing for more information about this._
 * Are your APIs up to [18F's API Standards](https://github.com/18f/api-standards)? You can talk to the API working group (#wg-api) if you have questions.
 * Have you installed Google Analytics and [DAP](https://www.digitalgov.gov/services/dap/) on everything? You can learn more about how to do this in our [Analytics Standards](https://github.com/18F/analytics-standards). If you have questions, you can talk to the analytics working group (#wg-analytics).
-* Open Source is much more than just the license we choose. Are your GitHub repos (and their descriptions, READMEs, issues, etc.) up to our standards? [Check the open source style guide](https://pages.18f.gov/open-source-guide/index.html). The #content team can help you with documentation.
+* Open Source is much more than just the license we choose. Are your GitHub repos (and their descriptions, READMEs, issues, etc.) up to our standards? Check out:
+    * [The Open Source Style Guide](https://pages.18f.gov/open-source-guide/)
+    * The [Writing Lab](https://github.com/18F/writing-lab) for help with documentation
+    * [CFPB's open source checklist](https://github.com/cfpb/open-source-project-template/blob/master/opensource-checklist.md)
 * Make sure you have all the social media metadata and preview images.
 
 ### Operations
@@ -71,7 +74,6 @@ For every release after your public launch, you should consider: _(Explained in 
 
 ### Additional resources
 
-* [CFPB's open source checklist](https://github.com/cfpb/ckan-installer/blob/master/opensource-checklist.md)
 * [Thoughtbot's playbook](https://playbook.thoughtbot.com/#production)
 * [pixel lab's website pre-launch checklist](http://thepixellab.com.au/the-website-pre-launch-checklist/)
 
