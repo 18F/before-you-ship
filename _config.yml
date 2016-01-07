@@ -55,6 +55,9 @@ navigation:
   - text: Checklist
     url: checklist/
     internal: true
+  - text: Tips
+    url: tips/
+    internal: true
   - text: Authority to Test
     url: authority-to-test/
     internal: true
