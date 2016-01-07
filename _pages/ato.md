@@ -51,5 +51,5 @@ One thing that will help the process is great documentation, which can mitigate 
 * 18F offers a 90 day authority to test security clearance process.
     * Estimated to take approximately 2 weeks to get materials together and information security team has a service level agreement of 2 weeks to approve a completed system security plan, do the testing, and give a 90 day authorization.
     * The 90 day ATO can be re-upped as long as the security boundary hasn’t changed; the automatic scans must not show any new vulnerabilities.
-* [Sensitive PII](../security/pii) is documented here; this process is not analogous to the PIA/SORN process and they must be handled separately
+* [Sensitive PII](../security/pii) is documented here; this process is not analogous to the [PIA](../laws/pia/)/[SORN](../laws/sorn/) process and they must be handled separately
     * Broad safe harbor granted for when users may accidentally put their PII in; it must be actually requested.
