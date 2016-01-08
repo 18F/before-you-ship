@@ -7,7 +7,7 @@ Despite the "Before You Ship" title, everything on this list should be considere
 
 ### Compliance
 
-* You need an Authority to Operate (ATO). At a very high level, it covers the security reviews and approvals **required** for public government websites. It is very important and can take months (albeit rarely). [Learn about requirements and timelines for getting your ATO here.](ato-and-you/)
+* You need an Authority to Operate (ATO). At a very high level, it covers the security reviews and approvals **required** for public government websites. It is very important and can take months (albeit rarely). [Learn about requirements and timelines for getting your ATO here.](ato/)
 
 ### Outreach
 

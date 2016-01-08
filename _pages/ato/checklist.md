@@ -1,24 +1,6 @@
 ---
-title: Your ATO
+title: ATO Checklist
 ---
-
-An Authority to Operate (ATO) is a complicated security review process that is required for deploying any web service on the public web. [Learn more about ATOs](../ato/).
-
-First, make sure that your project is not more complicated than the typical Open Data ATO. The following are signs that your ATO process will be more complicated and you should consult Noah when you begin planning:
-
-* Are you dealing with Sensitive Personally Identifiable Information (PII)? ([see explanation](../security/pii/))
-* Any authentication?
-* Any authorization?
-* Is this the only place in the world you can do x? Is that x fundamental to what that agency does? (e.g. EPA tracking hazardous waste)
-* Is the data not open?
-
-If you project is none of the above, you will likely be able to get an Open Data ATO, which is less complicated.
-
-Second, as soon as you have a stable server that isn’t changing its security boundary (talk to your devs about this, but it can be very early on), you should start this process. As long as there aren’t those significant changes, the tests will run periodically on any updates you make. At the very latest, start this process at least 2 months before launch. Do not commit to a launch date without coordinating with Noah Kunin on this first.
-
-Third, reach out to Noah to make sure he’s aware that you're about to start the application process (detailed below). You will know when you can set your launch date about six weeks later (likely sooner, but not reliably).
-
-## Steps to obtain an ATO
 
 To start the security clearance process, [create an issue in the DevOps repository](https://github.com/18F/DevOps/issues/new?title=ATO+for+%3Cproject%3E) using this template. Make sure to replace the placeholders at the top.
 
@@ -28,8 +10,8 @@ To start the security clearance process, [create an issue in the DevOps reposito
     * <url>
     * ...
 * **Site:** <url>
-* **Product manager:** @username
-* **Technical point of contact:** @username
+* **Product manager:** @<username>
+* **Technical point of contact:** @<username>
 * **Launch date/deadline:** <date>
 
 ## TODOs
