@@ -54,7 +54,7 @@ navigation:
     internal: true
   - text: Good Production Practices
     url: good-production-practices/
-    internal: false
+    internal: true
 - text: Vulnerability scanning
   url: zap/
   internal: true
