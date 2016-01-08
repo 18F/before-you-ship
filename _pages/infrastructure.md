@@ -1,6 +1,7 @@
 ---
 title: Infrastructure
 ---
+
 18F uses Amazon Web Services (AWS) as the underlying Infrastructure-as-a-Service (aka IaaS) cloud platform, but spending effort at the IaaS level is not the best use of your team’s time. 18F has invested in developing cloud.gov to provide for the most common infrastructure needs. cloud.gov uses Cloud Foundry – an open source Platform-as-a-Service (PaaS) – as team-friendly abstraction above AWS, encapsulating best-practice cloud hosting without having to worry about a lot of the details. For most of the products that 18F develops, deploying onto cloud.gov will:
 
 - Make it easier for teams to ensure high availability/scalability
