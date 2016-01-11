@@ -11,13 +11,13 @@ There are tools for JS, Ruby, and Python, and you are encouraged to set up this 
 
 ## Dependency Analysis (All Languages)
 
-[Gemnasium](https://gemnasium.com) provides dependency scanning for all our supported languages. The CLI tool requires a higher tier account then we currently have, but you can currently use their web version using the 18F account. You can get account details by asking in #devops or filing an issue in the [devops repo](https://github.com/18F/DevOps)
+[Gemnasium](https://gemnasium.com) provides dependency scanning for all our supported languages. The CLI tool requires a higher tier account then we currently have, but you can currently use their web version using the 18F account. You can get account details by asking in #devops or [filing an issue in the devops repo](https://github.com/18F/DevOps/issues/new)
 
 ## Static Analysis
 
 ### Javascript
 
-There are several tools available for running analysis on JS projects, but the most full featured seems to be [ESLint](https://eslint.org). ESLint doesn't offer security scanning out of the box, but it is pluggable and Mozilla has provided a set of rules that mimic the behavior of their now deprecated ScanJS. These rules are available on [github](https://github.com/mozfreddyb/eslint-plugin-scanjs-rules).
+There are several tools available for running analysis on JS projects, but the most full featured seems to be [ESLint](http://eslint.org). ESLint doesn't offer security scanning out of the box, but it is pluggable and Mozilla has provided a set of rules that mimic the behavior of their now deprecated ScanJS. These rules are available on [github](https://github.com/mozfreddyb/eslint-plugin-scanjs-rules).
 
 To install:
 
