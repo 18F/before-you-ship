@@ -18,19 +18,19 @@ Add the following to your repository as `system-security-plan.yml`, with the inf
 ---
 name: <project name>
 uniqueID: <MB number – see https://docs.google.com/spreadsheets/d/1hjCYIskgD_x_MI1ehXoiz2Qvsyxj1yK3fxabkezMPiE/edit#gid=0>
-version: 0.1.0
+version: <application version>
+# descriptions:
+# https://18f.gsa.gov/dashboard/
 phase: <discovery|alpha|beta|live>
 # `D26 Civilian Operations` is most common for 18F projects.
 # http://csrc.nist.gov/publications/nistpubs/800-60-rev1/SP800-60_Vol1-Rev1.pdf#page=23
 information-types:
 - <Dxx + name>
 
-# criteria:
-# http://csrc.nist.gov/publications/nistpubs/800-18-Rev1/sp800-18-Rev1-final.pdf#page=27
+# https://pages.18f.gov/before-you-ship/ato/levels/
 confidentiality: <none|low|moderate|high>
 integrity: <low|moderate|high>
 availability: <low|moderate|high>
-# https://pages.18f.gov/before-you-ship/ato/levels/
 security-baseline: <open data|low|moderate|high>
 
 system-type: <major|minor|general support>
