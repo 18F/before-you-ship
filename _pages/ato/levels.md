@@ -13,7 +13,7 @@ ATOs are broken down to the following levels:
 
 The following are signs that your ATO process cannot qualify for as Open Data, and thus will be more complicated:
 
-* Are you dealing with Sensitive Personally Identifiable Information (PII)? ([see explanation](../../security/pii/))
+* Are you dealing with Sensitive [Personally Identifiable Information (PII)](../../security/pii/)?
 * Any authentication?
 * Any authorization?
 * Is this the only place in the world you can do x? Is that x fundamental to what that agency does? (e.g. EPA tracking hazardous waste)
