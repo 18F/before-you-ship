@@ -20,6 +20,7 @@ name: <project name>
 uniqueID: <MB number – see https://docs.google.com/spreadsheets/d/1hjCYIskgD_x_MI1ehXoiz2Qvsyxj1yK3fxabkezMPiE/edit#gid=0>
 version: 0.1.0
 phase: <discovery|alpha|beta|live>
+# `D26 Civilian Operations` is most common for 18F projects.
 # http://csrc.nist.gov/publications/nistpubs/800-60-rev1/SP800-60_Vol1-Rev1.pdf#page=23
 information-types:
 - <Dxx + name>
