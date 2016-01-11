@@ -57,7 +57,7 @@ The most important resources to tag are [EC2 instances](https://docs.aws.amazon.
 
 #### Format for the `client` tag
 
-18F DevOps maintains a [list of canonical unique identifiers](https://docs.google.com/a/gsa.gov/spreadsheet/ccc?key=0AinIxtx-CfkddGVaNU9lMHp3TGh2RThEVWExS0dwNmc#gid=17) (UIDs) to use for all the `client` tags of a project. The UID is formed from an acronym of the Federal partner, the start date of the IAA, the end date of the IAA, and a number that increments with each subsequent IAA. While we might be able to have teams self-provision the UID in the future, for now, please only use the [UIDs on the list](https://docs.google.com/a/gsa.gov/spreadsheet/ccc?key=0AinIxtx-CfkddGVaNU9lMHp3TGh2RThEVWExS0dwNmc#gid=17). If you see your project missing, please contact the Director of Delivery Architecture in Slack.
+18F DevOps maintains a [list of canonical unique identifiers](https://docs.google.com/spreadsheets/d/1hjCYIskgD_x_MI1ehXoiz2Qvsyxj1yK3fxabkezMPiE/edit#gid=0) (MB numbers) to use for all the `client` tags of a project. If you see your project missing, please contact the Director of Delivery Architecture in Slack.
 
 Note that both the `key` and the `value` of AWS tags are *case-sensitive*. Keep keys and values as all lower-case, except when using an acronym.
 

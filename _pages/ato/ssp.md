@@ -17,8 +17,7 @@ Add the following to your repository as `system-security-plan.yml`, with the inf
 ```yaml
 ---
 name: <project name>
-# this should match the infrastructure Tag
-uniqueID: <partner-acronym>-<beginning-of-agreement>-<end-of-agreement>-<iaa-number>
+uniqueID: <MB number – see https://docs.google.com/spreadsheets/d/1hjCYIskgD_x_MI1ehXoiz2Qvsyxj1yK3fxabkezMPiE/edit#gid=0>
 version: 0.1.0
 phase: <discovery|alpha|beta|live>
 information-types:
