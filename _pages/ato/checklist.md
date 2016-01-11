@@ -26,7 +26,7 @@ To start the security clearance process, [create an issue in the DevOps reposito
 * [ ] Add an [`about.yml`](https://github.com/18F/about_yml) for the main repository
 * [ ] Set up static analysis tool(s)
     * [ ] Add badges to the README
-* [ ] Add a `system-security-plan.yml` to the repository
+* [ ] Add a [System Security Plan](../ssp/#template) to the repository
 * [ ] Scan the system
     * [ ] Run Nessus
     * [ ] [Run OWASP ZAP](https://pages.18f.gov/before-you-ship/zap/)
