@@ -12,7 +12,7 @@ We are working on a tool to help generate SSPs – check out [Compliance Masonry
 
 ### Template
 
-Add the following to your repository, with the information in the `<angle brackets>` filled in. Note that there are `TODO`s in some places where we need more documentation – for now, reach out to Noah Kunin for help with what should be filled in there.
+Add the following to your repository as `system-security-plan.yml`, with the information in the `<angle brackets>` filled in. Note that there are `TODO`s in some places where we need more documentation – for now, reach out to Noah Kunin for help with what should be filled in there.
 
 ```yaml
 ---
