@@ -12,7 +12,7 @@ We are working on a tool to help generate SSPs – check out [Compliance Masonry
 
 ### Template
 
-Add the following to your repository as `system-security-plan.yml`, with the information in the `<angle brackets>` filled in. Note that there are `TODO`s in some places where we need more documentation – for now, reach out to Noah Kunin for help with what should be filled in there.
+Add the following to your repository as `system-security-plan.yml`, with the information in the `<angle brackets>` filled in:
 
 ```yaml
 ---
@@ -20,19 +20,20 @@ name: <project name>
 uniqueID: <MB number – see https://docs.google.com/spreadsheets/d/1hjCYIskgD_x_MI1ehXoiz2Qvsyxj1yK3fxabkezMPiE/edit#gid=0>
 version: 0.1.0
 phase: <discovery|alpha|beta|live>
+# http://csrc.nist.gov/publications/nistpubs/800-60-rev1/SP800-60_Vol1-Rev1.pdf#page=23
 information-types:
-- <TODO>
+- <Dxx + name>
 
 # criteria:
 # http://csrc.nist.gov/publications/nistpubs/800-18-Rev1/sp800-18-Rev1-final.pdf#page=27
-confidentiality: <none|open data|low|moderate|high>
-integrity: <open data|low|moderate|high>
-availability: <open data|low|moderate|high>
+confidentiality: <none|low|moderate|high>
+integrity: <low|moderate|high>
+availability: <low|moderate|high>
 # https://pages.18f.gov/before-you-ship/ato/levels/
 security-baseline: <open data|low|moderate|high>
 
 system-type: <major|minor|general support>
-level-of-identity-assurance: <TODO>
+level-of-identity-assurance: <0 if no authentication, or a link to SSP of the forthcoming identity system>
 staff:
   authorizing-official:
     name: Aaron Snow
@@ -68,9 +69,13 @@ leveraged-authorizations:
 - https://www.fedramp.gov/marketplace/compliant-systems/amazon-web-services-aws-eastwest-us-public-cloud/
 purpose: <link to README>
 components:
+- <link to item under https://18f.gsa.gov/dashboard/>
 - <links to repositories>
-diagram: <link to architecture diagram>
-network-architecture: <TODO>
+
+# these will be the same unless your architecture is especially complex
+system-diagram: <link>
+network-diagram: <link>
+
 environments:
 - Cloud Foundry
 - Amazon Web Services East
