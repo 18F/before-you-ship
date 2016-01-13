@@ -1,25 +1,14 @@
 ---
-title: ATOs, the 18F way
+title: ATOs
 ---
 
-## What is the Authority to Operate process
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/T1S52B1-NT4" frameborder="0" allowfullscreen></iframe>
-
-* Governed by the Federal Information Security Management Act of 2002, or FISMA
-    * FISMA does a few things. It puts the Chief Information Security Officer in charge of consulting the agency head with the process they should have for the security clearance process. FISMA also empowers the agency head with accepting all the risk posed by information systems.
-        * Good news is that agency head can delegate that authority at their choosing.
-    * This agency-specific process then binds agency heads with the process that they must then follow.
-        * In practice, what this means is setting up a series of controls for each new system that will be launched.
-* 18F simplifies this process by implementing the bulk of the controls at the infrastructure level to the AWS account. This is reflected in a baseline minimum controls we’ve created.
-    * Controls can range from human controls to business processes to mechanical ones.
-* Before a system is made publicly accessible on the Internet, it must go through either the full ATO process or a 90-Day Authority to Test. If either are not yet complete, the system must have some level of authentication required for a user to enter.
+An Authority to Operate (ATO) is a complicated security review process that is required before you can deploy anything on the public web. Before a system is made publicly accessible on the Internet, it must go through either the full ATO process or a 90-Day [Authority to Test](../authority-to-test/). If either are not yet complete, the system must have some level of authentication required for a user to enter.
 
 ### The ATO process
 
 While you’re in the ATO process, the following things will occur. These are largely done by the CIO shop in tandem with the 18F DevOps team, but may create some requirements for your team.
 
-1. Once the technical architecture is stable, a system security plan (SSP) will be created. The system architecture must be drawn out to assist with this process, but can be done so at a high level.
+1. Once the technical architecture is stable, a [System Security Plan (SSP)](ssp/) will be created. The system architecture must be drawn out to assist with this process, but can be done so at a high level.
     * For 18F, the CIO office will complete the SSP.
 1. Once the SSP is complete, the system will be scanned in several ways:
     * Web vulnerability scan
@@ -38,18 +27,4 @@ While you’re in the ATO process, the following things will occur. These are la
     * A web framework having new backend administrative frameworks
     * The kinds of information you begin to store (e.g. personally identifiable information)
 
-## Tips
-
-One thing that will help the process is great documentation, which can mitigate some problems from occurring during the ATO process. Documentation, and specifically your README, should reflect a high level narrative of the architecture and data flows of the application. Questions to consider include:
-
-* What does it do?
-* How does it move information around?
-* What does it accomplish by doing it?
-
-## Optional - 90-day Authority to Test
-
-* 18F offers a 90 day authority to test security clearance process.
-    * Estimated to take approximately 2 weeks to get materials together and information security team has a service level agreement of 2 weeks to approve a completed system security plan, do the testing, and give a 90 day authorization.
-    * The 90 day ATO can be re-upped as long as the security boundary hasn’t changed; the automatic scans must not show any new vulnerabilities.
-* [Sensitive PII](../security/pii) is documented here; this process is not analogous to the [PIA](../laws/pia/)/[SORN](../laws/sorn/) process and they must be handled separately
-    * Broad safe harbor granted for when users may accidentally put their PII in; it must be actually requested.
+See [the checklist](checklist/) to see these tasks broken down by who's responsible for each.

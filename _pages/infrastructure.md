@@ -1,103 +1,17 @@
 ---
-title: Infrastructure
+title: General Infrastructure
 ---
 
-Below is a list of "good" production ops practices, which product and tech leads should consider early in their development and review as part of any major launch. Items in **bold** are considered must-haves. We will be adding more documentation about how to achieve these within 18F's infrastructure soon, but [docs.cloud.gov](https://docs.cloud.gov/) is a good place to start.
+18F uses Amazon Web Services (AWS) as the underlying Infrastructure-as-a-Service (aka IaaS) cloud platform, but spending effort at the IaaS level is not the best use of your team’s time. 18F has invested in developing cloud.gov to provide for the most common infrastructure needs. cloud.gov uses Cloud Foundry – an open source Platform-as-a-Service (PaaS) – as team-friendly abstraction above AWS, encapsulating best-practice cloud hosting without having to worry about a lot of the details. For most of the products that 18F develops, deploying onto cloud.gov will:
 
-### Backups
+- Make it easier for teams to ensure high availability/scalability
+- Reduce security concerns
+- Minimize ATO compliance overhead (which can be hefty)
+- Reduce 18F’s overhead for handling infrastructure billing, since it is fully self-service
+- Minimize any delays due to missing access on the AWS level
 
-- **All volatile data storage is on redundant infrastructure**
-- **Periodic snapshots of volatile data storage are happening**
-- Ideally, point-in-time recovery is possible
-- Recovery is documented in a testable procedure
-- Tests of the recovery path are part of the continuous deployment pipeline
+As a result, it will reduce the portion of your team’s capacity that you need to dedicate to operational concerns. For this reason, when making infrastructure decisions, **opt to use cloud.gov for your deployment whenever possible, and only resort to directly using AWS for infrastructure pieces that are impossible to achieve through cloud.gov**.
 
-### Deployment
+There are some specific cases where cloud.gov may not be a good choice for your project. This is particularly the case when the product is classified “FISMA High”. This would usually only happen due to your product handling extremely sensitive information  or being critical to normal government function. FISMA High products require wholly dedicated infrastructure, so neither cloud.gov nor AWS are options for deploying them. 
 
-- Can push a new version with a single command
-- More than one person is able to do it
-- Blue-green deployment
-- Automated schema updates
-- Snapshot/rollback of volatile data is incorporated in the process
-- Deployment only includes production-necessary files
-- Secrets are retrieved securely (eg via credential service rather than setting environment variables)
-- Download, build, and configuration limited to staging, not runtime
-
-### Support
-
-- Service-level targets are documented
-- Clear entry point for complaints
-- Clear escalation for handling infrastructure vs application vs api problems
-- Support queue is public
-
-### Logs
-
-- **Logs are captured to durable storage before rotation**
-- **Logs with sensitive data are only available to appropriate people**
-- Logs can be browsed/drilled with low-latency (eg grepping not necessary)
-
-### Monitoring
-
-- **User-representative tests (eg can access service, can perform a critical operation) running regularly**
-- Tests of sub-components also running regularly
-- Historical graph
-- Tests are run frequently
-- Tests are reported with low-latency
-- Behavior vs stated service-level targets is tracked
-
-### Alerting
-
-- **_Someone_ is alerted, somehow, if a monitor test is failing**
-- Flexible targets (for vacation, by component, etc), eg PagerDuty
-- Alerts triggered based on "out of the norm" thresholds
-- Flapping status does not result in excess/bouncing alerts
-
-### Status communication
-
-- A status page is available to all users and downstream services
-- The status page is hosted off-infrastructure
-- The status page shows any planned and all previous outages
-- Users can subscribe to notices
-
-### Security
-
-- **In-person discussion/audit around launch and major changes**
-- **Third-party services are approved to hold the data being sent to them**
-- Automated pen-testing in a staging environment as part of continuous deployment
-- Automated vuln-scanning in production environment that is fed with newly-discovered vulns
-
-###  Delegation of authority
-
-- **Authority to Operate (ATO) has been granted <<-- Gigantic**
-- Certificates are specific to the domain
-- Related DNS sub-domains are under the control of the hosting platform/staff
-
-### Load-testing
-
-- Periodic tests of in-scope components in a staging environment as part of continuous deployment pipeline
-- Upstream components are known to be load-tested up to max foreseeable pressure
-
-### Capacity-planning
-
-- **Planning around launch, significant news, and seasonal deadlines**
-- Analysis of similar service traffic in steady state
-- Ideally app-relevant elastic response to scale up as needed and back down to control costs
-
-### Scalability
-
-- **Each component has at least two instances at all times**
-- Each component horizontally scalable with more instances
-- Must-be-vertical components do not pressure their hosts in even elevated traffic condition
-- Ideally must-be-vertical components do not share hosts
-
-### Resilience
-
-- Instances are distributed across availability zones
-- No in-app dependencies on the number/distribution of upstream instances
-- Upstream is similarly resilient (multiple instances in multiple zones)
-
-### Access Control
-
-- **Expected exposure for alpha/beta/blue-green environments is enforced**
-- Exposure is controlled via configurable non-bespoke proxy (eg not the app)
-- A/B cohorts/affinity supported
+Note however that when partner agencies assert that **of course** their product will be FISMA High, 18F often finds upon examination that a product should be really be judged FISMA Moderate or FISMA Low... So don’t discard cloud.gov or AWS as options before probing that point carefully!

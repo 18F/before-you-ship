@@ -3,11 +3,19 @@ title: Introduction
 permalink: /
 ---
 
-Despite the "Before You Ship" title, everything on this list should be considered early and often. **This list is:** a general guide to review periodically, _especially_ when you are starting to consider a future project launch or feature release. **This list is not:** just a last minute pre-launch checklist.
+The goal of this site is to provide 18F staff with the information they need to launch software. It is a mix of requirements and best practices for projects at 18F, which may or may not be applicable for other teams inside or outside of government.
+
+---
+
+* **This list is:**
+    * A general guide to review early and often
+    * _Especially_ important when you are starting to consider a future project launch or feature release
+* **This list is not:**
+    * A last-minute pre-launch checklist, despite the "Before You Ship" title
 
 ### Compliance
 
-* You need an Authority to Operate (ATO). At a very high level, it covers the security reviews and approvals **required** for public government websites. It is very important and can take months (albeit rarely). [Learn about requirements and timelines for getting your ATO here.](ato-and-you/)
+* You need an Authority to Operate (ATO). At a very high level, it covers the security reviews and approvals **required** for public government websites. It is very important and can take months (albeit rarely). [Learn about requirements and timelines for getting your ATO here.](ato/)
 
 ### Outreach
 
@@ -38,10 +46,14 @@ Despite the "Before You Ship" title, everything on this list should be considere
         * Login details:
         * Date the review is needed:
         * Is this a DHS project?
+
 * How good is your code test coverage? Before shipping, you should have codecov badges on your GitHub repo READMEs and coverage should be above 90% (green). (This is not a perfect measure for code quality, but a helpful check.) _The testing working group recommends reviewing your status early and often. Refer to this PM guide section **coming soon** or the testing working group #wg-testing for more information about this._
 * Are your APIs up to [18F's API Standards](https://github.com/18f/api-standards)? You can talk to the API working group (#wg-api) if you have questions.
 * Have you installed Google Analytics and [DAP](https://www.digitalgov.gov/services/dap/) on everything? You can learn more about how to do this in our [Analytics Standards](https://github.com/18F/analytics-standards). If you have questions, you can talk to the analytics working group (#wg-analytics).
-* Open Source is much more than just the license we choose. Are your GitHub repos (and their descriptions, READMEs, issues, etc.) up to our standards? [Check the open source style guide](https://pages.18f.gov/open-source-guide/index.html). The #content team can help you with documentation.
+* Open Source is much more than just the license we choose. Are your GitHub repos (and their descriptions, READMEs, issues, etc.) up to our standards? Check out:
+    * [The Open Source Style Guide](https://pages.18f.gov/open-source-guide/)
+    * The [Writing Lab](https://github.com/18F/writing-lab) for help with documentation
+    * [CFPB's open source checklist](https://github.com/cfpb/open-source-project-template/blob/master/opensource-checklist.md)
 * Make sure you have all the social media metadata and preview images.
 
 ### Operations
@@ -71,10 +83,9 @@ For every release after your public launch, you should consider: _(Explained in 
 
 ### Additional resources
 
-* [CFPB's open source checklist](https://github.com/cfpb/ckan-installer/blob/master/opensource-checklist.md)
 * [Thoughtbot's playbook](https://playbook.thoughtbot.com/#production)
 * [pixel lab's website pre-launch checklist](http://thepixellab.com.au/the-website-pre-launch-checklist/)
 
 ---
 
-How'd it go? Is this list missing anything important? [Submit a pull request or open an issue!](https://github.com/18f/before-you-ship) To keep this manageable, consider linking to another guide or page.
+How'd it go? Is this list missing anything important? [Submit a pull request](https://github.com/18f/before-you-ship) or [open an issue](https://github.com/18f/before-you-ship/issues/new)!

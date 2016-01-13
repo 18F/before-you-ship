@@ -63,7 +63,8 @@ BASE_PROOFER_OPTS = {
   url_ignore: [
     %r{https://github.com/18F/Accessibility_Reviews}i,
     %r{https://github.com/18F/DevOps}i,
-    %r{https://github.com/18F/handbook}i
+    %r{https://github.com/18F/handbook}i,
+    %r{https://github.com/18F/writing-lab}
   ]
 }
 

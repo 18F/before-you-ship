@@ -10,7 +10,7 @@ A review process designed to ensure the security of public government sites. See
 
 ##### Triggers
 
-This is required for public websites. You should check with Noah at the beginning of any project so he can help start this process. You should also check in with him periodically as any new features or languages are added to the project.
+This is required for public websites. You should check with Noah Kunin at the beginning of any project so he can help start this process. You should also check in with him periodically as any new features or languages are added to the project.
 
 ## Contracts
 

@@ -42,9 +42,28 @@ navigation:
   - text: Personally Identifiable Information
     url: pii/
     internal: true
-- text: ATOs, the 18F way
+- text: ATOs
   url: ato/
   internal: true
+  children:
+  - text: Background
+    url: background/
+    internal: true
+  - text: Levels
+    url: levels/
+    internal: true
+  - text: Checklist
+    url: checklist/
+    internal: true
+  - text: Tips
+    url: tips/
+    internal: true
+  - text: System Security Plan
+    url: ssp/
+    internal: true
+  - text: Authority to Test
+    url: authority-to-test/
+    internal: true
 - text: Laws
   url: laws/
   internal: true
@@ -68,8 +87,14 @@ navigation:
   - text: Amazon Web Services
     url: aws/
     internal: true
+  - text: Good Production Practices
+    url: good-production-practices/
+    internal: true
 - text: Vulnerability scanning
   url: zap/
+  internal: true
+- text: Static Analysis
+  url: static-security-analysis/
   internal: true
 
 repos:
