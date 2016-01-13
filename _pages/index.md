@@ -39,14 +39,7 @@ The goal of this site is to provide 18F staff with the information they need to 
 
 ### Technical
 
-* Is your project accessible and Section 508 compliant? Developers should first review [this checklist](https://pages.18f.gov/accessibility/checklist/). Once that is complete and at least **2 weeks** before launch, you should give Nick Bristow a heads up on slack and open an issue in the [Accessibility Reviews](https://github.com/18F/Accessibility_Reviews) repo using this template: <!-- backtick+markdown formatting didn't work here -->
-
-        * Name of the Project:
-        * URL:
-        * Login details:
-        * Date the review is needed:
-        * Is this a DHS project?
-
+* Is your project accessible and [Section 508](laws/508/) compliant?
 * How good is your code test coverage? Before shipping, you should have codecov badges on your GitHub repo READMEs and coverage should be above 90% (green). (This is not a perfect measure for code quality, but a helpful check.) _The testing working group recommends reviewing your status early and often. Refer to this PM guide section **coming soon** or the testing working group #wg-testing for more information about this._
 * Are your APIs up to [18F's API Standards](https://github.com/18f/api-standards)? You can talk to the API working group (#wg-api) if you have questions.
 * Have you installed Google Analytics and [DAP](https://www.digitalgov.gov/services/dap/) on everything? You can learn more about how to do this in our [Analytics Standards](https://github.com/18F/analytics-standards). If you have questions, you can talk to the analytics working group (#wg-analytics).

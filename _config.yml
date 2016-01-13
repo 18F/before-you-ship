@@ -64,6 +64,22 @@ navigation:
   - text: Authority to Test
     url: authority-to-test/
     internal: true
+- text: Laws
+  url: laws/
+  internal: true
+  children:
+  - text: "508"
+    url: 508/
+    internal: true
+  - text: PIA
+    url: pia/
+    internal: true
+  - text: PRA
+    url: pra/
+    internal: true
+  - text: SORN
+    url: sorn/
+    internal: true
 - text: Infrastructure
   url: infrastructure/
   internal: true

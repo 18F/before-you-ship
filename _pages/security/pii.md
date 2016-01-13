@@ -5,7 +5,7 @@ parent: Security
 
 **Sensitive PII** is information which if lost, compromised, or disclosed without authorization, could result in substantial harm, embarrassment, inconvenience, or unfairness to an individual. Sensitive PII **cannot be on a system unless it has received an [Authority to Operate](../../ato).** If you are uncertain if the information you want to work with is Sensitive PII in your context, speak with 18F DevOps beforehand. Some notes:
 
-* This process is not analogous to the [PIA](http://www.gsa.gov/portal/content/102237)/[SORN](http://www.gsa.gov/portal/content/102236) process – those must be handled separately.
+* This process is not analogous to the [PIA](../../laws/pia/)/[SORN](../../laws/sorn/) process – those must be handled separately.
 * Broad safe harbor granted for when users may accidentally put their PII in; it must be actually requested.
 
 ### Always
