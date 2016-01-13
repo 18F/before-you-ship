@@ -9,6 +9,13 @@ ATOs are broken down to the following levels:
 * FISMA Medium
 * FISMA High
 
+For more information, see [NIST 800-18](http://csrc.nist.gov/publications/nistpubs/800-18-Rev1/sp800-18-Rev1-final.pdf):
+
+* [Table 1](http://csrc.nist.gov/publications/nistpubs/800-18-Rev1/sp800-18-Rev1-final.pdf#page=27) for FIPS categorization
+* [Section 3.13](http://csrc.nist.gov/publications/nistpubs/800-18-Rev1/sp800-18-Rev1-final.pdf#page=31) for security controls
+
+Note that Open Data won't be listed, as it was developed within 18F.
+
 ### Criteria for Open Data ATOs
 
 The following are signs that your ATO process cannot qualify for as Open Data, and thus will be more complicated:

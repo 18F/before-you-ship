@@ -8,7 +8,7 @@ An Authority to Operate (ATO) is a complicated security review process that is r
 
 While you’re in the ATO process, the following things will occur. These are largely done by the CIO shop in tandem with the 18F DevOps team, but may create some requirements for your team.
 
-1. Once the technical architecture is stable, a system security plan (SSP) will be created. The system architecture must be drawn out to assist with this process, but can be done so at a high level.
+1. Once the technical architecture is stable, a [System Security Plan (SSP)](ssp/) will be created. The system architecture must be drawn out to assist with this process, but can be done so at a high level.
     * For 18F, the CIO office will complete the SSP.
 1. Once the SSP is complete, the system will be scanned in several ways:
     * Web vulnerability scan

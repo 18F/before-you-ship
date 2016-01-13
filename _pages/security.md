@@ -6,7 +6,7 @@ In the Federal government, the principal law governing the security of informati
 
 _**Before reading the rest of this policy**_, you must read the [readme file at FISMA Ready](https://github.com/fisma-ready/fisma-ready.github.io/blob/master/README.md), a community project co-managed by 18F. You should also take a quick glance at the [components that are already FISMA Ready](https://github.com/fisma-ready).
 
-Also, the _document_ for an ATO requires a something known as System Security Plan (SSP). @geramirez is working on a tool to help with that capture process. Check this out: https://github.com/opencontrol/compliance-masonry
+Also, the _document_ for an ATO requires a something known as [System Security Plan (SSP)](../ato/ssp/).
 
 ## Compliance
 
@@ -68,7 +68,7 @@ Lastly, make sure the `README` file in your repo is fully up to date and clearly
 
 #### Writing the system security plan
 
-Once you are ready, 18F DevOps and GSA InfoSec will write the System Security Plan, which will detail the above and guide the next phase of work: greybox testing. For greybox testing, the independent testing team has significant (but not necessarily complete) knowledge of how the system works, as opposed to black box testing, where they have zero knowledge or white box testing, where they have complete knowledge.
+See [the page on SSPs](../ato/ssp/).
 
 #### Greybox testing
 
@@ -78,6 +78,8 @@ Once you are ready, 18F DevOps and GSA InfoSec will start both automated and man
 * checking for web vulnerability scanning on the front-end
 * static code analysis on the `master` branch of your repo
 * white hat hackers attempting to penetrate the system
+
+For greybox testing, the independent testing team has significant (but not necessarily complete) knowledge of how the system works, as opposed to black box testing, where they have zero knowledge, or white box testing, where they have complete knowledge.
 
 All of these tests must be conducted on all environments and stacks, including one _identical to production_. We call this environment and stack "pre-production" and will also affix the designation "scanee" so there is no ambiguity as to what is being scanned.
 
