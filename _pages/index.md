@@ -62,8 +62,8 @@ The goal of this site is to provide 18F staff with the information they need to 
 
 * Are you addressing user needs?  How will you validate this a few months after launch?
 * Do you have a metrics and measurements strategy? Who owns this?
-* Review the [18F Guides](https://guides.18f.gov) (many of which are also specifically referenced above.)
-* Once you have reviewed everything here, the DigitalGov team has collected a list of [Requirements for Federal Websites and Digital Services](http://www.digitalgov.gov/resources/checklist-of-requirements-for-federal-digital-services/) that you should familiarize yourself with. We recommend reviewing this last, because many of the requirements are explained or managed in the above guides and processes.
+* Review the [18F Guides](https://guides.18f.gov).
+* Once you have reviewed everything here, the DigitalGov team at GSA has collected a list of [Requirements for Federal Websites and Digital Services](http://www.digitalgov.gov/resources/checklist-of-requirements-for-federal-digital-services/) that you should familiarize yourself with. We recommend reviewing this last, because many of the requirements are explained or managed in the above guides and processes.
 
 ### Post-launch releases
 
