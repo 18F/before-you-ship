@@ -1,3 +1,13 @@
+GIT
+  remote: git://github.com/18F/guides-style.git
+  revision: ab4818b7cf371fbb04301f9766543bdcfcaeea16
+  branch: navtitle
+  specs:
+    guides_style_18f (0.1.13)
+      jekyll
+      rouge
+      sass
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -16,10 +26,6 @@ GEM
     go_script (0.1.5)
       bundler (~> 1.10)
       safe_yaml (~> 1.0)
-    guides_style_18f (0.1.9)
-      jekyll
-      rouge
-      sass
     html-proofer (2.6.1)
       activesupport (~> 4.2)
       addressable (~> 2.3)
@@ -73,6 +79,9 @@ PLATFORMS
 
 DEPENDENCIES
   go_script
-  guides_style_18f
+  guides_style_18f!
   html-proofer
   jekyll
+
+BUNDLED WITH
+   1.10.6

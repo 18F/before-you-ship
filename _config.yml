@@ -68,7 +68,7 @@ navigation:
   url: laws/
   internal: true
   children:
-  - text: "508"
+  - text: '508'
     url: 508/
     internal: true
   - text: PIA
@@ -90,11 +90,14 @@ navigation:
   - text: Good Production Practices
     url: good-production-practices/
     internal: true
-- text: Vulnerability scanning
-  url: zap/
-  internal: true
-- text: Static Analysis
+- text: Static Security Analysis
   url: static-security-analysis/
+  internal: true
+- text: Temporary Notes
+  url: temporary-notes/
+  internal: true
+- text: Vulnerability Scanning
+  url: scanning/
   internal: true
 
 repos:

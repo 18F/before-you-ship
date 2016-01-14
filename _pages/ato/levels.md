@@ -1,5 +1,6 @@
 ---
 title: Levels of ATO
+navtitle: Levels
 ---
 
 ATOs are broken down to the following levels:

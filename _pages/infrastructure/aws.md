@@ -1,5 +1,5 @@
 ---
-title: Amazon Web Services Standards
+title: Amazon Web Services
 parent: Infrastructure
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Using OWASP ZAP
+title: Vulnerability Scanning
 ---
 
 # The OWASP Zed Attack Proxy (ZAP)
