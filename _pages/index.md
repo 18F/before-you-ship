@@ -21,13 +21,13 @@ The goal of this site is to provide 18F staff with the information they need to 
 
 * Add your launch plans and project milestones to the 18F events calendar (a shared Google calendar). This helps several teams, especially the #outreach team. Rough estimates are welcome; the earlier you can update the calendar, the better.
 * Are you doing a big, splashy public launch? We recommend that you start releasing the site to more and more users slowly in advance of the announcement. This will require planning with public affairs folks who want to help you avoid getting scooped, but it is also an incredibly important way to prevent last minute problems. Additionally, make sure at least one engineer is available to troubleshoot&mdash;somewhere with reliable internet&mdash;during an announcement (instead of, for example, on stage at the White House conference center).
-* Exactly how big of a splashy launch is it? Is POTUS announcing it? Have you decided on the level of spikes in traffic your budget supports? You should coordinate this with your engineers, client, and devops.
 * Are your project's details up to date on the [18F Dashboard](https://18f.gsa.gov/dashboard)? For now, the best way to do this is to reach out to the #dashboard slack channel. _The dashboard team recommends you create this at the beginning of your project and update it monthly._
 * You need to share details about your project and develop a communications plan with our outreach team (who will also help coordinate with the necessary GSA front offices, such as press and congressional affairs). To do this, complete this [communications plan template](https://docs.google.com/document/d/1xc7H6m7lfesCN-phJGvGSDPmtoinB5sM9KAA8deMNTQ/edit).
 * Share the good news about your launch with everyone at 18F by telling Kara DeFrias or Leah Gitter that you'd like to announce something at the next Tuesday all hands meeting.
 
 ### Client expectations
 
+* Exactly how big of a splashy launch are you planning? Is POTUS announcing it? Have you decided on the level of spikes in traffic your budget supports? You should coordinate this with your engineers, client, and devops.
 * Will your team need to work more than 40 hours in a week to support the launch? You should start the [comp time approvals process before launch, which is described in our handbook](https://github.com/18F/handbook/blob/staging/articles/5-training-and-professional-development/classes/benefits.md#comp-time). We take this seriously.
 * What will you do if something breaks? Have you talked to your client about their expectations of up time and their budget? 18F currently does not offer Service Level Agreements (SLAs), which normally include agreements about uptime and response time to downtime, but you should have an escalation protocol in place. Here is an example from the [betaFEC](https://beta.fec.gov) team.
 
