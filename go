@@ -59,6 +59,7 @@ end
 
 require 'html/proofer'
 
+# keep in sync with the `ignoreUrls` in `./assets/js/before-you-ship.js`
 BASE_PROOFER_OPTS = {
   url_ignore: [
     %r{https://github.com/18F/Accessibility_Reviews}i,

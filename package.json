@@ -1,0 +1,7 @@
+{
+  "name": "before-you-ship",
+  "private": true,
+  "dependencies": {
+    "@18f/private-eye": "^1.0.0"
+  }
+}

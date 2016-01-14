@@ -108,6 +108,10 @@ back_link:
   url: "https://pages.18f.gov/guides/"
   text: Read more 18F Guides
 
+scripts:
+  - node_modules/@18f/private-eye/private-eye.js
+  - assets/js/before-you-ship.js
+
 collections:
   pages:
     output: true
