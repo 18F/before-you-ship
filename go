@@ -59,6 +59,7 @@ end
 
 require 'html/proofer'
 
+# keep in sync with the `ignoreUrls` in _layouts/default.html
 BASE_PROOFER_OPTS = {
   url_ignore: [
     %r{https://github.com/18F/Accessibility_Reviews}i,
