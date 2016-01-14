@@ -15,19 +15,19 @@ The goal of this site is to provide 18F staff with the information they need to 
 
 ### Compliance
 
-* You need an Authority to Operate (ATO). At a very high level, it covers the security reviews and approvals **required** for public government websites. It is very important and can take months (albeit rarely). [Learn about requirements and timelines for getting your ATO here.](ato/)
+* You need an Authority to Operate (ATO). Essentially, ATOs cover the important security reviews and approvals **required** for public government websites. They can take months (albeit rarely). You should review this [overview of ATOs](ato/) and these [tips](ato/tips/) to start planning.
 
 ### Outreach
 
 * Add your launch plans and project milestones to the 18F events calendar (a shared Google calendar). This helps several teams, especially the #outreach team. Rough estimates are welcome; the earlier you can update the calendar, the better.
 * Are you doing a big, splashy public launch? We recommend that you start releasing the site to more and more users slowly in advance of the announcement. This will require planning with public affairs folks who want to help you avoid getting scooped, but it is also an incredibly important way to prevent last minute problems. Additionally, make sure at least one engineer is available to troubleshoot&mdash;somewhere with reliable internet&mdash;during an announcement (instead of, for example, on stage at the White House conference center).
-* Exactly how big a splashy launch is it? Have you decided on the level of spikes in traffic your budget supports?
-* Are your project's details up to date on the [18F Dashboard](https://18f.gsa.gov/dashboard)? For now, the best way to do this is to reach out to the #dashboard slack channel. **update coming soon** _The dashboard team recommends you create this at the beginning of your project and update it monthly._
-* You need to share details about your project and develop a communications plan with our outreach team (who will also help coordinate with the necessary GSA front offices, such as communications and congressional affairs). To do this, complete this [communications plan template](https://docs.google.com/document/d/1xc7H6m7lfesCN-phJGvGSDPmtoinB5sM9KAA8deMNTQ/edit).
+* Are your project's details up to date on the [18F Dashboard](https://18f.gsa.gov/dashboard)? For now, the best way to do this is to reach out to the #dashboard slack channel. _The dashboard team recommends you create this at the beginning of your project and update it monthly._
+* You need to share details about your project and develop a communications plan with our outreach team (who will also help coordinate with the necessary GSA front offices, such as press and congressional affairs). To do this, complete this [communications plan template](https://docs.google.com/document/d/1xc7H6m7lfesCN-phJGvGSDPmtoinB5sM9KAA8deMNTQ/edit).
 * Share the good news about your launch with everyone at 18F by telling Kara DeFrias or Leah Gitter that you'd like to announce something at the next Tuesday all hands meeting.
 
 ### Client expectations
 
+* Exactly how big of a splashy launch are you planning? Is POTUS announcing it? Have you decided on the level of spikes in traffic your budget supports? You should coordinate this with your engineers, client, and devops.
 * Will your team need to work more than 40 hours in a week to support the launch? You should start the [comp time approvals process before launch, which is described in our handbook](https://github.com/18F/handbook/blob/staging/articles/5-training-and-professional-development/classes/benefits.md#comp-time). We take this seriously.
 * What will you do if something breaks? Have you talked to your client about their expectations of up time and their budget? 18F currently does not offer Service Level Agreements (SLAs), which normally include agreements about uptime and response time to downtime, but you should have an escalation protocol in place. Here is an example from the [betaFEC](https://beta.fec.gov) team.
 
@@ -39,14 +39,15 @@ The goal of this site is to provide 18F staff with the information they need to 
 
 ### Technical
 
-* Is your project accessible and [Section 508](laws/508/) compliant?
-* How good is your code test coverage? Before shipping, you should have codecov badges on your GitHub repo READMEs and coverage should be above 90% (green). (This is not a perfect measure for code quality, but a helpful check.) _The testing working group recommends reviewing your status early and often. Refer to this PM guide section **coming soon** or the testing working group #wg-testing for more information about this._
-* Are your APIs up to [18F's API Standards](https://github.com/18f/api-standards)? You can talk to the API working group (#wg-api) if you have questions.
-* Have you installed Google Analytics and [DAP](https://www.digitalgov.gov/services/dap/) on everything? You can learn more about how to do this in our [Analytics Standards](https://github.com/18F/analytics-standards). If you have questions, you can talk to the analytics working group (#wg-analytics).
+* Is your project accessible and [Section 508](laws/508/) compliant? The team will need to incorporate this throughout the project, but you'll also need to set up a review at least 2 weeks before launch.
+* How good is your code test coverage? Before shipping, you should have codecov badges on your GitHub repo READMEs and coverage should be above 90% (green). (This is not a perfect measure for code quality, but a helpful check.) The testing working group recommends reviewing your status early and often. _Ask #wg-testing if you have questions._
+* Are your APIs up to [18F's API Standards](https://github.com/18f/api-standards)? _Ask the #wg-api if you have questions._
+* Have you installed Google Analytics and [DAP](https://www.digitalgov.gov/services/dap/) on everything? You can learn more about how to do this in our [Analytics Standards](https://github.com/18F/analytics-standards). _Ask #wg-analytics if you have questions._
 * Open Source is much more than just the license we choose. Are your GitHub repos (and their descriptions, READMEs, issues, etc.) up to our standards? Check out:
     * [The Open Source Style Guide](https://pages.18f.gov/open-source-guide/)
     * The [Writing Lab](https://github.com/18F/writing-lab) for help with documentation
     * [CFPB's open source checklist](https://github.com/cfpb/open-source-project-template/blob/master/opensource-checklist.md)
+    * _Ask #wg-opensource if you have questions._
 * Make sure you have all the social media metadata and preview images.
 
 ### Operations
@@ -61,8 +62,8 @@ The goal of this site is to provide 18F staff with the information they need to 
 
 * Are you addressing user needs?  How will you validate this a few months after launch?
 * Do you have a metrics and measurements strategy? Who owns this?
-* Review the [18F Guides](https://guides.18f.gov) (many of which are also specifically referenced above.)
-* Once you have reviewed everything here, the DigitalGov team has collected a list of [Requirements for Federal Websites and Digital Services](http://www.digitalgov.gov/resources/checklist-of-requirements-for-federal-digital-services/) that you should familiarize yourself with. We recommend reviewing this last, because many of the requirements are explained or managed in the above guides and processes.
+* Review the [18F Guides](https://guides.18f.gov).
+* Once you have reviewed everything here, the DigitalGov team at GSA has collected a list of [Requirements for Federal Websites and Digital Services](http://www.digitalgov.gov/resources/checklist-of-requirements-for-federal-digital-services/) that you should familiarize yourself with. We recommend reviewing this last, because many of the requirements are explained or managed in the above guides and processes.
 
 ### Post-launch releases
 
