@@ -115,6 +115,9 @@ scripts:
   - node_modules/@18f/private-eye/private-eye.js
   - assets/js/before-you-ship.js
 
+styles:
+  - assets/css/styles.css
+
 collections:
   pages:
     output: true
