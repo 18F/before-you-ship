@@ -30,7 +30,6 @@ To start the security clearance process, [create an issue in the DevOps reposito
 1. [ ] Resolve any visible security issues, re-running the scans as needed
 1. [ ] Add the issue-free scan reports to [the `ATOs` folder in Google Drive](https://drive.google.com/a/gsa.gov/folderview?id=0BynIxtx-CfkdckljM3BPSkdQT1U&usp=sharing)
 1. [ ] Update relevant documentation, primarily the README
-    * [ ] Draw a top-level diagram of the system architecture
 1. [ ] Add a [System Security Plan](https://pages.18f.gov/before-you-ship/ato/ssp/#template) to the repository
 
 ### Authorizing Official
