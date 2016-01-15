@@ -90,6 +90,9 @@ navigation:
   - text: Good Production Practices
     url: good-production-practices/
     internal: true
+  - text: Common Questions
+    url: common-questions/
+    internal: true
 - text: Vulnerability scanning
   url: zap/
   internal: true
