@@ -27,7 +27,12 @@ You may operate without authorization under the following conditions.
 * The system is deployed to the [18F AWS East/West environment](../infrastructure/aws/).
 * The system is _only_ available to:
     * staff of the General Services Administration
-    * other Federal staff / agencies (either by IP CIDR block or some kind of auth mechanism, HTTP Basic Auth, OAuth (MyUSA), etc)
+    * other Federal staff / agencies, by one of:
+        * IP CIDR block
+        * some kind of auth mechanism
+            * HTTP Basic Auth
+            * OAuth (MyUSA)
+            * etc.
 * The system does _not_:
     * interact with or change the state of any production Federal information system, whether it is operated by 18F or our Federal partners
     * collect or store any [sensitive PII](../security/pii)
@@ -82,7 +87,7 @@ This also requires a stable `master` branch. You can continue working on `featur
 
 #### Resolving vulnerabilities
 
-If any of the testing or scanning reveals vulnerabilities that we categorize as Critical or High findings, they **must** be fixed, and the scans re-run, **before** the system receives a 90 day authorization.
+See [Alerts](../security/scanning/#alerts).
 
 #### Signing an authorization
 
