@@ -93,8 +93,8 @@ navigation:
   - text: Common Questions
     url: common-questions/
     internal: true
-- text: Vulnerability scanning
-  url: zap/
+- text: Vulnerability Scanning
+  url: vulnerability-scanning/
   internal: true
 - text: Static Analysis
   url: static-security-analysis/
