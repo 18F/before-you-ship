@@ -24,7 +24,7 @@ To start the security clearance process, [create an issue in the DevOps reposito
 ### Project team
 
 1. [ ] Add an [`about.yml`](https://github.com/18F/about_yml) for the main repository
-1. [ ] Set up static analysis tool(s)
+1. [ ] Set up [static analysis tool(s)](https://pages.18f.gov/before-you-ship/static-security-analysis/)
     * [ ] Add badges to the README
 1. [ ] Scan the system with [OWASP ZAP](https://pages.18f.gov/before-you-ship/zap/)
 1. [ ] Resolve any visible security issues, re-running the scans as needed
