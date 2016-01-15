@@ -116,7 +116,7 @@ scripts:
   - assets/js/before-you-ship.js
 
 styles:
-  - assets/css/styles.css
+  - assets/css/custom.css
 
 collections:
   pages:
