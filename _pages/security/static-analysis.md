@@ -1,5 +1,6 @@
 ---
 title: Static Security Analysis
+parent: Security
 ---
 
 Static analysis is an important part of the development process, and is required for ATO. There are two main types of static security testing that needs to be done:

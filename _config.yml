@@ -42,6 +42,15 @@ navigation:
   - text: Personally Identifiable Information
     url: pii/
     internal: true
+  - text: Scanning
+    url: scanning/
+    internal: true
+  - text: Static Analysis
+    url: static-analysis/
+    internal: true
+  - text: Dynamic Scanning
+    url: dynamic-scanning/
+    internal: true
 - text: ATOs
   url: ato/
   internal: true
@@ -93,12 +102,6 @@ navigation:
   - text: Common Questions
     url: common-questions/
     internal: true
-- text: Vulnerability Scanning
-  url: vulnerability-scanning/
-  internal: true
-- text: Static Analysis
-  url: static-security-analysis/
-  internal: true
 
 repos:
 - name: Guides Template
