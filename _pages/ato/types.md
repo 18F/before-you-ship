@@ -51,10 +51,6 @@ You do not have to wait for the 90 days to complete before moving to a new autho
 
 The 1 Year is inclusive of all the steps of [the 90 Day process](#day-authorization). A more thorough penetration test is done, which may reveal other vulnerabilities that will need to be resolved.
 
-### Signing an authorization
-
-Once the entire process is complete, GSA InfoSec will make a recommendation to the head of the GSA Office of Citizen Services and Innovative Technologies (OCSIT), our current Authorizing Official, for signature.
-
 ### Continuous authorization
 
 Coming soon.

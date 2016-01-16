@@ -31,7 +31,7 @@ If during testing the system performs:
 * back-end administrative functions
 * encryption
 
-...then those features cannot be "relatively simple" but must in fact be *complete* before an authorization will be given. Note that the use of common web frameworks and 18F TLS standards resolves these issues in almost every case.
+...then those features cannot be "relatively simple" but must in fact be *complete* before an authorization will be given. Note that the use of common web frameworks and [18F HTTPS standards](https://github.com/18F/https) resolves these issues in almost every case.
 
 Lastly, make sure the `README` file in your repo is fully up to date and clearly explains what the system does and why at a high level. You should also include the above information in your `README`.
 
@@ -56,7 +56,7 @@ See [Alerts](../security/scanning/#alerts).
 
 ### Expectation management
 
-Overall, if *no* vulnerabilities are found, this process has been taking approximately 2 weeks for test preparation and system security plan writing and 2 weeks for greybox testing and signature.
+Overall, if *no* vulnerabilities are found, this process has been taking approximately 2 weeks for test preparation and system security plan writing and 2 weeks for [greybox testing](#greybox-testing) and signature.
 
 Since the time it would take to resolve vulnerabilities is not known until a vulnerability is identified, it is **strongly recommended** that no expectations are set with Federal partners or GSA stakeholders when public testing will begin. Instead, we recommend that the authorization process is seen as part of the delivery process and your definition of "done".
 
