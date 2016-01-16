@@ -14,36 +14,9 @@ Hopefully, at this point you're not **too** burned out on bureacracy! What all o
 
 ## Documentation
 
-There are three tracks of documentation available – see the [Types of ATO](../ato/types/).
+See the [ATO documentation](../ato/).
 
-### Pre-authorization
-
-You may operate without authorization under the following conditions:
-
-* The system is deployed to [cloud.gov](https://cloud.gov) or the [18F AWS East/West environment](../infrastructure/aws/).
-* The system is _only_ available to:
-    * staff of the General Services Administration
-    * other Federal staff / agencies, by one of:
-        * IP CIDR block
-        * some kind of auth mechanism
-            * HTTP Basic Auth
-            * OAuth (MyUSA)
-            * etc.
-* The system does _not_:
-    * interact with or change the state of any production Federal information system, whether it is operated by 18F or our Federal partners
-    * collect or store any [sensitive PII](../security/pii)
-
-### 90 Day authorization
-
-Once you're ready to move beyond the restrictions of pre-authorization, you must go through the process to obtained a LATO for 90 Days. This authorization can cover any system in the Discovery, Alpha, or Beta phases.
-
-You **must** have a 90 day authorization before violating _any_ of the restrictions in the section above.
-
-The authorization is rolling, and can be renewed for an additional 90 days as long as you require additional testing. This essentially functions as our [Authority to Test](../ato/types/#authority-to-test).
-
-You do not have to wait for the 90 days to complete before moving to a new authorization.
-
-#### Getting ready to test
+### Getting ready to test
 
 The system's technical stack needs to be relatively stable before authorization. This includes a complete list of:
 
@@ -62,7 +35,7 @@ If during testing the system performs:
 
 Lastly, make sure the `README` file in your repo is fully up to date and clearly explains what the system does and why at a high level. You should also include the above information in your `README`.
 
-#### Greybox testing
+### Greybox testing
 
 Once you are ready, 18F DevOps and GSA InfoSec will start both automated and manual scanning and testing. This includes:
 
@@ -77,26 +50,14 @@ All of these tests must be conducted on all environments and stacks, including o
 
 This also requires a stable `master` branch. You can continue working on `feature` branches and deploy those to a development environment.
 
-#### Resolving vulnerabilities
+### Resolving vulnerabilities
 
 See [Alerts](../security/scanning/#alerts).
 
-#### Signing an authorization
-
-Once the entire process is complete, GSA InfoSec will make a recommendation to the head of the GSA Office of Citizen Services and Innovative Technologies (OCSIT), our current Authorizing Official, for signature.
-
-#### Expectation management
+### Expectation management
 
 Overall, if *no* vulnerabilities are found, this process has been taking approximately 2 weeks for test preparation and system security plan writing and 2 weeks for greybox testing and signature.
 
 Since the time it would take to resolve vulnerabilities is not known until a vulnerability is identified, it is **strongly recommended** that no expectations are set with Federal partners or GSA stakeholders when public testing will begin. Instead, we recommend that the authorization process is seen as part of the delivery process and your definition of "done".
 
 After the system has been authorized, you can then begin planning a public roll out of your test system.
-
-### 1 Year authorization
-
-The 1 Year is inclusive of all the steps of the 90 Day process. A more thorough penetration test is done, which may reveal other vulnerabilities that will need to be resolved.
-
-### Continuous authorization
-
-Coming soon.
