@@ -1,5 +1,6 @@
 ---
 title: Static Security Analysis
+navtitle: Static Analysis
 parent: Security
 ---
 

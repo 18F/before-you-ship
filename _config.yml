@@ -73,11 +73,14 @@ navigation:
   - text: Types
     url: types/
     internal: true
+  - text: Controls
+    url: controls/
+    internal: true
 - text: Laws
   url: laws/
   internal: true
   children:
-  - text: "508"
+  - text: '508'
     url: 508/
     internal: true
   - text: PIA
@@ -102,6 +105,9 @@ navigation:
   - text: Common Questions
     url: common-questions/
     internal: true
+- text: Temporary Notes
+  url: temporary-notes/
+  internal: true
 
 repos:
 - name: Guides Template
@@ -117,6 +123,9 @@ back_link:
 scripts:
   - node_modules/@18f/private-eye/private-eye.js
   - assets/js/before-you-ship.js
+
+styles:
+  - assets/css/custom.css
 
 collections:
   pages:

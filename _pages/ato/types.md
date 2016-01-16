@@ -1,5 +1,6 @@
 ---
 title: Types of ATO
+navtitle: Types
 ---
 
 There are three tracks of documentation available:

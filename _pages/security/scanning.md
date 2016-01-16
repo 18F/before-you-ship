@@ -1,5 +1,6 @@
 ---
 title: Security Scanning
+navtitle: Scanning
 parent: Security
 ---
 
