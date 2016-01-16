@@ -76,7 +76,7 @@ Once you are ready, 18F DevOps and GSA InfoSec will start both automated and man
 
 * using SSH to go into your EC2 servers to run tests on the operating system
 * checking for web vulnerability scanning on the front-end
-* static code analysis on the `master` branch of your repo
+* [static code analysis](static-analysis/) on the `master` branch of your repo
 * white hat hackers attempting to penetrate the system
 
 For greybox testing, the independent testing team has significant (but not necessarily complete) knowledge of how the system works, as opposed to black box testing, where they have zero knowledge, or white box testing, where they have complete knowledge.
