@@ -13,7 +13,7 @@ GEM
     ethon (0.8.1)
       ffi (>= 1.3.0)
     ffi (1.9.10)
-    go_script (0.1.6)
+    go_script (0.1.5)
       bundler (~> 1.10)
       safe_yaml (~> 1.0)
     guides_style_18f (0.1.14)
@@ -72,7 +72,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  go_script
+  go_script (= 0.1.5)
   guides_style_18f
   html-proofer
   jekyll
