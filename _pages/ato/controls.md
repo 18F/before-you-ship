@@ -16,7 +16,7 @@ We use a [hardened baseline](https://github.com/fisma-ready/ubuntu-lts) of Ubunt
 
 ### Infrastructure as a service
 
-Development environments are exclusively in cloud.gov or the [AWS East/West regions](https://18f.signin.aws.amazon.com/console). All AWS users must go through a DevOps [onboarding session and comply with all relevant policies of use](../infrastructure/aws/).
+Development environments are exclusively in cloud.gov or the [AWS East/West regions](https://18f.signin.aws.amazon.com/console). All AWS users must go through a DevOps [onboarding session and comply with all relevant policies of use](../../infrastructure/aws/).
 
 * SC-7 Boundary protection
 * AC-3 Access enforcement

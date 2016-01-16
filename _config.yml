@@ -70,8 +70,8 @@ navigation:
   - text: System Security Plan
     url: ssp/
     internal: true
-  - text: Authority to Test
-    url: authority-to-test/
+  - text: Types
+    url: types/
     internal: true
 - text: Laws
   url: laws/
