@@ -90,14 +90,17 @@ navigation:
   - text: Good Production Practices
     url: good-production-practices/
     internal: true
+  - text: Common Questions
+    url: common-questions/
+    internal: true
+- text: Vulnerability Scanning
+  url: scanning/
+  internal: true
 - text: Static Security Analysis
   url: static-security-analysis/
   internal: true
 - text: Temporary Notes
   url: temporary-notes/
-  internal: true
-- text: Vulnerability Scanning
-  url: scanning/
   internal: true
 
 repos:
@@ -114,6 +117,9 @@ back_link:
 scripts:
   - node_modules/@18f/private-eye/private-eye.js
   - assets/js/before-you-ship.js
+
+styles:
+  - assets/css/custom.css
 
 collections:
   pages:

@@ -25,7 +25,7 @@ Because we live in an increasingly connected world, sometimes sensitive PII can 
 
 * Citizenship or immigration status
 * Ethnic or religious affiliation
-* Mother's maiden number
+* Mother's maiden name
 * Last 4 digits of SSN
 * Medical information
 * Sexual orientation
