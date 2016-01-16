@@ -68,7 +68,7 @@ navigation:
   url: laws/
   internal: true
   children:
-  - text: "508"
+  - text: '508'
     url: 508/
     internal: true
   - text: PIA
@@ -93,11 +93,14 @@ navigation:
   - text: Common Questions
     url: common-questions/
     internal: true
-- text: Vulnerability scanning
-  url: zap/
+- text: Vulnerability Scanning
+  url: scanning/
   internal: true
-- text: Static Analysis
+- text: Static Security Analysis
   url: static-security-analysis/
+  internal: true
+- text: Temporary Notes
+  url: temporary-notes/
   internal: true
 
 repos:

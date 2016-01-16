@@ -10,13 +10,13 @@ GEM
     addressable (2.4.0)
     colorator (0.1)
     colored (1.2)
-    ethon (0.8.0)
+    ethon (0.8.1)
       ffi (>= 1.3.0)
     ffi (1.9.10)
     go_script (0.1.5)
       bundler (~> 1.10)
       safe_yaml (~> 1.0)
-    guides_style_18f (0.1.9)
+    guides_style_18f (0.1.14)
       jekyll
       rouge
       sass
@@ -39,8 +39,8 @@ GEM
       mercenary (~> 0.3.3)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
-    jekyll-sass-converter (1.3.0)
-      sass (~> 3.2)
+    jekyll-sass-converter (1.4.0)
+      sass (~> 3.4)
     jekyll-watch (1.3.0)
       listen (~> 3.0)
     json (1.8.3)
@@ -55,12 +55,12 @@ GEM
     nokogiri (1.6.7.1)
       mini_portile2 (~> 2.0.0.rc2)
     parallel (1.6.1)
-    rb-fsevent (0.9.6)
+    rb-fsevent (0.9.7)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     rouge (1.10.1)
     safe_yaml (1.0.4)
-    sass (3.4.20)
+    sass (3.4.21)
     thread_safe (0.3.5)
     typhoeus (0.8.0)
       ethon (>= 0.8.0)
@@ -72,7 +72,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  go_script
+  go_script (= 0.1.5)
   guides_style_18f
   html-proofer
   jekyll
+
+BUNDLED WITH
+   1.10.6
