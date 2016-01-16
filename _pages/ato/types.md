@@ -1,6 +1,12 @@
 ---
-title: Authority to Test
+title: Types of ATO
 ---
+
+* 90-day Limited Authority to Operate (LATO)
+* 1-year Limited Authority to Operate (LATO)
+* Continuous Authority to Operate (cATO) [work in progress]
+
+### Authority to Test
 
 18F offers a 90-day Authority to Test security clearance process.
 
