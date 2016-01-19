@@ -21,7 +21,9 @@ The goal of this site is to provide 18F staff with the information they need to 
 
 * Add your launch plans and project milestones to the 18F events calendar (a shared Google calendar). This helps several teams, especially the #outreach team. Rough estimates are welcome; the earlier you can update the calendar, the better.
 * Are you doing a big, splashy public launch? We recommend that you start releasing the site to more and more users slowly in advance of the announcement. This will require planning with public affairs folks who want to help you avoid getting scooped, but it is also an incredibly important way to prevent last minute problems. Additionally, make sure at least one engineer is available to troubleshoot&mdash;somewhere with reliable internet&mdash;during an announcement (instead of, for example, on stage at the White House conference center).
-* Are your project's details up to date on the [18F Dashboard](https://18f.gsa.gov/dashboard)? For now, the best way to do this is to reach out to the #dashboard slack channel. _The dashboard team recommends you create this at the beginning of your project and update it monthly._
+* Are your project's details up to date on the [18F Dashboard](https://18f.gsa.gov/dashboard)?
+    * The dashboard team recommends you create this at the beginning of your project and update it monthly.
+    * Instructions for adding your project will be [here](https://github.com/18F/dashboard/#creating-content-for-your-dashboard-entry), but in the meantime, it will be easiest to ask for help in the #dashboard channel.
 * You need to share details about your project and develop a communications plan with our outreach team (who will also help coordinate with the necessary GSA front offices, such as press and congressional affairs). To do this, complete this [communications plan template](https://docs.google.com/document/d/1xc7H6m7lfesCN-phJGvGSDPmtoinB5sM9KAA8deMNTQ/edit).
 * Share the good news about your launch with everyone at 18F by telling Kara DeFrias or Leah Gitter that you'd like to announce something at the next Tuesday all hands meeting.
 
@@ -42,7 +44,9 @@ The goal of this site is to provide 18F staff with the information they need to 
 * Is your project accessible and [Section 508](laws/508/) compliant? The team will need to incorporate this throughout the project, but you'll also need to set up a review at least 2 weeks before launch.
 * How good is your code test coverage? Before shipping, you should have codecov badges on your GitHub repo READMEs and coverage should be above 90% (green). (This is not a perfect measure for code quality, but a helpful check.) The testing working group recommends reviewing your status early and often. _Ask #wg-testing if you have questions._
 * Are your APIs up to [18F's API Standards](https://github.com/18f/api-standards)? _Ask the #wg-api if you have questions._
-* Have you installed Google Analytics and [DAP](https://www.digitalgov.gov/services/dap/) on everything? You can learn more about how to do this in our [Analytics Standards](https://github.com/18F/analytics-standards). _Ask #wg-analytics if you have questions._
+* Have you installed 18F's Google Analytics and [DAP](https://www.digitalgov.gov/services/dap/) on everything?
+    * Learn more in our [Analytics Standards](https://github.com/18F/analytics-standards).
+    * _Ask #wg-analytics if you have questions._
 * Open Source is much more than just the license we choose. Are your GitHub repos (and their descriptions, READMEs, issues, etc.) up to our standards? Check out:
     * [The Open Source Style Guide](https://pages.18f.gov/open-source-guide/)
     * The [Writing Lab](https://github.com/18F/writing-lab) for help with documentation
