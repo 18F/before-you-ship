@@ -2,21 +2,19 @@
 title: Controls
 ---
 
-[NIST 800-53 Revision 4](http://csrc.nist.gov/groups/SMA/fisma/controls.html) lists the security control baselines that must implemented on all Federal systems.
-
-The default and required NIST controls that 18F and GSA Information Security have agreed upon for all systems are listed here, with a short description of where the controls are implemented.
+[NIST 800-53 Revision 4](http://csrc.nist.gov/groups/SMA/fisma/controls.html) lists the security control baselines that must implemented on all Federal systems. The default and required NIST controls that 18F and GSA Information Security have agreed upon for all systems are listed here, with a short description of where the controls are implemented.
 
 ### Baseline assembly
 
 We use a [hardened baseline](https://github.com/fisma-ready/ubuntu-lts) of Ubuntu 14.04 LTS as our default OS for all products and services.
 
-* CM-2  Baseline configuration
-* CM-3  Configuration Change Control
-* CM-6  Configuration Settings
+* CM-2 Baseline configuration
+* CM-3 Configuration Change Control
+* CM-6 Configuration Settings
 
 ### Infrastructure as a service
 
-Development environments are exclusively in cloud.gov or the [AWS East/West regions](https://18f.signin.aws.amazon.com/console). All AWS users must go through a DevOps [onboarding session and comply with all relevant policies of use](../../infrastructure/aws/).
+Development environments are exclusively in cloud.gov or the [AWS East/West regions](https://18f.signin.aws.amazon.com/console). All AWS users must go through a DevOps onboarding session and comply with all relevant [policies of use](../../infrastructure/aws/).
 
 * SC-7 Boundary protection
 * AC-3 Access enforcement
@@ -24,9 +22,9 @@ Development environments are exclusively in cloud.gov or the [AWS East/West regi
 
 ### Version control
 
-All code must be checked into a `git` repository and a remote must be placed within the [18F Organization on GitHub.com](https://github.com/18F).
+All code must be checked into a Git repository and a remote must be placed within the [18F Organization on GitHub.com](https://github.com/18F).
 
-* CM-8  Information system component inventory
+* CM-8 Information system component inventory
 
 ### HTTPS Everywhere
 
@@ -47,7 +45,7 @@ We use AWS IAM to manage authorization and authentication.
 
 ### Continuous integration and testing
 
-InfoSec does penetration testing, everything is 18F DevOps.
+See the [security scanning](../../security/scanning/) page for more details.
 
 * CA-8 Penetration testing
 * RA-5 Vulnerability Scanning
@@ -57,7 +55,7 @@ InfoSec does penetration testing, everything is 18F DevOps.
 
 ### Monitoring
 
-CloudWatch, CloudTrail, New Relic, Splunk
+One or more of CloudWatch, CloudTrail, New Relic, Splunk, etc.
 
 * AU-2 Audit Events
 * AU-6 Audit Review, Analysis, and Reporting
