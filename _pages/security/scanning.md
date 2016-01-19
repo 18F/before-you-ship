@@ -20,4 +20,4 @@ Alerts come in one of four categorizations:
 * **Low** and **Medium** can be resolved after the ATO is granted.
 * **High** and **Critical** must be resolved before the ATO is granted.
 
-Any false positives should be documented as such, though an "ignore" file (e.g. with a `note` in [Brakeman](http://brakemanscanner.org/docs/ignoring_false_positives/)) or with your ATO-related documentation.
+Any false positives should be documented as such, through an "ignore" file (e.g. with a `note` in [Brakeman](http://brakemanscanner.org/docs/ignoring_false_positives/)) or with your ATO-related documentation.
