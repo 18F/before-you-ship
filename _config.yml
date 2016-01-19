@@ -105,9 +105,6 @@ navigation:
   - text: Common Questions
     url: common-questions/
     internal: true
-- text: Temporary Notes
-  url: temporary-notes/
-  internal: true
 
 repos:
 - name: Guides Template
