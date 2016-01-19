@@ -99,9 +99,6 @@ navigation:
 - text: Static Security Analysis
   url: static-security-analysis/
   internal: true
-- text: Temporary Notes
-  url: temporary-notes/
-  internal: true
 
 repos:
 - name: Guides Template
