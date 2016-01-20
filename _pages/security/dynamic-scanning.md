@@ -1,10 +1,9 @@
 ---
-title: Vulnerability Scanning
+title: Dynamic Scanning
+parent: Security
 ---
 
-# The OWASP Zed Attack Proxy (ZAP)
-
-[OWASP ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project) is a tool for doing automated vulnerability scanning.
+[OWASP ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project) is the tool we use for doing automated vulnerability scanning.
 
 ## Usage
 
@@ -22,7 +21,7 @@ You will need a running application to test, which you will want to be as produc
 1. Click "Attack".
     * You should see a bunch of URLs start to pop up in the Spider tab, then the Active Scan tab.
     * This will take a while.
-    * There is a progress bar in the Spider and Active Scan tabs. You can click the <img class="inline" src="../assets/zap_graph.png" alt="small graph icon"/> button in the latter to get more details.
+    * There is a progress bar in the Spider and Active Scan tabs. You can click the <img class="inline" src="../../assets/zap_graph.png" alt="small graph icon"/> button in the latter to get more details.
 1. Wait for the "Progress" area to say say "Attack complete".
 1. Open the Alerts tab.
 

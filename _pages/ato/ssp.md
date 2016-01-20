@@ -6,9 +6,7 @@ As described in [the NIST guide](http://csrc.nist.gov/publications/nistpubs/800-
 
 > The purpose of the system security plan is to provide an overview of the security requirements of the system and describe the controls in place or planned for meeting those requirements.
 
-GSA provides a [Word template](http://www.gsa.gov/graphics/staffoffices/System_Security_Plan_Template_072312_508.docx), but for 18F's purposes, we create a machine-readable version.
-
-We are working on a tool to help generate SSPs – check out [Compliance Masonry](https://github.com/opencontrol/compliance-masonry).
+We create a machine-readable version, whose template is below. We are also working on a tool to help generate SSPs, called [Compliance Masonry](https://github.com/opencontrol/compliance-masonry).
 
 ### Template
 

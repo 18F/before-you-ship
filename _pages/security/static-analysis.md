@@ -1,17 +1,19 @@
 ---
 title: Static Security Analysis
+navtitle: Static Analysis
+parent: Security
 ---
 
 Static analysis is an important part of the development process, and is required for ATO. There are two main types of static security testing that needs to be done:
 
-1. Dependency analysis, where the ruby gems, python modules, and js packages your app uses are checked against a list of known vulnerabilities; and
-1. Code analysis in which your code is checked against a list of antipatterns.
+* **Dependency analysis**, where the Ruby gems, Python modules, and JavaScript packages your app uses are checked against a list of known vulnerabilities.
+* **Code analysis**, in which your code is checked against a list of antipatterns.
 
 There are tools for JS, Ruby, and Python, and you are encouraged to set up this scanning early on in the development cycle to prevent unexpected delays when it's time to get your ATO.
 
 ## Dependency Analysis (All Languages)
 
-[Gemnasium](https://gemnasium.com) provides dependency scanning for all our supported languages. The CLI tool requires a higher tier account then we currently have, but you can currently use their web version using the 18F account. You can get account details by asking in #devops or [filing an issue in the devops repo](https://github.com/18F/DevOps/issues/new)
+[Gemnasium](https://gemnasium.com) provides dependency scanning for all our supported languages. The CLI tool requires a higher tier account then we currently have, but you can currently use their web version using the 18F account. You can get account details by asking in #devops or [filing an issue in the devops repo](https://github.com/18F/DevOps/issues/new).
 
 ## Static Analysis
 
