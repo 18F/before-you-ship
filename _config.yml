@@ -7,9 +7,10 @@ exclude:
 - LICENSE.md
 - README.md
 - go
+- node_modules/anchor-js/test/
 # exclude cached gems on Travis
 # https://github.com/jekyll/jekyll/issues/2938#issuecomment-56237068
-- vendor
+- vendor/
 
 permalink: pretty
 
