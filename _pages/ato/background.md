@@ -3,6 +3,8 @@ title: Background on the ATO Process
 navtitle: Background
 ---
 
+***[This page is in need of a rewrite.](https://github.com/18F/before-you-ship/issues/89)***
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/T1S52B1-NT4" frameborder="0" allowfullscreen></iframe>
 
 * Governed by the Federal Information Security Management Act of 2002, or FISMA
