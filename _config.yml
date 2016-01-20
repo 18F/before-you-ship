@@ -119,6 +119,7 @@ back_link:
 
 scripts:
   - node_modules/@18f/private-eye/private-eye.js
+  - node_modules/anchor-js/anchor.js
   - assets/js/before-you-ship.js
 
 styles:
