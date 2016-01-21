@@ -2,6 +2,7 @@
   "name": "before-you-ship",
   "private": true,
   "dependencies": {
-    "@18f/private-eye": "^1.0.0"
+    "@18f/private-eye": "^1.0.0",
+    "anchor-js": "^2.0.0"
   }
 }
