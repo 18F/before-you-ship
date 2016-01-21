@@ -27,8 +27,8 @@ Lastly, make sure the `README` file in your repo is fully up to date and clearly
 Once you are ready, 18F Infrastructure Team will start both automated and manual scanning and testing. This includes:
 
 * using SSH to go into your EC2 servers to run tests on the operating system
-* [web vulnerability scanning](../security/dynamic-scanning/) on the front-end
-* [static code analysis](../security/static-analysis/) on the `master` branch of your repo
+* [web vulnerability scanning](../../security/dynamic-scanning/) on the front-end
+* [static code analysis](../../security/static-analysis/) on the `master` branch of your repo
 * white hat hackers attempting to penetrate the system
 
 For greybox testing, the independent testing team has significant (but not necessarily complete) knowledge of how the system works, as opposed to black box testing, where they have zero knowledge, or white box testing, where they have complete knowledge.
@@ -39,7 +39,7 @@ This also requires a stable `master` branch. You can continue working on `featur
 
 ### Expectation management
 
-Overall, if *no* vulnerabilities are found, this process has been taking approximately 2 weeks for test preparation and [System Security Plan](../ato/ssp/) writing and 2 weeks for [greybox testing](#greybox-testing) and [signature](../ato/#signing-an-authorization).
+Overall, if *no* vulnerabilities are found, this process has been taking approximately 2 weeks for test preparation and [System Security Plan](../../ato/ssp/) writing and 2 weeks for [greybox testing](#greybox-testing) and [signature](../../ato/#signing-an-authorization).
 
 Since the time it would take to resolve vulnerabilities is not known until a vulnerability is identified, it is **strongly recommended** that no expectations are set with Federal partners or GSA stakeholders when public testing will begin. Instead, we recommend that the authorization process is seen as part of the delivery process and your definition of "done".
 
