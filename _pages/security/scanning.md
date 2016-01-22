@@ -58,4 +58,4 @@ Overall, if *no* vulnerabilities are found, this process has been taking approxi
 
 Since the time it would take to resolve vulnerabilities is not known until a vulnerability is identified, it is **strongly recommended** that no expectations are set with Federal partners or GSA stakeholders when public testing will begin. Instead, we recommend that the authorization process is seen as part of the delivery process and your definition of "done".
 
-After the system has been authorized, you can then begin planning a public roll out of your test system.
+After the system has been authorized, you can then begin planning a public roll out of your system.
