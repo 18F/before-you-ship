@@ -3,64 +3,18 @@ title: General Security Standards
 navtitle: Security
 ---
 
-***This page is out of date, and is [in the process](https://github.com/18F/before-you-ship/issues/82) of being rewritten. See the [ATO documentation](../ato/) for more current information.***
-
 In the Federal government, the principal law governing the security of information systems is the Federal Information Security Management Act (FISMA).
 
-_**Before reading the rest of this policy**_, you must read the [readme file at FISMA Ready](https://github.com/fisma-ready/fisma-ready.github.io/blob/master/README.md), a community project co-managed by 18F. You should also take a quick glance at the [components that are already FISMA Ready](https://github.com/fisma-ready).
+For more information on FISMA, you should check out the [readme file at FISMA Ready](https://github.com/fisma-ready/fisma-ready.github.io/blob/master/README.md), a community project co-managed by 18F. Cloud.gov and the 18F Infrastructure team have done most of the heavy lifting with regards to FISMA, but it is still important to understand the context into which we ship.
 
-Also, the _document_ for an [ATO](../ato/) requires a something known as [System Security Plan (SSP)](../ato/ssp/).
+Most of the security practices have been integrated into the [ATO](../ato) portion of this guide. Here are a few pointers to get you started:
 
-## Compliance
+* DevOps isn't a team at 18F, but a skillset. We are all responsible for the security of our systems. If you see something that isn't right or that you are unsure of, drop a note in #devops.
+ 
+* The security of our users information is of the utmost importance, even moreso when we hold [Personally Identifiable Information (PII)](../security/pii). This will have implications on the type of ATOs available to you and the necessity of a [Privacy Impact Assessment (PIA)](../laws/pia).
 
-Hopefully, at this point you're not **too** burned out on bureacracy! What all of that boils down is we need to always _document_ our security procedures and then be sure to _follow_ them by creating appropriate controls.
+* The tools necessary to keep your application safe are available to everyone on the team. For more information see the [Scanning](../security/scanning) section. If you need assistance, drop a note into #devops or #compliance-toolkit.
 
-## Documentation
+* The [System Security Plan (SSP)](../ato/ssp) is foundational to getting through the ATO process efficiently. Get started on it at the beginning of the project, and ask questions on your [ATO issue](../ato/checklist).
 
-See the [ATO documentation](../ato/).
-
-### Getting ready to test
-
-The system's technical stack needs to be relatively stable before authorization. This includes a complete list of:
-
-* AWS services required
-* base code language(s) used and their frameworks
-* third-party services, regardless of level of integration
-* all top-level URLS (ex: staging.18f.us _and_ 18f.gsa.gov)
-
-If during testing the system performs:
-
-* user authentication or authorization
-* back-end administrative functions
-* encryption
-
-...then those features cannot be "relatively simple" but must in fact be *complete* before an authorization will be given. Note that the use of common web frameworks and [18F HTTPS standards](https://github.com/18F/https) resolves these issues in almost every case.
-
-Lastly, make sure the `README` file in your repo is fully up to date and clearly explains what the system does and why at a high level. You should also include the above information in your `README`.
-
-### Greybox testing
-
-Once you are ready, 18F DevOps and GSA InfoSec will start both automated and manual scanning and testing. This includes:
-
-* using SSH to go into your EC2 servers to run tests on the operating system
-* [web vulnerability scanning](../dynamic-scanning/) on the front-end
-* [static code analysis](static-analysis/) on the `master` branch of your repo
-* white hat hackers attempting to penetrate the system
-
-For greybox testing, the independent testing team has significant (but not necessarily complete) knowledge of how the system works, as opposed to black box testing, where they have zero knowledge, or white box testing, where they have complete knowledge.
-
-All of these tests must be conducted on all environments and stacks, including one _identical to production_. We call this environment and stack "pre-production" and will also affix the designation "scanee" so there is no ambiguity as to what is being scanned.
-
-This also requires a stable `master` branch. You can continue working on `feature` branches and deploy those to a development environment.
-
-### Resolving vulnerabilities
-
-See [Alerts](../security/scanning/#alerts).
-
-### Expectation management
-
-Overall, if *no* vulnerabilities are found, this process has been taking approximately 2 weeks for test preparation and [System Security Plan](../ato/ssp/) writing and 2 weeks for [greybox testing](#greybox-testing) and [signature](../ato/#signing-an-authorization).
-
-Since the time it would take to resolve vulnerabilities is not known until a vulnerability is identified, it is **strongly recommended** that no expectations are set with Federal partners or GSA stakeholders when public testing will begin. Instead, we recommend that the authorization process is seen as part of the delivery process and your definition of "done".
-
-After the system has been authorized, you can then begin planning a public roll out of your test system.
+Like with most things in 18F, this guide is a user-contributed work in progress. Let us know [how to improve it!](https://github.com/18F/before-you-ship/issues/new)

@@ -41,7 +41,7 @@ We use AWS IAM to manage authorization and authentication.
 * [IA-2 Identification and Authentication (Organizational Users)](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=IA-2) 
 * [IA-2 (1) Identification and Authentication (Organizational Users) &#124; Network Access to Privileged Accounts](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=IA-2#enhancement-1) 
 * [IA-2 (2) Identification and Authentication (Organizational Users) &#124; Network Access to Non-Privileged Accounts](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=IA-2#enhancement-2)
-* [IA-2 (12) Identification and Authentication &#124; Acceptance of PIV Credentials](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=IA-2#enhancement-12): consult with DevOps/CyberSec for Applicability
+* [IA-2 (12) Identification and Authentication &#124; Acceptance of PIV Credentials](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=IA-2#enhancement-12): consult with the Infrastructure Team for Applicability
 
 ### Continuous integration and testing
 
