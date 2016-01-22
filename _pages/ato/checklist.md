@@ -17,11 +17,6 @@ To start the security clearance process, [create an issue in the DevOps reposito
 
 ## TODOs
 
-### High-level
-
-* [ ] Select the security controls
-* [ ] Implement the controls
-
 ### Project team
 
 1. [ ] Initiate [ATO delegation](https://pages.18f.gov/before-you-ship/ato/delegation/)
