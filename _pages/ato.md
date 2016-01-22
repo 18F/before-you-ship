@@ -26,7 +26,7 @@ Once the entire process is complete, GSA InfoSec will make a recommendation to t
 If the system substantively changes, then a new ATO will be warranted. Examples for triggers for a new ATO include changes to:
 
 * Encryption methodologies
-* A web framework having new backend administrative frameworks
-* The kinds of information you begin to store (e.g. personally identifiable information)
+* Administrative functionality within the application
+* The kinds of information you begin to store (e.g. [personally identifiable information](../security/pii/))
 
 The 18F DevOps team will make this determination – please open a new issue if you think you have made a change that may warrant a new ATO.
