@@ -26,6 +26,6 @@ To qualify for an Open Data ATO, all of the following must be true:
 * There is no user authorization involved
 * This is not the only place in the world to complete a particular task
 * This functionality is not fundamental to what an agency does (e.g. the EPA tracking hazardous waste)
-* All data is publicly available
+* All data/content is publicly available
 
-If you will be using one of the FISMA levels, you should consult Noah Kunin when you begin planning.
+Note that, despite the name, Open Data ATOs are not limited to data-heavy projects; "data" really means "information". If you will be using one of the FISMA levels, you should consult Noah Kunin when you begin planning.
