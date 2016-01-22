@@ -21,7 +21,7 @@ To have ATO delegated to 18F, fill out the following template and send as a PDF 
 > 18F/GSA will work independently to receive an authority to operate and will bear responsibility of technical work associated with the process.
 >
 > \___________________
-> [NAME + TITLE]
+> Signature of [NAME + TITLE]
 >
 > \___________________
-> [DATE]
+> Date
