@@ -5,7 +5,7 @@ navtitle: Levels
 
 ATOs are broken down to the following levels:
 
-* Open Data
+* [Open Data](#open-data-atos)
 * FISMA Low
 * FISMA Medium
 * FISMA High
@@ -17,14 +17,15 @@ For more information, see [NIST 800-18](http://csrc.nist.gov/publications/nistpu
 
 Note that Open Data won't be listed, as it was developed within 18F.
 
-### Criteria for Open Data ATOs
+### Open Data ATOs
 
-The following are signs that your ATO process cannot qualify for as Open Data, and thus will be more complicated:
+To qualify for an Open Data ATO, all of the following must be true:
 
-* Are you dealing with Sensitive [Personally Identifiable Information (PII)](../../security/pii/)?
-* Any authentication?
-* Any authorization?
-* Is this the only place in the world you can do x? Is that x fundamental to what that agency does? (e.g. EPA tracking hazardous waste)
-* Is the data not open?
+* You are not dealing with Sensitive [Personally Identifiable Information (PII)](../../security/pii/)
+* There is no user authentication involved
+* There is no user authorization involved
+* This is not the only place in the world to complete a particular task
+* This functionality is not fundamental to what an agency does (e.g. the EPA tracking hazardous waste)
+* All data is publicly available
 
 If you will be using one of the FISMA levels, you should consult Noah Kunin when you begin planning.
