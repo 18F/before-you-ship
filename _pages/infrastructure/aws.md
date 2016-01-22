@@ -5,7 +5,7 @@ parent: Infrastructure
 
 At 18F, we use [Amazon Web Services](https://aws.amazon.com/) (AWS) as our [infrastructure as a service](https://en.wikipedia.org/wiki/Cloud_computing#Infrastructure_as_a_service_.28IaaS.29) (IaaS). AWS hosts not just our production systems, but everything else too: development, staging, testing, etc. If you're used to developing locally, you should feel empowered to do everything in AWS if you'd like. Note that AWS is currently the **only** approved IaaS provider. You're free to develop purely locally as long as you'd like, but if you want to get something online, AWS is the only option.
 
-Even if you are familiar with IaaS providers in general, or AWS specifically, before you are given access you **must go through on-boarding with the 18F DevOps team**.
+Even if you are familiar with IaaS providers in general, or AWS specifically, before you are given access you **must go through on-boarding with the 18F Infrastructure team**.
 
 Sometime in 2015, this on-boarding will be part of 18F On-boarding for all relevant staff. If you're reading this now, need access, and haven't gone through the training, jump into the #devops channel in Slack to arrange for a session.
 
@@ -33,7 +33,7 @@ If you want very basic and cheap object storage, AWS provides the [Simple Storag
 
 ### Permissions
 
-AWS [Identity and Access Management](https://aws.amazon.com/iam/) IAM is where  all permissions are set, both for human users and EC2 instances themselves if they need to communicate commands to other AWS services. Currently, modifications to anything under IAM must go through 18F DevOps.
+AWS [Identity and Access Management](https://aws.amazon.com/iam/) IAM is where  all permissions are set, both for human users and EC2 instances themselves if they need to communicate commands to other AWS services. Currently, modifications to anything under IAM must go through 18F Infrastructure.
 
 These are just the concepts necessary for initial on-boarding. AWS has an [extensive list](https://aws.amazon.com/products/) of other services.
 
@@ -45,7 +45,7 @@ There are a few special notes on using any IaaS in the Federal context.
 
 The Federal Government cannot pay one penny more than it is authorized to spend. There is no retroactive justification for spends. When Government exceeds these limits, a report report and explanation is required to the GSA Administrator, General Counsel, and Congress. So tracking costs is a *big deal*.
 
-Every inter-agency agreement (IAA) at 18F needs to have a line item on a total value to spend on infrastructure, including Amazon Web Services (AWS). Unless it is part of a negotiation with 18F DevOps, we *do not* pay for non-production hosting costs. All costs must go back to the Federal partner or another funding source. There is no actual concept of _non-billable_ - there are only costs that are directly or indirectly billable. If we don't bill a funding source, it means that 18F's rates must go up that next fiscal year in order indirectly recoup costs.
+Every inter-agency agreement (IAA) at 18F needs to have a line item on a total value to spend on infrastructure, including Amazon Web Services (AWS). Unless it is part of a negotiation with 18F Infrastructure, we *do not* pay for non-production hosting costs. All costs must go back to the Federal partner or another funding source. There is no actual concept of _non-billable_ - there are only costs that are directly or indirectly billable. If we don't bill a funding source, it means that 18F's rates must go up that next fiscal year in order indirectly recoup costs.
 
 For AWS, the cost of almost every service can be tracked through the usage of **tags**. Tags are just simple `key`:`value` pieces of metadata. Unfortunately, there does not seem to be any canonical list of which AWS services supports tags, nor is there any consistent way within the AWS Management Console of each particular service to apply or change a tag. Once you gain access to the AWS Management Console, you can click on various resources and see if a *Tags* tab or link is available. In this example, the 18F Hub site has two tags:
 
@@ -57,7 +57,7 @@ The most important resources to tag are [EC2 instances](https://docs.aws.amazon.
 
 #### Format for the `client` tag
 
-18F DevOps maintains a [list of canonical unique identifiers](https://docs.google.com/spreadsheets/d/1hjCYIskgD_x_MI1ehXoiz2Qvsyxj1yK3fxabkezMPiE/edit#gid=0) (MB numbers) to use for all the `client` tags of a project. If you see your project missing, please contact the Director of Delivery Architecture in Slack.
+18F Infrastructure maintains a [list of canonical unique identifiers](https://docs.google.com/spreadsheets/d/1hjCYIskgD_x_MI1ehXoiz2Qvsyxj1yK3fxabkezMPiE/edit#gid=0) (MB numbers) to use for all the `client` tags of a project. If you see your project missing, please contact the Director of Delivery Architecture in Slack.
 
 Note that both the `key` and the `value` of AWS tags are *case-sensitive*. Keep keys and values as all lower-case, except when using an acronym.
 
@@ -81,7 +81,7 @@ Once you gain access to AWS, you will find yourself responsible for some serious
 
 #### Environmental variables
 
-These are things like your AWS password, secret API key, and the mobile device that generates your multi-factor authentication token. You are wholly and solely responsible for safeguarding them, and are responsible if they are released to non-authorized parties. If you are unfamiliar with how to protect these variables, please consult with 18F DevOps. We're working on getting additional tools to help make this easy for everyone.
+These are things like your AWS password, secret API key, and the mobile device that generates your multi-factor authentication token. You are wholly and solely responsible for safeguarding them, and are responsible if they are released to non-authorized parties. If you are unfamiliar with how to protect these variables, please consult with 18F Infrastructure. We're working on getting additional tools to help make this easy for everyone.
 
 #### OS baseline
 

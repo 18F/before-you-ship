@@ -5,4 +5,16 @@ navtitle: Security
 
 In the Federal government, the principal law governing the security of information systems is the Federal Information Security Management Act (FISMA).
 
-_**Before reading the rest of this policy**_, you should read the [readme file at FISMA Ready](https://github.com/fisma-ready/fisma-ready.github.io/blob/master/README.md), a community project co-managed by 18F. You should also take a quick glance at the [components that are already FISMA Ready](https://github.com/fisma-ready).
+For more information on FISMA, you should check out the [readme file at FISMA Ready](https://github.com/fisma-ready/fisma-ready.github.io/blob/master/README.md), a community project co-managed by 18F. Cloud.gov and the 18F Infrastructure team have done most of the heavy lifting with regards to FISMA, but it is still important to understand the context into which we ship.
+
+Most of the security practices have been integrated into the [ATO](../ato) portion of this guide. Here are a few pointers to get you started:
+
+* DevOps isn't a team at 18F, but a skillset. We are all responsible for the security of our systems. If you see something that isn't right or that you are unsure of, drop a note in #devops.
+ 
+* The security of our users information is of the utmost importance, even moreso when we hold [Personally Identifiable Information (PII)](../security/pii). This will have implications on the type of ATOs available to you and the necessity of a [Privacy Impact Assessment (PIA)](../laws/pia).
+
+* The tools necessary to keep your application safe are available to everyone on the team. For more information see the [Scanning](../security/scanning) section. If you need assistance, drop a note into #devops or #compliance-toolkit.
+
+* The [System Security Plan (SSP)](../ato/ssp) is foundational to getting through the ATO process efficiently. Get started on it at the beginning of the project, and ask questions on your [ATO issue](../ato/checklist).
+
+Like with most things in 18F, this guide is a user-contributed work in progress. Let us know how to improve it!

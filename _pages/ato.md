@@ -14,7 +14,7 @@ While you’re in the ATO process, the following things will occur. These are la
 1. Once the SSP is complete, the system will be [security tested](../ato/testing/) in several ways.
 1. Information Security finalizes the SSP
 1. If all of this is completed, GSA Information Security signs and grants an ATO for a [one year term](types/#year-authorization).
-1. If the system substantively changes, then a new ATO will be warranted. The 18F DevOps team will make this determination – please open a new issue if you think you have made a change that may warrant a new ATO. Examples for triggers for a new ATO include changes to:
+1. If the system substantively changes, then a new ATO will be warranted. The 18F Infrastructure team will make this determination – please open a new issue if you think you have made a change that may warrant a new ATO. Examples for triggers for a new ATO include changes to:
     * Encryption methodologies
     * A web framework having new backend administrative frameworks
     * The kinds of information you begin to store (e.g. personally identifiable information)
