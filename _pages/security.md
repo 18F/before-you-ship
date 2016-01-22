@@ -17,4 +17,4 @@ Most of the security practices have been integrated into the [ATO](../ato) porti
 
 * The [System Security Plan (SSP)](../ato/ssp) is foundational to getting through the ATO process efficiently. Get started on it at the beginning of the project, and ask questions on your [ATO issue](../ato/checklist).
 
-Like with most things in 18F, this guide is a user-contributed work in progress. Let us know how to improve it!
+Like with most things in 18F, this guide is a user-contributed work in progress. Let us know [how to improve it!](https://github.com/18F/before-you-ship/issues/new)

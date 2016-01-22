@@ -65,9 +65,6 @@ navigation:
   - text: Checklist
     url: checklist/
     internal: true
-  - text: Testing 
-    url: testing/
-    internal: true
   - text: Tips
     url: tips/
     internal: true

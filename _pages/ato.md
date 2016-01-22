@@ -11,7 +11,7 @@ As soon as your project gets off the ground, you will want to create an [ATO che
 While you’re in the ATO process, the following things will occur. These are largely done by the CIO shop in tandem with the 18F Infrastructure team, but will create some requirements for your team.
 
 1. Once the technical architecture is stable, create a [System Security Plan (SSP)](ssp/).
-1. Once the SSP is complete, the system will be [security tested](../ato/testing/) in several ways.
+1. Once the SSP is complete, the system will be [security scanned](../security/scanning/#getting-ready-to-scan) in several ways.
 1. Information Security finalizes the SSP
 1. If all of this is completed, GSA Information Security signs and grants an ATO for a [one year term](types/#year-authorization).
 
