@@ -14,12 +14,14 @@ Note that a signed ATO delegation is critical and urgent; it clarifies and stipu
 
 To have ATO delegated to 18F, fill out the following template and send as a PDF to your partners' Authorizing Official. When signed, place it in [the `ATOs` folder](https://drive.google.com/a/gsa.gov/folderview?id=0BynIxtx-CfkdckljM3BPSkdQT1U&usp=sharing) alongside your other ATO materials.
 
-> # Delegation of Authority to Operate
+> # Delegation of Authorization
 >
-> I, [NAME], the [AGENCY] Authorizing Official, hereby grant authority to 18F/GSA to accept the risk of operating information systems under the [PROJECT] name, which falls under Interagency Agreement [NUMBER]. This authority grants 18F/GSA the ability to select controls and test the system for to be granted an Authority to Operate. 18F/GSA will work independently to receive an Authority to Operate, and will bear responsibility of technical work associated with the process.
+> I, [NAME], the Authorizing Official for [DEPT/AGENCY DIVISION/TEAM], hereby accept 18F/GSA's authority to accept the risk of operating information systems for [PROGRAM OR LINE OF BUSINESS], which fall under Interagency Agreement [NUMBER]. This authority grants 18F/GSA the ability to determine risk, select controls, test the system, grant an authority to operate, and to ensure compliance with all relevant laws and regulations.
+>
+> 18F/GSA will work independently to receive an authority to operate and will bear responsibility of technical work associated with the process.
 >
 > \___________________
-> Signature
+> [NAME + TITLE]
 >
-> \_________
-> Date
+> \___________________
+> [DATE]
