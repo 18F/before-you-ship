@@ -10,16 +10,9 @@
     ]
   });
 
-  var isTouchScreen = function() {
-    // https://github.com/Modernizr/Modernizr/blob/da22eb27631fc4957f67607fe6042e85c0a84656/feature-detects/touchevents.js#L40
-    return ('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch;
-  };
-
   // http://bryanbraun.github.io/anchorjs/
-  if (isTouchScreen()) {
-    anchors.options = {
-      visible: 'always'
-    };
-  }
+  anchors.options = {
+    visible: 'touch'
+  };
   anchors.add('h3,h4,h5');
 })();
