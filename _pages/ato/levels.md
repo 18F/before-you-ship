@@ -19,7 +19,7 @@ Note that Open Data won't be listed, as it was developed within 18F.
 
 ### Criteria for Open Data ATOs
 
-The following are signs that your ATO process cannot qualify for as Open Data, and thus will be more complicated:
+If you can answer no to all these questions, it's likely your ATO process qualifies as Open Data, if not your process will be more complicated:
 
 * Are you dealing with Sensitive [Personally Identifiable Information (PII)](../../security/pii/)?
 * Any authentication?
