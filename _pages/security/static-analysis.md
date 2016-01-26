@@ -42,9 +42,16 @@ To scan, from your project directory:
 
     $ brakeman
 
+#### Rails
+
+More info about security in Rails:
+
+* [Rails Security Guide](http://guides.rubyonrails.org/security.html)
+* [OWASP Rails Cheatsheet](https://www.owasp.org/index.php/Ruby_on_Rails_Cheatsheet)
+
 ### Python
 
-There are surprisingly few security focused static code analyzers for Python.  The best seems to be OpenStack's [Bandit](https://github.com/openstack/bandit).
+There are surprisingly few security-focused static code analyzers for Python. The best seems to be OpenStack's [Bandit](https://github.com/openstack/bandit).
 
 To install (preferably in a virtual environment):
 
@@ -56,6 +63,6 @@ To scan, from your project directory:
 
 ## Automation and future plans
 
-A representative from Code Climate recently gave a presentation at 18F about their new platform and CLI tool. It acts as a wrapper around Docker images that can run any number of scans across projects, and many of the above tools are already available as engines for the platform (Brakeman, bundler-audit, nsp, and ESLint). The lift to create a new engine seems relatively low, so plans are in the works to attempt to package Bandit as an engine as well.
+A representative from Code Climate recently gave a presentation at 18F about their new platform and [CLI](https://github.com/codeclimate/codeclimate). It acts as a wrapper around Docker images that can run any number of scans across projects, and many of the above tools are already available as [engines](https://docs.codeclimate.com/docs/list-of-engines) for the platform (Brakeman, bundler-audit, nsp, and ESLint). The lift to [create a new engine](http://blog.codeclimate.com/blog/2015/07/07/build-your-own-codeclimate-engine/) seems relatively low, so plans are in the works to [attempt to package Bandit as an engine](https://trello.com/c/PTL7z9uU/20-investigate-writing-a-code-climate-platform-engine-for-bandit) as well.
 
 Using a single tool for all of our static security analysis would allow all projects and teams, regardless of language, to have the same workflow with minor config changes required. It also would allow for easy insertion into a project's existing CI workflow. We already have this advantage with dependency analysis.
