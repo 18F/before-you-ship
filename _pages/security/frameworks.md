@@ -9,6 +9,10 @@ parent: Security
 * Set up [static security analysis](../static-analysis/#python).
 * Read through the official [deployment checklist](https://docs.djangoproject.com/en/stable/howto/deployment/checklist/).
 
+See also:
+
+* [OWASP Django Secure Configuration Guide](https://www.owasp.org/index.php/SCG_WF_Django)
+
 ### Rails
 
 * Set up [static security analysis](../static-analysis/#ruby).
