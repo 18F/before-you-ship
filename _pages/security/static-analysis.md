@@ -42,13 +42,6 @@ To scan, from your project directory:
 
     $ brakeman
 
-#### Rails
-
-More info about security in Rails:
-
-* [Rails Security Guide](http://guides.rubyonrails.org/security.html)
-* [OWASP Rails Cheatsheet](https://www.owasp.org/index.php/Ruby_on_Rails_Cheatsheet)
-
 ### Python
 
 There are surprisingly few security-focused static code analyzers for Python. The best seems to be OpenStack's [Bandit](https://github.com/openstack/bandit).
