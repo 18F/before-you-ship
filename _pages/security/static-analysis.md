@@ -25,8 +25,15 @@ To install:
 
     $ npm install eslint
     $ npm install eslint-plugin-scanjs-rules
+    $ npm install eslint-plugin-no-unsafe-innerhtml
+    
+Download the [config file](https://github.com/18F/compliance-toolkit) from the compliance-toolkit repo and copy it to project root.
 
-To scan, from your project directory (for now, you can use the eslintrc file found [here](https://github.com/mozfreddyb/eslint-config-scanjs/blob/master/.eslintrc)):
+To scan, from your project directory:
+
+    $ eslint .
+
+If you have an existing .eslintrc file in your project root, you can instead download the file elsewhere and run:
 
     $ eslint -c <PATH_TO_ESLINTRC> .
 
@@ -37,10 +44,16 @@ There are several free and paid services that will do static security analysis o
 To install:
 
     $ gem install brakeman
+    
+Download the [config file](https://github.com/18F/compliance-toolkit/blob/master/configs/static/brakeman.yml) from the compliance-toolkit repo and copy it to ./config/brakeman.yml.
 
 To scan, from your project directory:
 
     $ brakeman
+    
+If you saved the config file elsewhere, you can also run:
+
+    $ brakeman -c <PATH_TO_BRAKEMAN_YML>
 
 ### Python
 
@@ -50,9 +63,19 @@ To install (preferably in a virtual environment):
 
     $ pip install bandit
 
+Download the [config file](https://github.com/18F/compliance-toolkit/blob/master/configs/static/.bandit) from the compliance-toolkit repo into your project root. It will be automatically detected when you run Bandit.
+
 To scan, from your project directory:
 
     $ bandit -r .
+
+## Config files
+
+Basic config files for the three static analysis tools can be found in the [compliance-toolkit repo](https://github.com/18F/compliance-toolkit). These currently are little more than the default settings, but the recommendations may change. If you find a test that you believe is invalid, file an issue in the repo and give a shout in #compliance-toolkit in Slack.
+
+We are especially interested to know if you get lots of false positives. We believe the default config files will grow and evolve, but the most up-to-date versions will always be found in the repo.
+
+More advanced configuration options for all three tools can be found in their respective docs.
 
 ## Automation and future plans
 
