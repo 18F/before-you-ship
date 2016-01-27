@@ -59,9 +59,9 @@ If you saved the config file elsewhere, you can also run:
 
 There are surprisingly few security-focused static code analyzers for Python. The best seems to be OpenStack's [Bandit](https://github.com/openstack/bandit).
 
-To install (preferably in a virtual environment):
+To install (preferably in a virtual environment) (NOTE: There is a version on PyPI, but it is currently out of date. Installation instructions will be updated when that version catches up):
 
-    $ pip install bandit
+    $ pip install git+https://github.com/openstack/bandit.git
 
 Download the [config file](https://github.com/18F/compliance-toolkit/blob/master/configs/static/.bandit) from the compliance-toolkit repo into your project root. It will be automatically detected when you run Bandit.
 
