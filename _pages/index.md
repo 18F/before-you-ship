@@ -51,6 +51,8 @@ You need an Authority to Operate (ATO). Essentially, ATOs cover the important se
     * [CFPB's open source checklist](https://github.com/cfpb/open-source-project-template/blob/master/opensource-checklist.md)
     * _Ask #wg-opensource if you have questions._
 * Make sure you have all the social media metadata and preview images.
+* Set up [security scanning](security/scanning/).
+* Look through the [framework-specific guides](security/frameworks/).
 
 ### Operations
 

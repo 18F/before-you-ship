@@ -52,6 +52,9 @@ navigation:
   - text: Dynamic Scanning
     url: dynamic-scanning/
     internal: true
+  - text: Frameworks
+    url: frameworks/
+    internal: true
 - text: ATOs
   url: ato/
   internal: true
