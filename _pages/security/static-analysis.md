@@ -13,7 +13,7 @@ There are tools for JS, Ruby, and Python, and you are encouraged to set up this 
 
 ## Dependency Analysis (All Languages)
 
-[Gemnasium](https://gemnasium.com) provides dependency scanning for all our supported languages. The CLI tool requires a higher tier account then we currently have, but you can currently use their web version using the 18F account. You can get account details by asking in #devops or [filing an issue in the devops repo](https://github.com/18F/DevOps/issues/new).
+[Gemnasium](https://gemnasium.com) provides dependency scanning for all our supported languages – you should be able to add a public repository by clicking "add new project" after signing up/in with GitHub. If you need scanning on a private repository, [file an issue in the devops repo](https://github.com/18F/DevOps/issues/new).
 
 ## Static Analysis
 
@@ -26,7 +26,7 @@ To install:
     $ npm install eslint
     $ npm install eslint-plugin-scanjs-rules
     $ npm install eslint-plugin-no-unsafe-innerhtml
-    
+
 Download the [config file](https://github.com/18F/compliance-toolkit) from the compliance-toolkit repo and copy it to project root.
 
 To scan, from your project directory:
@@ -44,13 +44,13 @@ There are several free and paid services that will do static security analysis o
 To install:
 
     $ gem install brakeman
-    
+
 Download the [config file](https://github.com/18F/compliance-toolkit/blob/master/configs/static/brakeman.yml) from the compliance-toolkit repo and copy it to ./config/brakeman.yml.
 
 To scan, from your project directory:
 
     $ brakeman
-    
+
 If you saved the config file elsewhere, you can also run:
 
     $ brakeman -c <PATH_TO_BRAKEMAN_YML>
