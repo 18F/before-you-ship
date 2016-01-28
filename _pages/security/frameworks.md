@@ -15,7 +15,7 @@ See also:
 
 ### Rails
 
-* Set up [static security analysis](../static-analysis/#ruby).
+* Set up [static security analysis](../static-analysis/#rails).
 * Read through [Secure Rails](https://github.com/ankane/secure_rails).
 * If you're doing authorization, make sure that it is applied to all controller actions. Instructions:
     * [CanCan](https://github.com/ryanb/cancan#4-lock-it-down).
