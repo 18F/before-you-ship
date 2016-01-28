@@ -17,7 +17,7 @@ See also:
 
 * Set up [static security analysis](../static-analysis/#rails).
 * Read through [Secure Rails](https://github.com/ankane/secure_rails).
-* If you're doing authorization, make sure that it is applied to all controller actions. Instructions:
+* If you need authorization, consider using the gems listed below. Use the linked instructions to ensure you have authorization applied to all appropriate controller actions.
     * [CanCan](https://github.com/ryanb/cancan#4-lock-it-down).
     * [Pundit](https://github.com/elabs/pundit#ensuring-policies-and-scopes-are-used)
 
