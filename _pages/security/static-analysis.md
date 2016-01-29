@@ -33,11 +33,11 @@ To scan, from your project directory:
 
     $ eslint .
 
-If you have an existing .eslintrc file in your project root, you can instead download the file elsewhere and run:
+If you have an existing `.eslintrc` file in your project root, you can instead download the file elsewhere and run:
 
     $ eslint -c <PATH_TO_ESLINTRC> .
 
-### Ruby
+### Rails
 
 There are several free and paid services that will do static security analysis of Ruby code, but almost all of them appear to be wrappers around [Brakeman](https://github.com/presidentbeef/brakeman). As such, we suggest going straight to the source.
 
