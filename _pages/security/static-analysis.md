@@ -37,7 +37,9 @@ If you have an existing `.eslintrc` file in your project root, you can instead d
 
     $ eslint -c <PATH_TO_ESLINTRC> .
 
-### Rails
+### Ruby
+
+#### Rails
 
 There are several free and paid services that will do static security analysis of Ruby code, but almost all of them appear to be wrappers around [Brakeman](https://github.com/presidentbeef/brakeman). As such, we suggest going straight to the source.
 
@@ -54,6 +56,18 @@ To scan, from your project directory:
 If you saved the config file elsewhere, you can also run:
 
     $ brakeman -c <PATH_TO_BRAKEMAN_YML>
+
+#### Other Ruby Frameworks 
+
+[Dawnscanner](https://github.com/thesp0nge/dawnscanner) is a scanner that supports Ruby on Rails, Sinatra, and Padrino. It makes an excellent second-line scanner for Rails applications, and a primary scanner for Sinatra & Padrino.
+
+To install:
+
+    $ gem install dawnscanner
+
+To scan from your project directory and get output in the console:
+
+    $ dawn -K .
 
 ### Python
 
