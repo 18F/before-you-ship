@@ -7,7 +7,6 @@ exclude:
 - LICENSE.md
 - README.md
 - go
-- node_modules/anchor-js/test/
 # exclude cached gems on Travis
 # https://github.com/jekyll/jekyll/issues/2938#issuecomment-56237068
 - vendor/
@@ -124,11 +123,6 @@ back_link:
   url: "https://pages.18f.gov/guides/"
   text: Read more 18F Guides
 
-scripts:
-  - node_modules/@18f/private-eye/private-eye.js
-  - node_modules/anchor-js/anchor.js
-  - assets/js/before-you-ship.js
-
 styles:
   - assets/css/custom.css
 
@@ -160,4 +154,3 @@ jekyll_pages_api_search:
     url:
       boost: 5
     body:
-
