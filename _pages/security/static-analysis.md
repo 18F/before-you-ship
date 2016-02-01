@@ -27,7 +27,7 @@ To install:
     $ npm install eslint-plugin-scanjs-rules
     $ npm install eslint-plugin-no-unsafe-innerhtml
 
-Download the [config file](https://github.com/18F/compliance-toolkit) from the compliance-toolkit repo and copy it to project root.
+Download the [config file](https://github.com/18F/compliance-toolkit/blob/master/configs/static/.eslintrc) from the compliance-toolkit repo and copy it to project root.
 
 To scan, from your project directory:
 
