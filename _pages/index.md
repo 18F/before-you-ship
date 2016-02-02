@@ -3,24 +3,24 @@ title: Introduction
 permalink: /
 ---
 
-The goal of this site is to provide 18F staff with the information they need to launch software. It is a mix of requirements and best practices for projects at 18F, which may or may not be applicable for other teams inside or outside of government.
-
----
+The goal of this site is to provide 18F staff with the information they need to launch software. It's a mix of requirements and best practices for projects at 18F, which may or may not be applicable for other teams inside or outside of government.
 
 * **This list is:**
     * A general guide to review early and often
-    * _Especially_ important when you are starting to consider a future project launch or feature release
+    * _Especially_ important when you're starting to consider a future project launch or feature release
 * **This list is not:**
     * A last-minute pre-launch checklist, despite the "Before You Ship" title
 
+Like with most things in 18F, this guide is a user-contributed work in progress. Let us know [how to improve it!](https://github.com/18F/before-you-ship/issues/new)
+
 ### Compliance
 
-* You need an Authority to Operate (ATO). Essentially, ATOs cover the important security reviews and approvals **required** for public government websites. They can take months (albeit rarely). You should review this [overview of ATOs](ato/) and these [tips](ato/tips/) to start planning.
+You need an Authority to Operate (ATO). Essentially, ATOs cover the important security reviews and approvals **required** for public government websites. They can take months (albeit rarely). You should review this [overview of ATOs](ato/) and these [tips](ato/tips/) to start planning.
 
 ### Outreach
 
-* Add your launch plans and project milestones to the 18F events calendar (a shared Google calendar). This helps several teams, especially the #outreach team. Rough estimates are welcome; the earlier you can update the calendar, the better.
-* Are you doing a big, splashy public launch? We recommend that you start releasing the site to more and more users slowly in advance of the announcement. This will require planning with public affairs folks who want to help you avoid getting scooped, but it is also an incredibly important way to prevent last minute problems. Additionally, make sure at least one engineer is available to troubleshoot&mdash;somewhere with reliable internet&mdash;during an announcement (instead of, for example, on stage at the White House conference center).
+* Add your launch plans and project milestones to the 18F Events calendar (a shared Google calendar). This helps several teams, especially the #outreach team. Rough estimates are welcome; the earlier you can update the calendar, the better.
+* Are you doing a big, splashy public launch? We recommend that you start releasing the site to more and more users slowly in advance of the announcement. This will require planning with public affairs folks who want to help you avoid getting scooped, but it's also an incredibly important way to prevent last minute problems. Additionally, make sure at least one engineer is available to troubleshoot &mdash; somewhere with reliable internet &mdash; during an announcement (instead of, for example, on stage at the White House conference center).
 * Are your project's details up to date on the [18F Dashboard](https://18f.gsa.gov/dashboard)?
     * The dashboard team recommends you create this at the beginning of your project and update it monthly.
     * Instructions for adding your project will be [here](https://github.com/18F/dashboard/#creating-content-for-your-dashboard-entry), but in the meantime, it will be easiest to ask for help in the #dashboard channel.
@@ -29,7 +29,7 @@ The goal of this site is to provide 18F staff with the information they need to 
 
 ### Client expectations
 
-* Exactly how big of a splashy launch are you planning? Is POTUS announcing it? Have you decided on the level of spikes in traffic your budget supports? You should coordinate this with your engineers, client, and devops.
+* Exactly how big of a splashy launch are you planning? Is POTUS announcing it? Have you decided on the level of spikes in traffic your budget supports? You should coordinate this with your engineers, client, and the Infrastructure Team.
 * Will your team need to work more than 40 hours in a week to support the launch? You should start the [comp time approvals process before launch, which is described in our handbook](https://github.com/18F/handbook/blob/staging/articles/5-training-and-professional-development/classes/benefits.md#comp-time). We take this seriously.
 * What will you do if something breaks? Have you talked to your client about their expectations of up time and their budget? 18F currently does not offer Service Level Agreements (SLAs), which normally include agreements about uptime and response time to downtime, but you should have an escalation protocol in place. Here is an example from the [betaFEC](https://beta.fec.gov) team.
 
@@ -41,18 +41,20 @@ The goal of this site is to provide 18F staff with the information they need to 
 
 ### Technical
 
-* Is your project accessible and [Section 508](laws/508/) compliant? The team will need to incorporate this throughout the project, but you'll also need to set up a review at least 2 weeks before launch.
-* How good is your code test coverage? Before shipping, you should have codecov badges on your GitHub repo READMEs and coverage should be above 90% (green). (This is not a perfect measure for code quality, but a helpful check.) The testing working group recommends reviewing your status early and often. _Ask #wg-testing if you have questions._
+* Is your project accessible and [Section 508](laws/508/) compliant? The team will need to incorporate this throughout the project, but you'll also need to set up a review at least two weeks before launch.
+* How good is your code test coverage? Before shipping, you should have codecov badges on your GitHub repo READMEs and coverage should be above 90 percent (green). (This is not a perfect measure for code quality, but a helpful check.) The testing working group recommends reviewing your status early and often. _Ask #wg-testing if you have questions._
 * Are your APIs up to [18F's API Standards](https://github.com/18f/api-standards)? _Ask the #wg-api if you have questions._
 * Have you installed 18F's Google Analytics and [DAP](https://www.digitalgov.gov/services/dap/) on everything?
     * Learn more in our [Analytics Standards](https://github.com/18F/analytics-standards).
     * _Ask #wg-analytics if you have questions._
-* Open Source is much more than just the license we choose. Are your GitHub repos (and their descriptions, READMEs, issues, etc.) up to our standards? Check out:
+* Open source is much more than just the license we choose. Are your GitHub repos (and their descriptions, READMEs, issues, etc.) up to our standards? Check out:
     * [The Open Source Style Guide](https://pages.18f.gov/open-source-guide/)
     * The [Writing Lab](https://github.com/18F/writing-lab) for help with documentation
     * [CFPB's open source checklist](https://github.com/cfpb/open-source-project-template/blob/master/opensource-checklist.md)
     * _Ask #wg-opensource if you have questions._
 * Make sure you have all the social media metadata and preview images.
+* Set up [security scanning](security/scanning/).
+* Look through the [framework-specific guides](security/frameworks/).
 
 ### Operations
 
@@ -64,7 +66,7 @@ The goal of this site is to provide 18F staff with the information they need to 
 
 ## Also consider
 
-* Are you addressing user needs?  How will you validate this a few months after launch?
+* Are you addressing user needs? How will you validate this a few months after launch?
 * Do you have a metrics and measurements strategy? Who owns this?
 * Review the [18F Guides](https://guides.18f.gov).
 * Once you have reviewed everything here, the DigitalGov team at GSA has collected a list of [Requirements for Federal Websites and Digital Services](http://www.digitalgov.gov/resources/checklist-of-requirements-for-federal-digital-services/) that you should familiarize yourself with. We recommend reviewing this last, because many of the requirements are explained or managed in the above guides and processes.
@@ -81,7 +83,7 @@ For every release after your public launch, you should consider: _(Explained in 
 
 ### Additional resources
 
-* [Thoughtbot's playbook](https://playbook.thoughtbot.com/#production)
+* [thoughtbot's playbook](https://playbook.thoughtbot.com/#production)
 * [pixel lab's website pre-launch checklist](http://thepixellab.com.au/the-website-pre-launch-checklist/)
 
 ---
