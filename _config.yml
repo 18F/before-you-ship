@@ -82,6 +82,9 @@ navigation:
   - text: Delegation
     url: delegation/
     internal: true
+  - text: Walkthrough
+    url: walkthrough/
+    internal: true
 - text: Laws
   url: laws/
   internal: true

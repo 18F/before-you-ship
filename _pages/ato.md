@@ -10,7 +10,8 @@ While the ATO is the final (regulatory) step that's required before launching an
 
 ### The ATO process
 
-Take a look at [the checklist](checklist/) to see the tasks broken down by who is responsible for each.
+1. Read through the [walkthrough](walkthrough/).
+1. Take a look at [the checklist](checklist/) to see the tasks broken down by who is responsible for each.
 
 ### Signing an authorization
 
