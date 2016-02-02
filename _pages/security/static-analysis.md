@@ -6,26 +6,30 @@ parent: Security
 
 Static analysis is an important part of the development process, and is required for ATO. There are two main types of static security testing that needs to be done:
 
-* **Dependency analysis**, where the Ruby gems, Python modules, and JavaScript packages your app uses are checked against a list of known vulnerabilities.
-* **Code analysis**, in which your code is checked against a list of antipatterns.
+* [**Dependency analysis**](#dependency-analysis), where the Ruby gems, Python modules, and JavaScript packages your app uses are checked against a list of known vulnerabilities.
+* [**Code analysis**](#code-analysis), in which your code is checked against a list of antipatterns.
 
 There are tools for JS, Ruby, and Python, and you are encouraged to set up this scanning early on in the development cycle to prevent unexpected delays when it's time to get your ATO.
 
-### Tools
+### Services
 
-Service | Langues/frameworks | Static (code) analysis | Dependency analysis
+Service | Langues/frameworks | Dependency analysis | Code analysis
 --- | --- | --- | ---
-[Code Climate](https://codeclimate.com/) | Ruby, JS, Python | Y | only on `push`
-[Gemnasium](https://gemnasium.com/) | Ruby, JS, Python, PHP | N | Y
-[Hakiri](https://hakiri.io/) | Rails | Y (via [Brakeman](http://brakemanscanner.org/)) | Y
+[Code Climate](https://codeclimate.com/) | Ruby, JS, Python | only on `push` | Y
+[Gemnasium](https://gemnasium.com/) | Ruby, JS, Python, PHP | Y | N
+[Hakiri](https://hakiri.io/) | Ruby | Y | Y (Rails only, via [Brakeman](http://brakemanscanner.org/))
 
-### Dependency Analysis
+All of these services use open source tools for code analysis, which are listed below.
 
-[Gemnasium](https://gemnasium.com) provides dependency scanning for all our supported languages – you should be able to add a public repository by clicking "add new project" after signing up/in with GitHub. If you need scanning on a private repository, [file an issue in the devops repo](https://github.com/18F/DevOps/issues/new).
+### Dependency analysis
 
-### Static Analysis
+Use one of the services above, which should support adding public repositories yourself. If you need scanning on a private repository, [file an issue in the devops repo](https://github.com/18F/DevOps/issues/new).
 
-#### Javascript
+### Code analysis
+
+This is commonly referred to as "static analysis". Code analysis can be done by a [service](#services) (easiest), or within your existing continuous integration tool.
+
+#### JavaScript
 
 There are several tools available for running analysis on JS projects, but the most full featured seems to be [ESLint](http://eslint.org). ESLint doesn't offer security scanning out of the box, but it is pluggable and Mozilla has provided a set of rules that mimic the behavior of their now deprecated ScanJS. These rules are available on [github](https://github.com/mozfreddyb/eslint-plugin-scanjs-rules).
 
