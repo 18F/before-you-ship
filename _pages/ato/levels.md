@@ -24,8 +24,7 @@ To qualify for an Open Data ATO, all of the following must be true:
 * You are not dealing with Sensitive [Personally Identifiable Information (PII)](../../security/pii/)
 * There is no user authentication involved
 * There is no user authorization involved
-* This is not the only place in the world to complete a particular task
-* This functionality is not fundamental to what an agency does (e.g. the EPA tracking hazardous waste)
+* This is not the only place in the world to complete a particular task that's fundamental to what an agency does (e.g. the EPA tracking hazardous waste)
 * All data/content is publicly available
 
 Note that, despite the name, Open Data ATOs are not limited to data-heavy projects; "data" really means "information". If you will be using one of the FISMA levels, you should consult Noah Kunin when you begin planning.
