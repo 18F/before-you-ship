@@ -15,9 +15,9 @@ There are tools for JS, Ruby, and Python, and you are encouraged to set up this 
 
 Service | Langues/frameworks | Dependency analysis | Code analysis
 --- | --- | --- | ---
-[Code Climate](https://codeclimate.com/) | Ruby, JS, Python | only on `push` | Y
-[Gemnasium](https://gemnasium.com/) | Ruby, JS, Python, PHP | Y | N
-[Hakiri](https://hakiri.io/) | Ruby | Y | Y (Rails only, via [Brakeman](http://brakemanscanner.org/))
+[Code Climate](https://codeclimate.com/) | Ruby, JS, Python | Ruby and Node (on `push` only) | Rails, Node, and Ember
+[Gemnasium](https://gemnasium.com/) | Ruby, Node, Python, PHP | Y | N
+[Hakiri](https://hakiri.io/) | Ruby | Y | Rails only
 
 All of these services use open source tools for code analysis, which are listed below.
 
