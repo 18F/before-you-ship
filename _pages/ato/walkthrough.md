@@ -13,13 +13,13 @@ As soon as you begin developing an alpha (post Intake, Agreement Financing, and 
 This part of the process looks at the functionality and data of the system, and categorizes its impact on three metrics (confidentiality, integrity, availability) with three impact levels (low, moderate, high). The metrics are objective - the levels are subjective. It is either the designated Authorizing Official (AO) or full AO who owns the final decision - they should consult broadly within their organization before making a decision, especially with new system functions or new data.
 
 * Low, Moderate, High refer to the impact on either the government or the public if the metric is lost.
-* The ‘Open Data’ level is defined by confidentiality N/A, integrity low, and availability low
+* The `Open Data` level is defined by confidentiality N/A, integrity low, and availability low
 * conditions
     * Sensitive PII always raises the level to at least Moderate for the confidentiality and integrity metrics.
     * If there is any authorization or authentication being done, it is likely at the Moderate level for all metrics.
 * At 18F, the vast majority of use cases and data types have been categorized by the designated 18F AO, who is currently the Infrastructure Director (Noah Kunin).
 * technically there is no overall level, so go with the high water mark for each of the three verticals
-* just because we need high for availability, doesn’t mean it needs high confidentiality or integrity.
+* just because we need high for availability, doesn't mean it needs high confidentiality or integrity.
 * The framework we usually use, since must address a high water mark methodology anyway, is to ask ourselves (and the agency we are creating the system with) 3 worst case scenario questions:
     * What is the worst possible outcome if all of the confidentiality of the system is lost?
     * What is the worst possible outcome if all of the integrity of the system is lost?
@@ -31,14 +31,14 @@ This part of the process looks at the functionality and data of the system, and 
 
 #### Step 2 - Select Controls (aka the baseline)
 
-* http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf#page=109
+* [NIST 800-53 Security Control Baselines](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf#page=109)
 * Select from:
-    * 18F FISMA Open Data baseline (ex: beta.fec.gov) (none | low | low)
-    * 18F FISMA Moderate (moderate | moderate | moderate) (ex: cloud.gov, MyUSA)
-    * 18F FISMA High (high | high | high) will soon be available modeled after the new Identity platform
-* If your system does not fall into one of these buckets (for example, you have a low | moderate | moderate system) you must create a new baseline. You will do this by making a new certification schema in Compliance Masonry.
-* it is possible to downgrade the level for any particular control, as long as it doesn’t affect any other controls with a higher level (e.g. account management can be low if it doesn’t allow you to edit confidential data)
-* note that there aren’t that many specifics around what each level means for each control
+    * 18F FISMA Open Data baseline (ex: beta.fec.gov) (`none | low | low`)
+    * 18F FISMA Moderate (`moderate | moderate | moderate`) (ex: cloud.gov, MyUSA)
+    * 18F FISMA High (`high | high | high`) will soon be available modeled after the new Identity platform
+* If your system does not fall into one of these buckets (for example, you have a `low | moderate | moderate` system) you must create a new baseline. You will do this by making a new certification schema in Compliance Masonry.
+* it is possible to downgrade the level for any particular control, as long as it doesn't affect any other controls with a higher level (e.g. account management can be low if it doesn't allow you to edit confidential data)
+* note that there aren't that many specifics around what each level means for each control
 
 #### Step 3 - Implement the controls
 
@@ -56,7 +56,7 @@ This part of the process looks at the functionality and data of the system, and 
 
 #### Step 5 - Authorize the system
 
-* Fill out the System Security Plan (SSP) YML and link from your project’s ATO issue in the DevOps repository.
+* Fill out the System Security Plan (SSP) YML and link from your project's ATO issue in the DevOps repository.
 * The designated AO will conduct a quality assurance check on your materials. You should send materials to the AO as soon as the security boundary of the system is fixed and implemented. This is inherently a subjective judgement call. If your are uncertain as to your system's security boundary, you should consult with 18F Infrastructure early in your development process. If your system is providing novel or risky functions, or handling extremely sensitive data, you should also consult with 18F Infrastructure early, long before you start the risk management process.
 
 #### Step 6 - Continuously monitor the controls
