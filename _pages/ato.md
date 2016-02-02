@@ -2,7 +2,9 @@
 title: ATOs
 ---
 
-An Authority to Operate (ATO) is a complex security review process that is required before you can deploy anything on the public web. Before a system is made publicly accessible on the Internet, it must go through either the full ATO process or a 90-Day [Limited Authority to Operate](types/). Systems can be made available for use in an extremely limited capacity if they meet the [pre-authorization criteria](types/#pre-authorization).
+An Authority to Operate (ATO) is a complex security review process that is required before you can deploy anything on the public web. See also: [the more formal definition](https://github.com/fisma-ready/introduction#introduction).
+
+Before a system is made publicly accessible on the Internet, it must go through either the full ATO process or a 90-Day [Limited Authority to Operate](types/). Systems can be made available for use in an extremely limited capacity if they meet the [pre-authorization criteria](types/#pre-authorization).
 
 As soon as your project gets off the ground, you will want to create an [ATO checklist](checklist/) and a [System Security Plan](ssp/). Neither need to be fully complete until you are ready for the ATO to be signed, but both should be started as soon as is feasible.
 
