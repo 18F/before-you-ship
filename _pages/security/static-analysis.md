@@ -11,6 +11,14 @@ Static analysis is an important part of the development process, and is required
 
 There are tools for JS, Ruby, and Python, and you are encouraged to set up this scanning early on in the development cycle to prevent unexpected delays when it's time to get your ATO.
 
+### Tools
+
+Service | Langues/frameworks | Static (code) analysis | Dependency analysis
+--- | --- | --- | ---
+[Code Climate](https://codeclimate.com/) | Ruby, JS, Python | Y | only on `push`
+[Gemnasium](https://gemnasium.com/) | Ruby, JS, Python, PHP | N | Y
+[Hakiri](https://hakiri.io/) | Rails | Y (via [Brakeman](http://brakemanscanner.org/)) | Y
+
 ### Dependency Analysis
 
 [Gemnasium](https://gemnasium.com) provides dependency scanning for all our supported languages – you should be able to add a public repository by clicking "add new project" after signing up/in with GitHub. If you need scanning on a private repository, [file an issue in the devops repo](https://github.com/18F/DevOps/issues/new).
