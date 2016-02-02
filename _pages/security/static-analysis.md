@@ -18,6 +18,7 @@ Service | Langues/frameworks | Dependency analysis | Code analysis
 [Code Climate](https://codeclimate.com/) | Ruby, JS, Python | Ruby and Node (on `push` only) | Rails, Node, and Ember
 [Gemnasium](https://gemnasium.com/) | Ruby, Node, Python, PHP | Y | N
 [Hakiri](https://hakiri.io/) | Ruby | Y | Rails only
+[QuantifiedCode](https://www.quantifiedcode.com/) | Python | N | Y
 
 All of these services use open source tools for code analysis, which are listed below.
 
