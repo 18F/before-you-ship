@@ -24,14 +24,32 @@ This is also known as "selecting the baseline". The options are:
 
 If your system does not fall into one of the buckets above (for example, you have a `low | moderate | moderate` system), you must create a new baseline. You will do this by making a new certification schema in [Compliance Masonry](https://github.com/opencontrol/compliance-masonry). It is possible to downgrade the level for any particular control, as long as it doesn't affect any other controls with a higher level (e.g. account management can be `low` if it doesn't allow you to edit confidential data). Note that there aren't that many specifics around what each level means for each control.
 
+Do this early on in your project.
+
 ### Step 3 - Implement the controls
 
-* Creating a Compliance Masonry schema for your system should tell you what controls you need are already handled via encircling systems, and are unnecessary for you to replicate. For example, all of the Physical and Environmental Protection (PE controls in NIST 800-53) are already met by the FedRAMP Authorization Controls on 18F's infrastructure as a service (IaaS) layer, in Amazon Web Services (AWS). See the [Infrastructure](../../infrastructure/) page for more information.
-* Any controls that are not met by either the IaaS layer or 18F's platform as a service (PaaS) layer ([cloud.gov](https://cloud.gov)) should be implemented by your application.
-* Most web frameworks (Rails, Django, etc) already include the vast majority of these application-level controls and best practices. The more custom functionality you implement, the more attention you should pay to the new attack surface area you create. The majority of the types of scenarios you should be wary of is trusting unsanitized information from the internet, encrypting both at rest and in transit, and privilege escalation. Increasingly, cloud.gov will take care of these controls for you.
-* If you need to implement controls that are not implemented elsewhere, research best practices on Google, StackOverflow etc, ask your colleagues if they have advice, then come to in #devops.
-* In Compliance Masonry, there will be a base set of controls and how they are fulfilled by the underlying system (e.g. Rails), so the Masonry file created for your project will only be the “overrides”.
-    * One or two lines per control (or better yet, a link)
+This step is essentially "state how your system meets each of the regulations". Using established web frameworks (Rails, Django, etc.) and hosting in cloud.gov/AWS take care of a lot of the lower-level controls and security best practices for you, so you only need to be concerned with your application's custom code/configuration. This custom code/configuration is known as the "attack surface". For background:
+
+1. [Read the Infrastructure section.](../../infrastructure/)
+1. [Read the Security section.](../../security)
+
+#### Compliance Masonry
+
+The Compliance Masonry YAML file uses structured data to state how each control is one of the following:
+
+* Not relevant to the system
+* Relevant to the system, and is one of the following:
+    * taken care of by (in Masonry, inherited from) one of:
+        * the platform (cloud.gov)
+        * the framework (Rails)
+        * the authorization layer
+        * etc.
+    * implemented by you
+    * not yet taken care of
+
+An "inherited" control would be something like FedRAMP requiring that fire extinguishers be present near the servers, which is something that AWS needs to worry about for _their_ compliance, and we don't need to re-explain when launching an application hosted there. Your Masonry file essentially contains the "overrides".
+
+The controls that are _not_ inherited from an underlying system must be listed in your Masonry file with a short explanation ("narrative"), and "implemented" before the system can receive an ATO. "Implementation" in the compliance sense is the same as in the code sense: ensure that the system meets that requirement, based on current industry best practices.
 
 ### Step 4 - Assess the controls
 
