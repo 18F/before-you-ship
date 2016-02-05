@@ -13,16 +13,12 @@ While the ATO is the final (regulatory) step that's required before launching an
 1. Read through the [walkthrough](walkthrough/).
 1. Take a look at [the checklist](checklist/) to see the tasks broken down by who is responsible for each.
 
-### Signing an authorization
-
-Once the entire process is complete, GSA InfoSec will make a recommendation to the head of the GSA Office of Citizen Services and Innovative Technologies (OCSIT), our current Authorizing Official, for signature.
-
 ### Re-authorization
 
 If the system substantively changes, then a new ATO will be warranted. Examples for triggers for a new ATO include changes to:
 
 * Encryption methodologies
 * Administrative functionality within the application
-* The kinds of information you begin to store (e.g. [personally identifiable information](../security/pii/))
+* The kinds of information you store (e.g. [personally identifiable information](../security/pii/))
 
-The 18F Infrastructure team will make this determination – please open a new issue if you think you have made a change that may warrant a new ATO.
+The 18F Infrastructure team will make this determination – please [open a new issue](https://github.com/18F/DevOps/issues/new?title=ATO+re-authorization+for+%3Cproject%3E?) if you think you have made a change that may warrant a new ATO.

@@ -48,7 +48,7 @@ You are welcome to ask any questions as comments in the issue or #devops.
 
 ---
 
-See the [Before You Ship](https://pages.18f.gov/before-you-ship/) site for more information.
+See the [Before You Ship](https://pages.18f.gov/before-you-ship/ato/) site for more information.
 
 /cc @18F/ato
 ```

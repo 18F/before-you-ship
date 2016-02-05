@@ -20,7 +20,7 @@ This is also known as "selecting the baseline". The options are:
 * 18F FISMA Moderate (`moderate | moderate | moderate`) (ex: cloud.gov, MyUSA)
 * 18F FISMA High (`high | high | high`) will soon be available, modeled after the new Identity platform
 
-"Controls" are the individual security requirements laid out by the National Institute of Standards and Technology (NIST) – you can see a list of them on the [Controls](../controls/) page. [NIST 800-53 Table D-2](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf#page=109) shows how each control maps to the overall baseline.
+**"Controls" are the individual security requirements** laid out by the National Institute of Standards and Technology (NIST) – you can see a list of them on the [Controls](../controls/) page. [NIST 800-53 Table D-2](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf#page=109) shows how each control maps to the overall baseline.
 
 If your system does not fall into one of the buckets above (for example, you have a `low | moderate | moderate` system), you must create a new baseline. You will do this by making a new certification schema in [Compliance Masonry](https://github.com/opencontrol/compliance-masonry). It is possible to downgrade the level for any particular control, as long as it doesn't affect any other controls with a higher level (e.g. account management can be `low` if it doesn't allow you to edit confidential data). Note that there aren't that many specifics around what each level means for each control.
 
@@ -41,7 +41,7 @@ The Compliance Masonry YAML file uses structured data to state how each control 
 * Relevant to the system, and is one of the following:
     * taken care of by (in Masonry, inherited from) one of:
         * the platform (cloud.gov)
-        * the framework (Rails)
+        * the framework
         * the authorization layer
         * etc.
     * implemented by you
@@ -53,13 +53,17 @@ The controls that are _not_ inherited from an underlying system must be listed i
 
 ### Step 4 - Assess the controls
 
-In other words, "test the controls". To do so, run the [security scans](../../security/scanning/).
+In other words, "verify that your system is secure". To do so, run the [security scans](../../security/scanning/).
 
 ### Step 5 - Authorize the system
 
 Fill out the [System Security Plan (SSP)](../ssp/) and link from your project's [checklist](../checklist/) issue. The designated AO will conduct a quality assurance check on your materials.
 
 You should send materials to the AO as soon as the security boundary of the system is fixed and implemented. This is inherently a subjective judgement call. If your are uncertain as to your system's security boundary, you should consult with 18F Infrastructure early in your development process. If your system is providing novel or risky functions, or handling extremely sensitive data, you should also consult with 18F Infrastructure early, long before you start the risk management process.
+
+#### Signing an authorization
+
+Once all of the materials are prepared and the system is considered "ready" by the Authorizing Official, they will sign the ATO.
 
 ### Step 6 - Continuously monitor the controls
 
