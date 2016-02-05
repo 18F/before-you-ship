@@ -18,7 +18,7 @@ See also:
 ### Flask
 
 * Set up [static security analysis](../static-analysis/#python)
-* Read through the [official security docs](http://flask.pocoo.org/docs/0.10/security/)
+* Read through the [official security docs](http://flask.pocoo.org/docs/security/)
 * Consider using [Flask-Security](https://pythonhosted.org/Flask-Security/)
 
 See also:
