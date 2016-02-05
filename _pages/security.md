@@ -17,3 +17,4 @@ Most of the security practices have been integrated into the [ATO](../ato) porti
     * trusting unsanitized information from the internet
     * encrypting both at rest and in transit
     * privilege escalation
+    * other items from the [OWASP Top 10](https://www.owasp.org/index.php/Top_10_2013-Top_10)
