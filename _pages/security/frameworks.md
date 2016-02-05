@@ -12,6 +12,20 @@ parent: Security
 See also:
 
 * [OWASP Django Secure Configuration Guide](https://www.owasp.org/index.php/SCG_WF_Django)
+* Jacob Kaplan-Moss' talk: [Python vs. the OWASP Top 10](https://www.youtube.com/watch?v=sra9x44lXgU) ([slides](https://speakerdeck.com/jacobian/python-vs-the-owasp-top-10))
+
+
+### Flask
+
+* Set up [static security analysis](../static-analysis/#python)
+* Read through the [official security docs](http://flask.pocoo.org/docs/security/)
+* Consider using [Flask-Security](https://pythonhosted.org/Flask-Security/)
+
+See also:
+
+* Jacob Kaplan-Moss' talk: [Python vs. the OWASP Top 10](https://www.youtube.com/watch?v=sra9x44lXgU) ([slides](https://speakerdeck.com/jacobian/python-vs-the-owasp-top-10))
+
+
 
 ### Rails
 
