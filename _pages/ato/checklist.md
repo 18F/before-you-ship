@@ -24,7 +24,6 @@ To start the security clearance process, [create an issue in the DevOps reposito
 
 ### Project team
 
-1. [ ] Initiate [ATO delegation](https://pages.18f.gov/before-you-ship/ato/delegation/)
 1. [ ] Add an [`about.yml`](https://github.com/18F/about_yml) for the main repository
 1. [ ] Run the [security scans](https://pages.18f.gov/before-you-ship/security/scanning/)
     * [ ] [Static analysis](https://pages.18f.gov/before-you-ship/security/static-analysis/)
