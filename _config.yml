@@ -79,8 +79,8 @@ navigation:
   - text: Controls
     url: controls/
     internal: true
-  - text: Delegation
-    url: delegation/
+  - text: Ownership
+    url: ownership/
     internal: true
 - text: Laws
   url: laws/
