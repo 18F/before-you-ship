@@ -3,14 +3,16 @@ title: Levels of ATO
 navtitle: Levels
 ---
 
-This part of the process looks at the functionality and data of the system, and categorizes its impact on three metrics (`confidentiality`, `integrity`, and `availability`) with three impact levels (`low`, `moderate`, `high`). The metrics are objective, while the levels are subjective. It is either the designated Authorizing Official (AO) or full AO who owns the final decision - they should consult broadly within their organization before making a decision, especially with new system functions or new data.
+This part of the process looks at the functionality and data of the system, and categorizes its impact on three metrics (`confidentiality`, `integrity`, and `availability`) with three impact levels (`low`, `moderate`, `high`). The metrics are objective, while the levels are subjective. It is either the designated Authorizing Official (AO) or full AO who owns the final decision.
 
-ATOs are broken down to the following levels:
+Every ATO at 18F is done at one of the following levels:
 
-* [Open Data](#open-data-atos)
-* FISMA Low
-* FISMA Medium
-* FISMA High
+Level | Confidentiality | Integrity | Availability
+--- | --- | --- | ---
+**[Open Data](#open-data-atos)** | none | low | low
+**FISMA Low** | low | low | low
+**FISMA Medium** | medium | medium | medium
+**FISMA High** | high | high | high
 
 For more information, see [NIST 800-18](http://csrc.nist.gov/publications/nistpubs/800-18-Rev1/sp800-18-Rev1-final.pdf):
 
@@ -22,7 +24,6 @@ Note that Open Data won't be listed, as it was developed within 18F.
 ### Categorize
 
 * Low, Moderate, High refer to the impact on either the government or the public if the metric is lost.
-* The `Open Data` level is defined by confidentiality N/A, integrity low, and availability low
 * conditions
     * [Sensitive PII](../../security/pii/) always raises the level to at least Moderate for the confidentiality and integrity metrics.
     * If there is any authorization or authentication being done, it is likely at the Moderate level for all metrics.
