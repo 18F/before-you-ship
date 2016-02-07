@@ -3,11 +3,15 @@ title: Levels of ATO
 navtitle: Levels
 ---
 
-This part of the process looks at the functionality and data of the system, and categorizes its impact on three metrics (`confidentiality`, `integrity`, and `availability`) with three impact levels (`low`, `moderate`, `high`). The metrics are objective, while the levels are subjective. It is either the designated Authorizing Official (AO) or full AO who owns the final decision.
+### Overview
+
+This part of the process looks at the functionality and data of the system, and categorizes its impact on three metrics (`confidentiality`, `integrity`, and `availability`) with three impact levels (`low`, `moderate`, `high`). The combination of these levels across the three metrics then correspond to an overall level, as seen in the table below.
+
+Determining the impact levels (and overall level) is subjective; it is either the designated Authorizing Official (AO) or full AO who owns the final decision.
 
 Every ATO at 18F is done at one of the following levels:
 
-Level | Confidentiality | Integrity | Availability
+Overall level | Confidentiality | Integrity | Availability
 --- | --- | --- | ---
 **[Open Data](#open-data-atos)** | none | low | low
 **FISMA Low** | low | low | low
@@ -19,35 +23,33 @@ For more information, see [NIST 800-18](http://csrc.nist.gov/publications/nistpu
 * [Table 1](http://csrc.nist.gov/publications/nistpubs/800-18-Rev1/sp800-18-Rev1-final.pdf#page=27) for FIPS categorization
 * [Section 3.13](http://csrc.nist.gov/publications/nistpubs/800-18-Rev1/sp800-18-Rev1-final.pdf#page=31) for security controls
 
-Note that Open Data won't be listed, as it was developed within 18F.
+Note that `Open Data` won't be listed, as it was developed within 18F.
 
 ### Categorize
 
-* `low`, `moderate`, `high` refer to the impact on either the government or the public if the metric is lost.
-* conditions:
-    * [Sensitive PII](../../security/pii/) always raises the level to at least `moderate` for the `confidentiality` and `integrity` metrics.
-    * If there is any authorization or authentication being done, it is likely at the `moderate` level for all metrics.
-* At 18F, the vast majority of use cases and data types have been categorized by the designated 18F AO, who is currently the Infrastructure Director (Noah Kunin).
-* technically there is no overall level, so go with the high water mark for each of the three verticals
-* just because we need `availability: high`, doesn't mean it needs `confidentiality: high` or `integrity: high`.
+To categorize your system, go through each of the metrics and determine your system's impact level. `low`, `moderate`, and `high` refer to the impact on either the government or the public if the metric is lost. Whatever the highest impact level is among the three metrics will be the overall level of the ATO (i.e. the "high water mark").
 
-The framework we usually use, since must address a high water mark methodology anyway, is to ask ourselves (and the agency we are creating the system with) 3 worst case scenario questions:
+The framework we usually use, since must address a high water mark methodology anyway, is to ask ourselves (and the agency we are creating the system with) three worst case scenario questions:
 
-* What is the worst possible outcome if all of the confidentiality of the system is lost? i.e.
-    * What if all of the data/content in the system is exposed?
-* What is the worst possible outcome if all of the integrity of the system is lost? i.e.
+* What is the worst possible outcome if all of the _confidentiality_ of the system is lost? i.e.
+    * What if all of the data/content in the system is exposed to the public?
+* What is the worst possible outcome if all of the _integrity_ of the system is lost? i.e.
     * What if an error makes it into the data/content?
     * What if an update to the data/content is lost?
-* What is the worst possible outcome if all of the availability of the system is lost? i.e.
+* What is the worst possible outcome if all of the _availability_ of the system is lost? i.e.
     * What if the system has downtime?
 
 The answer to each question should then be interpreted in terms of impact to either the government or the public. In either case, the high water mark for either impacted party must be used.
 
-The full list of data and functions (in government parlance, these are mission based information types and delivery mechanisms) in and of the system, must be itemized in structured data. While the data types are obviously arbitrary and custom to each system we produce, the government has a formalized data set of mission functions that should be mapped to the system via NIST 800-60. For a Rails app, for example, this can simply be a link to the `db/schema.rb` file on GitHub.
-
 The canonical or singular nature of a function being provided by the system must be taken into consideration in the categorization. The more singular and canonical the system under evaluation is, the higher the impact level (for any of the three metrics). For example, if we re-post data from weather.gov, it is less impactful for us to lose availability than it is for weather.gov itself. Conversely, we are the only source of FedBizOpps data - therefore our availability is much more important for that data and function, and we should select a higher impact level for `availability`.
 
-### Open Data ATOs
+### Conditions
+
+* [Sensitive PII](../../security/pii/) always raises the level to at least `moderate` for the `confidentiality` and `integrity` metrics.
+* If there is any authorization or authentication being done, it is likely at the `moderate` level for all metrics.
+* Just because we need `availability: high`, doesn't mean it needs `confidentiality: high` or `integrity: high`.
+
+#### Open Data ATOs
 
 To qualify for an Open Data ATO, all of the following must be true:
 
