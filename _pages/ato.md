@@ -8,10 +8,10 @@ Before a system is made publicly accessible on the Internet, it must go through 
 
 While the ATO is the final (regulatory) step that's required before launching an application, you will want to **start the process as soon as possible** after your project gets off the ground.
 
-### Preparing for the ATO process
+### Starting the ATO process
 
 1. Read through the [walkthrough](walkthrough/).
-1. Follow instructions on [the checklist](checklist/) page to kick off the process. The checklist has all specific tasks broken down by who is responsible for each.
+1. Follow instructions on [the checklist](checklist/) page to kick off and set up a tracking mechanism for your ATO.
 
 ### Signing an authorization
 
