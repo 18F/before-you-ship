@@ -82,6 +82,9 @@ navigation:
   - text: Ownership
     url: ownership/
     internal: true
+  - text: Walkthrough
+    url: walkthrough/
+    internal: true
 - text: Laws
   url: laws/
   internal: true
