@@ -6,7 +6,7 @@ As described in [the NIST guide](http://csrc.nist.gov/publications/nistpubs/800-
 
 > The purpose of the system security plan is to provide an overview of the security requirements of the system and describe the controls in place or planned for meeting those requirements.
 
-18F uses a machine-readable format, whose template is below. We are also working on a tool to help generate SSPs, called [Compliance Masonry](https://github.com/opencontrol/compliance-masonry).
+18F uses a machine-readable format for which template is below. We are also working on a tool to help generate SSPs, called [Compliance Masonry](https://github.com/opencontrol/compliance-masonry).
 
 ### Template
 
