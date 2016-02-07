@@ -85,6 +85,9 @@ navigation:
   - text: Walkthrough
     url: walkthrough/
     internal: true
+  - text: Categorize
+    url: categorize/
+    internal: true
 - text: Laws
   url: laws/
   internal: true

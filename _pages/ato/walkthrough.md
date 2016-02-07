@@ -6,19 +6,15 @@ parent: ATOs
 
 ### Step 0 - Consult 18F Infrastructure
 
-As soon as you begin developing an [alpha](https://18f.gsa.gov/dashboard/stages/#alpha) (post [Intake](https://pages.18f.gov/intake/), [Agreement Financing](https://pages.18f.gov/intake/funding-and-iaa/), and [Discovery](https://18f.gsa.gov/dashboard/stages/#discovery)) you should consult with [18F Infrastructure](https://github.com/18F/handbook/blob/staging/articles/2-about-us/teams/infrastructure.md) on the possible risk impacts of your project and the system's boundaries, which will provide important context and scoping for the rest of the risk management framework.
+As soon as you begin developing an [alpha](https://18f.gsa.gov/dashboard/stages/#alpha) (post [Intake](https://pages.18f.gov/intake/), [Agreement Financing](https://pages.18f.gov/intake/funding-and-iaa/), and [Discovery](https://18f.gsa.gov/dashboard/stages/#discovery)) you should consult with [18F Infrastructure](https://github.com/18F/handbook/blob/staging/articles/2-about-us/teams/infrastructure.md) on the possible risk impacts of your project and the system's boundaries, which will provide important context and scoping for the rest of the ATO process.
 
 ### Step 1 - Categorize
 
-See the [Levels](../levels/) page.
+See the [ATO Categorization](../categorize/) page.
 
 ### Step 2 - Select controls
 
-This is also known as "selecting the baseline". The options are:
-
-* 18F FISMA Open Data baseline (ex: beta.fec.gov) (`none | low | low`)
-* 18F FISMA Moderate (`moderate | moderate | moderate`) (ex: cloud.gov, MyUSA)
-* 18F FISMA High (`high | high | high`) will soon be available, modeled after the new Identity platform
+See the [Levels](../levels/) page to determine your system's baseline.
 
 **"Controls" are the individual security requirements** laid out by the National Institute of Standards and Technology (NIST) – you can see a list of them on the [Controls](../controls/) page. [NIST 800-53 Table D-2](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf#page=109) shows how each control maps to the overall baseline.
 
