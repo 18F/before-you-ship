@@ -49,7 +49,7 @@ We use AWS IAM to manage authorization and authentication.
 * [IA-2 (2) Identification and Authentication (Organizational Users) &#124; Network Access to Non-Privileged Accounts](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=IA-2#enhancement-2)
 * [IA-2 (12) Identification and Authentication &#124; Acceptance of PIV Credentials](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=IA-2#enhancement-12): consult with the Infrastructure Team for Applicability
 
-_Note: If you are using 18F's [cloud.gov](https://cloud.gov/) PaaS, the hosted applications **may** inherit the security controls listed above, unless there are application specific Identity Access Management services embedded in it._
+_Note: If you are using 18F's [cloud.gov](https://cloud.gov/) PaaS, the hosted applications **may** inherit the security controls listed above, unless there are external application specific IAM control dependencies._
 
 ### Continuous integration and testing
 
