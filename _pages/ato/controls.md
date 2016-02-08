@@ -4,13 +4,15 @@ title: Controls
 
 [NIST 800-53 Revision 4](http://csrc.nist.gov/groups/SMA/fisma/controls.html) lists the security control baselines that must implemented on all Federal systems. The default and required NIST controls that 18F and GSA Information Security have agreed upon for all systems are listed here, with a short description of where the controls are implemented.
 
-### Baseline assembly
+### Baseline assembly 
 
 We use a [hardened baseline](https://github.com/fisma-ready/ubuntu-lts) of Ubuntu 14.04 LTS as our default OS for all products and services.
 
 * [CM-2 Baseline configuration](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-2)
 * [CM-3 Configuration Change Control](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-3)
 * [CM-6 Configuration Settings](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-6)
+
+_Note: If you are using 18F's cloud.gov Platform as a Service ([PaaS](https://cloud.gov/)), the applications will inherit the security controls listed above._
 
 ### Infrastructure as a service
 
@@ -19,6 +21,8 @@ Development environments are exclusively in cloud.gov or the [AWS East/West regi
 * [SC-7 Boundary protection](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=SC-7)
 * [AC-3 Access enforcement](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-3)
 * [AC-6 Least privilege](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-6)
+
+_Note: If you are using 18F's cloud.gov [PaaS](https://cloud.gov/), the applications will inherit the security controls listed above._
 
 ### Version control
 
@@ -33,6 +37,8 @@ All 18F sites are required to use Transport Layer Security (TLS). You must follo
 * [SC-13 Cryptographic protection](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=SC-13)
 * [SC-28 (1) Protection of Information At Rest &#124; Cryptographic Protection](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=SC-28#enhancement-1): applicable to systems with Sensitive Personally Identifiable Information Only
 
+_Note: If you are using 18F's cloud.gov [PaaS](https://cloud.gov/), the applications will inherit the security controls listed above._
+
 ### Authorization and authentication
 
 We use AWS IAM to manage authorization and authentication.
@@ -42,6 +48,8 @@ We use AWS IAM to manage authorization and authentication.
 * [IA-2 (1) Identification and Authentication (Organizational Users) &#124; Network Access to Privileged Accounts](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=IA-2#enhancement-1) 
 * [IA-2 (2) Identification and Authentication (Organizational Users) &#124; Network Access to Non-Privileged Accounts](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=IA-2#enhancement-2)
 * [IA-2 (12) Identification and Authentication &#124; Acceptance of PIV Credentials](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=IA-2#enhancement-12): consult with the Infrastructure Team for Applicability
+
+_Note: If you are using 18F's cloud.gov [PaaS](https://cloud.gov/), the applications may inherit the security controls listed above, unless there are application specific Identity Access Management services embedded in the application._
 
 ### Continuous integration and testing
 
@@ -53,6 +61,8 @@ See the [security scanning](../../security/scanning/) page for more details.
 * [SI-2 Flaw Remediation](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=SI-2)
 * [SI-10 Information Input Validation](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=SI-10)
 
+_Note: Application own on cloud.gov service shall be responsible for supporting these security controls._
+
 ### Monitoring
 
 One or more of CloudWatch, CloudTrail, New Relic, Splunk, etc.
@@ -61,6 +71,7 @@ One or more of CloudWatch, CloudTrail, New Relic, Splunk, etc.
 * [AU-6 Audit Review, Analysis, and Reporting](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-6)
 * [SI-4 Information System Monitoring](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=SI-4)
 
+_Note: If you are using 18F's cloud.gov [PaaS](https://cloud.gov/), the applications will inherit the security controls listed above._
 ### Overall system security
 
 There are controls which are general, and the implementation may differ given the underlying technology.
