@@ -53,7 +53,7 @@ In other words, "verify that your system is secure". To do so, run the [security
 
 ### Step 5 - Authorize the system
 
-The full list of data and functions (in government parlance, these are "mission based information types" and "delivery mechanisms") in and of the system, must be itemized in structured data. While the data types are obviously arbitrary and custom to each system we produce, the government has a formalized data set of mission functions that should be mapped to the system via NIST 800-60. For a Rails app, for example, this can simply be a link to the `db/schema.rb` file on GitHub.
+The full list of data and functions in and of the system (in government parlance "mission based information types" and "delivery mechanisms") must be itemized in structured data. While the data types are obviously arbitrary and custom to each system we produce, the government has a formalized data set of mission functions that should be mapped to the system via NIST 800-60. For a Rails app, for example, this can simply be a link to the `db/schema.rb` file on GitHub.
 
 Fill out the [System Security Plan (SSP)](../ssp/) and link from your project's [checklist](../checklist/) issue. The designated AO will conduct a quality assurance check on your materials.
 

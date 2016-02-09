@@ -21,7 +21,7 @@ To categorize your system, go through each of the metrics and determine your sys
 * What is the worst possible outcome if all of the _availability_ of the system is lost? i.e.
     * What if the system has downtime?
 
-The answer to each question should then be interpreted in terms of impact to either the government or the public. In either case, the "high water mark" for either impacted party must be used.
+The answer to each question should then be interpreted in terms of impact to either the government or the public. The "high water mark" for either impacted party must be used.
 
 The canonical or singular nature of a function being provided by the system must be taken into consideration in the categorization. The more singular and canonical the system under evaluation is, the higher the impact level (for any of the three metrics). For example, if we re-post data from weather.gov, it is less impactful for us to lose availability than it is for weather.gov itself. Conversely, we are the only source of FedBizOpps data - therefore our availability is much more important for that data and function, and we should select a higher impact level for `availability`.
 
