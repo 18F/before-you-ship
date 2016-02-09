@@ -13,3 +13,8 @@ Most of the security practices have been integrated into the [ATO](../ato) porti
 * The tools necessary to keep your application safe are available to everyone on the team. For more information, see the [Scanning](../security/scanning) section.
     * _If you need assistance, drop a note into #devops or #compliance-toolkit._
 * The [System Security Plan (SSP)](../ato/ssp) is foundational to getting through the ATO process efficiently. Get started on it at the beginning of the project, and ask questions on your [ATO issue](../ato/checklist).
+* The majority of the types of scenarios you should be wary of are:
+    * trusting unsanitized information from the internet
+    * encrypting both at rest and in transit
+    * privilege escalation
+    * other items from the [OWASP Top 10](https://www.owasp.org/index.php/Top_10_2013-Top_10)

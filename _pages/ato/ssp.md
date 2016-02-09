@@ -6,11 +6,11 @@ As described in [the NIST guide](http://csrc.nist.gov/publications/nistpubs/800-
 
 > The purpose of the system security plan is to provide an overview of the security requirements of the system and describe the controls in place or planned for meeting those requirements.
 
-We create a machine-readable version, whose template is below. We are also working on a tool to help generate SSPs, called [Compliance Masonry](https://github.com/opencontrol/compliance-masonry).
+18F uses a machine-readable format for which template is below. We are also working on a tool to help generate SSPs, called [Compliance Masonry](https://github.com/opencontrol/compliance-masonry).
 
 ### Template
 
-Add the following to your repository as `system-security-plan.yml`, with the information in the `<angle brackets>` filled in:
+Add the following to your repository as `system-security-plan.yml`, with the information in the `<angle brackets>` filled in. It doesn't need to be 100% complete right away...only before the ATO can be signed. Once added to your repository, it should be kept up-to-date as the project progresses.
 
 ```yaml
 ---

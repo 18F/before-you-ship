@@ -4,6 +4,8 @@ title: Controls
 
 [NIST 800-53 Revision 4](http://csrc.nist.gov/groups/SMA/fisma/controls.html) lists the security control baselines that must implemented on all Federal systems. The default and required NIST controls that 18F and GSA Information Security have agreed upon for all systems are listed here, with a short description of where the controls are implemented.
 
+Here are controls that are required for web applications:
+
 ### Baseline assembly
 
 We use a [hardened baseline](https://github.com/fisma-ready/ubuntu-lts) of Ubuntu 14.04 LTS as our default OS for all products and services.
@@ -38,8 +40,8 @@ All 18F sites are required to use Transport Layer Security (TLS). You must follo
 We use AWS IAM to manage authorization and authentication.
 
 * [AC-2 Account Management](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-2)
-* [IA-2 Identification and Authentication (Organizational Users)](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=IA-2) 
-* [IA-2 (1) Identification and Authentication (Organizational Users) &#124; Network Access to Privileged Accounts](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=IA-2#enhancement-1) 
+* [IA-2 Identification and Authentication (Organizational Users)](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=IA-2)
+* [IA-2 (1) Identification and Authentication (Organizational Users) &#124; Network Access to Privileged Accounts](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=IA-2#enhancement-1)
 * [IA-2 (2) Identification and Authentication (Organizational Users) &#124; Network Access to Non-Privileged Accounts](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=IA-2#enhancement-2)
 * [IA-2 (12) Identification and Authentication &#124; Acceptance of PIV Credentials](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=IA-2#enhancement-12): consult with the Infrastructure Team for Applicability
 

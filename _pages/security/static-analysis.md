@@ -72,15 +72,7 @@ If you saved the config file elsewhere, you can also run:
 
 ##### Other Ruby Frameworks
 
-[Dawnscanner](https://github.com/thesp0nge/dawnscanner) is a scanner that supports Ruby on Rails, Sinatra, and Padrino. It makes an excellent second-line scanner for Rails applications, and a primary scanner for Sinatra & Padrino.
-
-To install:
-
-    $ gem install dawnscanner
-
-To scan from your project directory and get output in the console:
-
-    $ dawn -K .
+We do not have a recommended scanner for non-Rails frameworks. If there is a service or tool that works well, please [tell us about it](https://github.com/18F/before-you-ship/issues/new).
 
 #### Python
 
