@@ -57,7 +57,7 @@ The full list of data and functions in and of the system (in government parlance
 
 Fill out the [System Security Plan (SSP)](../ssp/) and link from your project's [checklist](../checklist/) issue. The designated AO will conduct a quality assurance check on your materials.
 
-You should send materials to the AO as soon as the security boundary of the system is fixed and implemented. This is inherently a subjective judgement call. If your are uncertain as to your system's security boundary, you should consult with 18F Infrastructure early in your development process. If your system is providing novel or risky functions, or handling extremely sensitive data, you should also consult with 18F Infrastructure early, long before you start the risk management process.
+You should send materials to the Authorizing Official (AO) as soon as the security boundary of the system is fixed and implemented (i.e. none of the [categorization](../categorize) is changing). This is a judgement call. If your are uncertain as to your system's security boundary, you should consult with 18F Infrastructure early in your development process. If your system is providing novel or risky functions, or handling extremely sensitive data, you should consult with 18F Infrastructure as early as possible.
 
 #### Signing an authorization
 
