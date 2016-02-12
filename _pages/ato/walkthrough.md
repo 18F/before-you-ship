@@ -6,7 +6,7 @@ parent: ATOs
 
 ### Step 0 - Consult 18F Infrastructure
 
-As soon as you begin developing an [alpha](https://18f.gsa.gov/dashboard/stages/#alpha) (post [Intake](https://pages.18f.gov/intake/), [Agreement Financing](https://pages.18f.gov/intake/funding-and-iaa/), and [Discovery](https://18f.gsa.gov/dashboard/stages/#discovery)) you should consult with [18F Infrastructure](https://github.com/18F/handbook/blob/staging/articles/2-about-us/teams/infrastructure.md) on the possible risk impacts of your project and the system's boundaries, which will provide important context and scoping for the rest of the ATO process.
+As soon as you begin developing an [alpha](https://18f.gsa.gov/dashboard/stages/#alpha) (post [Intake](https://pages.18f.gov/intake/), [Agreement Financing](https://pages.18f.gov/intake/funding-and-iaa/), and [Discovery](https://18f.gsa.gov/dashboard/stages/#discovery)), [create your ATO checklist](../checklist/) to kick off the process. You can ask questions in that thread to understand the specific considerations for your system.
 
 ### Step 1 - Categorize
 
@@ -18,7 +18,7 @@ See the [Levels](../levels/) page to determine your system's baseline.
 
 **"Controls" are the individual security requirements** laid out by the National Institute of Standards and Technology (NIST) – you can see a list of them on the [Controls](../controls/) page. [NIST 800-53 Table D-2](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf#page=109) shows how each control maps to the overall baseline.
 
-If your system does not fall into one of the buckets above (for example, you have a `low | moderate | moderate` system), you must create a new baseline. You will do this by making a new certification schema in [Compliance Masonry](https://github.com/opencontrol/compliance-masonry). It is possible to downgrade the level for any particular control, as long as it doesn't affect any other controls with a higher level (e.g. account management can be `low` if it doesn't allow you to edit confidential data). Note that there aren't that many specifics around what each level means for each control.
+If your system does not fall into one of the buckets above (for example, you have a `low | moderate | moderate` system), you must create a new baseline. You will do this by making a new "certification schema" in [Compliance Masonry](https://github.com/opencontrol/compliance-masonry). It is possible to downgrade the level for any particular control, as long as it doesn't affect any other controls with a higher level (e.g. account management can be `low` if it doesn't allow you to edit confidential data). Note that there aren't that many specifics around what each level means for each control.
 
 Do this early on in your project.
 
