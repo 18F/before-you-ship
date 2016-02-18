@@ -32,7 +32,7 @@ See also:
 * Set up [static security analysis](../static-analysis/#rails).
 * Read through [Secure Rails](https://github.com/ankane/secure_rails).
 * If you need authorization, consider using the gems listed below. Use the linked instructions to ensure you have authorization applied to all appropriate controller actions.
-    * [CanCan](https://github.com/ryanb/cancan#4-lock-it-down).
+    * [CanCanCan](https://github.com/CanCanCommunity/cancancan#readme).
     * [Pundit](https://github.com/elabs/pundit#ensuring-policies-and-scopes-are-used)
 
 More info:
