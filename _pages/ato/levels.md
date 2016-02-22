@@ -37,4 +37,4 @@ To qualify for an Open Data ATO, all of the following must be true:
 * This is not the only place in the world to complete a particular task that's fundamental to what an agency does, e.g. the EPA tracking hazardous waste (`availability: low`)
 * All data/content is publicly available (`confidentiality: none`)
 
-Note that, despite the name, Open Data ATOs are not limited to data-heavy projects; "data" really means "information". If you will be using one of the FISMA levels, open your [checklist](../checklist/) when you begin planning and start the conversation there.
+Note that, despite the name, Open Data ATOs are not limited to data-heavy projects; "data" really means "information". If you will be using one of the FISMA levels, create your [checklist](../checklist/) issue when you begin planning and start the conversation there.
