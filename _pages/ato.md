@@ -6,7 +6,7 @@ An Authority to Operate (ATO) is a complex security review process that is requi
 
 Before a system is made publicly accessible on the Internet, it must go through either the full ATO process or a 90-Day [Limited Authority to Operate](types/). Systems can be made available for use in an extremely limited capacity if they meet the [pre-authorization criteria](types/#pre-authorization).
 
-While the ATO is the final (regulatory) step that's required before launching an application, you will want to **start the process as soon as possible** after your project gets off the ground.
+While the ATO is the final compliance step that's required before launching an application, you will want to **start the process as soon as possible** after your project gets off the ground.
 
 ### Starting the ATO process
 
