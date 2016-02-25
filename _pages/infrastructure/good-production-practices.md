@@ -67,12 +67,6 @@ Below is a list of "good" production ops practices, which product and tech leads
 - Automated pen-testing in a staging environment as part of continuous deployment
 - Automated vuln-scanning in production environment that is fed with newly-discovered vulns
 
-###  Delegation of authority
-
-- **Authority to Operate (ATO) has been granted <<-- Gigantic**
-- Certificates are specific to the domain
-- Related DNS sub-domains are under the control of the hosting platform/staff
-
 ### Load-testing
 
 - Periodic tests of in-scope components in a staging environment as part of continuous deployment pipeline

@@ -5,6 +5,13 @@ navtitle: Checklist
 
 To start the security clearance process, [create an issue in the DevOps repository](https://github.com/18F/DevOps/issues/new?title=ATO+for+%3Cproject%3E) using this template. Make sure to replace the placeholders at the top. Feel free to add a username after each task to assign it, and/or make corresponding items in your issue tracker. After the DevOps issue is created, the Infrastructure Team will schedule a time to meet with you and discuss the ATO.
 
+Make sure to:
+
+* Mention the [@18F/ato](https://github.com/orgs/18F/teams/ato) team in any issues or pull requests.
+* Leave a comment in the ATO issue when the `Project team` section of the checklist is complete and ready for review.
+
+You are welcome to ask any questions as comments in the issue or #devops.
+
 ```markdown
 * **Main repository:** <url>
 * **Running libraries:**
@@ -24,7 +31,6 @@ To start the security clearance process, [create an issue in the DevOps reposito
 
 ### Project team
 
-1. [ ] Initiate [ATO delegation](https://pages.18f.gov/before-you-ship/ato/delegation/)
 1. [ ] Add an [`about.yml`](https://github.com/18F/about_yml) for the main repository
 1. [ ] Run the [security scans](https://pages.18f.gov/before-you-ship/security/scanning/)
     * [ ] [Static analysis](https://pages.18f.gov/before-you-ship/security/static-analysis/)
@@ -45,5 +51,7 @@ To start the security clearance process, [create an issue in the DevOps reposito
 
 ---
 
-See the [Before You Ship](https://pages.18f.gov/before-you-ship/) site for more information.
+See the [Before You Ship](https://pages.18f.gov/before-you-ship/ato/) site for more information.
+
+/cc @18F/ato
 ```
