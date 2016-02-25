@@ -79,7 +79,7 @@ navigation:
   - text: Controls
     url: controls/
     internal: true
-  - text: Ownership
+  - text: System Ownership
     url: ownership/
     internal: true
   - text: Walkthrough
@@ -116,6 +116,9 @@ navigation:
     internal: true
   - text: Common Questions
     url: common-questions/
+    internal: true
+  - text: Monitoring
+    url: monitoring/
     internal: true
 
 repos:
