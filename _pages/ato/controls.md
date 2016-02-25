@@ -71,8 +71,6 @@ One or more of CloudWatch, CloudTrail, New Relic, Splunk, etc.
 * [AU-6 Audit Review, Analysis, and Reporting](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-6)
 * [SI-4 Information System Monitoring](https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=SI-4)
 
-_Note: If you are using [cloud.gov](https://cloud.gov/) service to host your web application, you will inherit the support of these security controls._
-
 ### Overall system security
 
 There are controls which are general, and the implementation may differ given the underlying technology.
