@@ -6,22 +6,12 @@ An Authority to Operate (ATO) is a complex security review process that is requi
 
 Before a system is made publicly accessible on the Internet, it must go through either the full ATO process or a 90-Day [Limited Authority to Operate](types/). Systems can be made available for use in an extremely limited capacity if they meet the [pre-authorization criteria](types/#pre-authorization).
 
-As soon as your project gets off the ground, you will want to create an [ATO checklist](checklist/) and a [System Security Plan](ssp/). Neither need to be fully complete until you are ready for the ATO to be signed, but both should be started as soon as is feasible.
+While the ATO is the final (regulatory) step that's required before launching an application, you will want to **start the process as soon as possible** after your project gets off the ground.
 
-### The ATO process
+### Starting the ATO process
 
-While you’re in the ATO process, the following things will occur. These are largely done by the CIO shop in tandem with the 18F Infrastructure team, but will create some requirements for your team.
-
-1. Once the technical architecture is stable, create a [System Security Plan (SSP)](ssp/).
-1. Once the SSP is complete, the system will be [security scanned](../security/scanning/#getting-ready-to-scan) in several ways.
-1. Information Security finalizes the SSP
-1. If all of this is completed, GSA Information Security signs and grants an ATO for a [one year term](types/#year-authorization).
-
-See [the checklist](checklist/) to see these tasks broken down.
-
-### Signing an authorization
-
-Once the entire process is complete, GSA InfoSec will make a recommendation to the head of the GSA Office of Citizen Services and Innovative Technologies (OCSIT), our current Authorizing Official, for signature.
+1. Read through the [walkthrough](walkthrough/).
+1. Follow instructions on [the checklist](checklist/) page to kick off and set up a tracking mechanism for your ATO.
 
 ### Re-authorization
 
@@ -29,6 +19,6 @@ If the system substantively changes, then a new ATO will be warranted. Examples 
 
 * Encryption methodologies
 * Administrative functionality within the application
-* The kinds of information you begin to store (e.g. [personally identifiable information](../security/pii/))
+* The kinds of information you store (e.g. [personally identifiable information](../security/pii/))
 
-The 18F DevOps team will make this determination – please open a new issue if you think you have made a change that may warrant a new ATO.
+The 18F Infrastructure team will make this determination – please [open a new issue](https://github.com/18F/DevOps/issues/new?title=ATO+re-authorization+for+%3Cproject%3E?) if you think you have made a change that may warrant a new ATO.
