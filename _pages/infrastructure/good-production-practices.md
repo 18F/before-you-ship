@@ -39,14 +39,7 @@ Below is a list of "good" production ops practices, which product and tech leads
 
 ### Monitoring
 
-See [how to set up monitoring](../monitoring/).
-
-- **User-representative tests (eg can access service, can perform a critical operation) running regularly**
-- Tests of sub-components also running regularly
-- Historical graph
-- Tests are run frequently
-- Tests are reported with low-latency
-- Behavior vs stated service-level targets is tracked
+See [the page on monitoring](../monitoring/).
 
 ### Alerting
 
