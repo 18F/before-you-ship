@@ -53,9 +53,17 @@ Authentication can be handled in several ways; the following links provide guida
 
 The Attack Script runs the Active Scan and Spider functions. If your page is a javascript-driven single page application, you will want to run the Ajax Spider in addition to the standard spider. The Ajax Spider will instantiate a browser window and spider the application visually. This is significantly slower than the standard spider. Read more about the Ajax Spider [here](https://github.com/zaproxy/zap-core-help/wiki/HelpAddonsSpiderAjaxConcepts).
 
+#### Fuzzing
+
+["Fuzzing"](https://en.wikipedia.org/wiki/Fuzz_testing) refers to feeding a large amount of random (and/or potentially malicious) data to an application with the intention of finding vulnerabilities related to poor error handling or incomplete input validation. 
+
+Any request in ZAP can be fuzzed. Simply right click on it, select Attack -> Fuzzer. Read more about ZAP's Fuzzing capabilities [here](https://github.com/zaproxy/zap-core-help/wiki/HelpAddonsFuzzConcepts).
+
 ### More Information
 
 The [ZAP User Guide](https://github.com/zaproxy/zap-core-help/wiki) is phenomenal. If you run into an issue, this should be the first place you check.
+
+We gave an introduction to ZAP talk as part of our engineering tech talks series. [Vulnerability with OWASP ZAP](https://www.youtube.com/watch?v=2Dp7pAvKHaM) ([more info and slides](https://github.com/18F/tech-talks/tree/master/vuln-scanning))
 
 The [OWASP Vulnerable Web Applications Directory](https://www.owasp.org/index.php/OWASP_Vulnerable_Web_Applications_Directory_Project#tab=Main) has a great list of (intentionally) vulnerable targets that are useful for testing the capability of ZAP.
 
