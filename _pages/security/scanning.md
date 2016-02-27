@@ -22,7 +22,7 @@ Alerts come in one of four categorizations:
 
 Any false positives should be documented as such, through an "ignore" file (e.g. with a `note` in [Brakeman](http://brakemanscanner.org/docs/ignoring_false_positives/)) or with your ATO-related documentation.
 
-## ATO Scanning 
+## ATO Scanning
 
 ### Getting ready to scan
 
@@ -54,7 +54,7 @@ This also requires a stable `master` branch. You can continue working on `featur
 
 ### Expectation management
 
-Overall, if *no* vulnerabilities are found, this process has been taking approximately 2 weeks for test preparation and [System Security Plan](../../ato/ssp/) writing and 2 weeks for [greybox testing](#greybox-testing) and [signature](../../ato/#signing-an-authorization). FISMA Moderate and FISMA High will require additional time.
+Overall, if *no* vulnerabilities are found, this process has been taking approximately 2 weeks for test preparation and [System Security Plan](../../ato/ssp/) writing and 2 weeks for [greybox testing](#greybox-testing) and [signature](../../ato/walkthrough/#signing-an-authorization). FISMA Moderate and FISMA High will require additional time.
 
 Since the time it would take to resolve vulnerabilities is not known until a vulnerability is identified, it is **strongly recommended** that no expectations are set with Federal partners or GSA stakeholders when public testing will begin. Instead, we recommend that the authorization process is seen as part of the delivery process and your definition of "done".
 
