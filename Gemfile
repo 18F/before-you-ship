@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
-# https://github.com/jekyll/jekyll/pull/4428
-gem 'jekyll', '< 3.1'
+gem 'jekyll'
 # build problems with 0.1.6
 # https://github.com/18F/before-you-ship/pull/75#issuecomment-172014494
 gem 'go_script', '0.1.5'
