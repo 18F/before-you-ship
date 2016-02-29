@@ -5,7 +5,13 @@ parent: Infrastructure
 
 There are a couple kinds of monitoring that you will need to have in place for any application: [errors](#errors) and [downtime](#downtime).
 
-Monitoring is only useful if the relevant people are alerted when something goes wrong. It might take some tweaking of the thresholds to get the signal-to-noise ratio right.
+Monitoring is only useful if the relevant people are alerted when something goes wrong, and then only if those individuals
+
+* consider these alerts worth investigating
+* have sufficient access and understanding to at least triage and escalate an alert, if not fix it
+* have a clear escalation path
+
+It might take some tweaking of the thresholds to get the signal-to-noise ratio right.
 
 For [New Relic](https://newrelic.com) access, [open an issue in the DevOps repo](https://github.com/18F/DevOps/issues/new?title=New+Relic+account+for+%3Cname%3E) to get an account set up for your project.
 
