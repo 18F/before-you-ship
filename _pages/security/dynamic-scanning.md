@@ -11,6 +11,10 @@ parent: Security
 
 You will need a running application to test, which you will want to be as production-like as possible. The 'Attack' scripts shouldn't do anything destructive, but will cause a spike in requests and errors. **Inform your team and #devops before running it on live (not locally-hosted) sites.**
 
+We gave an introduction to ZAP talk as part of our engineering tech talks series. [Vulnerability with OWASP ZAP](https://www.youtube.com/watch?v=2Dp7pAvKHaM) ([more info and slides](https://github.com/18F/tech-talks/tree/master/vuln-scanning))
+
+To get started:
+
 1. [Install the ZAP desktop app](https://github.com/zaproxy/zaproxy/wiki/Downloads).
 1. In the Quick Start tab, enter the URL of your application.
     * While you will need to run against production for the official ATO, you can also try out ZAP running against a local server.
@@ -55,15 +59,13 @@ The Attack Script runs the Active Scan and Spider functions. If your page is a j
 
 #### Fuzzing
 
-["Fuzzing"](https://en.wikipedia.org/wiki/Fuzz_testing) refers to feeding a large amount of random (and/or potentially malicious) data to an application with the intention of finding vulnerabilities related to poor error handling or incomplete input validation. 
+["Fuzzing"](https://en.wikipedia.org/wiki/Fuzz_testing) refers to feeding a large amount of random (and/or potentially malicious) data to an application with the intention of finding vulnerabilities related to poor error handling or incomplete input validation. Typically, fuzzing is used on query parameters and form fields.
 
 Any request in ZAP can be fuzzed. Simply right click on it, select Attack -> Fuzzer. Read more about ZAP's Fuzzing capabilities [here](https://github.com/zaproxy/zap-core-help/wiki/HelpAddonsFuzzConcepts).
 
 ### More Information
 
 The [ZAP User Guide](https://github.com/zaproxy/zap-core-help/wiki) is phenomenal. If you run into an issue, this should be the first place you check.
-
-We gave an introduction to ZAP talk as part of our engineering tech talks series. [Vulnerability with OWASP ZAP](https://www.youtube.com/watch?v=2Dp7pAvKHaM) ([more info and slides](https://github.com/18F/tech-talks/tree/master/vuln-scanning))
 
 The [OWASP Vulnerable Web Applications Directory](https://www.owasp.org/index.php/OWASP_Vulnerable_Web_Applications_Directory_Project#tab=Main) has a great list of (intentionally) vulnerable targets that are useful for testing the capability of ZAP.
 
