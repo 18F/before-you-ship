@@ -1,10 +1,7 @@
 source 'https://rubygems.org'
 
-# https://github.com/jekyll/jekyll/pull/4428
-gem 'jekyll', '< 3.1'
-# build problems with 0.1.6
-# https://github.com/18F/before-you-ship/pull/75#issuecomment-172014494
-gem 'go_script', '0.1.5'
+gem 'jekyll'
+gem 'go_script'
 
 group :jekyll_plugins do
   gem 'guides_style_18f'
