@@ -11,7 +11,9 @@ parent: Security
 
 You will need a running application to test, which you will want to be as production-like as possible. The 'Attack' scripts shouldn't do anything destructive, but will cause a spike in requests and errors. **Inform your team and #devops before running it on live (not locally-hosted) sites.**
 
-We gave an introduction to ZAP talk as part of our engineering tech talks series. [Vulnerability with OWASP ZAP](https://www.youtube.com/watch?v=2Dp7pAvKHaM) ([more info and slides](https://github.com/18F/tech-talks/tree/master/vuln-scanning))
+We gave an introduction to ZAP talk as part of our engineering tech talks series. [![Vulnerability Scanning with OWASP ZAP](http://img.youtube.com/vi/2Dp7pAvKHaM/0.jpg)](http://www.youtube.com/watch?v=2Dp7pAvKHaM)
+
+Slides and additional information available [here](https://github.com/18F/tech-talks/tree/master/vuln-scanning).
 
 To get started:
 
