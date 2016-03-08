@@ -26,7 +26,7 @@ Teams will need:
 * **Reachability:** Alerts should go directly to their devices, not just to Slack.
 * **Escalation path:** Team members should know how to at least _start_ dealing with alerts. [Here's a great example from College Scorecard](https://docs.google.com/document/d/1Lfr_IufB9nuTjsZJgsm5CxfBRFVbHj266zMddhzWCJg/edit). (Thanks, @abisker!)
 * **Direct access to monitoring systems:** Make sure everyone has a working login on whichever monitoring systems you pick, and has at least a little experience navigating them.
-* **Clear expectations of uptime & availability:** At present, 18F staff work 40 hour weeks and there is no requirement to be available in off hours. In practice, people want to make sure their stuff works, and many will jump online to fix things if they see a problem over the weekend. But **there no expectation of this**. Furthermore, **this understanding must be established with project partners.** Projects that need greater support coverage should arrange dedicated on-call staff elsewhere.
+* **Clear expectations of uptime & availability:** At present, 18F staff work 40 hour weeks and there is no requirement to be available in off hours. In practice, people want to make sure their stuff works, and many will jump online to fix things if they see a problem over the weekend. But **there should be no expectation of this**. Furthermore, **this understanding must be established with project partners.** Projects that need greater support coverage should arrange dedicated on-call staff elsewhere.
 
 
 ## Errors & Performance Problems
@@ -54,7 +54,7 @@ All of the above can be set with thresholds for given time periods; for example,
 
 We recommend creating a mixture of alert conditions during development and tuning them based on the current performance of the app. You may have an Apdex target of 0.9, but if the app is regularly scoring lower then it's counter-productive to keep that as an alert threshold: you'll just fill the alerts with noise that can't be dealt with quickly. The work to meet that performance should be managed at the project level.
 
-Once you've created alert conditions, ensure that they're actually
+Once you've created alert conditions, **ensure that they're actually working.** It helps if you have errors or performance problems that you can trigger on demand; if the production environment is already live to the public then you might need to push a test branch to staging and try your conditions there. Also, when testing conditions, make sure to limit their notifications to only go to you, or you'll need to warn everyone in advance.
 
 ## Downtime
 
@@ -68,7 +68,7 @@ You will want to know if your site goes down. Options:
 
 Ways to alert DevOps & project team members:
 
-* **Slack**, though you may not want all errors going to the project's main Slack channel. (See the section below on [grouping notification channels](#grouping-notification-channels) Notifying
+* **Slack**, though you may not want all errors going to the project's main Slack channel. (See the section below on [grouping notification channels](#grouping-notification-channels))
 * **SMS**, which is only available through certain services - Pingdom and PagerDuty provide SMS, but New Relic doesn't; instead it has...
 * **Push Notifications**, for which team members need to have the mobile app installed and registered.
 * **Email**, which in practice isn't as useful since most people aren't immediately alerted by it.
