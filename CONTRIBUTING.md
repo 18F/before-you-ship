@@ -24,7 +24,7 @@ For each task to complete "before you ship", there should be a clear indication 
 
 ## Pull requests
 
-Please submit all pull requests to the `18f-internal` branch first. The repository's maintainers will take it from there, and accept, modify, or reject the request. Maintainers will also move the change to `18f-pages`, the production branch.
+Please submit all pull requests to the `18f-pages-internal` branch first. The repository's maintainers will take it from there, and accept, modify, or reject the request. Maintainers will also move the change to `18f-pages`, the production branch.
 
 ## Public domain
 
