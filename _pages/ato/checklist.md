@@ -3,14 +3,14 @@ title: ATO Checklist
 navtitle: Checklist
 ---
 
-To start the security clearance process, [create an issue in the DevOps repository](https://github.com/18F/DevOps/issues/new?title=ATO+for+%3Cproject%3E) using this template. Make sure to replace the placeholders at the top. Feel free to add a username after each task to assign it, and/or make corresponding items in your issue tracker. After the DevOps issue is created, the Infrastructure Team will schedule a time to meet with you and discuss the ATO.
+To start the security clearance process, [create an issue in the Infrastructure repository](https://github.com/18F/Infrastructure/issues/new?title=ATO+for+%3Cproject%3E) using this template. Make sure to replace the placeholders at the top. Feel free to add a username after each task to assign it, and/or make corresponding items in your issue tracker. After the Infrastructure issue is created, the Infrastructure Team will schedule a time to meet with you and discuss the ATO.
 
 Make sure to:
 
 * Mention the [@18F/ato](https://github.com/orgs/18F/teams/ato) team in any issues or pull requests.
 * Leave a comment in the ATO issue when the `Project team` section of the checklist is complete and ready for review.
 
-You are welcome to ask any questions as comments in the issue or #devops.
+You are welcome to ask any questions as comments in the issue or #infrastructure.
 
 ```markdown
 * **Main repository:** <url>

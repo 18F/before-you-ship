@@ -50,7 +50,7 @@ For greybox testing, the testing team has significant (but not necessarily compl
 
 All of these tests must be conducted on all environments and stacks, including one _identical to production_. We call this environment and stack "pre-production" and will also affix the designation "scanee" so there is no ambiguity as to what is being scanned.
 
-This also requires a stable `master` branch. You can continue working on `feature` branches and deploy those to a development environment.
+This also requires creating a stable `release` branch. You can continue working on `master` and deploy builds from `master` to a development environment.
 
 ### Expectation management
 

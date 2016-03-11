@@ -24,7 +24,7 @@ Code analysis can be run locally with the following open source tools. These too
 
 ### Dependency analysis
 
-Use one of the services above, which should support adding public repositories yourself. If you need scanning on a private repository, [file an issue in the devops repo](https://github.com/18F/DevOps/issues/new).
+Use one of the services above, which should support adding public repositories yourself. If you need scanning on a private repository, [file an issue in the Infrastructure repo](https://github.com/18F/Infrastructure/issues/new).
 
 ### Code analysis
 

@@ -61,7 +61,7 @@ You need an Authority to Operate (ATO). Essentially, ATOs cover the important se
 * Is [SSL](https://github.com/18f/https) enabled for everything?
     * Do all of your URLs start with `https://`?
     * Does visiting your site with `http://` redirect to `https://`?
-* Reach out to the #devops team at least a month in advance of launch to give them a heads up.
+* Reach out to the #infrastructure team at least a month in advance of launch to give them a heads up.
 * Take a look at the [infrastructure best practices](infrastructure/).
 
 ## Also consider
