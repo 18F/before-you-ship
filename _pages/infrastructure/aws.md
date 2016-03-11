@@ -7,7 +7,7 @@ At 18F, we use [Amazon Web Services](https://aws.amazon.com/) (AWS) as our [infr
 
 Even if you are familiar with IaaS providers in general, or AWS specifically, before you are given access you **must go through on-boarding with the 18F Infrastructure team**.
 
-Sometime in 2015, this on-boarding will be part of 18F On-boarding for all relevant staff. If you're reading this now, need access, and haven't gone through the training, jump into the #devops channel in Slack to arrange for a session.
+Sometime in 2015, this on-boarding will be part of 18F On-boarding for all relevant staff. If you're reading this now, need access, and haven't gone through the training, jump into the #infrastructure channel in Slack to arrange for a session.
 
 ## Fundamentals
 

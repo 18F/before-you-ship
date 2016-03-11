@@ -9,7 +9,7 @@ parent: Security
 
 ## Usage
 
-You will need a running application to test, which you will want to be as production-like as possible. The 'Attack' scripts shouldn't do anything destructive, but will cause a spike in requests and errors. **Inform your team and #devops before running it on live (not locally-hosted) sites.**
+You will need a running application to test, which you will want to be as production-like as possible. The 'Attack' scripts shouldn't do anything destructive, but will cause a spike in requests and errors. **Inform your team and #infrastructure before running it on live (not locally-hosted) sites.**
 
 We gave an introduction to ZAP talk as part of our engineering tech talks series. [![Vulnerability Scanning with OWASP ZAP](http://img.youtube.com/vi/2Dp7pAvKHaM/0.jpg)](http://www.youtube.com/watch?v=2Dp7pAvKHaM)
 
