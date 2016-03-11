@@ -21,11 +21,9 @@ You need an Authority to Operate (ATO). Essentially, ATOs cover the important se
 
 * Add your launch plans and project milestones to the 18F Events calendar (a shared Google calendar). This helps several teams, especially the #outreach team. Rough estimates are welcome; the earlier you can update the calendar, the better.
 * Are you doing a big, splashy public launch? We recommend that you start releasing the site to more and more users slowly in advance of the announcement. This will require planning with public affairs folks who want to help you avoid getting scooped, but it's also an incredibly important way to prevent last minute problems. Additionally, make sure at least one engineer is available to troubleshoot &mdash; somewhere with reliable internet &mdash; during an announcement (instead of, for example, on stage at the White House conference center).
-* Are your project's details up to date on the [18F Dashboard](https://18f.gsa.gov/dashboard)?
-    * The dashboard team recommends you create this at the beginning of your project and update it monthly.
-    * Instructions for adding your project will be [here](https://github.com/18F/dashboard/#creating-content-for-your-dashboard-entry), but in the meantime, it will be easiest to ask for help in the #dashboard channel.
+* Are your project's details up to date in the [18F Team API](https://github.com/18F/team-api.18f.gov)? Make that happen by [creating an .about.yml file](https://github.com/18F/team-api.18f.gov#adding-project-data); the outreach team recommends creating this at the beginning of your project and updating it monthly. Good data in the Team API supports future iterations of the [Dashboard](https://18f.gsa.gov/dashboard/) and other useful efforts.
 * You need to share details about your project and develop a communications plan with our outreach team (who will also help coordinate with the necessary GSA front offices, such as press and congressional affairs). To do this, complete this [communications plan template](https://docs.google.com/document/d/1xc7H6m7lfesCN-phJGvGSDPmtoinB5sM9KAA8deMNTQ/edit).
-* Share the good news about your launch with everyone at 18F by telling Kara DeFrias or Leah Gitter that you'd like to announce something at the next Tuesday all hands meeting.
+* Share the good news about your launch with everyone at 18F by telling Leah Gitter that you'd like to announce something at the next Tuesday all hands meeting.
 
 ### Client expectations
 
@@ -46,7 +44,7 @@ You need an Authority to Operate (ATO). Essentially, ATOs cover the important se
 * Are your APIs up to [18F's API Standards](https://github.com/18f/api-standards)? _Ask the #wg-api if you have questions._
 * Have you installed 18F's Google Analytics and [DAP](https://www.digitalgov.gov/services/dap/) on everything?
     * Learn more in our [Analytics Standards](https://github.com/18F/analytics-standards).
-    * _Ask #wg-analytics if you have questions._
+    * _Ask #g-analytics if you have questions._
 * Open source is much more than just the license we choose. Are your GitHub repos (and their descriptions, READMEs, issues, etc.) up to our standards? Check out:
     * [The Open Source Style Guide](https://pages.18f.gov/open-source-guide/)
     * The [Writing Lab](https://github.com/18F/writing-lab) for help with documentation
