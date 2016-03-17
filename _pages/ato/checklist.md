@@ -34,7 +34,7 @@ You are welcome to ask any questions as comments in the issue or #infrastructure
 1. [Set up monitoring](https://pages.18f.gov/before-you-ship/infrastructure/monitoring/)
     * [ ] [Downtime alerts](https://pages.18f.gov/before-you-ship/infrastructure/monitoring/#downtime)
     * [ ] [Error alerts](https://pages.18f.gov/before-you-ship/infrastructure/monitoring/#errors)
-1. [ ] Add an [`about.yml`](https://github.com/18F/about_yml) for the main repository
+1. [ ] Add an [`.about.yml`](https://github.com/18F/about_yml) for the main repository
 1. [ ] [Security scans](https://pages.18f.gov/before-you-ship/security/scanning/)
     * [ ] Set up [static analysis](https://pages.18f.gov/before-you-ship/security/static-analysis/) service
         * [ ] Add service badges to the README

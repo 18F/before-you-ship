@@ -3,13 +3,13 @@ title: Levels of ATO
 navtitle: Levels
 ---
 
-In the [ATO Categorization](../categorize/) step, you picked an impact level (`low`, `medium`, `high`) for each of three metrics (`confidentiality`, `integrity`, and `availability`). The combination of these levels across the three metrics then correspond to an overall level:
+In the [ATO Categorization](../categorize/) step, you picked an impact level (`low`, `moderate`, `high`) for each of three metrics (`confidentiality`, `integrity`, and `availability`). The combination of these levels across the three metrics then correspond to an overall level:
 
 Overall level | Confidentiality | Integrity | Availability
 --- | --- | --- | ---
 **[Open Data](#open-data-atos)** | none | low | low
 **FISMA Low** | low | low | low
-**FISMA Medium** | medium | medium | medium
+**FISMA Moderate** | moderate | moderate | moderate
 **FISMA High** | high | high | high
 
 For more information, see [NIST 800-18](http://csrc.nist.gov/publications/nistpubs/800-18-Rev1/sp800-18-Rev1-final.pdf):
