@@ -15,7 +15,7 @@ Like with most things in 18F, this guide is a user-contributed work in progress.
 
 ### Compliance
 
-You need an Authority to Operate (ATO). Essentially, ATOs cover the important security reviews and approvals **required** for public government websites. They can take months (albeit rarely). You should review this [overview of ATOs](ato/) and these [tips](ato/tips/) to start planning.
+You need an Authority to Operate (ATO). Essentially, ATOs cover the important security reviews and approvals **required** for public government websites. They can take months (albeit rarely). You should review this [overview of ATOs](ato/) to start planning.
 
 ### Outreach
 
