@@ -1,21 +1,19 @@
 ---
-title: Introduction
+title: Your guide to launching software at 18F
 permalink: /
 ---
 
-The goal of this site is to provide 18F staff with the information they need to launch software. It's a mix of requirements and best practices for projects at 18F, which may or may not be applicable for other teams inside or outside of government.
+The goal of this site is to provide 18F staff with the information they need to launch software. It explains requirements and best practices for projects at 18F, which may or may not apply to other teams inside or outside of government.
 
-* **This list is:**
-    * A general guide to review early and often
-    * _Especially_ important when you're starting to consider a future project launch or feature release
-* **This list is not:**
-    * A last-minute pre-launch checklist, despite the "Before You Ship" title
+You need this if you're a product lead or technical lead, but since all project team members contribute to launches, everyone at 18F can benefit from reading it.
 
-Like with most things in 18F, this guide is a user-contributed work in progress. Let us know [how to improve it!](https://github.com/18F/before-you-ship/issues/new)
+**Read this guide early and often**, especially when you're starting to consider a future project launch or feature release. **This isn't a last-minute pre-launch checklist.**
+
+This page gives the big picture, and the left sidebar gives details about some of the key parts. Like most things at 18F, this guide is a user-contributed work in progress. Let us know [how to improve it](https://github.com/18F/before-you-ship/issues/new)!
 
 ### Compliance
 
-You need an Authority to Operate (ATO). Essentially, ATOs cover the important security reviews and approvals **required** for public government websites. They can take months (albeit rarely). You should review this [overview of ATOs](ato/) to start planning.
+Every project needs an Authority to Operate (ATO). ATOs cover the important security reviews and approvals **required** for public government websites. They can sometimes take months, so you should start this process very soon after a project begins. Review the [**overview of ATOs**](ato/) to start planning.
 
 ### Outreach
 
@@ -28,7 +26,7 @@ You need an Authority to Operate (ATO). Essentially, ATOs cover the important se
 ### Client expectations
 
 * Exactly how big of a splashy launch are you planning? Is POTUS announcing it? Have you decided on the level of spikes in traffic your budget supports? You should coordinate this with your engineers, client, and the Infrastructure Team.
-* Will your team need to work more than 40 hours in a week to support the launch? You should start the [comp time approvals process before launch, which is described in our handbook](https://github.com/18F/handbook/blob/staging/articles/5-training-and-professional-development/classes/benefits.md#comp-time). We take this seriously.
+* Will your team need to work more than 40 hours in a week to support the launch? You should start the [comp time approvals process before launch, which is described in our handbook](https://handbook.18f.gov/benefits/#heading-10). We take this seriously.
 * What will you do if something breaks? Have you talked to your client about their expectations of up time and their budget? 18F currently does not offer Service Level Agreements (SLAs), which normally include agreements about uptime and response time to downtime, but you should have an escalation protocol in place. Here is an example from the [betaFEC](https://beta.fec.gov) team.
 
     > 18F does not officially offer Service Level Agreements (SLAs), but we would still like to clarify expectations of up time for our client and users:
@@ -51,18 +49,17 @@ You need an Authority to Operate (ATO). Essentially, ATOs cover the important se
     * [CFPB's open source checklist](https://github.com/cfpb/open-source-project-template/blob/master/opensource-checklist.md)
     * _Ask #wg-opensource if you have questions._
 * Make sure you have all the social media metadata and preview images.
-* Set up [security scanning](security/scanning/).
-* Look through the [framework-specific guides](security/frameworks/).
 
-### Operations
+### Security and operations
 
+* Review the [**security best practices**](security/), including [scanning](security/scanning/) and the [framework-specific guides](security/frameworks/).
 * Is [SSL](https://github.com/18f/https) enabled for everything?
     * Do all of your URLs start with `https://`?
     * Does visiting your site with `http://` redirect to `https://`?
+* Review the [**infrastructure best practices**](infrastructure/).
 * Reach out to the #infrastructure team at least a month in advance of launch to give them a heads up.
-* Take a look at the [infrastructure best practices](infrastructure/).
 
-## Also consider
+### Also consider
 
 * Are you addressing user needs? How will you validate this a few months after launch?
 * Do you have a metrics and measurements strategy? Who owns this?
