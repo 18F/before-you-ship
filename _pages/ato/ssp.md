@@ -8,6 +8,14 @@ As described in [the NIST guide](http://csrc.nist.gov/publications/nistpubs/800-
 
 18F uses a machine-readable format for which template is below. We are also working on a tool to help generate SSPs, called [Compliance Masonry](https://github.com/opencontrol/compliance-masonry).
 
+### System/ Network Diagrams
+
+One of the requirements for an SSP is to include a network diagram for your system. A few example diagrams can be found below:
+
+1. [A simple application running on cloud.gov](https://docs.google.com/drawings/d/1f7y1nAkNfFX0MuHNB11z6bNCoNohQJ5f4s4xLr4zxds/edit)
+1. [A more complex application running on cloud.gov](https://docs.google.com/drawings/d/1LomjFFPlpIrO4i5H13ECJFVLCQ2i-nvJhiyd6IyUQYg/edit)
+1. [A complex application not running on cloud.gov](https://docs.google.com/drawings/d/10cH-OUB1NWzCI0v9LPzm7AXCfrHXNkDgnae-7hcUFu8/edit)
+
 ### Template
 
 Add the following to your repository as `system-security-plan.yml`, with the information in the `<angle brackets>` filled in. It doesn't need to be 100% complete right away...only before the ATO can be signed. Once added to your repository, it should be kept up-to-date as the project progresses.
