@@ -8,7 +8,7 @@ As described in [the NIST guide](http://csrc.nist.gov/publications/nistpubs/800-
 
 18F uses a machine-readable format for which template is below. We are also working on a tool to help generate SSPs, called [Compliance Masonry](https://github.com/opencontrol/compliance-masonry).
 
-### System/ Network Diagrams
+### System/Network Diagrams
 
 One of the requirements for an SSP is to include a network diagram for your system. A few example diagrams can be found below:
 
