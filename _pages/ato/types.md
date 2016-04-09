@@ -5,8 +5,8 @@ navtitle: Types
 
 There are three tracks of documentation available:
 
-* [90-day Limited Authority to Operate (LATO)](#day-authorization)
-* [1-year Limited Authority to Operate (LATO)](#year-authorization)
+* [90-day Lightweight Authority to Operate (LATO)](#day-authorization)
+* [1-year Lightweight Authority to Operate (LATO)](#year-authorization)
 * [Continuous Authority to Operate (cATO)](#continuous-authorization)
 
 ### Pre-authorization
