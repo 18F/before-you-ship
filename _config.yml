@@ -32,9 +32,43 @@ logoalt: 18F logo
 # Navigation
 # List links that should appear in the site sidebar here
 navigation:
-- text: Introduction
+- text: Overview
   url: ''
   internal: true
+- text: ATOs
+  url: ato/
+  internal: true
+  children:
+  - text: Background
+    url: background/
+    internal: true
+  - text: Types
+    url: types/
+    internal: true
+  - text: Walkthrough
+    url: walkthrough/
+    internal: true
+  - text: Checklist
+    url: checklist/
+    internal: true
+  - text: Categorize
+    url: categorize/
+    internal: true
+  - text: Levels
+    url: levels/
+    internal: true
+  - text: Controls
+    url: controls/
+    internal: true
+  - text: System Security Plan
+    url: ssp/
+    internal: true
+  - text: System Ownership
+    url: ownership/
+    internal: true
+  - text: Tips
+    url: tips/
+    internal: true
 - text: Security
   url: security/
   internal: true
@@ -54,39 +88,21 @@ navigation:
   - text: Frameworks
     url: frameworks/
     internal: true
-- text: ATOs
-  url: ato/
+- text: Infrastructure
+  url: infrastructure/
   internal: true
   children:
-  - text: Background
-    url: background/
+  - text: Amazon Web Services
+    url: aws/
     internal: true
-  - text: Levels
-    url: levels/
+  - text: Good Production Practices
+    url: good-production-practices/
     internal: true
-  - text: Checklist
-    url: checklist/
+  - text: Common Questions
+    url: common-questions/
     internal: true
-  - text: Tips
-    url: tips/
-    internal: true
-  - text: System Security Plan
-    url: ssp/
-    internal: true
-  - text: Types
-    url: types/
-    internal: true
-  - text: Controls
-    url: controls/
-    internal: true
-  - text: Ownership
-    url: ownership/
-    internal: true
-  - text: Walkthrough
-    url: walkthrough/
-    internal: true
-  - text: Categorize
-    url: categorize/
+  - text: Monitoring
+    url: monitoring/
     internal: true
 - text: Laws
   url: laws/
@@ -103,19 +119,6 @@ navigation:
     internal: true
   - text: SORN
     url: sorn/
-    internal: true
-- text: Infrastructure
-  url: infrastructure/
-  internal: true
-  children:
-  - text: Amazon Web Services
-    url: aws/
-    internal: true
-  - text: Good Production Practices
-    url: good-production-practices/
-    internal: true
-  - text: Common Questions
-    url: common-questions/
     internal: true
 
 repos:

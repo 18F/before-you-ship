@@ -10,15 +10,14 @@ While the ATO is the final compliance step that's required before launching an a
 
 ### Starting the ATO process
 
-1. Read through the [walkthrough](walkthrough/).
-1. Follow instructions on [the checklist](checklist/) page to kick off and set up a tracking mechanism for your ATO.
+To start the ATO process, follow the [walkthrough](walkthrough/).
 
 ### Re-authorization
 
-If the system substantively changes, then a new ATO will be warranted. Examples for triggers for a new ATO include changes to:
+If a system substantively changes, it'll need a new ATO. Examples for triggers for a new ATO include changes to:
 
 * Encryption methodologies
 * Administrative functionality within the application
 * The kinds of information you store (e.g. [personally identifiable information](../security/pii/))
 
-The 18F Infrastructure team will make this determination – please [open a new issue](https://github.com/18F/DevOps/issues/new?title=ATO+re-authorization+for+%3Cproject%3E?) if you think you have made a change that may warrant a new ATO.
+The 18F Infrastructure team will make this determination – please [open a new issue](https://github.com/18F/Infrastructure/issues/new?title=ATO+re-authorization+for+%3Cproject%3E?) if you think you have made a change that may require a new ATO.

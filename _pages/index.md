@@ -1,36 +1,32 @@
 ---
-title: Introduction
+title: Your guide to launching software at 18F
 permalink: /
 ---
 
-The goal of this site is to provide 18F staff with the information they need to launch software. It's a mix of requirements and best practices for projects at 18F, which may or may not be applicable for other teams inside or outside of government.
+The goal of this site is to provide 18F staff with the information they need to launch software. It explains requirements and best practices for projects at 18F, which may or may not apply to other teams inside or outside of government.
 
-* **This list is:**
-    * A general guide to review early and often
-    * _Especially_ important when you're starting to consider a future project launch or feature release
-* **This list is not:**
-    * A last-minute pre-launch checklist, despite the "Before You Ship" title
+You need this if you're a product lead or technical lead, but since all project team members contribute to launches, everyone at 18F can benefit from reading it.
 
-Like with most things in 18F, this guide is a user-contributed work in progress. Let us know [how to improve it!](https://github.com/18F/before-you-ship/issues/new)
+**Read this guide early and often**, especially when you're starting to consider a future project launch or feature release. **This isn't a last-minute pre-launch checklist.**
+
+This page gives the big picture, and the left sidebar gives details about some of the key parts. Like most things at 18F, this guide is a user-contributed work in progress. Let us know [how to improve it](https://github.com/18F/before-you-ship/issues/new)!
 
 ### Compliance
 
-You need an Authority to Operate (ATO). Essentially, ATOs cover the important security reviews and approvals **required** for public government websites. They can take months (albeit rarely). You should review this [overview of ATOs](ato/) and these [tips](ato/tips/) to start planning.
+Every project needs an Authority to Operate (ATO). ATOs cover the important security reviews and approvals **required** for public government websites. They can sometimes take months, so you should start this process very soon after a project begins. Review the [**overview of ATOs**](ato/) to start planning.
 
 ### Outreach
 
 * Add your launch plans and project milestones to the 18F Events calendar (a shared Google calendar). This helps several teams, especially the #outreach team. Rough estimates are welcome; the earlier you can update the calendar, the better.
 * Are you doing a big, splashy public launch? We recommend that you start releasing the site to more and more users slowly in advance of the announcement. This will require planning with public affairs folks who want to help you avoid getting scooped, but it's also an incredibly important way to prevent last minute problems. Additionally, make sure at least one engineer is available to troubleshoot &mdash; somewhere with reliable internet &mdash; during an announcement (instead of, for example, on stage at the White House conference center).
-* Are your project's details up to date on the [18F Dashboard](https://18f.gsa.gov/dashboard)?
-    * The dashboard team recommends you create this at the beginning of your project and update it monthly.
-    * Instructions for adding your project will be [here](https://github.com/18F/dashboard/#creating-content-for-your-dashboard-entry), but in the meantime, it will be easiest to ask for help in the #dashboard channel.
+* Are your project's details up to date in the [18F Team API](https://github.com/18F/team-api.18f.gov)? Make that happen by [creating an .about.yml file](https://github.com/18F/team-api.18f.gov#adding-project-data); the outreach team recommends creating this at the beginning of your project and updating it monthly. Good data in the Team API supports future iterations of the [Dashboard](https://18f.gsa.gov/dashboard/) and other useful efforts.
 * You need to share details about your project and develop a communications plan with our outreach team (who will also help coordinate with the necessary GSA front offices, such as press and congressional affairs). To do this, complete this [communications plan template](https://docs.google.com/document/d/1xc7H6m7lfesCN-phJGvGSDPmtoinB5sM9KAA8deMNTQ/edit).
-* Share the good news about your launch with everyone at 18F by telling Kara DeFrias or Leah Gitter that you'd like to announce something at the next Tuesday all hands meeting.
+* Share the good news about your launch with everyone at 18F by telling Leah Gitter that you'd like to announce something at the next Tuesday all hands meeting.
 
 ### Client expectations
 
 * Exactly how big of a splashy launch are you planning? Is POTUS announcing it? Have you decided on the level of spikes in traffic your budget supports? You should coordinate this with your engineers, client, and the Infrastructure Team.
-* Will your team need to work more than 40 hours in a week to support the launch? You should start the [comp time approvals process before launch, which is described in our handbook](https://github.com/18F/handbook/blob/staging/articles/5-training-and-professional-development/classes/benefits.md#comp-time). We take this seriously.
+* Will your team need to work more than 40 hours in a week to support the launch? You should start the [comp time approvals process before launch, which is described in our handbook](https://handbook.18f.gov/benefits/#heading-10). We take this seriously.
 * What will you do if something breaks? Have you talked to your client about their expectations of up time and their budget? 18F currently does not offer Service Level Agreements (SLAs), which normally include agreements about uptime and response time to downtime, but you should have an escalation protocol in place. Here is an example from the [betaFEC](https://beta.fec.gov) team.
 
     > 18F does not officially offer Service Level Agreements (SLAs), but we would still like to clarify expectations of up time for our client and users:
@@ -46,25 +42,24 @@ You need an Authority to Operate (ATO). Essentially, ATOs cover the important se
 * Are your APIs up to [18F's API Standards](https://github.com/18f/api-standards)? _Ask the #wg-api if you have questions._
 * Have you installed 18F's Google Analytics and [DAP](https://www.digitalgov.gov/services/dap/) on everything?
     * Learn more in our [Analytics Standards](https://github.com/18F/analytics-standards).
-    * _Ask #wg-analytics if you have questions._
+    * _Ask #g-analytics if you have questions._
 * Open source is much more than just the license we choose. Are your GitHub repos (and their descriptions, READMEs, issues, etc.) up to our standards? Check out:
     * [The Open Source Style Guide](https://pages.18f.gov/open-source-guide/)
     * The [Writing Lab](https://github.com/18F/writing-lab) for help with documentation
     * [CFPB's open source checklist](https://github.com/cfpb/open-source-project-template/blob/master/opensource-checklist.md)
     * _Ask #wg-opensource if you have questions._
 * Make sure you have all the social media metadata and preview images.
-* Set up [security scanning](security/scanning/).
-* Look through the [framework-specific guides](security/frameworks/).
 
-### Operations
+### Security and operations
 
+* Review the [**security best practices**](security/), including [scanning](security/scanning/) and the [framework-specific guides](security/frameworks/).
 * Is [SSL](https://github.com/18f/https) enabled for everything?
     * Do all of your URLs start with `https://`?
     * Does visiting your site with `http://` redirect to `https://`?
-* Reach out to the #devops team at least a month in advance of launch to give them a heads up.
-* Take a look at the [infrastructure best practices](infrastructure/).
+* Review the [**infrastructure best practices**](infrastructure/).
+* Reach out to the #infrastructure team at least a month in advance of launch to give them a heads up.
 
-## Also consider
+### Also consider
 
 * Are you addressing user needs? How will you validate this a few months after launch?
 * Do you have a metrics and measurements strategy? Who owns this?
