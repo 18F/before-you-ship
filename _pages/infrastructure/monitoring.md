@@ -4,6 +4,7 @@ parent: Infrastructure
 ---
 
 There are several kinds of monitoring that you will need to have in place for any application:
+
 * **Downtime:** Is the app available?
 * **Errors:** Is the app generating errors at an unacceptable rate?
 * **Performance:** Even if the app is functional, is it unusably slow?
@@ -16,18 +17,14 @@ Monitoring is only useful if the relevant people are alerted when something goes
 
 It will likely take some tweaking of the thresholds to get the signal-to-noise ratio right. Plan to have monitoring active for several weeks before the go-live date to give the team time to spot problems, practice response and tune the alert conditions.
 
-
 ## Your DevOps Team
 
-At present we don't have a dedicated first-line support team across 18F. Projects need to coordinate their own DevOps teams for alert response.
-
-Teams will need:
+At present we don't have a dedicated first-line support team across 18F. Projects need to coordinate their own DevOps teams for alert response. Teams will need:
 
 * **Reachability:** Alerts should go directly to their devices, not just to Slack.
 * **Escalation path:** Team members should know how to at least _start_ dealing with alerts. [Here's a great example from College Scorecard](https://docs.google.com/document/d/1Lfr_IufB9nuTjsZJgsm5CxfBRFVbHj266zMddhzWCJg/edit). (Thanks, @abisker!)
 * **Direct access to monitoring systems:** Make sure everyone has a working login on whichever monitoring systems you pick, and has at least a little experience navigating them.
 * **Clear expectations of uptime & availability:** At present, 18F staff work 40 hour weeks and there is no requirement to be available in off hours. In practice, people want to make sure their stuff works, and many will jump online to fix things if they see a problem over the weekend. But **there should be no expectation of this**. Furthermore, **this understanding must be established with project partners.** Projects that need greater support coverage should arrange dedicated on-call staff elsewhere.
-
 
 ## Errors & Performance Problems
 
