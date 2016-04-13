@@ -57,7 +57,7 @@ def_command :test_build, 'Build the site for testing' do
 end
 
 
-require 'html/proofer'
+require 'html-proofer'
 
 # keep in sync with the `ignoreUrls` in `./assets/js/before-you-ship.js`
 BASE_PROOFER_OPTS = {
@@ -72,14 +72,14 @@ BASE_PROOFER_OPTS = {
 
 def_command :ci_test, 'Build and test the site, checking local URLs only' do
   test_build
-  HTML::Proofer.new('./_test_site', BASE_PROOFER_OPTS.merge(
+  HTMLProofer.check_directory('./_test_site', BASE_PROOFER_OPTS.merge(
     disable_external: true
   )).run
 end
 
 def_command :test, 'Build and test the site, checking all URLs' do
   test_build
-  HTML::Proofer.new('./_test_site', BASE_PROOFER_OPTS).run
+  HTMLProofer.check_directory('./_test_site', BASE_PROOFER_OPTS).run
 end
 
 execute_command ARGV

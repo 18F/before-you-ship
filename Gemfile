@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
+gem 'jekyll', '~> 3.1'
 gem 'go_script'
 
 group :jekyll_plugins do
@@ -8,5 +8,5 @@ group :jekyll_plugins do
 end
 
 group :development, :test do
-  gem 'html-proofer'
+  gem 'html-proofer', '~> 3.0'
 end
