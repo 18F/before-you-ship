@@ -19,14 +19,14 @@ Every project needs an Authority to Operate (ATO). ATOs cover the important secu
 
 * Appoint a storyteller for your project early in the cycle and notify #outreach. The storyteller will be your project's conduit with the outreach team and should notify the outreach team about: 
 
-- upcoming milestones and events (that you’re going to or could present at)
-- any impending risks to prepare for press and mitigate any issues
-- progress on comms plan / blog posts
-- any other ways the comms team can help your project
-- upcoming speaking events / conferences that the project/product is represented at
-- any updates that need to be conveyed to the agency partner’s comms team (and who those people might be.)
-- updates for 18F newsletter or Dolores or #news
-- updates for open source community who might be able to help with ‘help-wanted’ tags
+    - upcoming milestones and events (that you’re going to or could present at)
+    - any impending risks to prepare for press and mitigate any issues
+    - progress on comms plan / blog posts
+    - any other ways the comms team can help your project
+    - upcoming speaking events / conferences that the project/product is represented at
+    - any updates that need to be conveyed to the agency partner’s comms team (and who those people might be.)
+    - updates for 18F newsletter or Dolores or #news
+    - updates for open source community who might be able to help with ‘help-wanted’ tags
 
 * Add your launch plans and project milestones to the 18F Events calendar (a shared Google calendar). This helps several teams, especially the #outreach team. Rough estimates are welcome; the earlier you can update the calendar, the better.
 * Are you doing a big, splashy public launch? We recommend that you start releasing the site to more and more users slowly in advance of the announcement. This will require planning with public affairs folks who want to help you avoid getting scooped, but it's also an incredibly important way to prevent last minute problems. Additionally, make sure at least one engineer is available to troubleshoot &mdash; somewhere with reliable internet &mdash; during an announcement (instead of, for example, on stage at the White House conference center).
