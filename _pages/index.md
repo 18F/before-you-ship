@@ -17,10 +17,21 @@ Every project needs an Authority to Operate (ATO). ATOs cover the important secu
 
 ### Outreach
 
+* Appoint a storyteller for your project early in the cycle and notify #outreach. The storyteller will be your project's conduit with the outreach team and should notify the outreach team about: 
+
+- upcoming milestones and events (that you’re going to or could present at)
+- any impending risks to prepare for press and mitigate any issues
+- progress on comms plan / blog posts
+- any other ways the comms team can help your project
+- upcoming speaking events / conferences that the project/product is represented at
+- any updates that need to be conveyed to the agency partner’s comms team (and who those people might be.)
+- updates for 18F newsletter or Dolores or #news
+- updates for open source community who might be able to help with ‘help-wanted’ tags
+
 * Add your launch plans and project milestones to the 18F Events calendar (a shared Google calendar). This helps several teams, especially the #outreach team. Rough estimates are welcome; the earlier you can update the calendar, the better.
 * Are you doing a big, splashy public launch? We recommend that you start releasing the site to more and more users slowly in advance of the announcement. This will require planning with public affairs folks who want to help you avoid getting scooped, but it's also an incredibly important way to prevent last minute problems. Additionally, make sure at least one engineer is available to troubleshoot &mdash; somewhere with reliable internet &mdash; during an announcement (instead of, for example, on stage at the White House conference center).
 * Are your project's details up to date in the [18F Team API](https://github.com/18F/team-api.18f.gov)? Make that happen by [creating an .about.yml file](https://github.com/18F/team-api.18f.gov#adding-project-data); the outreach team recommends creating this at the beginning of your project and updating it monthly. Good data in the Team API supports future iterations of the [Dashboard](https://18f.gsa.gov/dashboard/) and other useful efforts.
-* You need to share details about your project and develop a communications plan with our outreach team (who will also help coordinate with the necessary GSA front offices, such as press and congressional affairs). To do this, complete this [communications plan template](https://docs.google.com/document/d/1xc7H6m7lfesCN-phJGvGSDPmtoinB5sM9KAA8deMNTQ/edit).
+* Your storyteller will need to share details about your project and develop a communications plan with our outreach team (who will also help coordinate with the necessary GSA front offices, such as press and congressional affairs). To do this, complete this [communications plan template](https://docs.google.com/document/d/1xc7H6m7lfesCN-phJGvGSDPmtoinB5sM9KAA8deMNTQ/edit).
 * Share the good news about your launch with everyone at 18F by telling Leah Gitter that you'd like to announce something at the next Tuesday all hands meeting.
 
 ### Client expectations
