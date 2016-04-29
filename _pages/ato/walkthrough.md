@@ -18,7 +18,7 @@ Determine your system's overall level using the [Levels](../levels/) guide. This
 
 Your system's baseline will determine the "controls" you need to implement. **"Controls" are individual security requirements** laid out by the National Institute of Standards and Technology (NIST) — for a list of them, see the [Controls](../controls/) page. [NIST 800-53 Table D-2](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf#page=109) shows how each control maps to a baseline.
 
-If your system's impact levels don't match one of the "overall levels" listed  at [Levels](../levels/) (for example, you have a `low | moderate | moderate` system), you need to create a new baseline by making a new "certification schema" in [Compliance Masonry](https://github.com/opencontrol/compliance-masonry). Do this early on in your project. It's possible to downgrade the level for any particular control, as long as it doesn't affect any other controls with a higher level (e.g. account management can be `low` if it doesn't allow you to edit confidential data). Note that there aren't that many specifics around what each level means for each control.
+If your system's impact levels don't match one of the "overall levels" listed  at [Levels](../levels/) (for example, you have a `low | moderate | moderate` system), you need to create a new baseline by making a new [certification schema](https://github.com/opencontrol/schemas#certifications) in [Compliance Masonry](https://github.com/opencontrol/compliance-masonry). Do this early on in your project. It's possible to downgrade the level for any particular control, as long as it doesn't affect any other controls with a higher level (e.g. account management can be `low` if it doesn't allow you to edit confidential data). Note that there aren't that many specifics around what each level means for each control.
 
 ### Step 3 — Implement the controls
 
@@ -29,7 +29,7 @@ This step is essentially "state how your system meets each of the regulations". 
 
 #### Compliance Masonry
 
-The Compliance Masonry YAML file uses structured data to state how each control is one of the following:
+The [Compliance Masonry](https://github.com/opencontrol/compliance-masonry) YAML file uses structured data to state how each control is one of the following:
 
 * Not relevant to the system
 * Relevant to the system, and is one of the following:
