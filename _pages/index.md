@@ -3,7 +3,7 @@ title: Your guide to launching software at 18F
 permalink: /
 ---
 
-The goal of this site is to provide 18F staff with the information they need to launch software. It explains requirements and best practices for projects at 18F, which may or may not apply to other teams inside or outside of government.
+The goal of this site is to provide 18F staff with the information they need to launch software from a technical and compliance perspective. It explains requirements and best practices for projects at 18F, which may or may not apply to other teams inside or outside of government. **This site is a companion to [the Lifecycle section of 18F's Product Guide](https://pages.18f.gov/product-guide/lifecycle-of-a-project/)**, which gives broader guidance.
 
 You need this if you're a product lead or technical lead, but since all project team members contribute to launches, everyone at 18F can benefit from reading it.
 
