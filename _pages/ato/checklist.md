@@ -24,12 +24,9 @@ You are welcome to ask any questions as comments in the issue or #infrastructure
 
 ## TODOs
 
-### High-level
-
-* [ ] Select the security controls
-* [ ] Implement the controls
-
 ### Project team
+
+Many of these tasks can be done in parallel...this is just a suggestion of priority.
 
 1. [Set up monitoring](https://pages.18f.gov/before-you-ship/infrastructure/monitoring/)
     * [ ] [Downtime alerts](https://pages.18f.gov/before-you-ship/infrastructure/monitoring/#downtime)
@@ -43,6 +40,8 @@ You are welcome to ask any questions as comments in the issue or #infrastructure
         1. [ ] Add the issue-free scan report to [the `ATOs` folder in Google Drive](https://drive.google.com/a/gsa.gov/folderview?id=0BynIxtx-CfkdckljM3BPSkdQT1U&usp=sharing)
 1. [ ] Update relevant documentation, primarily the README
 1. [ ] Add a [System Security Plan](https://pages.18f.gov/before-you-ship/ato/ssp/#template) to the repository
+1. [ ] [Set up Compliance Masonry documentation](https://github.com/18F/cg-compliance#starting-ato-documentation-for-cloudgov-applications)
+1. [ ] [Implement the controls](https://pages.18f.gov/before-you-ship/ato/walkthrough/#step-3--implement-the-controls)
 
 ### Authorizing Official
 
