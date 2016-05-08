@@ -3,7 +3,7 @@ title: Your guide to launching software at 18F
 permalink: /
 ---
 
-The goal of this site is to provide 18F staff with the information they need to launch software. It explains requirements and best practices for projects at 18F, which may or may not apply to other teams inside or outside of government.
+The goal of this site is to provide 18F staff with the information they need to launch software from a technical and compliance perspective. It explains requirements and best practices for projects at 18F, which may or may not apply to other teams inside or outside of government. **This site is a companion to [the Lifecycle section of 18F's Product Guide](https://pages.18f.gov/product-guide/lifecycle-of-a-project/)**, which gives broader guidance.
 
 You need this if you're a product lead or technical lead, but since all project team members contribute to launches, everyone at 18F can benefit from reading it.
 
@@ -15,28 +15,9 @@ This page gives the big picture, and the left sidebar gives details about some o
 
 Every project needs an Authority to Operate (ATO). ATOs cover the important security reviews and approvals **required** for public government websites. They can sometimes take months, so you should start this process very soon after a project begins. Review the [**overview of ATOs**](ato/) to start planning.
 
-### Outreach
-
-* Add your launch plans and project milestones to the 18F Events calendar (a shared Google calendar). This helps several teams, especially the #outreach team. Rough estimates are welcome; the earlier you can update the calendar, the better.
-* Are you doing a big, splashy public launch? We recommend that you start releasing the site to more and more users slowly in advance of the announcement. This will require planning with public affairs folks who want to help you avoid getting scooped, but it's also an incredibly important way to prevent last minute problems. Additionally, make sure at least one engineer is available to troubleshoot &mdash; somewhere with reliable internet &mdash; during an announcement (instead of, for example, on stage at the White House conference center).
-* Are your project's details up to date in the [18F Team API](https://github.com/18F/team-api.18f.gov)? Make that happen by [creating an .about.yml file](https://github.com/18F/team-api.18f.gov#adding-project-data); the outreach team recommends creating this at the beginning of your project and updating it monthly. Good data in the Team API supports future iterations of the [Dashboard](https://18f.gsa.gov/dashboard/) and other useful efforts.
-* You need to share details about your project and develop a communications plan with our outreach team (who will also help coordinate with the necessary GSA front offices, such as press and congressional affairs). To do this, complete this [communications plan template](https://docs.google.com/document/d/1xc7H6m7lfesCN-phJGvGSDPmtoinB5sM9KAA8deMNTQ/edit).
-* Share the good news about your launch with everyone at 18F by telling Leah Gitter that you'd like to announce something at the next Tuesday all hands meeting.
-
-### Client expectations
-
-* Exactly how big of a splashy launch are you planning? Is POTUS announcing it? Have you decided on the level of spikes in traffic your budget supports? You should coordinate this with your engineers, client, and the Infrastructure Team.
-* Will your team need to work more than 40 hours in a week to support the launch? You should start the [comp time approvals process before launch, which is described in our handbook](https://handbook.18f.gov/benefits/#heading-10). We take this seriously.
-* What will you do if something breaks? Have you talked to your client about their expectations of up time and their budget? 18F currently does not offer Service Level Agreements (SLAs), which normally include agreements about uptime and response time to downtime, but you should have an escalation protocol in place. Here is an example from the [betaFEC](https://beta.fec.gov) team.
-
-    > 18F does not officially offer Service Level Agreements (SLAs), but we would still like to clarify expectations of up time for our client and users:
-    >
-    > Three main components are responsible for hosting [beta.fec.gov](https://beta.fec.gov) and its data: the betaFEC web app, cloud.gov, and api.data.gov. These services are all under constant monitoring and set up for low or zero-downtime deployments, and we expect them to operate continuously. Our data is updated nightly. Cloud.gov's current status and history of uptime is available at https://cloudgov.statuspage.io and api.data.gov's is at https://synthetics.newrelic.com/report/UIoF9.
-    >
-    > Problems should be reported by opening an issue on [GitHub](https://github.com/18F/openfec). If you would like to escalate the issue, you can reach out to your 18F Product Manager by [texting/calling (555)555-5555/slack DMing/emailing/etc.]. We may not address issues outside of business hours until the next day.
-
 ### Technical
 
+* Exactly how big of a splashy launch are you planning? Is POTUS announcing it? Have you figured out what level of traffic you need to support? This should be coordinated between the engineers on your team, your client, and the Infrastructure Team.
 * Is your project accessible and [Section 508](laws/508/) compliant? The team will need to incorporate this throughout the project, but you'll also need to set up a review at least two weeks before launch.
 * How good is your code test coverage? Before shipping, you should have codecov badges on your GitHub repo READMEs and coverage should be above 90 percent (green). (This is not a perfect measure for code quality, but a helpful check.) The testing working group recommends reviewing your status early and often. _Ask #wg-testing if you have questions._
 * Are your APIs up to [18F's API Standards](https://github.com/18f/api-standards)? _Ask the #wg-api if you have questions._
@@ -61,7 +42,6 @@ Every project needs an Authority to Operate (ATO). ATOs cover the important secu
 
 ### Also consider
 
-* Are you addressing user needs? How will you validate this a few months after launch?
 * Do you have a metrics and measurements strategy? Who owns this?
 * Review the [18F Guides](https://guides.18f.gov).
 * Once you have reviewed everything here, the DigitalGov team at GSA has collected a list of [Requirements for Federal Websites and Digital Services](http://www.digitalgov.gov/resources/checklist-of-requirements-for-federal-digital-services/) that you should familiarize yourself with. We recommend reviewing this last, because many of the requirements are explained or managed in the above guides and processes.
@@ -71,10 +51,7 @@ Every project needs an Authority to Operate (ATO). ATOs cover the important secu
 For every release after your public launch, you should consider: _(Explained in detail above.)_
 
 * Accessibility reviews should be done for any changes.
-* Add project milestones and new features to the events calendar and 18F dashboard.
-* Should we promote the new features with a blog post, tweets, etc?
-* Do you need to update your GitHub documentation?
-* Planning for comp time might be necessary, especially in case there are problems.
+* Do you need to update your GitHub documentation, or your `.about.yml`?
 
 ### Additional resources
 
