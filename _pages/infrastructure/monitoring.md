@@ -33,7 +33,7 @@ For a non-static site, you will want to know if exceptions are being thrown with
 * [New Relic APM](http://newrelic.com/application-monitoring)
     * See [the FISMA Ready instructions](https://github.com/fisma-ready/new-relic) for useful settings to go in the New Relic `ini` file.
     * At time of writing, [New Relic Alerts](https://docs.newrelic.com/docs/alerts/new-relic-alerts/getting-started/new-relic-alerts) is in open beta. While it doesn't yet provide all the features of the legacy system, it's already enough of an improvement that it's worth checking out.
-    * For [New Relic](https://newrelic.com) access, [open an issue in the DevOps repo](https://github.com/18F/DevOps/issues/new?title=New+Relic+account+for+%3Cname%3E) to get an account set up for your project.
+    * For [New Relic](https://newrelic.com) access, [open an issue in the Infrastructure repo](https://github.com/18F/Infrastructure/issues/new?title=New+Relic+account+for+%3Cname%3E) to get an account set up for your project.
 * [Sentry](https://getsentry.com/)
     * You can deploy/manage this yourself—see the [deployment instructions](https://github.com/18F/how-to-deploy/blob/master/sentry/README.md). However, @jmcarp has set up [sentry.18f.gov](https://sentry.18f.gov/) for 18F-wide use. _(Moar docs needed here!)_
 
@@ -59,11 +59,11 @@ You will want to know if your site goes down. Options:
 
 * [New Relic Synthetics](http://newrelic.com/synthetics)
 * [Pingdom](https://www.pingdom.com/)
-    * [Open an issue in the DevOps repo](https://github.com/18F/DevOps/issues/new?title=set+up+Pingdom+for+%3Cproject%3E) to get this set up.
+    * [Open an issue in the Infrastructure repo](https://github.com/18F/Infrastructure/issues/new?title=set+up+Pingdom+for+%3Cproject%3E) to get this set up.
 
 ## Notification Methods
 
-Ways to alert DevOps & project team members:
+Ways to alert Infrastructure & project team members:
 
 * **Slack**, though you may not want all errors going to the project's main Slack channel. (See the section below on [grouping notification channels](#grouping-notification-channels))
 * **SMS**, which is only available through certain services - Pingdom and PagerDuty provide SMS, but New Relic doesn't; instead it has...
