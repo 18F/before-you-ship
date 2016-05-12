@@ -90,7 +90,7 @@ To scan, from your project directory:
 
 #### Config files
 
-Basic config files for the three static analysis tools can be found in the [compliance-toolkit repo](https://github.com/18F/compliance-toolkit). These currently are little more than the default settings, but the recommendations may change. If you find a test that you believe is invalid, file an issue in the repo and give a shout in #compliance-toolkit in Slack.
+Basic config files for the three static analysis tools can be found in the [compliance-toolkit repo](https://github.com/18F/compliance-toolkit). These currently are little more than the default settings, but the recommendations may change. If you find a test that you believe is invalid, file an issue in the repo and give a shout in #cloud-gov-highbar in Slack.
 
 We are especially interested to know if you get lots of false positives. We believe the default config files will grow and evolve, but the most up-to-date versions will always be found in the repo.
 
