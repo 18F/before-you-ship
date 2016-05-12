@@ -14,6 +14,9 @@ There are three tracks of documentation available:
 You may operate without authorization under the following conditions:
 
 * The system is deployed to [cloud.gov](https://cloud.gov) or the [18F AWS East/West environment](../../infrastructure/aws/).
+* The system does _not_:
+    * interact with or change the state of any production Federal information system, whether it is operated by 18F or our Federal partners
+    * collect or store any [sensitive PII](../../security/pii)
 * The system is _only_ available to:
     * staff of the General Services Administration
     * other Federal staff / agencies, by one of:
@@ -22,9 +25,8 @@ You may operate without authorization under the following conditions:
             * HTTP Basic Auth
             * OAuth (MyUSA)
             * etc.
-* The system does _not_:
-    * interact with or change the state of any production Federal information system, whether it is operated by 18F or our Federal partners
-    * collect or store any [sensitive PII](../../security/pii)
+
+Note that this last requirement can be skipped for [Open Data](../levels/#open-data-atos) systems once you initiate [the ATO process](../checklist/). This is greater incentive to do so early.
 
 ### 90-day authorization
 
