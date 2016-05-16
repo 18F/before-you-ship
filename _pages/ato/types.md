@@ -30,7 +30,7 @@ Note that this last requirement can be skipped for [Open Data](../levels/#open-d
 
 ### 90-day authorization
 
-Once you're ready to move beyond the restrictions of pre-authorization, you must go through the process to obtained a LATO for 90 Days. This authorization can cover any system in the Discovery, Alpha, or Beta phases.
+Once you're ready to move beyond the restrictions of pre-authorization, you must go through the process to obtain a LATO for 90 Days. This authorization can cover any system in the Discovery, Alpha, or Beta phases.
 
 You **must** have a 90 day authorization before violating _any_ of the restrictions in the section above.
 
