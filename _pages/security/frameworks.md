@@ -12,8 +12,8 @@ parent: Security
 See also:
 
 * [OWASP Django Secure Configuration Guide](https://www.owasp.org/index.php/SCG_WF_Django)
+* Search [this deck](https://speakerdeck.com/mpirnat/shiny-lets-be-bad-guys-exploiting-and-mitigating-the-top-10-web-app-vulnerabilities-oscon-2016-edition) (click "Download PDF") for "Django"
 * Jacob Kaplan-Moss' talk: [Python vs. the OWASP Top 10](https://www.youtube.com/watch?v=sra9x44lXgU) ([slides](https://speakerdeck.com/jacobian/python-vs-the-owasp-top-10))
-
 
 ### Flask
 
@@ -23,9 +23,8 @@ See also:
 
 See also:
 
+* Search [this deck](https://speakerdeck.com/mpirnat/shiny-lets-be-bad-guys-exploiting-and-mitigating-the-top-10-web-app-vulnerabilities-oscon-2016-edition) (click "Download PDF") for "Flask"
 * Jacob Kaplan-Moss' talk: [Python vs. the OWASP Top 10](https://www.youtube.com/watch?v=sra9x44lXgU) ([slides](https://speakerdeck.com/jacobian/python-vs-the-owasp-top-10))
-
-
 
 ### Rails
 
