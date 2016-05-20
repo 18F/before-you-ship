@@ -41,25 +41,15 @@ These are just the concepts necessary for initial on-boarding. AWS has an [exten
 
 There are a few special notes on using any IaaS in the Federal context.
 
+### Sandbox
+
+See @jezhumble's [Slack post](https://18f.slack.com/files/jezhumble/F18GU8ABW/AWS_Sandboxes_for_18F_and_PIF_use) about the 18F sandbox account.
+
 ### Other people's money
 
 The Federal Government cannot pay one penny more than it is authorized to spend. There is no retroactive justification for spends. When Government exceeds these limits, a report and explanation is required to the GSA Administrator, General Counsel, and Congress. So tracking costs is a *big deal*.
 
 Every inter-agency agreement (IAA) at 18F needs to have a line item on a total value to spend on infrastructure, including Amazon Web Services (AWS). Unless it is part of a negotiation with 18F Infrastructure, we *do not* pay for non-production hosting costs. All costs must go back to the Federal partner or another funding source. There is no actual concept of _non-billable_ - there are only costs that are directly or indirectly billable. If we don't bill a funding source, it means that 18F's rates must go up that next fiscal year in order indirectly recoup costs.
-
-For AWS, the cost of almost every service can be tracked through the usage of **tags**. Tags are just simple `key`:`value` pieces of metadata. Unfortunately, there does not seem to be any canonical list of which AWS services supports tags, nor is there any consistent way within the AWS Management Console of each particular service to apply or change a tag. Once you gain access to the AWS Management Console, you can click on various resources and see if a *Tags* tab or link is available. In this example, the 18F Hub site has two tags:
-
-![Screenshot of tag usage in AWS](../../assets/images/aws-tags-display-console.png)
-
-AWS has recently deployed significant improvements for tag management. There is now a [global viewer and editor](https://resources.console.aws.amazon.com/r/tags) for all tags.
-
-The most important resources to tag are [EC2 instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Using_Tags.html) and [RDS instances](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_Tagging.html). You should also consult the AWS documentation of the service you're using.
-
-#### Format for the `client` tag
-
-18F Infrastructure maintains a [list of canonical unique identifiers](https://docs.google.com/spreadsheets/d/1hjCYIskgD_x_MI1ehXoiz2Qvsyxj1yK3fxabkezMPiE/edit#gid=0) (MB numbers) to use for all the `client` tags of a project. If you see your project missing, please contact the Director of Infrastructure in Slack.
-
-Note that both the `key` and the `value` of AWS tags are *case-sensitive*. Keep keys and values as all lower-case, except when using an acronym.
 
 ### Other people's information
 
@@ -92,10 +82,6 @@ We use a pre-hardened version of [Ubuntu](https://en.wikipedia.org/wiki/Ubuntu_%
 Regardless of what your system does, we enforce [HTTPS Everywhere](https://18f.gsa.gov/2014/11/13/why-we-use-https-in-every-gov-website-we-make/).
 
 ## Demo agenda
-
-#### All Services
-
-* Tags for `Name` and `client` _must_ be set if available.
 
 #### VPCs
 
