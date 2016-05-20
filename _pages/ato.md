@@ -12,6 +12,10 @@ While the ATO is the final compliance step that's required before launching an a
 
 To start the ATO process, follow the [walkthrough](walkthrough/).
 
+### Federalist/Pages sites
+
+If you are publishing a new site through [Federalist](../infrastructure/#federalist) or [18F Pages](../infrastructure/#f-pages) and it's not connecting to any APIs or third-party services (i.e. it's a simple static site), the site is considered part of that system, so does not require its own ATO ([source](https://github.com/18F/before-you-ship/issues/95#issuecomment-174011747)).
+
 ### Re-authorization
 
 If a system substantively changes, it'll need a new ATO. Examples for triggers for a new ATO include changes to:
@@ -20,4 +24,4 @@ If a system substantively changes, it'll need a new ATO. Examples for triggers f
 * Administrative functionality within the application
 * The kinds of information you store (e.g. [personally identifiable information](../security/pii/))
 
-The 18F Infrastructure team will make this determination – please [open a new issue](https://github.com/18F/Infrastructure/issues/new?title=ATO+re-authorization+for+%3Cproject%3E?) if you think you have made a change that may require a new ATO.
+The 18F Infrastructure team will make this determination – please [open a new issue](https://github.com/18F/Infrastructure/issues/new?title=ATO+re-authorization+for+%3Cproject%3E?) if you think you have made a change that may require a new ATO. Even if you're not sure, doesn't hurt to ask!
