@@ -30,7 +30,7 @@ Note however that when partner agencies assert that **of course** their product 
 
 ### Static sites
 
-There are several options for deploying static sites at 18F:
+There are several options for deploying static sites at 18F. [**GitHub Pages is not one of them**](https://18f.gsa.gov/2015/05/14/18Fpages/).
 
 #### cloud.gov
 
