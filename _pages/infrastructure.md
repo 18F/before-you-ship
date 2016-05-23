@@ -36,19 +36,19 @@ There are several options for deploying static sites at 18F. [**GitHub Pages is 
 
 See cloud.gov page on [deploying static sites](https://docs.cloud.gov/apps/static/).
 
-* **Internal:** free
+* **Internal:** Likely free, but start by checking with #cloud-gov-business with your use case.
 * **External:** see the [pricing page](https://docs.cloud.gov/intro/pricing/pricing-model/)
 
 #### Federalist
 
 See [the Federalist homepage](https://federalist.18f.gov) for more information.
 
-* **Internal:** free
-* **External:** ask in [#federalist](https://18f.slack.com/messages/federalist/)
+* **Internal:** Likely free, but start by checking with #federalist with your use case.
+* **External:** Federalist is currently offered for $12000/year. Check in with #federalist about your sales lead!
 
 #### 18F Pages
 
 Find instructions [here](https://github.com/18f/pages-server#publishing).
 
-* **Internal:** free
+* **Internal:** Check with #wg-documentation with your use case.
 * **External:** not applicable
