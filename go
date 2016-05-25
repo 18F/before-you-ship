@@ -59,11 +59,13 @@ end
 
 require 'html-proofer'
 
-# keep in sync with the `ignoreUrls` in `./assets/js/before-you-ship.js`
+# keep in sync with the `ignoreUrls` in `https://github.com/18F/guides-style/blob/master/assets/js/18f-guide.js`
 BASE_PROOFER_OPTS = {
   url_ignore: [
     %r{https://github.com/18F/Accessibility_Reviews}i,
     %r{https://github.com/18F/DevOps}i,
+    %r{https://github.com/18F/Infrastructure}i,
+    %r{https://github.com/18F/compliance}i,
     %r{https://github.com/18F/handbook}i,
     %r{https://github.com/18F/writing-lab}
   ]

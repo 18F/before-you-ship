@@ -20,4 +20,4 @@ If a system substantively changes, it'll need a new ATO. Examples for triggers f
 * Administrative functionality within the application
 * The kinds of information you store (e.g. [personally identifiable information](../security/pii/))
 
-The 18F Infrastructure team will make this determination – please [open a new issue](https://github.com/18F/Infrastructure/issues/new?title=ATO+re-authorization+for+%3Cproject%3E?) if you think you have made a change that may require a new ATO.
+The 18F Infrastructure team will make this determination – please [open a new issue](https://github.com/18F/compliance/issues/new?title=ATO+re-authorization+for+%3Cproject%3E?) if you think you have made a change that may require a new ATO.
