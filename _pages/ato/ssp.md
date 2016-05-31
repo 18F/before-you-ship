@@ -23,7 +23,7 @@ Add the following to your repository as `system-security-plan.yml`, with the inf
 ```yaml
 ---
 name: <project name>
-uniqueID: <MB number – see https://docs.google.com/spreadsheets/d/1hjCYIskgD_x_MI1ehXoiz2Qvsyxj1yK3fxabkezMPiE/edit#gid=0>
+uniqueID: <MB number – see https://docs.google.com/spreadsheets/d/1v4QfXGaJVy9-CZ0n6cFLHGGs_5TL1l8uCh6ZyNYjMDk/edit#gid=2047916505>
 version: <application version>
 # descriptions:
 # https://18f.gsa.gov/dashboard/
