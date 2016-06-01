@@ -2,7 +2,13 @@
 title: Infrastructure
 ---
 
-Below, "internal" projects mean "things built by and for 18F", i.e. "not for a partner agency".
+### Notes
+
+* Below, "internal" projects mean "things built by and for 18F", i.e. "not for a partner agency".
+* **If an option isn't listed below, you probably can't use it** for deploying 18F projects. This includes:
+    * GitHub Pages ([why](https://18f.gsa.gov/2015/05/14/18Fpages/))
+    * Heroku
+* Any questions? Ask in [#infrastructure](https://18f.slack.com/messages/infrastructure/).
 
 ### Servers
 
@@ -29,8 +35,6 @@ There are some specific cases where the product is [classified](../ato/levels/) 
 Note however that when partner agencies assert that **of course** their product will be FISMA High, 18F often finds upon examination that a product should be really be judged FISMA Moderate or FISMA Low... So don’t discard cloud.gov or AWS as options before probing that point carefully!
 
 ### Static sites
-
-There are several options for deploying static sites at 18F. [**GitHub Pages is not one of them**](https://18f.gsa.gov/2015/05/14/18Fpages/).
 
 #### cloud.gov
 
