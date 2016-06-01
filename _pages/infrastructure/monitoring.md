@@ -35,7 +35,12 @@ For a non-static site, you will want to know if exceptions are being thrown with
     * At time of writing, [New Relic Alerts](https://docs.newrelic.com/docs/alerts/new-relic-alerts/getting-started/new-relic-alerts) is in open beta. While it doesn't yet provide all the features of the legacy system, it's already enough of an improvement that it's worth checking out.
     * For [New Relic](https://newrelic.com) access, [open an issue in the DevOps repo](https://github.com/18F/DevOps/issues/new?title=New+Relic+account+for+%3Cname%3E) to get an account set up for your project.
 * [Sentry](https://getsentry.com/)
-    * You can deploy/manage this yourself—see the [deployment instructions](https://github.com/18F/how-to-deploy/blob/master/sentry/README.md). However, @jmcarp has set up [sentry.18f.gov](https://sentry.18f.gov/) for 18F-wide use. _(Moar docs needed here!)_
+    * You can deploy/manage this yourself; see the [deployment instructions](https://github.com/18F/how-to-deploy/blob/master/sentry/README.md).
+    * We are not approved to use hosted Sentry (monitoring via a monthly plan
+      on https://getsentry.com)
+    * Unless you have a really good reason for wanting Sentry, New Relic is
+      preferred. Self-hosting performance software is cheaper in the short term
+      but likely more expensive in the long term.
 
 ### Alert Conditions
 
