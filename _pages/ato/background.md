@@ -7,7 +7,7 @@ navtitle: Background
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/T1S52B1-NT4" frameborder="0" allowfullscreen></iframe>
 
-* Governed by the Federal Information Security Management Act of 2002, or FISMA
+* Governed by the [Federal Information Security Management Act of 2002](http://csrc.nist.gov/drivers/documents/FISMA-final.pdf) (FISMA)
     * FISMA does a few things. It puts the Chief Information Security Officer in charge of consulting the agency head with the process they should have for the security clearance process. FISMA also empowers the agency head with accepting all the risk posed by information systems.
         * Good news is that agency head can delegate that authority at their choosing.
     * This agency-specific process then binds agency heads with the process that they must then follow.
