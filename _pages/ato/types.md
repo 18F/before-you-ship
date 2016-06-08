@@ -11,7 +11,7 @@ There are three tracks of documentation available:
 
 ### Pre-authorization
 
-You may operate without authorization under the following conditions:
+You may operate without authorization if all of the following conditions are met:
 
 * The system is deployed to [cloud.gov](https://cloud.gov) or the [18F AWS East/West environment](../../infrastructure/aws/).
 * The system does _not_:
