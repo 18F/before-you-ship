@@ -11,7 +11,9 @@ parent: Security
 
 You will need a running application to test, which you will want to be as production-like as possible. The 'Attack' scripts shouldn't do anything destructive, but will cause a spike in requests and errors. **Inform your team and #infrastructure before running it on live (not locally-hosted) sites.**
 
-We gave an introduction to ZAP talk as part of our engineering tech talks series. [![Vulnerability Scanning with OWASP ZAP](http://img.youtube.com/vi/2Dp7pAvKHaM/0.jpg)](http://www.youtube.com/watch?v=2Dp7pAvKHaM)
+We gave an introduction to ZAP talk as part of our engineering tech talks series.
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/2Dp7pAvKHaM" frameborder="0" allowfullscreen></iframe>
 
 Slides and additional information available [here](https://github.com/18F/tech-talks/tree/master/vuln-scanning).
 
@@ -46,12 +48,26 @@ If you're running the attack against a local server you may see some alerts that
 
 ### Authentication
 
-Testing the application in an authenticated state is easiest when done with ZAP acting as a Man In The Middle Proxy. Unfortunately, the "Plug-n-Hack" extension mentioned on the Quick Start page is currently non-functional. ZAP provides an excellent guide to configuring a proxy [here](https://github.com/zaproxy/zap-core-help/wiki/HelpStartProxies).
-
 Authentication can be handled in several ways; the following links provide guidance on handling the most common forms. If these are insufficient, the authentication method is scriptable.
- 
+
 * <https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsAuthentication>
 * <https://github.com/zaproxy/zaproxy/wiki/FAQformauth>
+
+#### Manual scan
+
+To scan a site that has authentication:
+
+1. [Set up ZAP as a proxy.](https://github.com/zaproxy/zap-core-help/wiki/HelpStartProxies)
+    * Unfortunately, the "Plug-n-Hack" extension mentioned on the Quick Start page is [currently non-functional](https://github.com/zaproxy/zaproxy/issues/2069).
+1. Navigate through the various types of pages/interactions on your site. You should see domain name(s) start to show up under the `Sites` list.
+1. For each of the domains in the `Sites` list that you control (i.e. not `https://fonts.googleapis.com`):
+    1. Right-click the domain to bring up the context menu.
+    1. Select `Include in Context`.
+    1. Select `Default Context`.
+1. Click the `Alerts` tab.
+1. Above the `Alerts` list, click the ![target icon](../../assets/images/zap_target.png) to `Show only URLs in scope`.
+
+You can now investigate the listed alerts.
 
 ### Other Tools Within ZAP
 
@@ -72,4 +88,3 @@ The [ZAP User Guide](https://github.com/zaproxy/zap-core-help/wiki) is phenomena
 The [OWASP Vulnerable Web Applications Directory](https://www.owasp.org/index.php/OWASP_Vulnerable_Web_Applications_Directory_Project#tab=Main) has a great list of (intentionally) vulnerable targets that are useful for testing the capability of ZAP.
 
 We are currently collecting best practices for using ZAP. If you have a particular approach, extension, or option that you find effective, let us know in #cloud-gov-highbar or [open an issue](https://github.com/18f/before-you-ship/issues/new)!
-
