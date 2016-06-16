@@ -48,12 +48,26 @@ If you're running the attack against a local server you may see some alerts that
 
 ### Authentication
 
-Testing the application in an authenticated state is easiest when done with ZAP acting as a Man In The Middle Proxy. Unfortunately, the "Plug-n-Hack" extension mentioned on the Quick Start page is [currently non-functional](https://github.com/zaproxy/zaproxy/issues/2069). Thankfully, ZAP provides an excellent [guide to configuring the proxy](https://github.com/zaproxy/zap-core-help/wiki/HelpStartProxies).
-
 Authentication can be handled in several ways; the following links provide guidance on handling the most common forms. If these are insufficient, the authentication method is scriptable.
 
 * <https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsAuthentication>
 * <https://github.com/zaproxy/zaproxy/wiki/FAQformauth>
+
+#### Manual scan
+
+To scan a site that has authentication:
+
+1. [Set up ZAP as a proxy.](https://github.com/zaproxy/zap-core-help/wiki/HelpStartProxies)
+    * Unfortunately, the "Plug-n-Hack" extension mentioned on the Quick Start page is [currently non-functional](https://github.com/zaproxy/zaproxy/issues/2069).
+1. Navigate through the various types of pages/interactions on your site. You should see domain name(s) start to show up under the `Sites` list.
+1. For each of the domains in the `Sites` list that you control (i.e. not `https://fonts.googleapis.com`):
+    1. Right-click the domain to bring up the context menu.
+    1. Select `Include in Context`.
+    1. Select `Default Context`.
+1. Click the `Alerts` tab.
+1. Above the `Alerts` list, click the ![target icon](../../assets/images/zap_target.png) to `Show only URLs in scope`.
+
+You can now investigate the listed alerts.
 
 ### Other Tools Within ZAP
 
