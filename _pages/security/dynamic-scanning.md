@@ -59,13 +59,26 @@ To scan a site that has authentication:
 
 1. [Set up ZAP as a proxy.](https://github.com/zaproxy/zap-core-help/wiki/HelpStartProxies)
     * Unfortunately, the "Plug-n-Hack" extension mentioned on the Quick Start page is [currently non-functional](https://github.com/zaproxy/zaproxy/issues/2069).
-1. Navigate through the various types of pages/interactions on your site. You should see domain name(s) start to show up under the `Sites` list.
-1. For each of the domains in the `Sites` list that you control (i.e. not `https://fonts.googleapis.com`):
-    1. Right-click the domain to bring up the context menu.
-    1. Select `Include in Context`.
-    1. Select `Default Context`.
-1. Click the `Alerts` tab.
-1. Above the `Alerts` list, click the ![target icon](../../assets/images/zap_target.png) to `Show only URLs in scope`.
+    * If the browser starts giving you unexpected certificate errors, you need to [set up ZAP's certificates](https://github.com/zaproxy/zap-core-help/wiki/HelpUiDialogsOptionsDynsslcert).
+1. Seed the scanner.
+    1. Navigate through the various types of pages/interactions on your site. You should see domain name(s) start to show up under the `Sites` list.
+    1. For each of the domains in the `Sites` list that you control (i.e. not `https://fonts.googleapis.com`):
+        1. Right-click the domain to bring up the context menu.
+        1. Select `Include in Context`->`Default Context`.
+        1. In the `Session Properties` window that pops up, click `OK`.
+1. Run the spider.
+    1. In the menu bar, click `Tools`->`Spider...`.
+    1. Click `New Scan`.
+    1. Next to `Starting point`, click `Select...`.
+    1. In the `Select Node` window, click `Default Context`, the `Select`.
+    1. Click `Start Scan`.
+    1. You should see the `Spider` table fill up with results, but the domains you don't control should say `OUT_OF_CONTEXT`.
+1. Run the actual scan.
+    1. In the menu bar, click `Tools`->`Active Scan...`.
+    1. In the `Active Scan` window, follow the same `Starting point` steps as above.
+1. View the alerts.
+    1. Click the `Alerts` tab.
+    1. Above the `Alerts` list, click the ![target icon](../../assets/images/zap_target.png) (so that it turns red) to `Show only URLs in scope`.
 
 You can now investigate the listed alerts.
 
