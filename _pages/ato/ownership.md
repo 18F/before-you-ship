@@ -16,7 +16,7 @@ Before any information system can be operated, the following memo must be signed
 
 > # Acceptance of Ownership
 >
-> I, [NAME], the Authorizing Official for [DEPT/AGENCY DIVISION/TEAM], hereby accept 18F/GSA's authority to accept the risk of operating information systems under 18F/GSA's control and created as a result of Interagency Agreement [NUMBER]. 18F/GSA's authority is to determine the level of risk, select controls, test the system, grant an authority to operate, and to ensure compliance with all relevant laws and regulations.
+> I, [NAME], the Authorizing Official for [DEPT/AGENCY DIVISION/TEAM], hereby accept 18F/GSA's authority to accept the risk of operating information systems under 18F/GSA's control and created as a result of Interagency Agreement [NUMBER]. 18F/GSA's authority is to determine the level of risk, select controls, test the system, grant an authority to operate, and to ensure compliance with all relevant laws, regulations, and policies.
 >
 > 18F/GSA will work independently to receive an authority to operate and will bear responsibility of technical work associated with the process.
 >
