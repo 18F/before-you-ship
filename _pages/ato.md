@@ -18,7 +18,7 @@ If you are publishing a new site through [Federalist](../infrastructure/#federal
 
 ### Re-authorization
 
-If a system substantively changes, it'll need a new ATO. Examples for triggers for a new ATO include changes to:
+If a previous ATO expires or the system changes substantively, it'll need a new ATO. Examples for triggers for a new ATO include changes to:
 
 * Encryption methodologies
 * Administrative functionality within the application
