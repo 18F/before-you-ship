@@ -3,7 +3,7 @@ title: Amazon Web Services
 parent: Infrastructure
 ---
 
-At 18F, we use [Amazon Web Services](https://aws.amazon.com/) (AWS) as our [infrastructure as a service](https://en.wikipedia.org/wiki/Cloud_computing#Infrastructure_as_a_service_.28IaaS.29) (IaaS). AWS hosts not just our production systems, but everything else too: development, staging, testing, etc. If you're used to developing locally, you should feel empowered to do everything in AWS if you'd like. Note that AWS is currently the **only** approved IaaS provider. You're free to develop purely locally as long as you'd like, but if you want to get something online, AWS is the only option.
+At 18F, we use [Amazon Web Services](https://aws.amazon.com/) (AWS) as our [infrastructure as a service](https://en.wikipedia.org/wiki/Cloud_computing#Infrastructure_as_a_service_.28IaaS.29) (IaaS). We have accounts for our production systems and [sandboxes](../sandbox) for development and testing. If you're used to developing locally, you should feel empowered to do everything you'd like in an AWS [sandbox account](../sandbox). Note that AWS is currently the **only** approved IaaS provider. You're free to develop purely locally as long as you'd like, but if you want to get something online, AWS and cloud.gov are your only options. In particular, you *cannot* send traffic from the internet to your local machine - you must use a sandbox account for this purpose.
 
 Even if you are familiar with IaaS providers in general, or AWS specifically, before you are given access you **must go through on-boarding with the 18F Infrastructure team**.
 
@@ -15,35 +15,29 @@ If you are familiar with running virtual machines on your own computer, through 
 
 ### Log-in
 
-We don't use the standard AWS log in site. You will need to go to **[https://18f.signin.aws.amazon.com/console]( https://18f.signin.aws.amazon.com/console)** to log in.
+We don't use the standard AWS log in site. The URL for log in will vary depending on the account you are logging in to. The URL for the 18F sandbox account is **[https://18f-sandbox.signin.aws.amazon.com/console]( https://18f-sandbox.signin.aws.amazon.com/console)**.
 
-Your username will be created for you during onboarding. Check the MFA Token box on the login form, and enter your information from Google Authenticator, Authy, or another OTP app.
+Your username and password will be created for you during onboarding. Check the MFA Token box on the login form, and enter your information from Google Authenticator, Authy, or another OTP app.
 
 ### Servers
 
 The core service of AWS is the [Elastic Compute Cloud](https://aws.amazon.com/documentation/ec2/) (EC2). These are virtual machines just like on your computer, but hosted in the AWS environment. You receive access through a GUI, the [AWS Management Console](https://18f.signin.aws.amazon.com/console), an [API](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/query-apis.html), and to the guest [OS through SSH](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html).
 
-### Network security
+### Permissions and Network Security
 
-At 18F, we require all EC2 instances to be launched into a [virtual private cloud](https://aws.amazon.com/vpc/) (VPC). Your network security settings are set at the VPC level: on what ports, from what IP addresses, can EC2 instances communicate with each other and back out to the internet. Occasionally, out-of-date documentation from third parties and Amazon itself may reference *EC2 Classic*. We at 18F do not support this environment.
+Only the 18F infrastructure team has login credentials to our production 18F account, and they are only used for debugging and incident management purposes. All systems are deployed using a continuous delivery service from scripts stored in version control, and registered in [Chandika](https://chandika.apps.cloud.gov). All EC2 instances must be launched within an [auto-scaling group](https://aws.amazon.com/autoscaling/) from an AMI, and every system is hosted within its own [virtual private cloud](https://aws.amazon.com/vpc/) (VPC). Network security settings are set at the VPC level: on what ports, from what IP addresses, can EC2 instances communicate with each other and back out to the internet.
+
+Occasionally, out-of-date documentation from third parties and Amazon itself may reference *EC2 Classic*. We at 18F do not support this environment.
 
 ### Object storage
 
 If you want very basic and cheap object storage, AWS provides the [Simple Storage Service](https://aws.amazon.com/s3/) (S3).
-
-### Permissions
-
-AWS [Identity and Access Management](https://aws.amazon.com/iam/) IAM is where  all permissions are set, both for human users and EC2 instances themselves if they need to communicate commands to other AWS services. Currently, modifications to anything under IAM must go through 18F Infrastructure.
 
 These are just the concepts necessary for initial on-boarding. AWS has an [extensive list](https://aws.amazon.com/products/) of other services.
 
 ## Constraints
 
 There are a few special notes on using any IaaS in the Federal context.
-
-### Sandbox
-
-See @jezhumble's [Slack post](https://18f.slack.com/files/jezhumble/F18GU8ABW/AWS_Sandboxes_for_18F_and_PIF_use) about the 18F sandbox account.
 
 ### Other people's money
 
