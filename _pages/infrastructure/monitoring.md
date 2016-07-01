@@ -62,7 +62,7 @@ Once you've created alert conditions, **ensure that they're actually working.** 
 
 You will want to know if your site goes down. Options:
 
-* [New Relic Synthetics](http://newrelic.com/synthetics)
+* [New Relic Synthetics](http://newrelic.com/synthetics). ([Here's a walkthrough for setting up a simple ping with Synthetics, testing it and connecting it notification channels](https://docs.google.com/document/d/1pDya72sy37PUOMY5Th65LSqKa_tWYrX9kgtkys6WMm0/edit#))
 * [Pingdom](https://www.pingdom.com/)
     * [Open an issue in the DevOps repo](https://github.com/18F/DevOps/issues/new?title=set+up+Pingdom+for+%3Cproject%3E) to get this set up.
 
