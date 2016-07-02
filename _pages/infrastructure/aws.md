@@ -3,47 +3,52 @@ title: Amazon Web Services
 parent: Infrastructure
 ---
 
-At 18F, we use [Amazon Web Services](https://aws.amazon.com/) (AWS) as our [infrastructure as a service](https://en.wikipedia.org/wiki/Cloud_computing#Infrastructure_as_a_service_.28IaaS.29) (IaaS). We have accounts for our production systems and [sandboxes](../sandbox) for development and testing. If you're used to developing locally, you should feel empowered to do everything you'd like in an AWS [sandbox account](../sandbox). Note that AWS is currently the **only** approved IaaS provider. You're free to develop purely locally as long as you'd like, but if you want to get something online, AWS and cloud.gov are your only options. In particular, you *cannot* send traffic from the internet to your local machine - you must use a sandbox account for this purpose.
+At 18F, we use [Amazon Web Services](https://aws.amazon.com/) (AWS) as our [infrastructure as a service](https://en.wikipedia.org/wiki/Cloud_computing#Infrastructure_as_a_service_.28IaaS.29) (IaaS). We have separate AWS accounts for our production systems and [sandboxes](../sandbox) for development and testing. If you're used to developing locally, you should feel empowered to do everything you'd like in an AWS [sandbox account](../sandbox). Note that AWS is currently the **only** approved IaaS provider. You're free to develop purely locally as long as you'd like, but _if you want to get a system with server-side code online, AWS and cloud.gov are your only options_, of which cloud.gov is preferred.
 
-Even if you are familiar with IaaS providers in general, or AWS specifically, before you are given access you **must go through on-boarding with the 18F Infrastructure team**.
-
-Sometime in 2015, this on-boarding will be part of 18F On-boarding for all relevant staff. If you're reading this now, need access, and haven't gone through the training, jump into the #infrastructure channel in Slack to arrange for a session.
+In particular, you *cannot* send traffic from the internet to your local machine - you *must* use a sandbox account for this purpose.
 
 ## Fundamentals
 
 If you are familiar with running virtual machines on your own computer, through Parallels, VirtualBox, or VMWare, AWS operates on the same principles but on a truly massive [scale](http://www.enterprisetech.com/2014/11/14/rare-peek-massive-scale-aws/). Pretty much everything in AWS can be orchestrated via the [AWS API](https://aws.amazon.com/documentation/) & [command-line interface](https://docs.aws.amazon.com/cli/latest/reference/).
 
-### Log-in
-
-We don't use the standard AWS log in site. The URL for log in will vary depending on the account you are logging in to. The URL for the 18F sandbox account is **[https://18f-sandbox.signin.aws.amazon.com/console]( https://18f-sandbox.signin.aws.amazon.com/console)**.
-
-Your username and password will be created for you during onboarding. Check the MFA Token box on the login form, and enter your information from Google Authenticator, Authy, or another OTP app.
-
-### Servers
-
-The core service of AWS is the [Elastic Compute Cloud](https://aws.amazon.com/documentation/ec2/) (EC2). These are virtual machines just like on your computer, but hosted in the AWS environment. You receive access through a GUI, the [AWS Management Console](https://18f.signin.aws.amazon.com/console), an [API](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/query-apis.html), and to the guest [OS through SSH](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html).
-
-### Permissions and Network Security
-
-Only the 18F infrastructure team has login credentials to our production 18F account, and they are only used for debugging and incident management purposes. All systems are deployed using a continuous delivery service from scripts stored in version control, and registered in [Chandika](https://chandika.apps.cloud.gov). All EC2 instances must be launched within an [auto-scaling group](https://aws.amazon.com/autoscaling/) from an AMI, and every system is hosted within its own [virtual private cloud](https://aws.amazon.com/vpc/) (VPC). Network security settings are set at the VPC level: on what ports, from what IP addresses, can EC2 instances communicate with each other and back out to the internet.
-
-Occasionally, out-of-date documentation from third parties and Amazon itself may reference *EC2 Classic*. We at 18F do not support this environment.
-
-### Object storage
+The core service of AWS is the [Elastic Compute Cloud](https://aws.amazon.com/documentation/ec2/) (EC2). These are virtual machines just like on your computer, but hosted in the AWS environment.
 
 If you want very basic and cheap object storage, AWS provides the [Simple Storage Service](https://aws.amazon.com/s3/) (S3).
 
 These are just the concepts necessary for initial on-boarding. AWS has an [extensive list](https://aws.amazon.com/products/) of other services.
 
-## Constraints
+## Building systems that will be deployed directly to AWS
 
-There are a few special notes on using any IaaS in the Federal context.
+Although cloud.gov is strongly preferred as the production environment for the systems we build, there are some systems that will need to run on AWS, particularly those that require FISMA High.
 
-### Other people's money
+In order to ensure systems deployed to AWS are robust and reliable, and to ensure the integrity of information stored in AWS, we impose some additional restrictions on systems deployed to the 18F production AWS environment.
 
-The Federal Government cannot pay one penny more than it is authorized to spend. There is no retroactive justification for spends. When Government exceeds these limits, a report and explanation is required to the GSA Administrator, General Counsel, and Congress. So tracking costs is a *big deal*.
+### Permissions
 
-Every inter-agency agreement (IAA) at 18F needs to have a line item on a total value to spend on infrastructure, including Amazon Web Services (AWS). Unless it is part of a negotiation with 18F Infrastructure, we *do not* pay for non-production hosting costs. All costs must go back to the Federal partner or another funding source. There is no actual concept of _non-billable_ - there are only costs that are directly or indirectly billable. If we don't bill a funding source, it means that 18F's rates must go up that next fiscal year in order indirectly recoup costs.
+Anyone in 18F can get access to the AWS [sandbox account](../sandbox). However only the 18F infrastructure team has login credentials to our production 18F account, and they are only used for debugging and incident management purposes. All systems are deployed using a continuous delivery service from scripts stored in version control, and registered in [Chandika](https://chandika.apps.cloud.gov).
+
+This means:
+
+* All configuration of your production environment must be performed using Terraform scripts checked into version control.
+* There will be no "back channel" access to AWS resources for systems deployed into production. Any routine activities such as data management, import / export / archiving, must be performed through your system.
+
+### Auto scale groups
+
+In order to ensure that systems remain available even in the face of hardware failures within AWS leading to VMs being terminated, all EC2 instances must be launched within an [auto-scaling group](https://aws.amazon.com/autoscaling/) from an AMI.
+
+### VPCs
+
+To ensure logical partitioning of systems running within the 18F production environment, every system must be hosted within its own [virtual private cloud](https://aws.amazon.com/vpc/) (VPC). Network security settings are set at the VPC level, including what ports IP addresses EC2 instances can communicate with each other and back out to the internet.
+
+Occasionally, out-of-date documentation from third parties and Amazon itself may reference *EC2 Classic*. We at 18F do not support this environment.
+
+### HTTPS Everywhere
+
+Regardless of what your system does, we enforce [HTTPS Everywhere](https://18f.gsa.gov/2014/11/13/why-we-use-https-in-every-gov-website-we-make/).
+
+### OS baseline
+
+We use a pre-hardened version of [Ubuntu](https://en.wikipedia.org/wiki/Ubuntu_%28operating_system%29) as our baseline OS for all EC2 instances in AWS. In AWS, there are [Amazon Machine Images](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html) (AMIs) in each AWS Region that these controls already implemented. You should always launch new instances from this baseline.
 
 ### Other people's information
 
@@ -58,78 +63,3 @@ In order to make sure we are protecting the privacy and integrity of the public'
 Regardless of your own norms around privacy, always assume the owner of that data has the most conservative requirements unless they have taken express action, either through a communication or the system itself, telling you otherwise.
 
 We also take particular care in protecting [sensitive personally identifiable information (PII)](../../security/pii). PII is any information that can be linked back to an individual. For example, this includes a person's full name, their home address, and their phone number.
-
-### Security
-
-Once you gain access to AWS, you will find yourself responsible for some serious stuff.
-
-#### Environmental variables
-
-These are things like your AWS password, secret API key, and the mobile device that generates your multi-factor authentication token. You are wholly and solely responsible for safeguarding them, and are responsible if they are released to non-authorized parties. If you are unfamiliar with how to protect these variables, please consult with 18F Infrastructure. We're working on getting additional tools to help make this easy for everyone.
-
-#### OS baseline
-
-We use a pre-hardened version of [Ubuntu](https://en.wikipedia.org/wiki/Ubuntu_%28operating_system%29) as our baseline OS for all EC2 instances in AWS. In AWS, there are [Amazon Machine Images](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html) (AMIs) in each AWS Region that these controls already implemented. You should always launch new instances from this baseline.
-
-#### HTTPS Everywhere
-
-Regardless of what your system does, we enforce [HTTPS Everywhere](https://18f.gsa.gov/2014/11/13/why-we-use-https-in-every-gov-website-we-make/).
-
-## Demo agenda
-
-#### VPCs
-
-* Create a VPC with both private and public subnets
-* Create a security group
-
-#### EC2
-
-* Generate a new keypair with naming convention.
-* Launch a basic EC2 instance into the VPC, with the security group set
-* Remind that all connections must be set only for what is necessary. Explain the function of the  0.0.0.0/0 block - only applies to inbound/outbound to the internet on port 80/443 for HTTP/HTTPS. Everything else should be expressly set.
-* If keypairs must be shared, only authorized way to share them is through GSA Google Drive (create a folder, share it with your coworker, delete the file once they have it)
-* Setup and successfully SSH in
-* Generate an ssh key for further use & install in `authorized_keys`
-
-#### CloudWatch
-
-* Review basic CloudWatch monitoring
-* Setting a CloudWatch alarm for a metric
-
-#### Elastic Load Balancers (ELBs) and Elastic IPs (EIPs)
-
-* Explain ELB concept
-* Create an additional EC2 instance
-* Create an ELB
-* Associate them with the ELB
-* Note that IPs of EC2 instances may change with stop and restart.
-* ELBs have fully qualified domain names (FQDN ) that *do not* change.
-* Other alternative when necessary: Elastic IPs. Precious resource.
-
-#### HTTPS Everywhere
-
-* Review settings for ELBs and Nginx
-
-#### Create IAM users
-
-* First name + Last Name in camel case. Ex: NoahKunin
-* Have AWS create temporary password, require user to change it during first login
-* Tell/show user IAM password policy
-* Create and sync MFA tokens
-
-If time allows:
-
-#### Cloudformation
-
-* JSON manifests
-* Creating a stack
-* Checking what was created
-* Deleting the entire stack
-
-#### Relational Database Service (RDS)
-
-* TBD
-
-### Cleanup
-
-* Delete all the demo stuff
