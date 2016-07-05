@@ -48,7 +48,7 @@ Regardless of what your system does, we enforce [HTTPS Everywhere](https://18f.g
 
 ### OS baseline
 
-We use a pre-hardened version of [Ubuntu](https://en.wikipedia.org/wiki/Ubuntu_%28operating_system%29) as our baseline OS for all EC2 instances in AWS. In AWS, there are [Amazon Machine Images](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html) (AMIs) in each AWS Region that these controls already implemented. You should always launch new instances from this baseline.
+We use a pre-hardened version of [Ubuntu](https://en.wikipedia.org/wiki/Ubuntu_%28operating_system%29) as our baseline OS for all EC2 instances in AWS. These are created using the [FISMA Ready project on GitHub](https://github.com/fisma-ready/ubuntu-lts). In AWS, there are [Amazon Machine Images](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html) (AMIs) in each AWS Region with these controls already implemented. You should always launch new instances from this baseline. You can find them by searching for the most recent AMI with the name `FISMA Ready Baseline Ubuntu (TIMESTAMP - Packer)`, where `TIMESTAMP` will be a timestamp value.
 
 ### Other people's information
 

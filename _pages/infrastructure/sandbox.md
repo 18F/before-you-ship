@@ -49,13 +49,21 @@ There are a few special notes on using any IaaS in the Federal context.
 
 The Federal Government cannot pay one penny more than it is authorized to spend. There is no retroactive justification for spends. When Government exceeds these limits, a report and explanation is required to the GSA Administrator, General Counsel, and Congress. So tracking costs is a *big deal*.
 
-Every inter-agency agreement (IAA) at 18F needs to have a line item on a total value to spend on infrastructure, including Amazon Web Services (AWS). Unless it is part of a negotiation with 18F Infrastructure, we *do not* pay for non-production hosting costs. All costs must go back to the Federal partner or another funding source. There is no actual concept of _non-billable_ - there are only costs that are directly or indirectly billable. If we don't bill a funding source, it means that 18F's rates must go up that next fiscal year in order indirectly recoup costs.
+However we recognize that it's important to provide compute resources for 18F
+folks to be able to experiment. Thus sandbox users can spend up to
+$500 per month without explicit permission from Infrastructure. This
+money counts towards our operating costs, which are ultimately
+indirectly billed to customers in the form of increased rates.
 
-### Security
+Thus in order to keep our rates low, it's extremely important to bill infrastructure costs,
+including non-production costs, to agency partners wherever
+possible. If the work you are doing is in support of a project which has an
+inter-agency agreement (IAA), you *must* create an entry for your
+system in [Chandika](https://chandika.apps.cloud.gov), including the
+Tock project code and the infrastructure tag you will be using, and tag
+any AWS resources accordingly so we can bill these costs to our partner agencies.
 
-Once you gain access to AWS, you will find yourself responsible for some serious stuff.
-
-#### Credentials
+### Credentials
 
 These are things like your AWS password, secret API key, and the
 mobile device that generates your multi-factor authentication
@@ -68,11 +76,3 @@ them in by mistake, please treat this as a
 [security incident](https://github.com/18F/security-incidents#process).
 
 If you are unfamiliar with how to protect these credentials, please consult with 18F Infrastructure. We're working on getting additional tools to help make this easy for everyone.
-
-#### OS baseline
-
-We use a pre-hardened version of [Ubuntu](https://en.wikipedia.org/wiki/Ubuntu_%28operating_system%29) as our baseline OS for all EC2 instances in AWS. In AWS, there are [Amazon Machine Images](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html) (AMIs) in each AWS Region that these controls already implemented. You should always launch new instances from this baseline.
-
-#### HTTPS Everywhere
-
-Regardless of what your system does, we enforce [HTTPS Everywhere](https://18f.gsa.gov/2014/11/13/why-we-use-https-in-every-gov-website-we-make/).
