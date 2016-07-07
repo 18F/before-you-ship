@@ -66,6 +66,7 @@ Once all of the materials are prepared and the system is considered "ready" by t
 There are several ways to ensure that your system remains compliant:
 
 * Set up [static analysis](../../security/static-analysis/) to run on an ongoing basis through one of the hosted [services](../../security/static-analysis/#services).
+* Set up [automated vulnerability scanning](../../security/dynamic-scanning/#automated-scanning).
 * Keep your `about.yml`, `system-security-plan.yml`, and security-related documentation up-to-date.
 
 In the future, there will be a matching process on the Infrastructure team side to ensure your system is [continually authorized](../types/#continuous-authorization).

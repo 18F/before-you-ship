@@ -56,4 +56,4 @@ The 1 Year is inclusive of all the steps of [the 90 Day process](#day-authorizat
 
 ### Continuous authorization
 
-Coming soon.
+This is the idea that a system's compliance can be continuously monitored, rather than expiring and needing to be re-submitted for approval. This is the goal of the [Compliance Toolkit](https://github.com/18F/compliance-toolkit) project, but is not yet A Thing™.
