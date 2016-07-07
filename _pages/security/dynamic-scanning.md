@@ -5,11 +5,11 @@ parent: Security
 
 [OWASP ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project) is the tool we use for doing automated vulnerability scanning.
 
-![zap home screen](../../assets/images/zap_home.png)
+![ZAP home screen](../../assets/images/zap_home.png)
 
 ## Usage
 
-You will need a running application to test, which you will want to be as production-like as possible. The 'Attack' scripts shouldn't do anything destructive, but will cause a spike in requests and errors. **Inform your team and #infrastructure before running it on live (not locally-hosted) sites.**
+You will need a running application to test, which you will want to be as production-like as possible—ideally a staging environment. Running a scan can cause a spike in requests and errors, so **inform your team and [#infrastructure](https://18f.slack.com/messages/infrastructure/) if you are going to run it on a production site.**
 
 We gave an introduction to ZAP talk as part of our engineering tech talks series.
 
@@ -22,7 +22,6 @@ To get started:
 1. [Install the ZAP desktop app](https://github.com/zaproxy/zaproxy/wiki/Downloads).
 1. In the Quick Start tab, enter the URL of your application.
     * While you will need to run against production for the official ATO, you can also try out ZAP running against a local server.
-
 1. Click "Attack".
     * You should see a bunch of URLs start to pop up in the Spider tab, then the Active Scan tab.
     * This will take a while.
@@ -61,7 +60,7 @@ To scan a site that has authentication:
     * Unfortunately, the "Plug-n-Hack" extension mentioned on the Quick Start page is [currently non-functional](https://github.com/zaproxy/zaproxy/issues/2069).
     * If the browser starts giving you unexpected certificate errors, you need to [set up ZAP's certificates](https://github.com/zaproxy/zap-core-help/wiki/HelpUiDialogsOptionsDynsslcert).
 1. Seed the scanner.
-    1. Navigate through the various types of pages/interactions on your site. You should see domain name(s) start to show up under the `Sites` list.
+    1. Navigate through the various types of pages/interactions on your site, including signing in. You should see domain name(s) start to show up under the `Sites` list.
     1. For each of the domains in the `Sites` list that you control (i.e. not `https://fonts.googleapis.com`):
         1. Right-click the domain to bring up the context menu.
         1. Select `Include in Context`->`Default Context`.
@@ -79,14 +78,16 @@ To scan a site that has authentication:
 1. View the alerts.
     1. Click the `Alerts` tab.
     1. Above the `Alerts` list, click the ![target icon](../../assets/images/zap_target.png) (so that it turns red) to `Show only URLs in scope`.
-
-You can now investigate the listed alerts.
+1. Investigate the listed alerts.
+1. [Mark false positives.](http://stackoverflow.com/a/24779317/358804)
+1. Export the results.
+    1. In the menu bar, go to `Report` -> `Generate HTML Report`.
 
 ### Other Tools Within ZAP
 
-#### Ajax Spider
+#### AJAX Spider
 
-The Attack Script runs the Active Scan and Spider functions. If your page is a javascript-driven single page application, you will want to run the Ajax Spider in addition to the standard spider. The Ajax Spider will instantiate a browser window and spider the application visually. This is significantly slower than the standard spider. Read more about the Ajax Spider [here](https://github.com/zaproxy/zap-core-help/wiki/HelpAddonsSpiderAjaxConcepts).
+The Attack Script runs the Active Scan and Spider functions. If your page is a JavaScript-driven single page application, you will want to run the AJAX Spider in addition to the standard Spider. The AJAX Spider will instantiate a browser window and spider the application visually. This is significantly slower than the standard spider. Read more about the AJAX Spider [here](https://github.com/zaproxy/zap-core-help/wiki/HelpAddonsSpiderAjaxConcepts).
 
 #### Fuzzing
 
