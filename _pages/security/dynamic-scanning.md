@@ -7,7 +7,7 @@ parent: Security
 
 ![ZAP home screen](../../assets/images/zap_home.png)
 
-## Usage
+### Preface
 
 You will need a running application to test, which you will want to be as production-like as possible—ideally a staging environment. Running a scan can cause a spike in requests and errors, so **inform your team and [#infrastructure](https://18f.slack.com/messages/infrastructure/) if you are going to run it on a production site.**
 
@@ -17,44 +17,9 @@ We gave an introduction to ZAP talk as part of our engineering tech talks series
 
 Slides and additional information available [here](https://github.com/18F/tech-talks/tree/master/vuln-scanning).
 
-To get started:
+Using the the [Quick Start](https://github.com/zaproxy/zap-core-help/wiki/HelpAddonsQuickstartQuickstart) is a good way to get a basic idea of what ZAP does.
 
-1. [Install the ZAP desktop app](https://github.com/zaproxy/zaproxy/wiki/Downloads).
-1. In the Quick Start tab, enter the URL of your application.
-    * While you will need to run against production for the official ATO, you can also try out ZAP running against a local server.
-1. Click "Attack".
-    * You should see a bunch of URLs start to pop up in the Spider tab, then the Active Scan tab.
-    * This will take a while.
-    * There is a progress bar in the Spider and Active Scan tabs. You can click the <img class="inline" src="../../assets/images/zap_graph.png" alt="small graph icon"/> button in the latter to get more details.
-1. Wait for the "Progress" area to say say "Attack complete".
-1. Open the Alerts tab.
-
-You can now click on each alert to see more details.
-
-### Examining the Results
-
-#### The Spider
-
-![spider results](../../assets/images/spider_results.png)
-As configured, the Quick Start Attack scan does not follow links to other domains or subdomains. If your project uses either (for example, you use S3 for assets, or the api is at a different sub domain), you will want to click <img class="inline" src="../../assets/images/zap_options.png" alt="small options icon"/> and update the options to include the domains & subdomains within the scope. There is a guide available for those options [here](https://github.com/zaproxy/zap-core-help/wiki/HelpUiDialogsOptionsSpider).
-
-#### Alerts
-
-![alert results](../../assets/images/alert_results.png)
-The Alerts pane lists all alerts discovered while scanning the site. As described on the [alerts page](../scanning#alerts), the red and orange-flagged alerts must be taken care of before the application can be ATO'd. You have a little more flexibility when dealing with the yellow and blue flags, but all of them must be either corrected or, in the case of false positives, documented.
-
-If you're running the attack against a local server you may see some alerts that you wouldn't see on cloud.gov. Debugging web servers are more 'chatty' about errors than production servers.
-
-### Authentication
-
-Authentication can be handled in several ways; the following links provide guidance on handling the most common forms. If these are insufficient, the authentication method is scriptable.
-
-* <https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsAuthentication>
-* <https://github.com/zaproxy/zaproxy/wiki/FAQformauth>
-
-#### Manual scan
-
-To scan a site that has authentication:
+### Manual scanning
 
 1. [Set up ZAP as a proxy.](https://github.com/zaproxy/zap-core-help/wiki/HelpStartProxies)
     * Unfortunately, the "Plug-n-Hack" extension mentioned on the Quick Start page is [currently non-functional](https://github.com/zaproxy/zaproxy/issues/2069).
@@ -83,11 +48,27 @@ To scan a site that has authentication:
 1. Export the results.
     1. In the menu bar, go to `Report` -> `Generate HTML Report`.
 
+### Examining the Results
+
+#### The Spider
+
+![spider results](../../assets/images/spider_results.png)
+
+As configured, the Spider does not follow links to other domains or subdomains. If your project uses either (for example, you use S3 for assets, or the api is at a different sub domain), you will want to click <img class="inline" src="../../assets/images/zap_options.png" alt="small options icon"/> and update the options to include the domains & subdomains within the scope. There is a guide available for those options [here](https://github.com/zaproxy/zap-core-help/wiki/HelpUiDialogsOptionsSpider).
+
+#### Alerts
+
+![alert results](../../assets/images/alert_results.png)
+
+The Alerts pane lists all alerts discovered while scanning the site. As described on the [alerts page](../scanning#alerts), the red and orange-flagged alerts must be taken care of before the application can be ATO'd. You have a little more flexibility when dealing with the yellow and blue flags, but all of them must be either corrected or, in the case of false positives, documented.
+
+If you're running the attack against a local server you may see some alerts that you wouldn't see on cloud.gov. Debugging web servers are more 'chatty' about errors than production servers.
+
 ### Other Tools Within ZAP
 
 #### AJAX Spider
 
-The Attack Script runs the Active Scan and Spider functions. If your page is a JavaScript-driven single page application, you will want to run the AJAX Spider in addition to the standard Spider. The AJAX Spider will instantiate a browser window and spider the application visually. This is significantly slower than the standard spider. Read more about the AJAX Spider [here](https://github.com/zaproxy/zap-core-help/wiki/HelpAddonsSpiderAjaxConcepts).
+If your page is a JavaScript-driven single page application, you will want to run the AJAX Spider in addition to the standard Spider. The AJAX Spider will instantiate a browser window and spider the application visually. This is significantly slower than the standard spider. Read more about the AJAX Spider [here](https://github.com/zaproxy/zap-core-help/wiki/HelpAddonsSpiderAjaxConcepts).
 
 #### Fuzzing
 
