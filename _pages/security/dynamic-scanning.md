@@ -37,13 +37,14 @@ Using the the [Quick Start](https://github.com/zaproxy/zap-core-help/wiki/HelpAd
     1. In the `Select Node` window, click `Default Context`, the `Select`.
     1. Click `Start Scan`.
     1. You should see the `Spider` table fill up with results, but the domains you don't control should say `OUT_OF_CONTEXT`.
+1. If your site uses AJAX, run the [AJAX Spider](https://github.com/zaproxy/zap-core-help/wiki/HelpAddonsSpiderAjaxConcepts).
 1. Run the actual scan.
     1. In the menu bar, click `Tools`->`Active Scan...`.
     1. In the `Active Scan` window, follow the same `Starting point` steps as above.
 1. View the alerts.
     1. Click the `Alerts` tab.
     1. Above the `Alerts` list, click the ![target icon](../../assets/images/zap_target.png) (so that it turns red) to `Show only URLs in scope`.
-1. Investigate the listed alerts.
+1. [Investigate the listed alerts.](#alerts)
 1. [Mark false positives.](http://stackoverflow.com/a/24779317/358804)
 1. Export the results.
     1. In the menu bar, go to `Report` -> `Generate HTML Report`.
@@ -65,10 +66,6 @@ The Alerts pane lists all alerts discovered while scanning the site. As describe
 If you're running the attack against a local server you may see some alerts that you wouldn't see on cloud.gov. Debugging web servers are more 'chatty' about errors than production servers.
 
 ### Other Tools Within ZAP
-
-#### AJAX Spider
-
-If your page is a JavaScript-driven single page application, you will want to run the AJAX Spider in addition to the standard Spider. The AJAX Spider will instantiate a browser window and spider the application visually. This is significantly slower than the standard spider. Read more about the AJAX Spider [here](https://github.com/zaproxy/zap-core-help/wiki/HelpAddonsSpiderAjaxConcepts).
 
 #### Fuzzing
 
