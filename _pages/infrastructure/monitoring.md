@@ -69,7 +69,7 @@ You will want to know if your site goes down. Options:
 Ways to alert DevOps & project team members:
 
 * **Slack**, though you may not want all errors going to the project's main Slack channel. (See the section below on [grouping notification channels](#grouping-notification-channels))
-* **SMS**, which is only available through certain services - Pingdom and PagerDuty provide SMS, but New Relic doesn't; instead it has...
+* **SMS**, which is only available through certain services - PagerDuty provides SMS, but New Relic doesn't; instead it has...
 * **Push Notifications**, for which team members need to have the mobile app installed and registered.
 * **Email**, which in practice isn't as useful since most people aren't immediately alerted by it.
 
