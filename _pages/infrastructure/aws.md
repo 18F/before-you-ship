@@ -3,7 +3,7 @@ title: Amazon Web Services
 parent: Infrastructure
 ---
 
-At 18F, we use [Amazon Web Services](https://aws.amazon.com/) (AWS) as our [infrastructure as a service](https://en.wikipedia.org/wiki/Cloud_computing#Infrastructure_as_a_service_.28IaaS.29) (IaaS). We have separate AWS accounts for our production systems and [sandboxes](../sandbox) for development and testing. If you're used to developing locally, you should feel empowered to do everything you'd like in an AWS [sandbox account](../sandbox). Note that AWS is currently the **only** approved IaaS provider. You're free to develop purely locally as long as you'd like, but _if you want to get a system with server-side code online, AWS and cloud.gov are your only options_, of which cloud.gov is preferred.
+At 18F, we use [Amazon Web Services](https://aws.amazon.com/) (AWS) as our [infrastructure as a service](https://en.wikipedia.org/wiki/Cloud_computing#Infrastructure_as_a_service_.28IaaS.29) (IaaS). We have separate AWS accounts for our production systems and [sandboxes](../sandbox) for development and testing. If you're used to developing locally, you should feel empowered to do everything you'd like in an AWS [sandbox account](../sandbox). Note that AWS is currently the **only** approved IaaS provider. You're free to develop purely locally as long as you'd like, but _if you want to get a system with online, AWS and cloud.gov are your only options_, of which cloud.gov is preferred.
 
 In particular, you *cannot* send traffic from the internet to your local machine - you *must* use a sandbox account for this purpose.
 
