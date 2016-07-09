@@ -3,7 +3,7 @@ title: Amazon Web Services
 parent: Infrastructure
 ---
 
-At 18F, we use [Amazon Web Services](https://aws.amazon.com/) (AWS) as our [infrastructure as a service](https://en.wikipedia.org/wiki/Cloud_computing#Infrastructure_as_a_service_.28IaaS.29) (IaaS). We have separate AWS accounts for our production systems and [sandboxes](../sandbox) for development and testing. If you're used to developing locally, you should feel empowered to do everything you'd like in an AWS [sandbox account](../sandbox). Note that AWS is currently the **only** approved IaaS provider. You're free to develop purely locally as long as you'd like, but _if you want to get a system with online, AWS and cloud.gov are your only options_, of which cloud.gov is preferred.
+At 18F, we use [Amazon Web Services](https://aws.amazon.com/) (AWS) as our [infrastructure as a service](https://en.wikipedia.org/wiki/Cloud_computing#Infrastructure_as_a_service_.28IaaS.29) (IaaS). We have separate AWS accounts for our production systems and [sandboxes](../sandbox) for development and testing. If you're used to developing locally, you should feel empowered to do everything you'd like in an AWS [sandbox account](../sandbox). Note that AWS is currently the **only** approved IaaS provider. You're free to develop purely locally as long as you'd like, but _if you want to get a system online, AWS and cloud.gov are your only options_, of which cloud.gov is preferred.
 
 In particular, you *cannot* send traffic from the internet to your local machine - you *must* use a sandbox account for this purpose.
 
@@ -19,7 +19,7 @@ These are just the concepts necessary for initial on-boarding. AWS has an [exten
 
 ## Building systems that will be deployed directly to AWS
 
-Although cloud.gov is strongly preferred as the production environment for the systems we build, there are some systems that will need to run on AWS, particularly those that require FISMA High.
+Although cloud.gov is strongly preferred as the production environment for the systems we build, there are some systems that will need to run on AWS.
 
 In order to ensure systems deployed to AWS are robust and reliable, and to ensure the integrity of information stored in AWS, we impose some additional restrictions on systems deployed to the 18F production AWS environment.
 
@@ -50,15 +50,15 @@ Regardless of what your system does, we enforce [HTTPS Everywhere](https://18f.g
 
 Not all AWS services are approved by GSA IT for production use. GSA IT maintains [a current list of approved services](https://docs.google.com/spreadsheets/d/1kJrPqu10x80LaGQ_oXFDuoPkBdnaXrXTQVF_uJ14-ok/edit#gid=0) (note: only visible to GSA employees and contractors).
 
-### OS baseline
+### Operating system (OS) baseline
 
 We use a pre-hardened version of [Ubuntu](https://en.wikipedia.org/wiki/Ubuntu_%28operating_system%29) as our baseline OS for all EC2 instances in AWS. These are created using the [FISMA Ready project on GitHub](https://github.com/fisma-ready/ubuntu-lts). In AWS, there are [Amazon Machine Images](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html) (AMIs) in each AWS Region with these controls already implemented. You should always launch new instances from this baseline. You can find them by searching for the most recent AMI with the name `FISMA Ready Baseline Ubuntu (TIMESTAMP - Packer)`, where `TIMESTAMP` will be a timestamp value.
 
 ### Other people's information
 
-Any system in AWS might have the public's information (as opposed to *public* data) at any time. Some systems, like [MyUSA](https://github.com/18F/myusa), use row-level encryption to help protect that information. Depending on the data being stored, others may not, and you may have access to the underlying data in order to do your job.
+Any system in AWS might have the public's information (as opposed to *public* data) at any time. Some systems, like [MyUSA](https://github.com/18F/myusa), use row-level encryption to help protect the information if it is sensitive. If you are unsure of the sensitivity of the data you're going to be handling, consult with 18F Infrastructure first.
 
-In order to make sure we are protecting the privacy and integrity of the public's data, *you have no expectation of privacy on these systems*. Everything you do on these systems is subject to monitoring and auditing. Use common sense when handling this information. Unless you have permission *and* need to in order to do your job:
+Use common sense when handling this information. Unless you have permission *and* need to in order to do your job:
 
 * Don't release information
 * Don't share information
@@ -66,4 +66,8 @@ In order to make sure we are protecting the privacy and integrity of the public'
 
 Regardless of your own norms around privacy, always assume the owner of that data has the most conservative requirements unless they have taken express action, either through a communication or the system itself, telling you otherwise.
 
-We also take particular care in protecting [sensitive personally identifiable information (PII)](../../security/pii). PII is any information that can be linked back to an individual. For example, this includes a person's full name, their home address, and their phone number.
+We also take particular care in protecting [sensitive personally identifiable information (PII)](../../security/pii). PII is any information that can be linked back to an individual. For example, this can potentially include a person's full name when combined with other data, like their home address or phone number.
+
+### Your information
+
+In order to make sure we are protecting the integrity of the public systems, ** _you_ have no expectation of privacy on any federal system**. Everything you do on these systems is subject to monitoring and auditing. 
