@@ -3,31 +3,31 @@ title: Sandbox Accounts
 parent: Infrastructure
 ---
 
-Sandbox accounts - both cloud.gov and AWS - are available to all TTF staff for non-production use. Things to bear in mind about sandbox accounts:
+Sandbox accounts - both cloud.gov and AWS - are available to all 18F staff for non-production use. Things to bear in mind about sandbox accounts:
 
 - Sandbox accounts should be used for testing and demonstration
   purposes. Nobody outside the federal government should be given
   access details for systems running in the sandbox unless
   authentication is in place. Exposing systems to the public without
   authentication requires an [ATO](../../ato/).
-- Sandbox accounts _must_ be used when you are sending internet traffic to a non-production system: tools such as ngrok and localtunnel are strictly forbidden since they can enable your machine to be compromised.
+- Sandbox accounts _must_ be used when you are sending internet traffic to a non-production system: tools such as `ngrok` and `localtunnel` are strictly forbidden since they can allow your laptop to be compromised.
 - No sensitive or [personally identifiable information](../../security/pii) should be stored in sandbox accounts.
-- Any system that is publicly routable for more than one day must have
-a robots.txt configuration that prevents indexing by search engines.
+- Any system that becomes publicly routable (ex: for testing) must have a a [robots.txt configuration](http://www.robotstxt.org/faq/prevent.html) that prevents indexing by all search engine robots.
 
 ## Cloud.gov sandbox accounts ##
 
 Information on cloud.gov sandboxes is available in the
 [Getting Started section of the cloud.gov documentation](https://docs.cloud.gov/getting-started/accounts/).
+
 ## AWS sandbox accounts
 
-Anybody in TTS can get an AWS sandbox account. Sandbox users have
+Anybody in 18F can get an AWS sandbox account. Sandbox users have
 `power user` access, which means they have full privileges to all AWS services
 except Identity and Access Management (IAM).
 
 Everything in the sandbox accounts gets deleted once a week, at 11pm
-Eastern time on Sunday night. A notification email gets sent out at
-11pm Eastern time on Thursday night detailing the resources that will
+Eastern Time on Sunday night. A notification email gets sent out at
+11pm Eastern Time on Thursday night detailing the resources that will
 be deleted: all sandbox users should [subscribe to receive this email](https://groups.google.com/a/gsa.gov/forum/#!forum/chandika-updates).
 
 You can however protect resources from deletion by following two
@@ -37,21 +37,21 @@ make sure you enter a short, unique name for your system in the field
 `Infrastructure Tag`. Second, make sure you tag all resources you create
 in the AWS sandbox with the tag `Project=<system_infrastructure_tag>`,
 where `<system_infrastructure_tag>` is the name you entered under
-`Infrastructure Tag` in Raktabija.
+`Infrastructure Tag` in Chandika.
 
 [Request a sandbox account here](https://docs.google.com/a/gsa.gov/forms/d/1h3dSZ0BgYvWowo6OvYlGQq2uwhqg0GxklpLTnWGqHSs/viewform)
 
 ## Important notes for AWS users
 
-There are a few special notes on using any IaaS in the Federal context.
+There are a few special notes on using any "Infrastructure as a Service" in the Federal context.
 
 ### Other people's money
 
-The Federal Government cannot pay one penny more than it is authorized to spend. There is no retroactive justification for spends. When Government exceeds these limits, a report and explanation is required to the GSA Administrator, General Counsel, and Congress. So tracking costs is a *big deal*.
+The federal government cannot pay one penny more than it is authorized to spend. There is no retroactive justification for spends. When government exceeds these limits, a report and explanation is required to the GSA Administrator, General Counsel, and Congress. So tracking costs is a *big deal*.
 
 However we recognize that it's important to provide compute resources for 18F
 folks to be able to experiment. Thus sandbox users can spend up to
-$500 per month without explicit permission from Infrastructure. This
+**$500 per month** without explicit permission from Infrastructure. This
 money counts towards our operating costs, which are ultimately
 indirectly billed to customers in the form of increased rates.
 
