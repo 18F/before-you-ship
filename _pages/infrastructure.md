@@ -5,7 +5,7 @@ title: Infrastructure
 At some point, you're going to want to move the system you are building
 into production. You should decide the final destination of your system early on
 in the project. If you're building a site that has no server-side
-code, your options are [cloud.gov](#cloudgov-1), [Federalist](#federalist), or [18F Pages](#f-pages). If you're
+code, your options are [cloud.gov](#cloudgov-1), [Federalist](#federalist), or [18F Pages](#18f-pages). If you're
 going to host server-side code, you should aim to deploy to [cloud.gov](#cloudgov).
 We also support deployments to [Amazon Web Services(AWS)](#amazon-web-services-aws), but with no external support.
 
