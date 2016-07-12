@@ -27,7 +27,7 @@ See the `New Project?` instructions in Compliance Viewer for how to get it set u
 
 #### Caveats
 
-* [**There is no way to mark false positives.**](https://github.com/18F/compliance-viewer/issues/57) For ATO purposes, you will need to submit a document linking to your project in Compliance Viewer, and then explain in there if there are any false positives.
+* [**There is no way to mark false positives.**](https://github.com/18F/compliance-viewer/issues/57) For ATO purposes, submit a document linking to your project in Compliance Viewer to [the `ATOs` folder in Drive](https://drive.google.com/a/gsa.gov/folderview?id=0BynIxtx-CfkdckljM3BPSkdQT1U&usp=sharing), and include the explanations in there.
 * [**There is no authentication support.**](https://github.com/18F/concourse-compliance-testing/issues/98) For any sites that have authentication, you will need to scan the sites manually, as described below.
 
 ### Manual scanning
