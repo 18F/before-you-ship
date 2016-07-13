@@ -11,7 +11,7 @@ We also support deployments to [Amazon Web Services(AWS)](#amazon-web-services-a
 
 Whichever option you choose, you should start deploying to a
 production-like environment from early on in the development
-process. 
+process.
 
 Note that sending traffic from the internet to your
 local machine for _any_ testing purposes is not permitted. In order to
@@ -32,7 +32,7 @@ enable testing, you can request [sandbox accounts](sandbox/) on both cloud.gov o
 
 18F uses AWS as the underlying Infrastructure-as-a-Service (aka IaaS) cloud platform, but spending effort at the IaaS level is not the best use of your team’s time. 18F has invested in developing [cloud.gov](https://cloud.gov/) to provide for the most common infrastructure needs. cloud.gov uses [Cloud Foundry](https://www.cloudfoundry.org/) – an open source Platform-as-a-Service (PaaS) – as a team-friendly abstraction above AWS, encapsulating good practice cloud hosting without having to worry about a lot of the details. For most of the products that 18F develops, deploying onto cloud.gov will:
 
-- Minimize [ATO]((https://pages.18f.gov/before-you-ship/) compliance overhead (which is quite hefty) and reduce security concerns
+- Minimize [ATO](../ato/) compliance overhead (which is quite hefty) and reduce security concerns
 - Reduce 18F’s overhead for handling infrastructure billing, since it is fully self-service
 - Make it easier for teams to ensure high availability/scalability
 
