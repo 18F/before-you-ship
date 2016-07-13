@@ -70,4 +70,4 @@ We also take particular care in protecting [sensitive personally identifiable in
 
 ### Your information
 
-In order to make sure we are protecting the integrity of the public systems, ** _you_ have no expectation of privacy on any federal system**. Everything you do on these systems is subject to monitoring and auditing. 
+In order to make sure we are protecting the integrity of the public systems, **_you_ have no expectation of privacy on any federal system**. Everything you do on these systems is subject to monitoring and auditing. 
