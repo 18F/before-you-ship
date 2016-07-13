@@ -92,6 +92,9 @@ navigation:
   url: infrastructure/
   internal: true
   children:
+  - text: Sandbox Accounts
+    url: sandbox/
+    internal: true
   - text: Amazon Web Services
     url: aws/
     internal: true
