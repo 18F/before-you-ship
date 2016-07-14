@@ -14,7 +14,9 @@ To start the ATO process, follow the [walkthrough](walkthrough/).
 
 ### Federalist/Pages sites
 
-If you are publishing static web pages through [Federalist](../infrastructure/#federalist) or [18F Pages](../infrastructure/#f-pages) and they are not connecting to any APIs or third-party services (i.e. a simple static site), the web pages are considered part of that system, and do not require their own ATO ([source](https://github.com/18F/before-you-ship/issues/95#issuecomment-174011747)).
+If you are publishing a new site through [Federalist](../infrastructure/#federalist) or [18F Pages](../infrastructure/#f-pages) and it's not connecting to any APIs or third-party services (i.e. it's a simple static site), the site is considered part of that system, so does not require its own ATO ([source](https://github.com/18F/before-you-ship/issues/95#issuecomment-174011747)).
+
+*Note: Technically, static site builders are just adding a collection of pages in an existing system. Therefore, from an ATO perspective, "sites" created through Federalist or 18F Pages remain within the respective security boundary, and thus ATO.*
 
 ### Re-authorization
 
