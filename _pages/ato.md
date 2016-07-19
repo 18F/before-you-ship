@@ -27,3 +27,5 @@ If a previous ATO expires or the system changes substantively, it'll need a new 
 * The kinds of information you store (e.g. [personally identifiable information](../security/pii/))
 
 The 18F Infrastructure team will make this determination – please [open a new issue](https://github.com/18F/Infrastructure/issues/new?title=ATO+re-authorization+for+%3Cproject%3E?) if you think you have made a change that may require a new ATO. Even if you're not sure, doesn't hurt to ask!
+
+To renew your ATO, go through [the checklist](checklist/), updating any existing materials.
