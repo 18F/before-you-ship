@@ -3,7 +3,7 @@ title: Dynamic Scanning
 parent: Security
 ---
 
-[OWASP ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project) is the tool we use for doing automated vulnerability scanning.
+[OWASP ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project) is the tool we use for doing dynamic vulnerability scanning.
 
 ![ZAP home screen](../../assets/images/zap_home.png)
 
