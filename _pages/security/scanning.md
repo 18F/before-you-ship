@@ -7,10 +7,10 @@ parent: Security
 Security scanning is separated into a few categories:
 
 * [Static](../static-analysis/): Static Code Analysis (SCA) is similar to the [linters](https://en.wikipedia.org/wiki/Lint_(software)) that many developers use on a day-to-day basis. While many linters focus on stylistic concerns, we are interested in those tools that target security flaws.
-* [Dynamic](../dynamic-scanning/): ZAP is the primary tool we use for Dynamic Scanning. It can function as both an active (Spider & Attack options) and a passive (man-in-the-middle/proxy) scanner.
+* [Dynamic](../dynamic-scanning/)
     * Active
         * Infrastructure-level scan (done at the cloud.gov level)
-        * Penetration test (required if dealing with sensitive information)
+        * Penetration test
     * Passive: Monitors network traffic, but does not generate its own traffic.
 
 ## Alerts
