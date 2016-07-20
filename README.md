@@ -2,6 +2,15 @@
 
 This is the source repository for the 18F [Before You Ship](https://pages.18f.gov/before-you-ship/) guide. The [ATO](https://pages.18f.gov/before-you-ship/ato/)-related sections of this site are maintained by the [Compliance Toolkit](https://github.com/18F/compliance-toolkit) team.
 
+### Development
+
+To run a local copy, clone this repository and run these commands:
+
+```
+bundle install
+./go serve
+```
+
 ### Public domain
 
 This project is in the worldwide [public domain](LICENSE.md). As stated in [CONTRIBUTING](CONTRIBUTING.md):
