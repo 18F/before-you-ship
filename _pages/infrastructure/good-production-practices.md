@@ -23,6 +23,7 @@ Below is a list of "good" production ops practices, which product and tech leads
 - Deployment only includes production-necessary files
 - Secrets are retrieved securely (eg via credential service rather than setting environment variables)
 - Download, build, and configuration limited to staging, not runtime
+- [Pin dependencies](../pinning-dependencies/)
 
 ### Support
 
