@@ -23,7 +23,19 @@ A paragraph or two on how to use bundler, the role of Gemfile.lock, etc.
 
 ## Node.JS
 
-A paragraph or two about `shrinkwrap`, similar tools
+`npm shrinkwrap` is the command to lock down versions of all
+dependencies of a Node project. When run, `npm shrinkwrap` will recursively
+traverse the dependency tree of the target project and generate a file called
+`npm-shrinkwrap.json`. This file will list the currently installed versions of
+all packages in the local project's `node_modules` folder. You should commit
+`npm-shrinkwrap.json` to your project's repository.
+
+When `npm-shrinkwrap.json` is present, future uses of `npm install` will
+reproduce the dependency tree represented in it. Running
+`npm install --save <package_name>` will update `npm-shrinkwrap.json` with the
+new or updated package and its dependencies.
+
+More information on `npm shrinkwrap` can be found at https://docs.npmjs.com/cli/shrinkwrap
 
 ## Python
 
