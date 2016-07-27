@@ -34,10 +34,14 @@ traverse the dependency tree of the target project and generate a file called
 all packages in the local project's `node_modules` folder. You should commit
 `npm-shrinkwrap.json` to your project's repository.
 
-When `npm-shrinkwrap.json` is present, future uses of `npm install` will
-reproduce the dependency tree represented in it. Running
+When `npm-shrinkwrap.json` is present, installing dependencies using
+`npm install` will reproduce the dependency tree represented in it.
+If you have `npm` version 3+, which is recommended, then running
 `npm install --save <package_name>` will update `npm-shrinkwrap.json` with the
 new or updated package and its dependencies.
+If you are using a previous version `npm`, you will have to regenerate your
+`npm-shrinkwrap.json` by running `npm shrinkwrap` again to update dependencies
+specified in it.
 
 More information on `npm shrinkwrap` can be found at https://docs.npmjs.com/cli/shrinkwrap
 
