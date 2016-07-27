@@ -19,7 +19,11 @@ different languages.
 
 ## Ruby
 
-A paragraph or two on how to use bundler, the role of Gemfile.lock, etc.
+Ensure that `Gemfile.lock` [is committed to the repo](http://bundler.io/v1.12/rationale.html),
+causing it to be deployed along with the source code:
+
+>  . . . the Gemfile.lock makes your application a single package of both your own
+>  code and the third-party code it ran the last time you know for sure that everything worked.
 
 ## Node.JS
 
