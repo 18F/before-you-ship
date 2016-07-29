@@ -19,8 +19,9 @@ different languages.
 
 ## Ruby
 
-Ensure that `Gemfile.lock` [is committed to the repo](http://bundler.io/v1.12/rationale.html),
-causing it to be deployed along with the source code:
+No action is necessary for dependencies to be pinned. This is because the
+auto-generated `Gemfile.lock` [should be committed to the repo](http://bundler.io/v1.12/rationale.html) 
+in development, causing it to be deployed along with the source code:
 
 >  . . . the Gemfile.lock makes your application a single package of both your own
 >  code and the third-party code it ran the last time you know for sure that everything worked.
