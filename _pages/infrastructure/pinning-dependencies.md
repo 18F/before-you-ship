@@ -48,4 +48,35 @@ More information on `npm shrinkwrap` can be found at https://docs.npmjs.com/cli/
 
 ## Python
 
+In Python, you should specifiy pinned dependencies `requirements.txt`, and
+you should be sure to use specific, frozen versions -- e.g. `Django==1.9.6`,
+`six==1.10.0`, etc. You can generate this using `pip freeze`; a common idiom
+is `pip freeze > requirements.txt` to generate the frozen list and stream it
+into `requirements.txt`. Be sure to run this command in an activated virtualenv
+to avoid freezing system-wide dependencies.
+
+Unlike Ruby and Node, Python doesn't have a separate file for "input"
+dependencies (`Gemfile` in Ruby, `package.json` in Node) vs "frozen" ones
+(`Gemfile.lock` / `npm-shrinkwrap.json`). This can lead to some confusion:
+you'll sometimes see un-pinned dependencies (e.g. just `Django` or `six`) in
+`requirements.txt`. This is an bad idea as it can cause dependency failures in
+the future.
+
+However, since having an "input" dependency list can be useful, here are
+a couple of not-yet-standardized-but-widespread practices you can use:
+
+- Create a `requirements.in` file, specifying un-pinned dependencies. You can
+then use `pip install --upgrade -r requirements.in` to upgrade all your
+requirements, test that they work, and the `pip freeze > requirements.txt` to
+re-freeze them. [pip-tools](https://github.com/nvie/pip-tools) automates this
+(and might end up becoming a built-in part of `pip` in the future).
+`requirements.in` is a good choice for *sites* that are themselves not
+dependencies of other codebases.
+
+- Specify un-pinned (or semi-pinned, e.g. `Django>1.9,<1.10`) dependencies in a
+`setup.py`. `setup.py` is out of scope for this document; see [the Python
+Packaging Guide](http://python-packaging.readthedocs.io/en/latest/index.html)
+for information. This `setup.py` technique is a good choice for *libraries* that
+will be installed as a dependency elsewhere.
+
 A paragraph or two describing `requirements.txt` and how to generate it
