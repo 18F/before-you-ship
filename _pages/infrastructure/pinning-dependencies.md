@@ -78,5 +78,3 @@ dependencies of other codebases.
 Packaging Guide](http://python-packaging.readthedocs.io/en/latest/index.html)
 for information. This `setup.py` technique is a good choice for *libraries* that
 will be installed as a dependency elsewhere.
-
-A paragraph or two describing `requirements.txt` and how to generate it
