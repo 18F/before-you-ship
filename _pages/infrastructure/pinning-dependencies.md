@@ -48,7 +48,7 @@ More information on `npm shrinkwrap` can be found at https://docs.npmjs.com/cli/
 
 ## Python
 
-In Python, you should specifiy pinned dependencies `requirements.txt`, and
+In Python, you should specify pinned dependencies `requirements.txt`, and
 you should be sure to use specific, frozen versions -- e.g. `Django==1.9.6`,
 `six==1.10.0`, etc. You can generate this using `pip freeze`; a common idiom
 is `pip freeze > requirements.txt` to generate the frozen list and stream it
