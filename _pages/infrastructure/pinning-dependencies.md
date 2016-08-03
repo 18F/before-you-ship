@@ -48,7 +48,7 @@ More information on `npm shrinkwrap` can be found at https://docs.npmjs.com/cli/
 
 ## Python
 
-In Python, you should specify pinned dependencies `requirements.txt`, and
+In Python, you should specify pinned dependencies in `requirements.txt`, and
 you should be sure to use specific, frozen versions -- e.g. `Django==1.9.6`,
 `six==1.10.0`, etc. You can generate this using `pip freeze`; a common idiom
 is `pip freeze > requirements.txt` to generate the frozen list and stream it
@@ -59,7 +59,7 @@ Unlike Ruby and Node, Python doesn't have a separate file for "input"
 dependencies (`Gemfile` in Ruby, `package.json` in Node) vs "frozen" ones
 (`Gemfile.lock` / `npm-shrinkwrap.json`). This can lead to some confusion:
 you'll sometimes see un-pinned dependencies (e.g. just `Django` or `six`) in
-`requirements.txt`. This is an bad idea as it can cause dependency failures in
+`requirements.txt`. This is a bad idea as it can cause dependency failures in
 the future.
 
 However, since having an "input" dependency list can be useful, here are
