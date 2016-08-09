@@ -28,7 +28,7 @@ in development, causing it to be deployed along with the source code:
 
 ## Node.JS
 
-`npm shrinkwrap` is the command to lock down versions of all
+`npm shrinkwrap` is the command to pin versions of all
 dependencies of a Node project. When run, `npm shrinkwrap` will recursively
 traverse the dependency tree of the target project and generate a file called
 `npm-shrinkwrap.json`. This file will list the currently installed versions of
@@ -44,7 +44,7 @@ If you are using a previous version `npm`, you will have to regenerate your
 `npm-shrinkwrap.json` by running `npm shrinkwrap` again to update dependencies
 specified in it.
 
-More information on `npm shrinkwrap` can be found at https://docs.npmjs.com/cli/shrinkwrap
+More information on `npm shrinkwrap` can be found at [https://docs.npmjs.com/cli/shrinkwrap](https://docs.npmjs.com/cli/shrinkwrap)
 
 ## Python
 
