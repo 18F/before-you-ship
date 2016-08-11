@@ -3,15 +3,16 @@ title: Types of ATO
 navtitle: Types
 ---
 
-There are three tracks of documentation available:
+There are four tracks of authorization available:
 
+* [Pre-authorization Authority to Operate (0-ATO)](#pre-authorization)
 * [90-day Lightweight Authority to Operate (LATO)](#day-authorization)
 * [1-year Lightweight Authority to Operate (LATO)](#year-authorization)
 * [Continuous Authority to Operate (cATO)](#continuous-authorization)
 
 ### Pre-authorization
 
-You may operate without authorization if all of the following conditions are met:
+You may operate without further authorization, based on our approved pre-existing security authorization, if all of the following conditions are met:
 
 * The system is deployed to [cloud.gov](https://cloud.gov) or the [18F AWS East/West environment](../../infrastructure/aws/).
 * The system does _not_:
