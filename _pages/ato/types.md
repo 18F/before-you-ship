@@ -48,12 +48,12 @@ You do not have to wait for the 90 days to complete before moving to a new autho
     1. Approve a completed [system security plan](../ssp/)
     1. Do the testing
     1. Give a 90 day authorization
-* The 90 day ATO can be extended for an additioanl 90 days _once_, as long as the security boundary hasn’t changed.
+* The 90 day ATO can be extended for an additional 90 days _once_, as long as the security boundary hasn’t changed.
     * The automatic scans must not show any new vulnerabilities.
 
 ### 1-year authorization
 
-The 1 Year is inclusive of all the steps of [the 90 Day process](#day-authorization). Additional controsl are assesed, and a more thorough penetration test is done, which may reveal other vulnerabilities that will need to be resolved before the system is put into operation.
+The 1 Year is inclusive of all the steps of [the 90 Day process](#day-authorization). Additional controls are assesed, and a more thorough penetration test is done, which may reveal other vulnerabilities that will need to be resolved before the system is put into operation.
 
 ### Continuous authorization
 
