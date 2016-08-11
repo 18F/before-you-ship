@@ -5,7 +5,7 @@ navtitle: Types
 
 There are four tracks of authorization available:
 
-* [Pre-authorization Authority to Operate (0-ATO)](#pre-authorization)
+* [Pre-authorization for internal government use](#pre-authorization)
 * [90-day Lightweight Authority to Operate (LATO)](#day-authorization)
 * [1-year Lightweight Authority to Operate (LATO)](#year-authorization)
 * [Continuous Authority to Operate (cATO)](#continuous-authorization)
@@ -48,13 +48,13 @@ You do not have to wait for the 90 days to complete before moving to a new autho
     1. Approve a completed [system security plan](../ssp/)
     1. Do the testing
     1. Give a 90 day authorization
-* The 90 day ATO can be re-upped as long as the security boundary hasn’t changed.
+* The 90 day ATO can be extended for an additioanl 90 days _once_, as long as the security boundary hasn’t changed.
     * The automatic scans must not show any new vulnerabilities.
 
 ### 1-year authorization
 
-The 1 Year is inclusive of all the steps of [the 90 Day process](#day-authorization). A more thorough penetration test is done, which may reveal other vulnerabilities that will need to be resolved.
+The 1 Year is inclusive of all the steps of [the 90 Day process](#day-authorization). Additional controsl are assesed, and a more thorough penetration test is done, which may reveal other vulnerabilities that will need to be resolved before the system is put into operation.
 
 ### Continuous authorization
 
-This is the idea that a system's compliance can be continuously monitored, rather than expiring and needing to be re-submitted for approval. This is the goal of the [Compliance Toolkit](https://github.com/18F/compliance-toolkit) project, but is not yet A Thing™.
+A system's compliance can be continuously monitored, rather than expiring and needing to be re-submitted for approval. This is the goal of the [Compliance Toolkit](https://github.com/18F/compliance-toolkit) project, but is not yet A Thing™.
