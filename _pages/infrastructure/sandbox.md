@@ -12,7 +12,7 @@ Sandbox accounts - both cloud.gov and AWS - are available to all 18F staff for n
   authentication requires an [ATO](../../ato/).
 - Sandbox accounts _must_ be used when you are sending internet traffic to a non-production system: tools such as `ngrok` and `localtunnel` are strictly forbidden since they can allow your laptop to be compromised.
 - No sensitive or [personally identifiable information](../../security/pii) should be stored in sandbox accounts.
-- Any system that becomes publicly routable (ex: for testing) must have a a [robots.txt configuration](http://www.robotstxt.org/faq/prevent.html) that prevents indexing by all search engine robots.
+- Any system that becomes publicly routable (ex: for testing) must have a [robots.txt configuration](http://www.robotstxt.org/faq/prevent.html) that prevents indexing by all search engine robots.
 
 ## Cloud.gov sandbox accounts ##
 
