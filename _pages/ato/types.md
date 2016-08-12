@@ -23,7 +23,7 @@ You may operate without authorization if all of the following conditions are met
         * IP CIDR block
         * some kind of auth mechanism
             * HTTP Basic Auth
-            * OAuth ([Cloud.gov Auth](https://docs.cloud.gov/apps/leveraging-authentication/))
+            * OAuth ([cloud.gov authentication](https://docs.cloud.gov/apps/leveraging-authentication/), or [GitHub authentication](https://developer.github.com/v3/oauth/) limited to a particular organization)
             * etc.
 
 Note that this last requirement can be skipped for [Open Data](../levels/#open-data-atos) systems once you initiate [the ATO process](../checklist/). This is greater incentive to do so early.
