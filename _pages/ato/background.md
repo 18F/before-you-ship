@@ -7,6 +7,14 @@ navtitle: Background
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/T1S52B1-NT4" frameborder="0" allowfullscreen></iframe>
 
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-Nc4GXPxpQg?list=PLd9b-GuOJ3nG5zDAg7exOHusZKVVrkhjO" frameborder="0" allowfullscreen></iframe>
+
+[slides](https://speakerdeck.com/aidanfeldman/everything-i-think-i-understand-about-it-compliance)
+
+---
+
 * Governed by the [Federal Information Security Management Act of 2002](http://csrc.nist.gov/drivers/documents/FISMA-final.pdf) (FISMA)
     * FISMA does a few things. It puts the Chief Information Security Officer in charge of consulting the agency head with the process they should have for the security clearance process. FISMA also empowers the agency head with accepting all the risk posed by information systems.
         * Good news is that agency head can delegate that authority at their choosing.
