@@ -4,7 +4,9 @@ navtitle: Frameworks
 parent: Security
 ---
 
-### Django
+Organized by language.
+
+#### Django
 
 * Set up [static security analysis](../static-analysis/#python).
 * Read through the official [deployment checklist](https://docs.djangoproject.com/en/stable/howto/deployment/checklist/).
@@ -15,7 +17,7 @@ See also:
 * Search [this deck](https://speakerdeck.com/mpirnat/shiny-lets-be-bad-guys-exploiting-and-mitigating-the-top-10-web-app-vulnerabilities-oscon-2016-edition) (click "Download PDF") for "Django"
 * Jacob Kaplan-Moss' talk: [Python vs. the OWASP Top 10](https://www.youtube.com/watch?v=sra9x44lXgU) ([slides](https://speakerdeck.com/jacobian/python-vs-the-owasp-top-10))
 
-### Flask
+#### Flask
 
 * Set up [static security analysis](../static-analysis/#python)
 * Read through the [official security docs](http://flask.pocoo.org/docs/security/)
@@ -26,7 +28,9 @@ See also:
 * Search [this deck](https://speakerdeck.com/mpirnat/shiny-lets-be-bad-guys-exploiting-and-mitigating-the-top-10-web-app-vulnerabilities-oscon-2016-edition) (click "Download PDF") for "Flask"
 * Jacob Kaplan-Moss' talk: [Python vs. the OWASP Top 10](https://www.youtube.com/watch?v=sra9x44lXgU) ([slides](https://speakerdeck.com/jacobian/python-vs-the-owasp-top-10))
 
-### Rails
+### Ruby
+
+#### Rails
 
 * Set up [static security analysis](../static-analysis/#rails).
 * Read through [Secure Rails](https://github.com/ankane/secure_rails).
@@ -39,7 +43,7 @@ More info:
 * [Rails Security Guide](http://guides.rubyonrails.org/security.html)
 * [OWASP Rails Cheatsheet](https://www.owasp.org/index.php/Ruby_on_Rails_Cheatsheet)
 
-### Sinatra/Padrino
+#### Sinatra/Padrino
 
 * Set up [static security analysis](../static-analysis/#other-ruby-frameworks). We are currently seeking recommendations for this configuration.
 * Ensure that [rack-protection](https://github.com/sinatra/rack-protection) and/or [SecureHeaders](https://github.com/twitter/secureheaders) is enabled and configured.
