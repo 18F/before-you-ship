@@ -1,6 +1,8 @@
 ## 18F Before You Ship Guide [![Build Status](https://travis-ci.org/18F/before-you-ship.svg?branch=18f-pages)](https://travis-ci.org/18F/before-you-ship)
 
-This is the source repository for the 18F [Before You Ship](https://pages.18f.gov/before-you-ship/) guide. The [ATO](https://pages.18f.gov/before-you-ship/ato/)-related sections of this site are maintained by the [Compliance Toolkit](https://github.com/18F/compliance-toolkit) team.
+This is the source repository for the 18F [Before You Ship](https://pages.18f.gov/before-you-ship/) guide.
+
+This guide is maintained by the 18F/TTS Infrastructure team.
 
 ### Public domain
 
