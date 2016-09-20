@@ -5,7 +5,7 @@ parent: Security
 
 In order for an application to get ATO, it needs to meet more than a minimum level of application security, so the application team needs to run [both static and dynamic security scans](../scanning/) and document good results. Running a "dynamic" scan means running a program that analyzes a live running application for common vulnerabilities.
 
-As part of the process of getting an ATO at 18F, **your application team will need to set up [OWASP ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project) to do dynamic vulnerability scanning of your application (either automated or manual scans)**. ZAP can function as either an active (Spider & Attack options) or a passive (man-in-the-middle/proxy) scanner, but is usually used as a combination of both. If you (or another person on your application team) has questions about setting this up, ask #compliance for help.
+As part of the process of getting an ATO at 18F, **your application team will need to set up [OWASP ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project) to do dynamic vulnerability scanning of your application (either automated or manual scans)**. ZAP can function as either an active (Spider & Attack options) or a passive (man-in-the-middle/proxy) scanner, but is usually used as a combination of both. If you (or another person on your application team) has questions about setting this up, ask #infrastructure for help.
 
 ![ZAP home screen](../../assets/images/zap_home.png)
 
