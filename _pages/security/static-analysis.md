@@ -7,13 +7,13 @@ parent: Security
 Static analysis is an important part of the development process, and is required for ATO. There are two main types of static security testing that needs to be done:
 
 * [**Dependency analysis**](#dependency-analysis), where the Ruby gems, Python modules, and JavaScript packages your app uses are checked against a list of known vulnerabilities.
-* [**Code analysis**](#code-analysis), in which your code is checked against a list of antipatterns.
+* [**Code security analysis**](#code-analysis), in which your code is checked against a list of antipatterns.
 
-There are tools for JS, Ruby, and Python, and you are encouraged to set up this scanning early on in the development cycle to prevent unexpected delays when it's time to get your ATO.
+There are tools for JS, Ruby, and Python, and you are encouraged to set up this scanning early on in the development cycle to prevent unexpected delays when it's time to get your ATO. Note that there are _many_ tools out there for doing code style linting, but this page is specifically security-focused.
 
 ### Services
 
-Service | Languages/frameworks | Dependency analysis | Code analysis
+Service | Languages/frameworks | Dependency analysis | Code security analysis
 --- | --- | --- | ---
 [Code Climate](https://codeclimate.com/) | Ruby, JS, Python | Ruby and Node (on `push` only) | Rails, Node, and Ember
 [Gemnasium](https://gemnasium.com/) | Ruby, Node, Python, PHP | Y | N
