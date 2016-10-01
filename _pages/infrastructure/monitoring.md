@@ -33,7 +33,7 @@ For a non-static site, you will want to know if exceptions are being thrown with
 * [New Relic APM](http://newrelic.com/application-monitoring)
     * See [the FISMA Ready instructions](https://github.com/fisma-ready/new-relic) for useful settings to go in the New Relic `ini` file.
     * At time of writing, [New Relic Alerts](https://docs.newrelic.com/docs/alerts/new-relic-alerts/getting-started/new-relic-alerts) is in open beta. While it doesn't yet provide all the features of the legacy system, it's already enough of an improvement that it's worth checking out.
-    * For [New Relic](https://newrelic.com) access, [open an issue in the DevOps repo](https://github.com/18F/DevOps/issues/new?title=New+Relic+account+for+%3Cname%3E) to get an account set up for your project.
+    * For [New Relic](https://newrelic.com) access, [open an issue in the Infrastructure repo](https://github.com/18F/Infrastructure/issues/new?title=New+Relic+account+for+%3Cname%3E) to get an account set up for your project.
 * [Sentry](https://getsentry.com/)
     * You can deploy/manage this yourself; see the [deployment instructions](https://github.com/18F/how-to-deploy/blob/master/sentry/README.md).
     * We are not approved to use hosted Sentry (monitoring via a monthly plan
