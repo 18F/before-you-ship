@@ -21,27 +21,28 @@ You are welcome to ask any questions as comments in the issue or #infrastructure
 * **Product manager:** @<username>
 * **Technical point of contact:** @<username>
 * **Launch date/deadline:** <date>
+```
 
 ## TODOs
 
 ### Project team
 
-Many of these tasks can be done in parallel...this is just a suggestion of priority.
+Many of these tasks can be done in parallel; this is just a suggestion of priority.
 
-1. [Set up monitoring](https://pages.18f.gov/before-you-ship/infrastructure/monitoring/)
-    * [ ] [Downtime alerts](https://pages.18f.gov/before-you-ship/infrastructure/monitoring/#downtime)
-    * [ ] [Error alerts](https://pages.18f.gov/before-you-ship/infrastructure/monitoring/#errors)
-1. [ ] Add an [`.about.yml`](https://github.com/18F/about_yml) for the main repository
-1. [ ] [Security scans](https://pages.18f.gov/before-you-ship/security/scanning/)
-    * [ ] Set up [static analysis](https://pages.18f.gov/before-you-ship/security/static-analysis/) service
-        * [ ] Add service badges to the README
-    * [ ] [Perform dynamic vulnerability scanning](https://pages.18f.gov/before-you-ship/security/dynamic-scanning/)
-        1. [ ] Resolve any visible security issues, re-running the scan as needed
-        1. [ ] Add the issue-free scan report or [documentation about false positives](https://pages.18f.gov/before-you-ship/security/dynamic-scanning/#caveats) to [the `ATOs` folder in Google Drive](https://drive.google.com/a/gsa.gov/folderview?id=0BynIxtx-CfkdckljM3BPSkdQT1U&usp=sharing)
-1. [ ] Update relevant documentation, primarily the README
-1. [ ] Add a [System Security Plan](https://pages.18f.gov/before-you-ship/ato/ssp/#template) to the repository
-1. [ ] [Set up Compliance Masonry documentation](https://github.com/18F/cg-compliance#starting-ato-documentation-for-cloudgov-applications)
-1. [ ] [Implement the controls](https://pages.18f.gov/before-you-ship/ato/walkthrough/#step-3--implement-the-controls)
+1. [ ] [Set up monitoring](https://pages.18f.gov/before-you-ship/infrastructure/monitoring/)
+  1. [ ] [Downtime alerts](https://pages.18f.gov/before-you-ship/infrastructure/monitoring/#downtime)
+  2. [ ] [Error alerts](https://pages.18f.gov/before-you-ship/infrastructure/monitoring/#errors)
+2. [ ] Add an [`.about.yml`](https://github.com/18F/about_yml) for the main repository
+3. [ ] [Security scans](https://pages.18f.gov/before-you-ship/security/scanning/)
+  1. [ ] Set up [static analysis](https://pages.18f.gov/before-you-ship/security/static-analysis/) service
+  2. [ ] Add service badges to the README
+  3. [ ] [Perform dynamic vulnerability scanning](https://pages.18f.gov/before-you-ship/security/dynamic-scanning/)
+    1. [ ] Resolve any visible security issues, re-running the scan as needed
+    2. [ ] Add the issue-free scan report or [documentation about false positives](https://pages.18f.gov/before-you-ship/security/dynamic-scanning/#caveats) to [the `ATOs` folder in Google Drive](https://drive.google.com/a/gsa.gov/folderview?id=0BynIxtx-CfkdckljM3BPSkdQT1U&usp=sharing)
+4. [ ] Update relevant documentation, primarily the README
+5. [ ] Add a [System Security Plan](https://pages.18f.gov/before-you-ship/ato/ssp/#template) to the repository
+6. [ ] [Set up Compliance Masonry documentation](https://github.com/18F/cg-compliance#starting-ato-documentation-for-cloudgov-applications)
+7. [ ] [Implement the controls](https://pages.18f.gov/before-you-ship/ato/walkthrough/#step-3--implement-the-controls)
 
 ### Authorizing Official
 
