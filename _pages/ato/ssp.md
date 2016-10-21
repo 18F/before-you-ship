@@ -43,11 +43,11 @@ system-type: <major|minor|general support>
 level-of-identity-assurance: <0 if no authentication, or a link to SSP of the forthcoming identity system>
 staff:
   authorizing-official:
-    name: Aaron Snow
-    title: 18F Executive Director
+    name: Noah Kunin
+    title: 18F Infrastructure Director
     org: General Services Administration
     unit: 18F
-    email: 18F@gsa.gov
+    email: devops@gsa.gov
   system-owner:
     name: Noah Kunin
     title: 18F Infrastructure Director
