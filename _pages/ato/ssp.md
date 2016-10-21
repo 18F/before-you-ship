@@ -44,27 +44,27 @@ level-of-identity-assurance: <0 if no authentication, or a link to SSP of the fo
 staff:
   authorizing-official:
     name: Noah Kunin
-    title: 18F Infrastructure Director
+    title: TTS Infrastructure Director
     org: General Services Administration
-    unit: 18F
+    unit: TTS
     email: devops@gsa.gov
   system-owner:
     name: Noah Kunin
-    title: 18F Infrastructure Director
+    title: TTS Infrastructure Director
     org: General Services Administration
-    unit: 18F
+    unit: TTS
     email: devops@gsa.gov
   system-management:
     name: Noah Kunin
-    title: 18F Infrastructure Director
+    title: TTS Infrastructure Director
     org: General Services Administration
-    unit: 18F
+    unit: TTS
     email: devops@gsa.gov
   system-security-officer:
     name: Noah Kunin
-    title: 18F Infrastructure Director
+    title: TTS Infrastructure Director
     org: General Services Administration
-    unit: 18F
+    unit: TTS
     email: devops@gsa.gov
   technical-lead:
     name: <developer's name>
