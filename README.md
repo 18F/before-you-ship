@@ -4,13 +4,8 @@ This is the source repository for the 18F [Before You Ship](https://pages.18f.go
 
 ### Development
 
-To run a local copy, clone this repository and run these commands:
-
-```
-bundle install
-./go serve
-```
-
+See the Usage section of our [Contributing guidelines](https://github.com/18F/before-you-ship/blob/18f-pages/CONTRIBUTING.md#usage
+). 
 ### Public domain
 
 This project is in the worldwide [public domain](LICENSE.md). As stated in [CONTRIBUTING](CONTRIBUTING.md):
