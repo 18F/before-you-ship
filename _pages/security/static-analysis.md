@@ -77,9 +77,9 @@ We do not have a recommended scanner for non-Rails frameworks. If there is a ser
 
 There are surprisingly few security-focused static code analyzers for Python. The best seems to be OpenStack's [Bandit](https://github.com/openstack/bandit).
 
-To install (preferably in a virtual environment) (NOTE: There is a version on PyPI, but it is currently out of date. Installation instructions will be updated when that version catches up):
+To install (preferably in a virtual environment):
 
-    $ pip install git+https://github.com/openstack/bandit.git
+    $ pip install bandit
 
 Download the [config file](https://github.com/18F/compliance-toolkit/blob/master/configs/static/.bandit) from the compliance-toolkit repo into your project root. It will be automatically detected when you run Bandit.
 
