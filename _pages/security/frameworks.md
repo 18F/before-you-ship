@@ -8,6 +8,8 @@ Organized by language.
 
 ### [Node.js](https://nodejs.org/)
 
+* See info on JavaScript [static security analysis](../static-analysis/#javascript)
+
 #### [Express](https://expressjs.com/)
 
 * [Express Production Best Practices: Security](https://expressjs.com/en/advanced/best-practice-security.html)
