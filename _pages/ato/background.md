@@ -3,7 +3,7 @@ title: Background on the Risk Management Process
 navtitle: Background
 ---
 
-One of the goals of the Federal Information Security Management Act of 2002 (FISMA) is to "provide a comprehensive framework for ensuring the effectiveness of information security controls over information resources that support Federal operations and assets." NIST was tasked with designing and implementing this framework: the result is NIST's Risk Management Framework (RMF). All federal information and information systems (except classified information and national security systems) are subject to NIST's RMF by law.
+One of the goals of the Federal Information Security Management Act of 2002 (FISMA) is to "provide a comprehensive framework for ensuring the effectiveness of information security controls over information resources that support Federal operations and assets." The National Institute of Standards and Technology (NIST) was tasked with designing and implementing this framework: the result is NIST's Risk Management Framework (RMF). All federal information and information systems (except classified information and national security systems) are subject to NIST's RMF.
 
 There's [an introduction to the RMF on NIST's website](http://csrc.nist.gov/groups/SMA/fisma/framework.html). A more comprehensive guide, including how to apply the framework, references to the various relevant publications, and definitions of roles and responsibilities, is found in NIST's [Special Publication 800-37](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-37r1.pdf).
 
@@ -19,8 +19,8 @@ The information systems' owner, working with the AO, categorizes the system base
 
 The information system's owner, working with the AO, decides which controls should be implemented. NIST's encyclopedic [Special Publication 800-53](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf) (currently on revision 4) is the definitive guide to security and privacy controls for federal information systems. Which controls are selected is based on the following:
 
-* *The impact level of the system* (low, moderate or high). SP 800-53 provides a "baseline" set of controls for each level. The higher the level, the more controls are in scope. For systems running on cloud infrastructure, you should consult [FedRAMP's security control documentation](https://www.fedramp.gov/resources/documents-2016/).
-* *Which controls are already taken care of by your infrastructure*. If you're running in the cloud, many controls are taken care of at the infrastructure or platform layer. If your provider has received a FedRAMP ATO, it will provide a document called a _customer responsibility matrix_ (CRM) listing the residual controls that are the responsibility of the applications running on the infrastructure or platform.
+* *The impact level of the system* (low, moderate or high). SP 800-53 provides a "baseline" set of controls for each level. The higher the level, the more controls or control enhancements are in scope. For systems running on cloud infrastructure, you should consult [FedRAMP's security control documentation](https://www.fedramp.gov/resources/documents-2016/).
+* *Which controls are already taken care of by your infrastructure*. If you're running in the cloud, many controls are taken care of at the infrastructure or platform layer. If your provider has received a FedRAMP ATO, it will provide a document called a _customer responsibility matrix_ (CRM) listing the residual or hybrid controls that are the responsibility (or partial responsibility) of the applications running on the infrastructure or platform.
 * *What type of ATO you want to receive*. The GSA provides a "lightweight" ATO process designed for pilot systems running on GSA authorized infrastructure, for which fewer controls are in scope.
 * *Tailoring*. The information system owner, working with the AO and the agency's information security team, can then add, remove or modify controls to achieve cost-effective, risk-based security, based on the agency's mission or business need.
 
@@ -42,4 +42,10 @@ The SSP, SAR and POAM together form a _security authorization package_ (FedRAMP 
 
 ### Step 6: Monitor Security Controls
 
-Once a system receives an ATO, it must be assessed at regular intervals to ensure the effectiveness of the control implementation. Any changes to the system or its environment should also be assessed to determine their impact.
+Once a system receives an ATO, it must be assessed at regular intervals to ensure the effectiveness of the control implementation. Any changes to the system's security boundary or its environment should also be assessed to determine their impact.
+
+### An introduction to compliance
+
+For an introduction to compliance for federal information systems, check out this video by 18F's Aidan Feldman.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-Nc4GXPxpQg?list=PLd9b-GuOJ3nG5zDAg7exOHusZKVVrkhjO" frameborder="0" allowfullscreen></iframe>

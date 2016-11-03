@@ -2,7 +2,7 @@
 title: ATOs
 ---
 
-Every federal information system must go through NIST's [Risk Management Process](background/) before it can be used to process federal information. This process culminates in a signed Authority to Operate (ATO) being issued. Because the Risk Management Process is a complex, multi-step process which will constrain the design and implementation of your system, you should start thinking about how it applies to your system _before_ you begin designing and implementing it. The steps of the Risk Management Process should be executed in parallel with other project activities. Please get in touch with the TTS Infrastructure Team as soon as your project gets funding so you can discuss which category of ATO will be required for your system, and understand what will be required to gain an ATO for it.
+Every federal information system must go through NIST's [Risk Management Framework](background/) before it can be used to process federal information. This process culminates in a signed Authority to Operate (ATO) being issued. Because the Risk Management Process is a complex, multi-step process which will constrain the design and implementation of your system, you should start thinking about how it applies to your system _before_ you begin designing and implementing it. The steps of the Risk Management Process should be executed in parallel with other project activities. Please get in touch with the TTS Infrastructure Team as soon as your project gets funding so you can discuss which category of ATO will be required for your system, and understand what will be required to gain an ATO for it.
 
 ### Starting the ATO process
 
