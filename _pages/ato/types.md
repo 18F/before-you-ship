@@ -3,14 +3,17 @@ title: Types of ATO
 navtitle: Types
 ---
 
-There are four tracks of authorization available:
+In most cases, the two types of ATO that will be pursued for GSA systems are the *GSA Lightweight ATO (LATO)* and the *FedRAMP Agency ATO*. Systems that are under development can be operated without an ATO provided they fulfil the requirements for [pre-authorization for internal government use](#pre-authorization).
 
-* [Pre-authorization for internal government use](#pre-authorization)
-* [90-day Lightweight Authority to Operate (LATO)](#day-authorization)
-* [1-year Lightweight Authority to Operate (LATO)](#year-authorization)
-* [Continuous Authority to Operate (cATO)](#continuous-authorization)
+The [GSA LATO](#gsa-lato) is designed for systems built using agile methods that run on top of cloud infrastructure which has already received an ATO (such as AWS, Azure, and soon [cloud.gov](https://cloud.gov)). It's "lightweight" because only 24 NIST controls must be implemented in order to grant this type of ATO. It is initially valid for 90 days, but can be extended for longer periods with additional work.
 
-### Pre-authorization
+However a GSA LATO is not suitable for systems we intend to hand over to other agencies to operate, or which will hold other agencies' information. This is because an ATO is agency specific. That is, a system that is granted an ATO by one agency cannot be used by another agency unless that agency also grants it an ATO. Since the LATO is a GSA invention, other agencies will not typically be able to use it as a basis for obtaining their own ATO.
+
+The problem of ATOs being agency specific has led to a lot of duplicated work within government as, in theory, every agency must independently go through the entire [Risk Management Framework](../background) to grant an ATO to cloud infrastructure providers such as Amazon Web Services (AWS), Microsoft Azure, and Google Compute, as well as cloud software services such as Google G Suite, Microsoft Office 365, and SalesForce. The Federal Risk and Authorization Management Program (FedRAMP) program was designed to address this problem by providing "a standardized approach to security assessment, authorization, and continuous monitoring for cloud products and services" which allows FedRAMP-compliant ATOs issued by one agency to be leveraged by others.
+
+By pursuing a [FedRAMP Agency ATO](#fedramp-ato) for systems we intend to hand over to other agencies, or which hold other agencies' information (with the exception of open data), we can substantially reduce the compliance burden of our partner agencies.
+
+### Conditions for pre-authorization
 
 You may operate without further authorization, based on our approved pre-existing security authorization, if all of the following conditions are met:
 
@@ -30,7 +33,13 @@ You may operate without further authorization, based on our approved pre-existin
 
 Note that this last requirement can be skipped for [Open Data](../levels/#open-data-atos) systems once you initiate [the ATO process](../checklist/). This is greater incentive to do so early.
 
-### 90-day authorization
+### GSA LATO
+
+The GSA LATO process is described in a [procedural guide](https://insite.gsa.gov/portal/content/627230) which can be accessed from [Insite](https://insite.gsa.gov/portal/content/627230) (search for "14-68"). The GSA LATO is initially valid for 90 days. With additional work it can be extended up to a 1 year period for a moderate impact system, or up to a 3 years period for a low impact system.
+
+In order to get a 90 day LATO, you must:
+
+*
 
 Once you're ready to move beyond the restrictions of pre-authorization, you must go through the process to obtain a LATO for 90 Days. This authorization can cover any system in the Discovery, Alpha, or Beta phases.
 
