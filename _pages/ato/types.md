@@ -10,6 +10,8 @@ There are four tracks of authorization available:
 * [1-year Lightweight Authority to Operate (LATO)](#year-authorization)
 * [Continuous Authority to Operate (cATO)](#continuous-authorization)
 
+Choosing an authorization is an important decision. Work with your Infrastructure Lead and Product Owner to determine which authorization you will employ, and when. The Infrastructure Lead makes all final decisions and answers in writing (email, Slack, etc) any questions the team may have on how to meet the below objectives. Many situations may have no "right answer". It is up to the Infrastructure Lead to make a risk-based decision on what to do.
+
 ### Pre-authorization
 
 You may operate without further authorization, based on our approved pre-existing security authorization, if all of the following conditions are met:
