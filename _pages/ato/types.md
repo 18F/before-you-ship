@@ -3,9 +3,11 @@ title: Types of ATO
 navtitle: Types
 ---
 
+Choosing an authorization is an important decision. Work with your Infrastructure Lead and Product Owner to determine which authorization you will employ, and when. The Infrastructure Lead makes all final decisions and answers in writing (email, Slack, etc) any questions the team may have on how to meet the below objectives. Many situations may have no "right answer". It is up to the Infrastructure Lead to make a risk-based decision on what to do.
+
 In most cases, the two types of ATO that will be pursued for GSA systems are the *GSA Lightweight ATO (LATO)* and the *FedRAMP Agency ATO*. Systems that are under development can be operated without an ATO provided they fulfil the requirements for [pre-authorization for internal government use](#pre-authorization).
 
-The [GSA LATO](#gsa-lato) is designed for systems built using agile methods that run on top of cloud infrastructure which has already received an ATO (such as AWS, Azure, and soon [cloud.gov](https://cloud.gov)). It's "lightweight" because only 24 NIST controls must be implemented in order to grant this type of ATO. It is initially valid for 90 days, but can be extended for longer periods with additional work.
+The [GSA LATO](#gsa-lato) is designed for systems built using agile methods that run on top of cloud infrastructure which has already received an ATO (such as AWS, Azure, and soon [cloud.gov](https://cloud.gov)). It's "lightweight" because only 24 NIST controls must be implemented in order to grant this type of ATO. It is initially valid for 90 days, but can be extended for longer periods with additional work. The GSA LATO is a good option for systems we intend to own and operate operate ourselves.
 
 However a GSA LATO is not suitable for systems we intend to hand over to other agencies to operate, or which will hold other agencies' information. This is because an ATO is agency specific. That is, a system that is granted an ATO by one agency cannot be used by another agency unless that agency also grants it an ATO. Since the LATO is a GSA invention, other agencies will not typically be able to use it as a basis for obtaining their own ATO.
 
@@ -39,32 +41,17 @@ The GSA LATO process is described in a [procedural guide](https://insite.gsa.gov
 
 In order to get a 90 day LATO, you must:
 
-*
+* Work with your Infrastructure Lead to complete sections 1-12 of the [LATO SSP](https://insite.gsa.gov/portal/getMediaData?mediaId=693530). This should be done as soon as the high level architecture of the system is stable. Note that your Infrastructure Lead should review your architecture early on before any final design decisions are made.
+* Set up [scanning](../../security/scanning/) for your project.
+* The Infrastructure Leads will prioritize your ATO based on available capacity.
+* Once your ATO has been prioritized, the Infrastructure Lead will work with an ISSO in GSA OCISO to create a [project plan](https://insite.gsa.gov/portal/getMediaData?mediaId=693530) to schedule the security testing activities necessary to obtain GSA CISO concurrence.
+* Security testing will commence. This process typically takes 2 weeks. The latest scans should be passed to the OCISO team as part of this process. Testing may reveal problems that require fixes as part of this process.
+* Once the security test is successfully complete, the CISO will issue concurrence to the AO, who will issue an ATO for the system.
 
-Once you're ready to move beyond the restrictions of pre-authorization, you must go through the process to obtain a LATO for 90 Days. This authorization can cover any system in the Discovery, Alpha, or Beta phases.
+The 90-day ATO can be renewed once for an additional 90 days. However you do not have to wait for the 90 days to complete before moving to a 1 year authorization.
 
-You **must** have a 90 day authorization before violating _any_ of the restrictions in the section above.
+The 1 Year is inclusive of all the steps above. However additional sections of the SSP must be completed, additional controls are assesed, and a more thorough penetration test is done which may reveal other vulnerabilities that will need to be resolved before the ATO is granted.
 
-The authorization is rolling, and can be renewed for an additional 90 days as long as you require additional testing. This essentially functions as our [Authority to Test](#authority-to-test).
+### FedRAMP Agency ATO
 
-You do not have to wait for the 90 days to complete before moving to a new authorization.
-
-### Authority to Test
-
-18F offers a 90-day Authority to Test security clearance process.
-
-* Estimated to take approximately 2 weeks to get materials together
-* Information security team has a service level agreement of 2 weeks to:
-    1. Approve a completed [system security plan](../ssp/)
-    1. Do the testing
-    1. Give a 90 day authorization
-* The 90 day ATO can be extended for an additional 90 days _once_, as long as the security boundary hasn’t changed.
-    * The automatic scans must not show any new vulnerabilities.
-
-### 1-year authorization
-
-The 1 Year is inclusive of all the steps of [the 90 Day process](#day-authorization). Additional controls are assesed, and a more thorough penetration test is done, which may reveal other vulnerabilities that will need to be resolved before the system is put into operation.
-
-### Continuous authorization
-
-A system's compliance can be continuously monitored, rather than expiring and needing to be re-submitted for approval. This is the goal of the [Compliance Toolkit](https://github.com/18F/compliance-toolkit) project, but is not yet A Thing™.
+At present we are awaiting the JAB P-ATO for cloud.gov. Once that is in hand, we provide more information on the FedRAMP Agency ATO process.
