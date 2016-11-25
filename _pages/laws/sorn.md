@@ -2,7 +2,7 @@
 title: SORN
 ---
 
-***Privacy Act of of 1974 and System of Records Notice***
+***Privacy Act of 1974 and System of Records Notice***
 
 Regulates the collection, maintenance, use, and dissemination of personally identifiable information (PII) about people (referred to as a "system of records") by the government.
 
