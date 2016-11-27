@@ -32,7 +32,7 @@ be deleted: all sandbox users should [subscribe to receive this email](https://g
 
 You can however protect resources from deletion by following two
 steps. First, register the system you are working on in
-[Chandika](https://chandika.apps.cloud.gov). When creating the system,
+[Chandika](https://chandika.fr.cloud.gov). When creating the system,
 make sure you enter a short, unique name for your system in the field
 `Infrastructure Tag`. Second, make sure you tag all resources you create
 in the AWS sandbox with the tag `Project=<system_infrastructure_tag>`,
@@ -59,7 +59,7 @@ Thus in order to keep our rates low, it's extremely important to bill infrastruc
 including non-production costs, to agency partners wherever
 possible. If the work you are doing is in support of a project which has an
 inter-agency agreement (IAA), you *must* create an entry for your
-system in [Chandika](https://chandika.apps.cloud.gov), including the
+system in [Chandika](https://chandika.fr.cloud.gov), including the
 Tock project code and the infrastructure tag you will be using, and tag
 any AWS resources accordingly so we can bill these costs to our partner agencies.
 
