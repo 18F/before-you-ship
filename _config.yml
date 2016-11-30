@@ -45,17 +45,14 @@ navigation:
   - text: Types
     url: types/
     internal: true
+  - text: Impact Levels
+    url: levels/
+    internal: true
   - text: Walkthrough
     url: walkthrough/
     internal: true
   - text: Checklist
     url: checklist/
-    internal: true
-  - text: Categorize
-    url: categorize/
-    internal: true
-  - text: Levels
-    url: levels/
     internal: true
   - text: Controls
     url: controls/
