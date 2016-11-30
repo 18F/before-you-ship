@@ -5,7 +5,7 @@ navtitle: Types
 
 Choosing an authorization is an important decision. Work with your Infrastructure Lead and Product Owner to determine which authorization you will employ, and when. The Infrastructure Lead makes all final decisions and answers in writing (email, Slack, etc) any questions the team may have on how to meet the below objectives. Many situations may have no "right answer". It is up to the Infrastructure Lead to make a risk-based decision on what to do.
 
-In most cases, the two types of ATO that will be pursued for GSA systems are the *GSA Lightweight ATO (LATO)* and the *FedRAMP Agency ATO*. Systems that are under development can be operated without an ATO provided they fulfil the requirements for [pre-authorization for internal government use](#pre-authorization).
+In most cases, the two types of ATO that will be pursued for GSA systems are the *GSA Lightweight ATO (LATO)* and the *FedRAMP Agency ATO*. Systems that are under development can be operated without an ATO provided they fulfil the requirements for [pre-authorization for internal government use](#conditions-for-pre-authorization).
 
 The [GSA LATO](#gsa-lato) is designed for systems built using agile methods that run on top of cloud infrastructure which has already received an ATO (such as AWS, Azure, and soon [cloud.gov](https://cloud.gov)). It's "lightweight" because only 24 NIST controls must be implemented in order to grant this type of ATO. It is initially valid for 90 days, but can be extended for longer periods with additional work. The GSA LATO is a good option for systems we intend to own and operate operate ourselves.
 
@@ -13,7 +13,7 @@ However a GSA LATO is not suitable for systems we intend to hand over to other a
 
 The problem of ATOs being agency specific has led to a lot of duplicated work within government as, in theory, every agency must independently go through the entire [Risk Management Framework](../background) to grant an ATO to cloud infrastructure providers such as Amazon Web Services (AWS), Microsoft Azure, and Google Compute, as well as cloud software services such as Google G Suite, Microsoft Office 365, and SalesForce. The Federal Risk and Authorization Management Program (FedRAMP) program was designed to address this problem by providing "a standardized approach to security assessment, authorization, and continuous monitoring for cloud products and services" which allows FedRAMP-compliant ATOs issued by one agency to be leveraged by others.
 
-By pursuing a [FedRAMP Agency ATO](#fedramp-ato) for systems we intend to hand over to other agencies, or which hold other agencies' information (with the exception of open data), we can substantially reduce the compliance burden of our partner agencies.
+By pursuing a [FedRAMP Agency ATO](#fedramp-agency-ato) for systems we intend to hand over to other agencies, or which hold other agencies' information (with the exception of open data), we can substantially reduce the compliance burden of our partner agencies.
 
 ### Conditions for pre-authorization
 

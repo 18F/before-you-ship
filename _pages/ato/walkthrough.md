@@ -10,11 +10,9 @@ As soon as you begin developing an [alpha](https://18f.gsa.gov/dashboard/stages/
 
 ### Step 1 — Categorize
 
-Categorize your system's impact levels using the [ATO Categorization](../categorize/) guide.
+Categorize your system's impact levels using the [ATO Levels](../levels/) guide.
 
 ### Step 2 — Select controls
-
-Determine your system's overall level using the [Levels](../levels/) guide. This is your system's baseline.
 
 Your system's baseline will determine the "controls" you need to implement. **"Controls" are individual security requirements** laid out by the National Institute of Standards and Technology (NIST) — for a list of them, see the [Controls](../controls/) page. [NIST 800-53 Table D-2](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf#page=109) shows how each control maps to a baseline.
 
@@ -55,7 +53,7 @@ The full list of data and functions in and of the system (in government parlance
 
 Fill out the [System Security Plan (SSP)](../ssp/) and link from your project's [checklist](../checklist/) issue. The designated AO will conduct a quality assurance check on your materials.
 
-You should send materials to the Authorizing Official (AO) as soon as the security boundary of the system is fixed and implemented (i.e. none of the [categorization](../categorize) is changing). This is a judgement call. If your are uncertain as to your system's security boundary, you should consult with 18F Infrastructure early in your development process. If your system is providing novel or risky functions, or handling extremely sensitive data, you should consult with 18F Infrastructure as early as possible.
+You should send materials to the Authorizing Official (AO) as soon as the security boundary of the system is fixed and implemented (i.e. none of the [categorization](../levels) is changing). This is a judgement call. If your are uncertain as to your system's security boundary, you should consult with 18F Infrastructure early in your development process. If your system is providing novel or risky functions, or handling extremely sensitive data, you should consult with 18F Infrastructure as early as possible.
 
 #### Signing an authorization
 
@@ -68,5 +66,3 @@ There are several ways to ensure that your system remains compliant:
 * Set up [static analysis](../../security/static-analysis/) to run on an ongoing basis through one of the hosted [services](../../security/static-analysis/#services).
 * Set up [automated vulnerability scanning](../../security/dynamic-scanning/#automated-scanning).
 * Keep your `about.yml`, `system-security-plan.yml`, and security-related documentation up-to-date.
-
-In the future, there will be a matching process on the Infrastructure team side to ensure your system is [continually authorized](../types/#continuous-authorization).
