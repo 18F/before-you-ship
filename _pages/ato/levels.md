@@ -5,9 +5,9 @@ navtitle: Impact Levels
 
 ### Overview
 
-This part of the process looks at the functionality and data of the system, and categorizes the impact on organizations or individuals of an incident which compromises the system. The potential impact is evaluated using three security objectives (`confidentiality`, `integrity`, and `availability`), each of which can be assigned one of three impact levels (`low`, `moderate`, `high`). This process is described in [NIST's FIPS 199 publication](http://csrc.nist.gov/publications/fips/fips199/FIPS-PUB-199-final.pdf). Once the potential impact on these three objectives is determined, the overall impact level of the system is determined based on the "high water mark" principle. This process is described in [NIST's FIPS 200 publication](http://csrc.nist.gov/publications/fips/fips200/FIPS-200-final-march.pdf). 
+Categorization asssess the functionality of and data in the system, and determines the impact on the public or government if `confidentiality`, `integrity`, or `availability` is lost. These three security objectives are assigned one of three impact levels (`low`, `moderate`, `high`). This process is described in [NIST's FIPS 199 publication](http://csrc.nist.gov/publications/fips/fips199/FIPS-PUB-199-final.pdf). Once the potential impact on these three objectives is determined, the overall impact level of the system is determined based on the "high water mark" principle. This process is described in [NIST's FIPS 200 publication](http://csrc.nist.gov/publications/fips/fips200/FIPS-200-final-march.pdf). 
 
-Determining the impact levels is subjective; it is either the designated Authorizing Official (AO) or full AO who owns the final decision.
+Determining the impact levels is subjective; it is either the Designated Authorizing Official (DAO) or full AO who owns the final decision.
 
 ### Categorize Using the Three Security Objectives
 
@@ -23,7 +23,7 @@ To categorize your system, go through each of the security objectives and determ
 
 If the potential impact is a _limited_ adverse effect on organizational operations, organizational assets, or individuals, we select "low". If the potential adverse impact is _serious_, we select "moderate". If the potential adverse impact is _severe or catastrophic_, we choose "high". 
 
-The answer to each question should then be interpreted in terms of impact to either the government or the public. The "high water mark" for either impacted party must be used.
+The answer to each question should then be interpreted in terms of impact to either the public or the government. The "high water mark" for _either_ impacted party must be used.
 
 The canonical or singular nature of a function being provided by the system must be taken into consideration in the categorization. The more singular and canonical the system under evaluation is, the higher the impact level (for any of the three metrics). For example, if we re-post data from weather.gov, it is less impactful for us to lose availability than it is for weather.gov itself. Conversely, we are the only source of FedBizOpps data - therefore our availability is much more important for that data and function, and we should select a higher impact level for `availability`.
 
@@ -42,13 +42,13 @@ For more information, see [NIST 800-18](http://csrc.nist.gov/publications/nistpu
 * [Table 1](http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-18r1.pdf#page=27) for FIPS categorization
 * [Section 3.13](http://csrc.nist.gov/publications/nistpubs/800-18-Rev1/sp800-18-Rev1-final.pdf#page=31) for security controls
 
-Note that `Open Data` won't be listed, as it was developed within the GSA TTS.
+Note that `Open Data` won't be listed, as it was developed within 18F.
 
 ### Examples
 
 * Open Data: beta.fec.gov.
 * FISMA Moderate: cloud.gov.
-* FISMA High: the login.gov platform.
+* FISMA High: the future-state of login.gov.
 
 ### Open Data ATOs
 
