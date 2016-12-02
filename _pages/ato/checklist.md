@@ -39,6 +39,7 @@ Many of these tasks can be done in parallel...this is just a suggestion of prior
         1. [ ] Resolve any visible security issues, re-running the scan as needed
         1. [ ] Add the issue-free scan report or [documentation about false positives](https://pages.18f.gov/before-you-ship/security/dynamic-scanning/#caveats) to [the `ATOs` folder in Google Drive](https://drive.google.com/a/gsa.gov/folderview?id=0BynIxtx-CfkdckljM3BPSkdQT1U&usp=sharing)
 1. [ ] Update relevant documentation, primarily the README
+1. [ ] If this will be a new ATO, add a prominent [`Beta`](https://18f.gsa.gov/dashboard/stages/) label to any currently-running sites
 1. [ ] Add a [System Security Plan](https://pages.18f.gov/before-you-ship/ato/ssp/#template) to the repository
 1. [ ] [Set up Compliance Masonry documentation](https://github.com/18F/cg-compliance#starting-ato-documentation-for-cloudgov-applications)
 1. [ ] [Implement the controls](https://pages.18f.gov/before-you-ship/ato/walkthrough/#step-3--implement-the-controls)
