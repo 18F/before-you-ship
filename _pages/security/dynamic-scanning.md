@@ -36,7 +36,10 @@ See the `New Project?` instructions in Compliance Viewer for how to get it set u
 
 1. [Set up ZAP as a proxy.](https://github.com/zaproxy/zap-core-help/wiki/HelpStartProxies)
     * Unfortunately, the "Plug-n-Hack" extension mentioned on the Quick Start page is [currently non-functional](https://github.com/zaproxy/zaproxy/issues/2069).
-    * If the browser starts giving you unexpected certificate errors, you need to [set up ZAP's certificates](https://github.com/zaproxy/zap-core-help/wiki/HelpUiDialogsOptionsDynsslcert).
+    * If the browser gives you a certificate error (e.g. `"This site uses HTTP Strict Transport Security (HSTS) to specify that Firefox may only connect to it securely."`), you will need to install ZAP's root certificate.
+      * In ZAP, go to `Tools`->`Options`->`Dynamic SSL Certificate` and click the `Save` button to save the certificate to your computer. 
+      * You will then need to install the certificate. For Firefox, go to `Preferences`->`Advanced`>`Certificates`->`View Certificates`->`Import` to import the certificate you saved from ZAP. 
+      * For additional information see ZAP's [documentation on Dynamic SSL Certificates](https://github.com/zaproxy/zap-core-help/wiki/HelpUiDialogsOptionsDynsslcert).
 1. Seed the scanner.
     1. Navigate through the various types of pages/interactions on your site, including signing in. You should see domain name(s) start to show up under the `Sites` list.
     1. For each of the domains in the `Sites` list that you control (i.e. not `https://fonts.googleapis.com`):
