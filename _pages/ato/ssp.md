@@ -49,11 +49,11 @@ staff:
     unit: TTS
     email: devops@gsa.gov
   system-owner:
-    name: Noah Kunin
-    title: TTS Infrastructure Director
+    name: <developer's name>
+    title: System Owner
     org: General Services Administration
-    unit: TTS
-    email: devops@gsa.gov
+    unit: 18F
+    email: <developer's email>
   system-management:
     name: Noah Kunin
     title: TTS Infrastructure Director
