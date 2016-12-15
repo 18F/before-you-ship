@@ -39,7 +39,8 @@ in the AWS sandbox with the tag `Project=<system_infrastructure_tag>`,
 where `<system_infrastructure_tag>` is the name you entered under
 `Infrastructure Tag` in Chandika.
 
-[Request a sandbox account here](https://docs.google.com/a/gsa.gov/forms/d/1h3dSZ0BgYvWowo6OvYlGQq2uwhqg0GxklpLTnWGqHSs/viewform)
+* [Request a sandbox account](https://docs.google.com/a/gsa.gov/forms/d/1h3dSZ0BgYvWowo6OvYlGQq2uwhqg0GxklpLTnWGqHSs/viewform)
+* [Sign in to your sandbox account](https://tts-sandbox.signin.aws.amazon.com/console)
 
 ## Important notes for AWS users
 
