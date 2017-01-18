@@ -50,7 +50,7 @@ In order to get a 90 day LATO, you must:
 
 The 90-day ATO can be renewed once for an additional 90 days. However you do not have to wait for the 90 days to complete before moving to a 1 year authorization.
 
-The 1 Year is inclusive of all the steps above. However additional sections of the SSP must be completed, additional controls are assesed, and a more thorough penetration test is done which may reveal other vulnerabilities that will need to be resolved before the ATO is granted.
+The 1 Year is inclusive of all the steps above. However additional sections of the SSP must be completed, additional controls are assessed, and a more thorough penetration test is done which may reveal other vulnerabilities that will need to be resolved before the ATO is granted.
 
 ### FedRAMP Agency ATO
 
