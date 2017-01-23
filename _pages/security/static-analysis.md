@@ -21,6 +21,22 @@ Service | Languages/frameworks | Dependency analysis | Code security analysis
 
 Code analysis can be run locally with the following open source tools. These tools provide results similar (and in some cases, identical) to the hosted services above.
 
+#### Gemnasium setup
+
+To set up Gemnasium, you'll need to be invited to the devops@gsa.gov account (ask in [#infrastructure](https://gsa-tts.slack.com/messages/infrastructure/)). In this process, be sure to log in via a password (rather than Github login) as that'll tie access to your gsa.gov email (as opposed to personal email).
+
+Unfortunately, Gemnasium struggles (as of 01/2017) to handle all of 18F's repositories when adding a new one to monitor. Instead, use this work around:
+
+1. Go to [https://gemnasium.com/projects/new_from_github?for=11206](https://gemnasium.com/projects/new_from_github?for=11206)
+2. Open the Chrome (/Firefox/Safari/etc.) web developer console
+3. Edit this text (replacing `18F/repo-name` for your repo) and execute it:
+
+```
+$('[name=submit_github_projects]').before('<input type="hidden" name="full_names[]" value="18F/repo-name" />').click()
+```
+
+You may also [configure](http://support.gemnasium.com/knowledgebase/articles/410993-refreshing-syncing-projects) Github to notify Gemnasium of code updates.
+
 ### Dependency analysis
 
 Use one of the services above, which should support adding public repositories yourself. If you need scanning on a private repository, [file an issue in the Infrastructure repo](https://github.com/18F/Infrastructure/issues/new).
