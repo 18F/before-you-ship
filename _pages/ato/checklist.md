@@ -31,19 +31,22 @@ Many of these tasks can be done in parallel. This is just a suggestion of priori
 1. [Set up monitoring](https://pages.18f.gov/before-you-ship/infrastructure/monitoring/)
     * [ ] [Downtime alerts](https://pages.18f.gov/before-you-ship/infrastructure/monitoring/#downtime)
     * [ ] [Error alerts](https://pages.18f.gov/before-you-ship/infrastructure/monitoring/#errors)
-1. [ ] Add an [`.about.yml`](https://github.com/18F/about_yml) for the main repository
-1. [ ] [Security scans](https://pages.18f.gov/before-you-ship/security/scanning/)
+2. [ ] Add an [`.about.yml`](https://github.com/18F/about_yml) for the main repository
+3. [ ] Create a sub-folder in [the `ATOs` folder in Google Drive](https://drive.google.com/a/gsa.gov/folderview?id=0BynIxtx-CfkdckljM3BPSkdQT1U&usp=sharing) under 18F/OPP/PIF then "Work in progress". This will be knows as the "ATO Folder". Link it here.
+4. [ ] Security scans (make this a link to the ATO Folder where you put a copy of the security scan results)
     * [ ] Set up [static analysis](https://pages.18f.gov/before-you-ship/security/static-analysis/) service
         * [ ] Add service badges to the README
     * [ ] [Perform dynamic vulnerability scanning](https://pages.18f.gov/before-you-ship/security/dynamic-scanning/)
-        1. [ ] Resolve any visible security issues, re-running the scan as needed
-        1. [ ] Add the issue-free scan report or [documentation about false positives](https://pages.18f.gov/before-you-ship/security/dynamic-scanning/#caveats) to [the `ATOs` folder in Google Drive](https://drive.google.com/a/gsa.gov/folderview?id=0BynIxtx-CfkdckljM3BPSkdQT1U&usp=sharing)
-1. [ ] [Update relevant documentation](https://pages.18f.gov/before-you-ship/ato/tips/), primarily the README
-1. [ ] If this will be a new ATO, add a prominent [`Beta`](https://18f.gsa.gov/dashboard/stages/) label to any currently-running sites
-1. [ ] Add a [System Security Plan yml](https://pages.18f.gov/before-you-ship/ato/ssp/#template) to the repository
-1. [ ] Add a System Security Plan Google doc to [the `ATOs` folder in Google Drive](https://drive.google.com/a/gsa.gov/folderview?id=0BynIxtx-CfkdckljM3BPSkdQT1U&usp=sharing) (talk to your Infrastructure Lead for a template)
-1. [ ] [Set up Compliance Masonry documentation](https://github.com/18F/cg-compliance#starting-ato-documentation-for-cloudgov-applications)
-1. [ ] [Implement the controls](https://pages.18f.gov/before-you-ship/ato/walkthrough/#step-3--implement-the-controls)
+        * [ ] Resolve any visible security issues, re-running the scan as needed
+        * [ ] Add the issue-free scan report or [documentation about false positives](https://pages.18f.gov/before-you-ship/security/dynamic-scanning/#caveats) to the ATO folder.
+5. [ ] [Update relevant documentation](https://pages.18f.gov/before-you-ship/ato/tips/), primarily the README
+6. [ ] If this will be a new ATO, add a prominent [`Beta`](https://18f.gsa.gov/dashboard/stages/) label to any currently-running sites
+7. [ ] Add a [System Security Plan yml](https://pages.18f.gov/before-you-ship/ato/ssp/#template) to the repository
+8. [ ] Add a System Security Plan Google doc to the ATO folder (talk to your Infrastructure Lead for a template)
+9. [ ] [Set up Compliance Masonry documentation](https://github.com/18F/cg-compliance#starting-ato-documentation-for-cloudgov-applications)
+10. [ ] [Implement the controls](https://pages.18f.gov/before-you-ship/ato/walkthrough/#step-3--implement-the-controls)
+11. [ ] Add a Rules of Engagement Google doc to the ATO folder (talk to your Infrastructure Lead for a template)
+12. [ ] Add a Project Plan Google doc to the ATO folder (talk to your Infrastructure Lead for a template)
 
 ### Authorizing Official
 
