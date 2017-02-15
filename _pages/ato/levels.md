@@ -5,7 +5,7 @@ navtitle: Impact Levels
 
 ### Overview
 
-Categorization assesses the functionality of the system and the data it contains. The methodology used by  federal agencies assess the impact on the public or government if the `confidentiality`, `integrity`, or `availability` of the system is lost. These three security objectives are assigned one of three impact levels: `low`, `moderate`, or `high`. 
+Categorization assesses the functionality of the system and the data it contains. The methodology used by federal agencies assess the impact on the public or government if the `confidentiality`, `integrity`, or `availability` of the system is lost. These three security objectives are assigned one of three impact levels: `low`, `moderate`, or `high`. 
 
 This process is described in [NIST's FIPS 199 publication](http://csrc.nist.gov/publications/fips/fips199/FIPS-PUB-199-final.pdf). Once the potential impact on these three objectives is determined, the overall impact level of the system is determined based on the "high water mark" principle. This process is described in [NIST's FIPS 200 publication](http://csrc.nist.gov/publications/fips/fips200/FIPS-200-final-march.pdf). 
 
@@ -50,9 +50,9 @@ Note that `Open Data` won't be listed, as it was developed within 18F.
 
 ### Examples
 
-* Open Data: beta.fec.gov.
-* Moderate: cloud.gov.
-* High: the future-state of login.gov.
+* Low: [CALC](https://calc.gsa.gov)
+* Moderate: [cloud.gov](https://cloud.ogv), future-state of [fec.gov](https://fec.gov/).
+* High: the future-state of [login.gov](https://login.gov)
 
 ### Open Data ATOs
 
