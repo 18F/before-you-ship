@@ -59,6 +59,8 @@ The full list of data and functions in and of the system (in government parlance
 
 Your Infrastructure Lead will work with you to schedule and prioritize your system assessment. Once assessment starts, the first step is that the Authorizing Official will review all the items in your ATO checklist including all the documents you generated.
 
+When the items in the ATO checklist are ready, your Infrastructure Lead will circulate the Rules of Engagement document for signatures. 
+
 Then, a team from the GSA OCISO will begin to follow the [Lightweight Security Authorization Process](https://insite.gsa.gov/portal/content/627230). They will conduct a penetration test on the system. Any penetration test findings deemed serious enough to prevent an ATO will need to be fixed right away to unblock the ATO process. They will alsoreview the SSP document and test the control narratives. This testing and review process may take 1-2 weeks and should be the top priority for the project team at the time.
 
 Once all of the materials are prepared and testing is done and the system is considered "ready" by the Authorizing Official, they will sign the ATO memo.
