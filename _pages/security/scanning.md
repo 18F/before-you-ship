@@ -54,7 +54,7 @@ This also requires creating a stable `release` branch. You can continue working 
 
 ### Expectation management
 
-Overall, if *no* vulnerabilities are found, this process has been taking approximately 2 weeks for test preparation and [System Security Plan](../../ato/ssp/) writing and 2 weeks for [greybox testing](#greybox-testing) and [signature](../../ato/walkthrough/#step-6--authorize-the-system). FISMA Moderate and FISMA High will require additional time.
+Overall, if *no* vulnerabilities are found, this process has been taking approximately 2 weeks for test preparation and [System Security Plan](../../ato/ssp/) writing and 2 weeks for [greybox testing](#greybox-testing) and [signature](../../ato/walkthrough/#step-7--authorize-the-system). FISMA Moderate and FISMA High will require additional time.
 
 Since the time it would take to resolve vulnerabilities is not known until a vulnerability is identified, it is **strongly recommended** that no expectations are set with Federal partners or GSA stakeholders when public testing will begin. Instead, we recommend that the authorization process is seen as part of the delivery process and your definition of "done".
 
