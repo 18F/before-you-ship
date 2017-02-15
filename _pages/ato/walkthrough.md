@@ -63,7 +63,7 @@ Then, a team from the GSA OCISO will begin to follow the [Lightweight Security A
 
 Once all of the materials are prepared and testing is done and the system is considered "ready" by the Authorizing Official, they will sign the ATO memo.
 
-### Step 6 — Continuously monitor the controls
+### Step 7 — Continuously monitor the controls
 
 There are several ways to ensure that your system remains compliant:
 
