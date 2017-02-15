@@ -23,7 +23,7 @@ Using the the [Quick Start](https://github.com/zaproxy/zap-core-help/wiki/HelpAd
 
 ### Automated scanning
 
-[Compliance Viewer](https://compliance-viewer.18f.gov) runs ZAP scans regularly for sites that opt in. This is an important element of [continuous monitoring](../../ato/walkthrough/#step-6--continuously-monitor-the-controls).
+[Compliance Viewer](https://compliance-viewer.18f.gov) runs ZAP scans regularly for sites that opt in. This is an important element of [continuous monitoring](../../ato/walkthrough/#step-7--continuously-monitor-the-controls).
 
 See the `New Project?` instructions in Compliance Viewer for how to get it set up.
 
