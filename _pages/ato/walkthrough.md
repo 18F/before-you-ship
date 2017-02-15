@@ -10,7 +10,7 @@ As soon as you begin developing an [alpha](https://18f.gsa.gov/dashboard/stages/
 
 ### Step 1 — Determine impact level
 
-Together with your Infrastructure Lead, categorize your system's impact levels using the [ATO Levels](../levels/) guide. If your are uncertain as to your system's impact level, you should consult with 18F Infrastructure early in your development process. If your system is providing novel or risky functions, or handling extremely sensitive data, you should consult with 18F Infrastructure as early as possible.
+Work with your Infrastructure Lead to categorize your system's impact levels, using the [ATO Levels](../levels/) guide. If your system will be providing novel or risky functions, or handling extremely sensitive data, do this as early as possible.
 
 ### Step 2 — Select controls
 
@@ -47,21 +47,19 @@ The controls that are _not_ inherited from an underlying system must be listed i
 
 In other words, "verify that your system is secure". The first step in doing so is to run the [security scans](../../security/scanning/). This is a preliminary assessment, final assessment will be done in collaboration with the GSA Office of the Chief Security Officer (OCISO). 
 
-### Step 5 - Complete documentation package
+### Step 5 — Complete documentation package
 
-Fill out the [System Security Plan (SSP)](../ssp/) and link from your project's [checklist](../checklist/) issue. We hope to auto-create the SSP from the Compliance Masonry YAML file at some point, but for now you should copy and paste.
-
-Fill out the Rules of Engagement and Project Plan documents, and link from your project's [checklist](../checklist/) issue. Work with your Infrastructure Lead to get the most up to date templates for these documents.
+Fill out the documentation in the checklist. We hope to auto-create the SSP from the Compliance Masonry YAML file at some point, but for now you should copy and paste.
 
 The full list of data and functions in and of the system (in government parlance "mission based information types" and "delivery mechanisms") must be itemized in structured data. While the data types are obviously arbitrary and custom to each system we produce, the government has a formalized data set of mission functions that should be mapped to the system via [NIST 800-60](http://csrc.nist.gov/groups/SMA/fisma/categorization.html). For a Rails app, for example, this can simply be a link to the `db/schema.rb` file on GitHub.
 
-### Step 6 - Authorize the system
+### Step 6 — Authorize the system
 
-Your Infrastructure Lead will work with you to schedule and prioritize your system assessment. Once assessment starts, the first step is that the Authorizing Official will review all the items in your ATO checklist including all the documents you generated.
+Your Infrastructure Lead will work with you to schedule and prioritize your system assessment. Once assessment starts, the first step is that the Authorizing Official will review all the items in your ATO checklist including all the documents you generated. When the items in the ATO checklist are ready, your Infrastructure Lead will circulate the Rules of Engagement document for signatures. 
 
-When the items in the ATO checklist are ready, your Infrastructure Lead will circulate the Rules of Engagement document for signatures. 
+Then, a team with members from the project team, TTS Infrastructure, your Infrastructure Lead, and the GSA OCISO will convene for at least a week as the ATO Sprinting Team, and begin to follow the [Lightweight Security Authorization Process](https://insite.gsa.gov/portal/content/627230). 
 
-Then, a team from the GSA OCISO will begin to follow the [Lightweight Security Authorization Process](https://insite.gsa.gov/portal/content/627230). They will conduct a penetration test on the system. Any penetration test findings deemed serious enough to prevent an ATO will need to be fixed right away to unblock the ATO process. They will also review the SSP document and test the control narratives. This testing and review process may take 1-2 weeks and should be the top priority for the project team at the time.
+Folks from OCISO will conduct a penetration test on the system. Any penetration test findings deemed serious enough to prevent an ATO will need to be fixed right away to unblock the ATO process. They will also review the SSP document and test the control narratives. This testing and review process will take 1-2 weeks and should be the top priority for the project team at the time.
 
 Once all of the materials are prepared and testing is done and the system is considered "ready" by the Authorizing Official, they will sign the ATO memo.
 
