@@ -34,13 +34,15 @@ If, during testing, the system performs:
 * back-end administrative functions
 * encryption
 
-...then those features cannot be "relatively simple" but must in fact be *complete* before an authorization will be given. Note that the use of common web frameworks and [18F HTTPS standards](https://github.com/18F/https) resolves these issues in almost every case.
+...then those features must be *complete* before an authorization will be given. Note that the use of common web frameworks and [18F HTTPS standards](https://github.com/18F/https) resolves these issues in almost every case.
+
+Ensure that your site is scannable by automated tools. For example, if you have a single-page app use the pushState to make site URLs friendly to automated tools.
 
 Lastly, make sure the `README` file in your repo is fully up to date and clearly explains what the system does and why at a high level. You should also include the above information in your `README`.
 
 ### Greybox testing
 
-Once you are ready, the 18F Infrastructure Team will start both automated and manual scanning and testing. This includes:
+Once you are ready, the [GSA OCISO](https://insite.gsa.gov/portal/content/527517) team will start both automated and manual scanning and testing. This includes:
 
 * [web vulnerability scanning](../../security/dynamic-scanning/) on the front-end
 * [static code analysis](../../security/static-analysis/) on the `master` branch of your repo
@@ -48,9 +50,7 @@ Once you are ready, the 18F Infrastructure Team will start both automated and ma
 
 For greybox testing, the testing team has significant (but not necessarily complete) knowledge of how the system works, as opposed to black box testing, where they have zero knowledge, or white box testing, where they have complete knowledge.
 
-All of these tests must be conducted on all environments and stacks, including one _identical to production_. We call this environment and stack "pre-production" and will also affix the designation "scanee" so there is no ambiguity as to what is being scanned.
-
-This also requires creating a stable `release` branch. You can continue working on `master` and deploy builds from `master` to a development environment.
+All of these tests must be conducted on an environment that is _identical to production_ and ideally is set up specifically for this scanning process. This also requires creating a stable `release` branch. You can continue working on `master` and deploy builds from `master` to a development environment.
 
 ### Expectation management
 
