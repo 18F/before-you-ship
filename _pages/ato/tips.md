@@ -9,3 +9,7 @@ title: Tips
     * What does it do?
     * How does it move information around?
     * What does it accomplish by doing it?
+* For every release after your public launch, you should consider:
+    * Accessibility reviews should be done for any changes.
+    * Do you need to update your GitHub documentation, or your `.about.yml`?
+* The DigitalGov team at GSA has collected a list of [Requirements for Federal Websites and Digital Services](http://www.digitalgov.gov/resources/checklist-of-requirements-for-federal-digital-services/) that you should familiarize yourself with. 
