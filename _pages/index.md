@@ -53,11 +53,6 @@ For every release after your public launch, you should consider: _(Explained in 
 * Accessibility reviews should be done for any changes.
 * Do you need to update your GitHub documentation, or your `.about.yml`?
 
-### Additional resources
-
-* [thoughtbot's playbook](https://playbook.thoughtbot.com/#production)
-* [pixel lab's website pre-launch checklist](http://thepixellab.com.au/the-website-pre-launch-checklist/)
-
 ---
 
 How'd it go? Is this list missing anything important? [Submit a pull request](https://github.com/18f/before-you-ship) or [open an issue](https://github.com/18f/before-you-ship/issues/new)!
