@@ -12,4 +12,12 @@ title: Tips
 * For every release after your public launch, you should consider:
     * Accessibility reviews should be done for any changes.
     * Do you need to update your GitHub documentation, or your `.about.yml`?
-* The DigitalGov team at GSA has collected a list of [Requirements for Federal Websites and Digital Services](http://www.digitalgov.gov/resources/checklist-of-requirements-for-federal-digital-services/) that you should familiarize yourself with. 
+* The DigitalGov team at GSA has collected a list of [Requirements for Federal Websites and Digital Services](http://www.digitalgov.gov/resources/checklist-of-requirements-for-federal-digital-services/) that you should familiarize yourself with.
+* Exactly how big of a splashy launch are you planning? Is POTUS announcing it? Have you figured out what level of traffic you need to support? This should be coordinated between the engineers on your team, your client, and the Infrastructure Team.
+* Is your project accessible and [Section 508](laws/508/) compliant? The team will need to incorporate this throughout the project, but you'll also need to set up a review at least two weeks before launch.
+* How good is your code test coverage? Before shipping, you should have codecov badges on your GitHub repo READMEs and coverage should be above 90 percent (green). (This is not a perfect measure for code quality, but a helpful check.) The testing working group recommends reviewing your status early and often. _Ask #wg-testing if you have questions._
+* Are your APIs up to [18F's API Standards](https://github.com/18f/api-standards)? _Ask the #wg-api if you have questions._
+* Have you installed 18F's Google Analytics and [DAP](https://www.digitalgov.gov/services/dap/) on everything?
+    * Learn more in our [Analytics Standards](https://github.com/18F/analytics-standards).
+    * _Ask #g-analytics if you have questions._
+* Make sure you have all the social media metadata and preview images.

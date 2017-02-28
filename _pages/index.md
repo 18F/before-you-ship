@@ -7,21 +7,10 @@ The goal of this guide is to provide 18F staff with the information they need to
 
 **Read this guide early and often**, especially when you're starting to consider a future project launch or feature release. **This isn't a last-minute pre-launch checklist.**
 
-### Lifecycle of a Launch
+### Key roles
 
-To launch software you need an Authority to Operate (ATO). ATOs cover the important security reviews and approvals **required** for public government websites. They can sometimes take months to obtain, so you should start this process soon after a project begins. Review the [**overview of ATOs**](ato/) to start planning.
+- **Authorizing Official (AO)** The AO is ultimately responsible for determining if the risk of operating the system is acceptable, and if so, issuing an Authority to Operate (ATO) for that system. At 18F the Director of Infrastructure is the AO.
 
-### Technical
+### ATO status of Federalist/Pages sites
 
-* Exactly how big of a splashy launch are you planning? Is POTUS announcing it? Have you figured out what level of traffic you need to support? This should be coordinated between the engineers on your team, your client, and the Infrastructure Team.
-* Is your project accessible and [Section 508](laws/508/) compliant? The team will need to incorporate this throughout the project, but you'll also need to set up a review at least two weeks before launch.
-* How good is your code test coverage? Before shipping, you should have codecov badges on your GitHub repo READMEs and coverage should be above 90 percent (green). (This is not a perfect measure for code quality, but a helpful check.) The testing working group recommends reviewing your status early and often. _Ask #wg-testing if you have questions._
-* Are your APIs up to [18F's API Standards](https://github.com/18f/api-standards)? _Ask the #wg-api if you have questions._
-* Have you installed 18F's Google Analytics and [DAP](https://www.digitalgov.gov/services/dap/) on everything?
-    * Learn more in our [Analytics Standards](https://github.com/18F/analytics-standards).
-    * _Ask #g-analytics if you have questions._
-* Make sure you have all the social media metadata and preview images.
-
----
-
-How'd it go? Is this list missing anything important? [Submit a pull request](https://github.com/18f/before-you-ship) or [open an issue](https://github.com/18f/before-you-ship/issues/new)!
+If you are publishing a new site through [Federalist](../infrastructure/#federalist) or [18F Pages](../infrastructure/#f-pages) and it's not connecting to any APIs or third-party services (i.e. it's a simple static site), the site is considered part of that system, so it does not require its own ATO ([source](https://github.com/18F/before-you-ship/issues/95#issuecomment-174011747)). *Note: Technically, static site builders are just adding a collection of pages in an existing system. Therefore, from an ATO perspective, "sites" created through Federalist or 18F Pages remain within the respective security boundary, and thus ATO.*
