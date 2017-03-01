@@ -3,7 +3,7 @@ title: ATO Checklist
 navtitle: Checklist
 ---
 
-To start the security clearance process, [create an issue in the Infrastructure repository](https://github.com/18F/Infrastructure/issues/new?title=ATO+for+%3Cproject%3E) using this template. Make sure to replace the placeholders at the top. Feel free to add a username after each task to assign it, and/or make corresponding items in your issue tracker. After the Infrastructure issue is created, the Infrastructure Team will schedule a time to meet with you and discuss the ATO.
+To start the security clearance process, [create an issue in the Infrastructure repository](https://github.com/18F/Infrastructure/issues/new?title=ATO+for+%3Cproject%3E+-+due+%3Cdeadline%3E) using this template. Make sure to replace the placeholders at the top. Feel free to add a username after each task to assign it, and/or make corresponding items in your issue tracker. After the Infrastructure issue is created, the Infrastructure Team will schedule a time to meet with you and discuss the ATO.
 
 Make sure to:
 
@@ -20,7 +20,6 @@ You are welcome to ask any questions as comments in the issue or #infrastructure
 * **Site:** <url>
 * **Product manager:** @<username>
 * **Technical point of contact:** @<username>
-* **Launch date/deadline:** <date>
 
 ## TODOs
 
