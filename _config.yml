@@ -48,9 +48,6 @@ navigation:
   - text: Impact Levels
     url: levels/
     internal: true
-  - text: Walkthrough
-    url: walkthrough/
-    internal: true
   - text: Checklist
     url: checklist/
     internal: true
