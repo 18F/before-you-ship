@@ -57,9 +57,6 @@ navigation:
   - text: System Security Plan
     url: ssp/
     internal: true
-  - text: System Ownership
-    url: ownership/
-    internal: true
   - text: Tips
     url: tips/
     internal: true
