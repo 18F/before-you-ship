@@ -35,7 +35,7 @@ navigation:
 - text: Overview
   url: ''
   internal: true
-- text: ATOs
+- text: Lifecycle of a Launch
   url: ato/
   internal: true
   children:

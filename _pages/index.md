@@ -10,6 +10,7 @@ The goal of this guide is to provide 18F staff with the information they need to
 ### Key roles
 
 - **Authorizing Official (AO)** The AO is ultimately responsible for determining if the risk of operating the system is acceptable, and if so, issuing an Authority to Operate (ATO) for that system. At 18F the Director of Infrastructure is the AO.
+- **System Owner** The system owner is usually the product lead or tech lead of the project team. They will be named in the ATO documents and are the main contact during the evaluation process that leads up to an ATO.
 
 ### ATO status of Federalist/Pages sites
 
