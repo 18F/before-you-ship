@@ -18,4 +18,4 @@ You are welcome to ask any questions as comments in the issue or #infrastructure
 
 {% comment %} https://github.com/jekyll/jekyll/issues/1303#issuecomment-21067548 {% endcomment %}
 {% capture checklist_content %}{% include checklist.md %}{% endcapture %}
-{{ checklist_content | replace: '- [ ]', '* [ ]' | replace: '* [ ]', '* <input type="checkbox" disabled>' }}
+{{ checklist_content | replace: '<', '&lt;' | replace: '>', '&gt;' | replace: '- [ ]', '* [ ]' | replace: '* [ ]', '* <input type="checkbox" disabled>' }}
