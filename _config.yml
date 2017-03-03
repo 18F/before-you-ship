@@ -39,23 +39,23 @@ navigation:
   url: ato/
   internal: true
   children:
-  - text: Background
-    url: background/
+  - text: Checklist
+    url: checklist/
     internal: true
   - text: Types
     url: types/
     internal: true
+  - text: System Security Plan
+    url: ssp/
+    internal: true
   - text: Impact Levels
     url: levels/
-    internal: true
-  - text: Checklist
-    url: checklist/
     internal: true
   - text: Controls
     url: controls/
     internal: true
-  - text: System Security Plan
-    url: ssp/
+  - text: Background
+    url: background/
     internal: true
   - text: Tips
     url: tips/
