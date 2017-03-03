@@ -1,41 +1,62 @@
 * **Main repository:** [url]
-* **Running libraries:**
-    * [url]
-    * ...
 * **Site:** [url]
 * **Product manager:** @[username]
 * **Technical point of contact:** @[username]
+* **Infrastructure Lead:** @[username]
+* **ATO folder:** [url]
 
 ## TODOs
 
-### Project team
+### ATO Sprint prerequisites
 
-Many of these tasks can be done in parallel. This is just a suggestion of priority.
+#### Infrastructure lead
 
+- [ ] Determine the [impact level](https://pages.18f.gov/before-you-ship/ato/levels/)
+- [ ] Assign the appropriate labels to this issue
+- [ ] Create an "ATO folder" for the project as a sub-folder of [the `ATOs` folder in Google Drive](https://drive.google.com/a/gsa.gov/folderview?id=0BynIxtx-CfkdckljM3BPSkdQT1U&usp=sharing) under 18F/OPP/PIF then "Work in progress". Link to it above.
+- [ ] Add templates to the ATO folder
+    - [ ] Rules of Engagement (RoE)
+    - [ ] System Security Plan
+    - [ ] Project Plan
+
+#### Project team
+
+##### Technical
+
+- [ ] Ensure that a staging environment is fully set up.
+    * This should be as production-like as possible.
 - [ ] [Set up monitoring](https://pages.18f.gov/before-you-ship/infrastructure/monitoring/)
     * [ ] [Downtime alerts](https://pages.18f.gov/before-you-ship/infrastructure/monitoring/#downtime)
     * [ ] [Error alerts](https://pages.18f.gov/before-you-ship/infrastructure/monitoring/#errors)
-- [ ] Add an [`.about.yml`](https://github.com/18F/about_yml) for the main repository
-- [ ] Create a sub-folder in [the `ATOs` folder in Google Drive](https://drive.google.com/a/gsa.gov/folderview?id=0BynIxtx-CfkdckljM3BPSkdQT1U&usp=sharing) under 18F/OPP/PIF then "Work in progress". This will be knows as the "ATO Folder". Link it here.
-- [ ] Security scans (make this a link to the ATO Folder where you put a copy of the security scan results)
+- [ ] Perform security scans, and put the results (or a link to them) in the ATO folder.
     * [ ] Set up [static analysis](https://pages.18f.gov/before-you-ship/security/static-analysis/) service
         * [ ] Add service badges to the README
     * [ ] [Perform dynamic vulnerability scanning](https://pages.18f.gov/before-you-ship/security/dynamic-scanning/)
         * [ ] Resolve any visible security issues, re-running the scan as needed
         * [ ] Add the issue-free scan report or [documentation about false positives](https://pages.18f.gov/before-you-ship/security/dynamic-scanning/#caveats) to the ATO folder.
+- [ ] If this is a new system, add a prominent [`Beta`](https://18f.gsa.gov/dashboard/stages/) label to the site
+- [ ] Ensure the staging environment has sufficient capacity to withstand the testing
+    * The testing tools create very heavy usage and traffic.
+
+##### Writing
+
+- [ ] Fill out the Rules of Engagement (RoE)
+    * Use staging URLs, rather than production ones.
+- [ ] Fill out the Project Plan
+- [ ] Add an [`.about.yml`](https://github.com/18F/about_yml) for the main repository
 - [ ] [Update relevant documentation](https://pages.18f.gov/before-you-ship/ato/tips/), primarily the README
-- [ ] If this will be a new ATO, add a prominent [`Beta`](https://18f.gsa.gov/dashboard/stages/) label to any currently-running sites
 - [ ] Add a [System Security Plan yml](https://pages.18f.gov/before-you-ship/ato/ssp/#template) to the repository
-- [ ] Add a System Security Plan Google doc to the ATO folder (talk to your Infrastructure Lead for a template)
 - [ ] [Set up Compliance Masonry documentation](https://github.com/18F/cg-compliance#starting-ato-documentation-for-cloudgov-applications)
 - [ ] [Implement the controls](https://pages.18f.gov/before-you-ship/ato/walkthrough/#step-3--implement-the-controls)
-- [ ] Add a Rules of Engagement (RoE) Google doc to the ATO folder (talk to your Infrastructure Lead for a template)
-- [ ] Ensure system environment referenced in the RoE for security testing is ready for testing. No production links should be included in the RoE so as to avoid any testing happening on production (which could lead to downtime).
-- [ ] Add a Project Plan Google doc to the ATO folder (talk to your Infrastructure Lead for a template)
 
-### Authorizing Official
+### Mid-Sprint
 
-* [ ] Final review and risk acceptance signatures (ATO)
+* [ ] Penetration test conducted - @[tester]
+
+### Post-Sprint
+
+* [ ] Final review and risk acceptance signatures (ATO) - @NoahKunin
+* [ ] Remove the `Beta` label from the site
 
 ---
 
