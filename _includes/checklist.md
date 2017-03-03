@@ -1,10 +1,10 @@
-* **Main repository:** <url>
+* **Main repository:** [url]
 * **Running libraries:**
-    * <url>
+    * [url]
     * ...
-* **Site:** <url>
-* **Product manager:** @<username>
-* **Technical point of contact:** @<username>
+* **Site:** [url]
+* **Product manager:** @[username]
+* **Technical point of contact:** @[username]
 
 ## TODOs
 
