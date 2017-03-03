@@ -6,7 +6,7 @@ Every federal information system must go through NIST's [Risk Management Framewo
 
 ### Step 0 — Create ATO checklist
 
-As soon as you begin developing an [alpha](https://18f.gsa.gov/dashboard/stages/#alpha), [create your ATO checklist](checklist/) to set up a tracking mechanism for your ATO. You can ask questions in your checklist thread to understand the specific considerations for your system.
+As soon as you begin developing an [alpha](https://18f.gsa.gov/dashboard/stages/#alpha), [create your ATO checklist](checklist/) to set up a tracking mechanism for your ATO. You can ask questions in your checklist thread to understand the specific considerations for your system. At this time it also good to ensure your system is eligible for [pre-assessment](types/#conditions-for-pre-assessment) authorization for user testing purposes.
 
 ### Step 1 — Determine impact level
 
