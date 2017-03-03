@@ -45,7 +45,8 @@ Many of these tasks can be done in parallel. This is just a suggestion of priori
 - [ ] Add a System Security Plan Google doc to the ATO folder (talk to your Infrastructure Lead for a template)
 - [ ] [Set up Compliance Masonry documentation](https://github.com/18F/cg-compliance#starting-ato-documentation-for-cloudgov-applications)
 - [ ] [Implement the controls](https://pages.18f.gov/before-you-ship/ato/walkthrough/#step-3--implement-the-controls)
-- [ ] Add a Rules of Engagement Google doc to the ATO folder (talk to your Infrastructure Lead for a template)
+- [ ] Add a Rules of Engagement (RoE) Google doc to the ATO folder (talk to your Infrastructure Lead for a template)
+- [ ] Ensure system environment referenced in the RoE for security testing is ready for testing. No production links should be included in the RoE so as to avoid any testing happening on production (which could lead to downtime).
 - [ ] Add a Project Plan Google doc to the ATO folder (talk to your Infrastructure Lead for a template)
 
 ### Authorizing Official
