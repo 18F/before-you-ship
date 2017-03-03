@@ -6,18 +6,18 @@ Every federal information system must go through NIST's [Risk Management Framewo
 
 ### Step 0 — Create ATO checklist
 
-As soon as you begin developing an [alpha](https://18f.gsa.gov/dashboard/stages/#alpha), [create your ATO checklist](../checklist/) to set up a tracking mechanism for your ATO. You can ask questions in your checklist thread to understand the specific considerations for your system.
+As soon as you begin developing an [alpha](https://18f.gsa.gov/dashboard/stages/#alpha), [create your ATO checklist](checklist/) to set up a tracking mechanism for your ATO. You can ask questions in your checklist thread to understand the specific considerations for your system.
 
 ### Step 1 — Determine impact level
 
-Work with your Infrastructure Lead to categorize your system's impact levels, using the [ATO Levels](../levels/) guide. If your system will be providing novel or risky functions, or handling extremely sensitive data, do this as early as possible.
+Work with your Infrastructure Lead to categorize your system's impact levels, using the [ATO Levels](levels/) guide. If your system will be providing novel or risky functions, or handling extremely sensitive data, do this as early as possible.
 
 ### Step 2 — Select controls
 
 "Controls" are individual security requirements laid out by the National Institute of Standards and Technology (NIST).
-Your system's impact level baseline will determine the controls you need to implement. For a list of them, see the [Controls](../controls/) page.
+Your system's impact level baseline will determine the controls you need to implement. For a list of them, see the [Controls](controls/) page.
 
-If your system's impact levels don't match one of the "overall levels" listed at [Levels](../levels/) (for example, you have a `low | moderate | moderate` system), you need to create a custom baseline. It's possible to downgrade the level for any particular control, as long as it doesn't affect any other controls with a higher level (e.g. account management can be `low` if it doesn't allow you to edit confidential data).
+If your system's impact levels don't match one of the "overall levels" listed at [Levels](levels/) (for example, you have a `low | moderate | moderate` system), you need to create a custom baseline. It's possible to downgrade the level for any particular control, as long as it doesn't affect any other controls with a higher level (e.g. account management can be `low` if it doesn't allow you to edit confidential data).
 
 ### Step 3 — Document the controls
 
@@ -45,7 +45,7 @@ The controls that are _not_ inherited from an underlying system must be listed i
 
 ### Step 4 — Assess the controls
 
-In other words, "verify that your system is secure". The first step in doing so is to run the [security scans](../../security/scanning/). This is a preliminary assessment, final assessment will be done in collaboration with the GSA Office of the Chief Security Officer (OCISO).
+In other words, "verify that your system is secure". The first step in doing so is to run the [security scans](../security/scanning/). This is a preliminary assessment, final assessment will be done in collaboration with the GSA Office of the Chief Security Officer (OCISO).
 
 ### Step 5 — Complete documentation package
 
@@ -67,8 +67,8 @@ Once all of the materials are prepared and testing is done and the system is con
 
 There are several ways to ensure that your system remains compliant:
 
-* Set up [static analysis](../../security/static-analysis/) to run on an ongoing basis through one of the hosted [services](../../security/static-analysis/#services).
-* Set up [automated vulnerability scanning](../../security/dynamic-scanning/#automated-scanning).
+* Set up [static analysis](../security/static-analysis/) to run on an ongoing basis through one of the hosted [services](../security/static-analysis/#services).
+* Set up [automated vulnerability scanning](../security/dynamic-scanning/#automated-scanning).
 * Keep your `about.yml`, `system-security-plan.yml`, and security-related documentation up-to-date.
 
 ### System changes that may require a new ATO
