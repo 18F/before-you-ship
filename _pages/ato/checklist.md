@@ -20,6 +20,9 @@ You are welcome to ask any questions as comments in the issue or #infrastructure
 
 ---
 
-{% comment %} https://github.com/jekyll/jekyll/issues/1303#issuecomment-21067548 {% endcomment %}
+{% comment %}
+  render the checklist, showing the checkboxes (as GitHub will) and making the links back to this site relative
+  https://github.com/jekyll/jekyll/issues/1303#issuecomment-21067548
+{% endcomment %}
 {% capture checklist_content %}{% include checklist.md %}{% endcapture %}
-{{ checklist_content | replace: '- [ ]', '* [ ]' | replace: '* [ ]', '* <input type="checkbox" disabled>' | replace: '1. [ ]', '1. <input type="checkbox" disabled>' }}
+{{ checklist_content | replace: '- [ ]', '* [ ]' | replace: '* [ ]', '* <input type="checkbox" disabled>' | replace: '1. [ ]', '1. <input type="checkbox" disabled>' | replace: 'https://pages.18f.gov/before-you-ship/', '../../' }}

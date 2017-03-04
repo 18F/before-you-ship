@@ -35,7 +35,7 @@
     * This should be as [production](https://pages.18f.gov/before-you-ship/infrastructure/)-like as possible.
 - [ ] [Set up monitoring](https://pages.18f.gov/before-you-ship/infrastructure/monitoring/)
     * [ ] [Downtime alerts](https://pages.18f.gov/before-you-ship/infrastructure/monitoring/#downtime)
-    * [ ] [Error alerts](https://pages.18f.gov/before-you-ship/infrastructure/monitoring/#errors)
+    * [ ] [Error & performance alerts](https://pages.18f.gov/before-you-ship/infrastructure/monitoring/#errors--performance-problems)
 - [ ] Perform security scans, and put the results (or a link to them) in the ATO folder.
     * [ ] Set up [static analysis](https://pages.18f.gov/before-you-ship/security/static-analysis/) service
         * [ ] Add service badges to the README
@@ -59,7 +59,6 @@
 - [ ] [Update relevant documentation](https://pages.18f.gov/before-you-ship/ato/tips/), primarily the README
 - [ ] Add a [System Security Plan YAML file](https://pages.18f.gov/before-you-ship/ato/ssp/#template) to the repository
 - [ ] [Set up Compliance Masonry documentation](https://github.com/18F/cg-compliance#starting-ato-documentation-for-cloudgov-applications)
-- [ ] [Implement the controls](https://pages.18f.gov/before-you-ship/ato/walkthrough/#step-3--implement-the-controls)
 
 ### Documentation review
 
