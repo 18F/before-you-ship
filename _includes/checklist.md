@@ -29,6 +29,8 @@
 
 ##### Technical
 
+- [ ] Enable [protected branches](https://help.github.com/articles/about-protected-branches/) for the project repositor(ies).
+    * Get admin access via #admins-github, if needed.
 - [ ] Ensure that a staging environment is fully set up.
     * This should be as [production](https://pages.18f.gov/before-you-ship/infrastructure/)-like as possible.
 - [ ] [Set up monitoring](https://pages.18f.gov/before-you-ship/infrastructure/monitoring/)
@@ -47,6 +49,8 @@
 
 ##### Content
 
+- [ ] Read the LATO guide<!-- unless not doing a LATO -->.
+    * Search [this page](https://insite.gsa.gov/portal/content/627230) for "Lightweight Security Authorization Process".
 - [ ] Create a [system diagram](https://pages.18f.gov/before-you-ship/ato/ssp/#systemnetwork-diagrams)
 - [ ] Fill out the Rules of Engagement (RoE)
     * Use staging URLs, rather than production ones.
