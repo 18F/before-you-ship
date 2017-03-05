@@ -12,9 +12,9 @@ The system security plan (SSP) is a long Google Doc. 18F is actively working on 
 
 One of the requirements for an SSP is to include a network diagram for your system. It is helpful to create this diagram as a Google Drawing so that your Infrastructure Lead and AO can edit it as needed during the ATO assessment process.
 
+The diagram should be as detailed as possible. Include things like what ports are in use, and what they are used for. 
+
 When creating the diagram include the "ATO Boundary." A dotted line box is a nice way to do this. The system diagram includes things outside of the ATO boundary for context, such as the cloud.gov platform itself, and delineating the parts of the diagram being ATOd versus the parts that exist for context is important.
-
-
 
 A few example diagrams can be found below:
 
