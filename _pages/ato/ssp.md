@@ -12,9 +12,9 @@ The system security plan (SSP) is a long Google Doc. 18F is actively working on 
 
 One of the requirements for an SSP is to include a network diagram for your system. It is helpful to create this diagram as a Google Drawing so that your Infrastructure Lead and AO can edit it as needed during the ATO assessment process.
 
-The diagram should be as detailed as possible. Include things like what ports are in use, and what they are used for. 
+The diagram should be as detailed as possible. Include things like what ports are in use, and what they are used for.
 
-When creating the diagram include the "ATO Boundary." A dotted line box is a nice way to do this. The system diagram includes things outside of the ATO boundary for context, such as the cloud.gov platform itself, and delineating the parts of the diagram being ATOd versus the parts that exist for context is important.
+When creating the diagram, include the "ATO Boundary." A dotted line box is a nice way to do this. The system diagram includes things outside of the ATO boundary for context, such as the cloud.gov platform itself, and delineating the parts of the diagram being ATOd versus the parts that exist for context is important.
 
 A few example diagrams can be found below:
 
@@ -22,7 +22,7 @@ A few example diagrams can be found below:
 1. [A more complex application running on cloud.gov](https://docs.google.com/drawings/d/1k1wykk5PbLKSNJj8FyZbIlpX0D8r1q3-w-uRK_WWt9g/edit)
 1. [A complex application not running on cloud.gov](https://docs.google.com/drawings/d/10cH-OUB1NWzCI0v9LPzm7AXCfrHXNkDgnae-7hcUFu8/edit)
 
-### Compliance Masonry Template
+### Template
 
 Add the following to your repository as `system-security-plan.yml`, with the information in the `<angle brackets>` filled in. Once added to your repository, it should be kept up-to-date as the project progresses.
 
@@ -100,3 +100,8 @@ user-types:
 controls:
 - <links to your security documentation>
 ```
+
+## Examples
+
+* [ATF eRegs](https://github.com/18F/atf-eregs/blob/master/system-security-plan.yml)
+* [Every Kid In a Park (EKIP) API](https://github.com/18F/ekip-api/blob/master/system-security-plan.yml)
