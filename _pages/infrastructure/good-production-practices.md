@@ -64,6 +64,8 @@ See [the page on monitoring](../monitoring/).
 - **Third-party services are approved to hold the data being sent to them**
 - Automated pen-testing in a staging environment as part of continuous deployment
 - Automated vuln-scanning in production environment that is fed with newly-discovered vulns
+- Enable [SSL](https://github.com/18f/https) for everything (automatic with cloud.gov and federalist)
+- Redirect http to https (automatic with cloud.gov and federalist)
 
 ### Load-testing
 
