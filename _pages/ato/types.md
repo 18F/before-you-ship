@@ -29,4 +29,4 @@ You may operate without further authorization, based on our approved pre-existin
             * OAuth ([cloud.gov authentication](https://docs.cloud.gov/apps/leveraging-authentication/), or [GitHub authentication](https://developer.github.com/v3/oauth/) limited to a particular organization)
             * etc.
 
-Note that this last requirement can be skipped for [Open Data](../levels/#open-data-atos) systems once you initiate [the ATO process](../checklist/). This is greater incentive to do so early.
+For systems where _all_ of the information in the system is already publicly available and is non-confidential, the last step can be skipped once you have begun your ATO assesment with GSA IT.
