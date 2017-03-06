@@ -57,15 +57,3 @@ Note that `Open Data` won't be listed, as it was developed within 18F.
 * Low: [CALC](https://calc.gsa.gov)
 * Moderate: [cloud.gov](https://cloud.ogv), future-state of [fec.gov](https://fec.gov/).
 * High: the future-state of [login.gov](https://login.gov)
-
-### Open Data ATOs
-
-To qualify for an Open Data ATO, all of the following must be true:
-
-* You are not dealing with Sensitive [Personally Identifiable Information (PII)](../../security/pii/)
-* There is no user authentication involved
-* There is no user authorization involved
-* This is not the only place in the world to complete a particular task that's fundamental to what an agency does, e.g. the EPA tracking hazardous waste (`availability: low`)
-* All data is already publicly available (`confidentiality: none`)
-
-Note that, despite the name, Open Data ATOs are not limited to data-heavy projects; "data" really means "information". If you will be using one of the impact levels, create your [checklist](../checklist/) issue when you begin planning and start the conversation there.
