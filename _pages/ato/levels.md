@@ -37,6 +37,8 @@ For example, if we re-post data from weather.gov, it is less impactful for us to
 
 Storing [PII](../../security/pii/) always raises the level to at least `moderate` for the `confidentiality` and `integrity` objectives.
 
+If there is any authorization or authentication being done, it is _likely_ at the `moderate` level for all metrics.
+
 Just because we need `availability: high`, doesn't mean it needs `confidentiality: high` or `integrity: high`. These determinations are important for later tailoring of system controls.
 
 ### Selecting the overall impact level
