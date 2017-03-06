@@ -43,7 +43,7 @@ Just because we need `availability: high`, doesn't mean it needs `confidentialit
 
 ### Selecting the overall impact level
 
-Once you have decided on the impact level (`low`, `moderate`, `high`) for each of three objectives (`confidentiality`, `integrity`, and `availability`), you must then determine the overall impact level of the system. A _low impact system_ is one in which all three of the security objectives are `low`. A _moderate impact system_ is one in which at least one of the objectives is `moderate`, and none are `high`. A _high impact system_ is one in which at least one objective is `high`. Finally, the 18F recognizes a category of system classified as _open data_, in which the integrity and availability objectives are classified as `low`, and there is zero confidentiality impact because the system contains only [Open Data](#open-data-atos).
+Once you have decided on the impact level (`low`, `moderate`, `high`) for each of three objectives (`confidentiality`, `integrity`, and `availability`), you must then determine the overall impact level of the system. A _low impact system_ is one in which all three of the security objectives are `low`. A _moderate impact system_ is one in which at least one of the objectives is `moderate`, and none are `high`. A _high impact system_ is one in which at least one objective is `high`. Finally, the 18F recognizes a category of system classified as _open data_, in which the integrity and availability objectives are classified as `low`, and there is zero confidentiality impact because the system contains only open data.
 
 For more information, see [NIST 800-18](http://csrc.nist.gov/publications/nistpubs/800-18-Rev1/sp800-18-Rev1-final.pdf):
 
