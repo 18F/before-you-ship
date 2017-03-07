@@ -5,7 +5,9 @@ navtitle: Checklist
 
 The ATO checklist helps you track progress towards a successful launch throughout your project. It is a formatted issue on GitHub, and is the canonical source of information for your path to launch.
 
-To start the security clearance process, [create an issue in the Infrastructure repository](https://github.com/18F/Infrastructure/issues/new?title=ATO+for+%3Cproject%3E+-+due+%3Cdeadline%3E) using [this template](https://raw.githubusercontent.com/18F/before-you-ship/master/_includes/checklist.md). Make sure to replace the placeholders at the top. Feel free to add a username after each task to assign it, and/or make corresponding items in your issue tracker. After the Infrastructure issue is created, the Infrastructure Team will schedule a time to meet with you and discuss the ATO.
+To start the security clearance process, [create an issue in the Infrastructure repository](https://github.com/18F/Infrastructure/issues/new?title=ATO+for+%5Bproject%5D-+due+%5Bdeadline%5D) using [this template](https://raw.githubusercontent.com/18F/before-you-ship/master/_includes/checklist.md) as the body. Make sure to replace the placeholders (the things in `[square brackets]`). Feel free to add a username after each task to assign it, and/or make corresponding items in your issue tracker. Unless otherwise specified, all tasks are the responsibility of the project team.
+
+The tasks are in suggested order of priority, though they can often be done in parallel. Note that **all of the prerequisite tasks need to be completed before your project will be scheduled for a sprint**.
 
 Make sure to:
 
@@ -18,6 +20,9 @@ You are welcome to ask any questions as comments in the issue or #infrastructure
 
 ---
 
-{% comment %} https://github.com/jekyll/jekyll/issues/1303#issuecomment-21067548 {% endcomment %}
+{% comment %}
+  render the checklist, showing the checkboxes (as GitHub will) and making the links back to this site relative
+  https://github.com/jekyll/jekyll/issues/1303#issuecomment-21067548
+{% endcomment %}
 {% capture checklist_content %}{% include checklist.md %}{% endcapture %}
-{{ checklist_content | replace: '<', '&lt;' | replace: '>', '&gt;' | replace: '- [ ]', '* [ ]' | replace: '* [ ]', '* <input type="checkbox" disabled>' }}
+{{ checklist_content | replace: '- [ ]', '* [ ]' | replace: '* [ ]', '* <input type="checkbox" disabled>' | replace: '1. [ ]', '1. <input type="checkbox" disabled>' | replace: 'https://pages.18f.gov/before-you-ship/', '../../' }}
