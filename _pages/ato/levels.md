@@ -43,7 +43,7 @@ Just because we need `availability: high`, doesn't mean it needs `confidentialit
 
 ### Selecting the overall impact level
 
-Once you have decided on the impact level (`low`, `moderate`, `high`) for each of three objectives (`confidentiality`, `integrity`, and `availability`), you must then determine the overall impact level of the system. A _low impact system_ is one in which all three of the security objectives are `low`. A _moderate impact system_ is one in which at least one of the objectives is `moderate`, and none are `high`. A _high impact system_ is one in which at least one objective is `high`. Finally, the 18F recognizes a category of system classified as _open data_, in which the integrity and availability objectives are classified as `low`, and there is zero confidentiality impact because the system contains only [Open Data](#open-data-atos).
+Once you have decided on the impact level (`low`, `moderate`, `high`) for each of three objectives (`confidentiality`, `integrity`, and `availability`), you must then determine the overall impact level of the system. A _low impact system_ is one in which all three of the security objectives are `low`. A _moderate impact system_ is one in which at least one of the objectives is `moderate`, and none are `high`. A _high impact system_ is one in which at least one objective is `high`. Finally, the 18F recognizes a category of system classified as _open data_, in which the integrity and availability objectives are classified as `low`, and there is zero confidentiality impact because the system contains only open data.
 
 For more information, see [NIST 800-18](http://csrc.nist.gov/publications/nistpubs/800-18-Rev1/sp800-18-Rev1-final.pdf):
 
@@ -57,15 +57,3 @@ Note that `Open Data` won't be listed, as it was developed within 18F.
 * Low: [CALC](https://calc.gsa.gov)
 * Moderate: [cloud.gov](https://cloud.ogv), future-state of [fec.gov](https://fec.gov/).
 * High: the future-state of [login.gov](https://login.gov)
-
-### Open Data ATOs
-
-To qualify for an Open Data ATO, all of the following must be true:
-
-* You are not dealing with Sensitive [Personally Identifiable Information (PII)](../../security/pii/)
-* There is no user authentication involved
-* There is no user authorization involved
-* This is not the only place in the world to complete a particular task that's fundamental to what an agency does, e.g. the EPA tracking hazardous waste (`availability: low`)
-* All data is already publicly available (`confidentiality: none`)
-
-Note that, despite the name, Open Data ATOs are not limited to data-heavy projects; "data" really means "information". If you will be using one of the impact levels, create your [checklist](../checklist/) issue when you begin planning and start the conversation there.
