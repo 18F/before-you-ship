@@ -20,7 +20,7 @@ different languages.
 ## Ruby
 
 No action is necessary for dependencies to be pinned. This is because the
-auto-generated `Gemfile.lock` [should be committed to the repo](http://bundler.io/v1.12/rationale.html) 
+auto-generated `Gemfile.lock` [should be committed to the repo](http://bundler.io/v1.12/rationale.html)
 in development, causing it to be deployed along with the source code:
 
 >  . . . the Gemfile.lock makes your application a single package of both your own
@@ -28,8 +28,21 @@ in development, causing it to be deployed along with the source code:
 
 ## Node.JS
 
-`npm shrinkwrap` is the command to pin versions of all
-dependencies of a Node project. When run, `npm shrinkwrap` will recursively
+### Using yarn
+
+If you are using [`yarn`](https://yarnpkg.com) to manage your node dependencies,
+you will automatically have dependency pinning due to the [`yarn.lock`](https://yarnpkg.com/en/docs/yarn-lock)
+file that `yarn` produces and uses. `yarn.lock` should [committed to your repository](https://yarnpkg.com/en/docs/yarn-lock#toc-check-into-source-control)
+during development:
+
+> All yarn.lock files should be checked into source control (e.g. git or mercurial).
+> This allows Yarn to install the same exact dependency tree across all machines,
+> whether it be your coworker’s laptop or a CI server.
+
+### Using npm shrinkwrap
+
+If you are using `npm` to manage your node dependencies, you can use
+`npm shrinkwrap` to pin module versions. When run, `npm shrinkwrap` will recursively
 traverse the dependency tree of the target project and generate a file called
 `npm-shrinkwrap.json`. This file will list the currently installed versions of
 all packages in the local project's `node_modules` folder. You should commit
