@@ -32,7 +32,7 @@ in development, causing it to be deployed along with the source code:
 
 If you are using [`yarn`](https://yarnpkg.com) to manage your node dependencies,
 you will automatically have dependency pinning due to the [`yarn.lock`](https://yarnpkg.com/en/docs/yarn-lock)
-file that `yarn` produces and uses. `yarn.lock` should [committed to your repository](https://yarnpkg.com/en/docs/yarn-lock#toc-check-into-source-control)
+file that `yarn` produces and uses. `yarn.lock` [should be committed to your repository](https://yarnpkg.com/en/docs/yarn-lock#toc-check-into-source-control)
 during development:
 
 > All yarn.lock files should be checked into source control (e.g. git or mercurial).
