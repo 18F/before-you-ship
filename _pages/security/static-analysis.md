@@ -16,26 +16,32 @@ There are tools for JS, Ruby, and Python, and you are encouraged to set up this 
 Service | Languages/frameworks | Dependency analysis | Code security analysis
 --- | --- | --- | ---
 [Code Climate](https://codeclimate.com/) | Ruby, JS, Python | Ruby and Node (on `push` only) | Rails, Node, and Ember
-[Gemnasium](https://gemnasium.com/) | Ruby, Node, Python, PHP | Y | N
+[Gemnasium](#gemnasium) | Ruby, Node, Python, PHP | Y | N
 [Hakiri](https://hakiri.io/) | Ruby | Y | Rails only
 
 Code analysis can be run locally with the following open source tools. These tools provide results similar (and in some cases, identical) to the hosted services above.
 
-#### Gemnasium setup
+#### Gemnasium
 
-To set up Gemnasium, you'll need to be invited to the devops@gsa.gov account (ask in [#infrastructure](https://gsa-tts.slack.com/messages/infrastructure/)). In this process, be sure to log in via a password (rather than Github login) as that'll tie access to your gsa.gov email (as opposed to personal email).
+##### Setting up your account
+
+1. [Sign into Gemnasium via GitHub.](https://gemnasium.com/login)
+1. Go to [your settings page](https://gemnasium.com/settings) and change it to use your work email, if it isn't already.
+1. Ask in [#infrastructure](https://gsa-tts.slack.com/messages/infrastructure/) to be invited to the devops@gsa.gov account.
+
+##### Adding projects
 
 Unfortunately, Gemnasium struggles (as of 01/2017) to handle all of 18F's repositories when adding a new one to monitor. Instead, use this work around:
 
-1. Go to [https://gemnasium.com/projects/new_from_github?for=11206](https://gemnasium.com/projects/new_from_github?for=11206)
-2. Open the Chrome (/Firefox/Safari/etc.) web developer console
-3. Edit this text (replacing `18F/repo-name` for your repo) and execute it:
+1. Go to [https://gemnasium.com/projects/new_from_github?for=11206](https://gemnasium.com/projects/new_from_github?for=11206).
+1. Open the web developer console in your browser.
+1. Edit this text (replacing `18F/repo-name` for your repo) and execute it:
 
-```
-$('[name=submit_github_projects]').before('<input type="hidden" name="full_names[]" value="18F/repo-name" />').click()
-```
+    ```javascript
+    $('[name=submit_github_projects]').before('<input type="hidden" name="full_names[]" value="18F/repo-name" />').click()
+    ```
 
-You may also [configure](http://support.gemnasium.com/knowledgebase/articles/410993-refreshing-syncing-projects) Github to notify Gemnasium of code updates.
+1. [Add the Gemnasium webhook to the GitHub repository.](http://support.gemnasium.com/knowledgebase/articles/829368-how-do-i-manually-create-a-webhook-on-github)
 
 ### Dependency analysis
 
