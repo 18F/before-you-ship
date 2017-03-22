@@ -87,7 +87,7 @@ Everything in this section needs to be completed before the project will be sche
 
 ### Phase 4: Post-Sprint
 
-1. [ ] [Controls](https://pages.18f.gov/before-you-ship/ato/controls/) tested - @[GSA IT representative]
+1. [ ] Controls tested - @[GSA IT representative]
 1. [ ] Create a Plan of Actions and Milestones (POAM). - @[GSA IT representative]
 1. [ ] Final review and risk acceptance signatures (issue the ATO) - @[Authorizing Official]
 1. [ ] Remove the `Beta` label from the site.
