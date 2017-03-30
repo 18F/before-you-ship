@@ -4,20 +4,32 @@ title: Lifecycle of a Launch
 
 Every federal information system must go through NIST's [Risk Management Framework](background/) before it can be used to process federal information. This process culminates in a signed Authority to Operate (ATO) being issued. Because the ATO process is a complex, multi-step process which will constrain the design and implementation of your system, you should start thinking about how it applies to your system _before_ you begin designing and implementing it.
 
-### Step 0 — Create ATO checklist
+### Timeline
+
+There are a few factors that will determine how long it takes a project to get an ATO. These map to [the checklist](checklist/), so might be helpful to open that up in another window and follow along.
+
+* Everything in [Phase 1](checklist/#phase-1-ato-sprint-prerequisites) needs to be done before the project can enter the ATO Sprint. That responsibility is mostly on the project team and the respective Infrastructure Lead. This could easily be 40 hours of work for a typical 18F project.
+* Projects get scheduled for [Phase 3](checklist/#phase-3-ato-sprint) based on order they are complete [Phase 2](checklist/#phase-2-documentation-review), and their priority (deadlines, etc).
+* [Phase 3](checklist/#phase-3-ato-sprint) should take no more than two weeks, assuming the previous Phases were done thoroughly.
+
+**The ATO Sprinting Team makes no guarantees regarding the timeline of ATOs.**
+
+### Steps
+
+#### Step 0 — Create ATO checklist
 
 As soon as you begin developing an [alpha](https://18f.gsa.gov/dashboard/stages/#alpha), [create your ATO checklist](checklist/) to set up a tracking mechanism for your ATO. You can ask questions in your checklist thread to understand the specific considerations for your system. At this time it also good to ensure your system is eligible for [pre-assessment](types/#conditions-for-pre-assessment) authorization for user testing purposes.
 
-### Step 1 — Determine impact level
+#### Step 1 — Determine impact level
 
 Work with your Infrastructure Lead to categorize your system's impact levels, using the [ATO Levels](levels/) guide. If your system will be providing novel or risky functions, or handling extremely sensitive data, do this as early as possible.
 
-### Step 2 — Select controls
+#### Step 2 — Select controls
 
 "Controls" are individual security requirements laid out by the National Institute of Standards and Technology (NIST).
 Your system's impact level baseline will determine the controls you need to implement. For a list of them, see the [Controls](controls/) page.
 
-### Step 3 — Document the controls
+#### Step 3 — Document the controls
 
 This step is essentially "state how your system meets each of the regulations". Using established web frameworks (Rails, Django, etc.) and hosting in cloud.gov takes care of a lot of the lower-level controls and security best practices for you, so you only need to be concerned with your application's custom code and configuration. This custom code and configuration is known as the "attack surface".
 
@@ -39,19 +51,19 @@ The [Compliance Masonry](https://github.com/opencontrol/compliance-masonry) YAML
 
 An "inherited" control would be something like FedRAMP requiring that fire extinguishers be present near the servers, which is something that AWS needs to worry about for _their_ compliance, and we don't need to re-explain when launching an application hosted there. Your Masonry file essentially contains the "overrides".
 
-The controls that are _not_ inherited from an underlying system must be listed in your Masonry file with a short explanation ("narrative"), and "implemented" before the system can receive an ATO. "Implementation" in the compliance sense is the same as in the code sense: ensure that the system meets that requirement, based on current industry best practices.
+The controls that are _not_ inherited from an underlying system must be listed in your Masonry file with a short explanation ("narrative"), and "implemented" before the system can receive an ATO. "Implementation" in the compliance sense is the same as in the code sense: ensure that the system meets that requirement, based on current industry best practices.
 
-### Step 4 — Assess the controls
+#### Step 4 — Assess the controls
 
 In other words, "verify that your system is secure". The first step in doing so is to run the [security scans](../security/scanning/). This is a preliminary assessment, final assessment will be done in collaboration with the GSA Office of the Chief Security Officer (OCISO). You are encouraged to run scans yourself, so that there aren't big surprises during the ATO Sprint.
 
-### Step 5 — Complete documentation package
+#### Step 5 — Complete documentation package
 
 Fill out the documentation in the checklist. We hope to auto-create the [SSP](ssp/) from the Compliance Masonry YAML file at some point, but for now you should copy and paste.
 
 The full list of data and functions in and of the system (in government parlance "mission based information types" and "delivery mechanisms") must be itemized in structured data. While the data types are obviously arbitrary and custom to each system we produce, the government has a formalized data set of mission functions that should be mapped to the system via [NIST 800-60](http://csrc.nist.gov/groups/SMA/fisma/categorization.html). For a Rails app, for example, this can simply be a link to the `db/schema.rb` file on GitHub.
 
-### Step 6 — Authorize the system
+#### Step 6 — Authorize the system
 
 Your Infrastructure Lead will work with you to schedule and prioritize your system assessment. Once assessment starts, the first step is that the AO will review all the items in your ATO checklist including all the documents you generated.
 
@@ -61,7 +73,7 @@ Folks from OCISO will conduct a penetration test on the system. Any penetration 
 
 Once all of the materials are prepared and testing is done and the system is considered "ready" by the Authorizing Official, they will sign the ATO memo.
 
-### Step 7 — Continuously monitor the controls
+#### Step 7 — Continuously monitor the controls
 
 There are several ways to ensure that your system remains compliant:
 
