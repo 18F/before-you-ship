@@ -9,7 +9,7 @@ Every federal information system must go through NIST's [Risk Management Framewo
 There are a few factors that will determine how long it takes a project to get an ATO. These map to [the checklist](checklist/), so might be helpful to open that up in another window and follow along.
 
 * Everything in [Phase 1](checklist/#phase-1-ato-sprint-prerequisites) needs to be done before the project can enter the ATO Sprint. That responsibility is mostly on the project team and the respective Infrastructure Lead. This could easily be 40 hours of work for a typical 18F project.
-* Projects get scheduled for [Phase 3](checklist/#phase-3-ato-sprint) based on order they are complete [Phase 2](checklist/#phase-2-documentation-review), and their priority (deadlines, etc).
+* Projects get scheduled for [Phase 3](checklist/#phase-3-ato-sprint) based on the order they complete [Phase 2](checklist/#phase-2-documentation-review), deadlines, etc.
 * [Phase 3](checklist/#phase-3-ato-sprint) should take no more than two weeks, assuming the previous Phases were done thoroughly.
 
 **The ATO Sprinting Team makes no guarantees regarding the timeline of ATOs.**
