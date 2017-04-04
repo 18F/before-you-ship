@@ -5,7 +5,7 @@ navtitle: Types
 
 In most cases, the types of ATO that will be pursued for GSA systems are the *GSA Lightweight ATO (LATO)*. The GSA LATO process is described in a guide on [Insite](https://insite.gsa.gov/portal/content/627230) (search for "Lightweight Security Authorization Process" on that page). Systems that are under development can be operated without an ATO provided they fulfill the requirements for [pre-assessment for internal government use](#conditions-for-pre-assessment).
 
-The GSA LATO is designed for Low and Moderate impact [level](../levels/) systems built using agile methods that run on top of cloud infrastructure which has already received an ATO (such as AWS, Azure, and [cloud.gov](https://cloud.gov)). It's "lightweight" because only 24 NIST [controls](../controls/) must be implemented in order to grant this type of ATO, rather than hundreds. 
+The GSA LATO is designed for Low and Moderate impact [level](../levels/) systems built using agile methods that run on top of cloud infrastructure which has already received an ATO (such as AWS, Azure, and [cloud.gov](https://cloud.gov)). It's "lightweight" because only a subset of the hundreds of NIST controls must be implemented in order to grant this type of ATO.
 
 The GSA LATO is valid for 90 days, 1 year, or 3 years depending on the impact level and the depth of the assessment. Please read the LATO guide before starting the LATO process.
 

@@ -51,9 +51,6 @@ navigation:
   - text: Impact Levels
     url: levels/
     internal: true
-  - text: Controls
-    url: controls/
-    internal: true
   - text: Background
     url: background/
     internal: true

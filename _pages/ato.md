@@ -27,7 +27,7 @@ Work with your Infrastructure Lead to categorize your system's impact levels, us
 #### Step 2 — Select controls
 
 "Controls" are individual security requirements laid out by the National Institute of Standards and Technology (NIST).
-Your system's impact level baseline will determine the controls you need to implement. For a list of them, see the [Controls](controls/) page.
+Your system's impact level baseline will determine the controls you need to implement.
 
 #### Step 3 — Document the controls
 
