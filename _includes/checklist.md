@@ -66,6 +66,8 @@ Everything in this section needs to be completed before the project will be sche
 - [ ] Add an [`.about.yml`](https://github.com/18F/about_yml) for the main repository
 - [ ] [Update relevant documentation](https://pages.18f.gov/before-you-ship/ato/tips/), primarily the README
 - [ ] Fill out the System Security Plan (SSP)
+    * Work with your Infrastructure Lead on this.
+    * Totally fine for this to be a rough first pass.
     * Your Infrastructure Lead will tell you if you should [do this via Compliance Masonry](https://github.com/18F/cg-compliance#starting-ato-documentation-for-cloudgov-applications)
 
 ### Phase 2: Documentation review
@@ -81,6 +83,7 @@ Everything in this section needs to be completed before the project will be sche
 ### Phase 3: ATO Sprint
 
 1. [ ] Sprint started.
+1. [ ] Polish up the System Security Plan (SSP).
 1. [ ] Penetration test complete. - @[tester]
     * [ ] Enhanced Scanning and Assessment Process (ESAP) document added to ATO folder - @[tester]
 1. [ ] Put all vulnerabilities from the ESAP in the project's issue tracker.
