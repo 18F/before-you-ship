@@ -8,6 +8,15 @@ As described in [the NIST guide](http://csrc.nist.gov/publications/nistpubs/800-
 
 The system security plan (SSP) is a long Google Doc. 18F is actively working on a tool to generate them called [Compliance Masonry](https://github.com/opencontrol/compliance-masonry), which uses a machine-readable format for which template is below. For now, the Google Docs are the canonical versions of the SSP.
 
+* Filling out the SSP is hard, and will likely be the most time-consuming part of the ATO process.
+* Work with your Infrastructure Lead on completing the SSP.
+* Sections 9, 10, and 13 are the hard/important ones to fill out.
+* It will be easiest to fill out your SSP while going through side-by-side with a recent SSP, ideally for a similar system.
+    * Looking at another SSP will help you understand the language/detail required.
+    * Reuse/adapt content from previous SSP(s) whenever possible.
+    * Your Infrastructure Lead can find an example SSP for you.
+* When filling out the SSP, try taking a rough first pass, and flesh it out later.
+
 ### System/network diagrams
 
 One of the requirements for an SSP is to include a network diagram for your system. It is helpful to create this diagram as a Google Drawing so that your Infrastructure Lead and AO can edit it as needed during the ATO assessment process.
