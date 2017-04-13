@@ -37,7 +37,7 @@ Unfortunately, Gemnasium struggles (as of 01/2017) to handle all of 18F's reposi
 1. Open the web developer console in your browser.
 1. Edit this text (replacing `18F/repo-name` for your repo) and execute it:
 
-    ```javascript
+    ```
     $('[name=submit_github_projects]').before('<input type="hidden" name="full_names[]" value="18F/repo-name" />').click()
     ```
 
