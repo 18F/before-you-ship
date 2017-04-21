@@ -46,8 +46,8 @@ cloud.gov or use new AWS services not yet available in cloud.gov**.
 Comprehensive [documentation](https://docs.cloud.gov/) for
 cloud.gov is available.
 
-Cloud.gov is currently
-[in process to receive a FedRAMP JAB Provisional ATO at
+Cloud.gov has 
+[a FedRAMP JAB Provisional ATO at
 the Moderate level](https://www.fedramp.gov/marketplace/fedramp-ready-systems/18f-cloud-gov/).
 
 #### Amazon Web Services (AWS)
