@@ -27,7 +27,7 @@ Everything in this section needs to be completed before the project will be sche
         * For Low systems on cloud.gov, use [this template](https://docs.google.com/a/gsa.gov/document/d/1tVbH39TFfvSaBbjWfLaR3GLOuvsLuhLFJ75xKowEV5c/edit?usp=sharing)
     - [ ] Add Project Plan template
         * Search [this page](https://insite.gsa.gov/portal/content/627238) for "One Year LATO Project Plan Template", even if this isn't for a one-year LATO.
-- [ ] Make a copy of the [ATO Sprinting notes template](https://docs.google.com/document/d/1EdcNyE1kkQve3tHyiV1QIRWNOBlTeh33lAbX0h4h18M/edit) and save it in the [Sprinting Team folder](https://drive.google.com/open?id=1EdcNyE1kkQve3tHyiV1QIRWNOBlTeh33lAbX0h4h18M) with a title of `ATO Sprinting Team notes - <project>`.
+- [ ] Make a copy of the [ATO Sprinting notes template](https://docs.google.com/document/d/1EdcNyE1kkQve3tHyiV1QIRWNOBlTeh33lAbX0h4h18M/edit) and save it in the [Sprinting Team folder](https://drive.google.com/drive/folders/0B2tmNhXsZ-EyVkVra21NTmc0U00?usp=sharing) with a title of `ATO Sprinting Team notes - <project>`.
     - [ ] Fill out the placeholders.
     - [ ] Link to it as the `Sprint notes` at the top of this issue.
 
