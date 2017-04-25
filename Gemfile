@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-# 3.2+ breaks guides_style_18f
+# https://github.com/18F/jekyll_pages_api_search/issues/37
 gem 'jekyll', '~> 3.1.0'
 gem 'go_script'
 
