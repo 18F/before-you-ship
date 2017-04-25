@@ -1,6 +1,6 @@
 18F Before You Ship Guide [![Build Status](https://travis-ci.org/18F/before-you-ship.svg?branch=master)](https://travis-ci.org/18F/before-you-ship)
 
-This is the source repository for the 18F [Before You Ship](https://pages.18f.gov/before-you-ship/) guide.
+This is the source repository for the 18F [Before You Ship](https://before-you-ship.18f.gov/) guide.
 
 This guide is maintained by the 18F/TTS Infrastructure team.
 
