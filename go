@@ -65,7 +65,9 @@ BASE_PROOFER_OPTS = {
     %r{https://github.com/18F/Accessibility_Reviews}i,
     %r{https://github.com/18F/DevOps}i,
     %r{https://github.com/18F/handbook}i,
-    %r{https://github.com/18F/writing-lab}
+    %r{https://github.com/18F/writing-lab},
+    # https://github.com/gjtorikian/html-proofer/issues/118
+    '#'
   ]
 }
 
