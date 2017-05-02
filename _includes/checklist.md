@@ -15,7 +15,7 @@ Everything in this section needs to be completed before the project will be sche
 #### Infrastructure Lead
 
 - [ ] Set up an ATO intro meeting with the project team.
-- [ ] Determine the [impact level](https://pages.18f.gov/before-you-ship/ato/levels/).
+- [ ] Determine the [impact level](https://before-you-ship.18f.gov/ato/levels/).
     * [ ] Confirm with @[Authorizing Official]
 - [ ] Add this issue to the `Backlog` of [the ATO Kanban board](https://github.com/18F/Infrastructure/projects/1).
 - [ ] Assign the appropriate labels to this issue.
@@ -23,7 +23,7 @@ Everything in this section needs to be completed before the project will be sche
     - [ ] [In the `ATOs` folder in Google Drive](https://drive.google.com/a/gsa.gov/folderview?id=0BynIxtx-CfkdckljM3BPSkdQT1U&usp=sharing), go to `18F`/`OPP`/`PIF`, then `Work in progress`, and create a subfolder called in the format `<project> ATO - <duration> <level>`. Link to it as the `ATO folder` at the top of this issue.
     - [ ] Add Rules of Engagement (RoE) template
         * Search [this page](https://insite.gsa.gov/portal/content/627238) for "Rules of Engagement (RoE) 90-Day LATO Penetration Test TEMPLATE", even if this isn't for a 90-day LATO.
-    - [ ] Add [System Security Plan (SSP)](https://pages.18f.gov/before-you-ship/ato/ssp/) template
+    - [ ] Add [System Security Plan (SSP)](https://before-you-ship.18f.gov/ato/ssp/) template
         * For Low systems on cloud.gov, use [this template](https://docs.google.com/a/gsa.gov/document/d/1tVbH39TFfvSaBbjWfLaR3GLOuvsLuhLFJ75xKowEV5c/edit?usp=sharing)
     - [ ] Add Project Plan template
         * Search [this page](https://insite.gsa.gov/portal/content/627238) for "One Year LATO Project Plan Template", even if this isn't for a one-year LATO.
@@ -38,17 +38,17 @@ Everything in this section needs to be completed before the project will be sche
 - [ ] Enable [protected branches](https://help.github.com/articles/about-protected-branches/) for the project repositor(ies).
     * Get admin access via #admins-github, if needed.
 - [ ] Ensure that a staging environment is fully set up.
-    * This should be as [production](https://pages.18f.gov/before-you-ship/infrastructure/)-like as possible.
-- [ ] [Set up monitoring](https://pages.18f.gov/before-you-ship/infrastructure/monitoring/)
-    * [ ] [Downtime alerts](https://pages.18f.gov/before-you-ship/infrastructure/monitoring/#downtime)
-    * [ ] [Error & performance alerts](https://pages.18f.gov/before-you-ship/infrastructure/monitoring/#errors--performance-problems)
+    * This should be as [production](https://before-you-ship.18f.gov/infrastructure/)-like as possible.
+- [ ] [Set up monitoring](https://before-you-ship.18f.gov/infrastructure/monitoring/)
+    * [ ] [Downtime alerts](https://before-you-ship.18f.gov/infrastructure/monitoring/#downtime)
+    * [ ] [Error & performance alerts](https://before-you-ship.18f.gov/infrastructure/monitoring/#errors--performance-problems)
 - [ ] Perform security scans, and put the results (or a link to them) in the project's `ATO folder`.
-    * [ ] Set up [static analysis](https://pages.18f.gov/before-you-ship/security/static-analysis/) service
+    * [ ] Set up [static analysis](https://before-you-ship.18f.gov/security/static-analysis/) service
         * [ ] Add service badges to the README
         * [ ] Put a point-in-time PDF of the scan results in the project's `ATO folder`.
-    * [ ] [Perform dynamic vulnerability scanning](https://pages.18f.gov/before-you-ship/security/dynamic-scanning/)
+    * [ ] [Perform dynamic vulnerability scanning](https://before-you-ship.18f.gov/security/dynamic-scanning/)
         * [ ] Resolve any visible security issues, re-running the scan as needed
-        * [ ] Add the issue-free scan report or [documentation about false positives](https://pages.18f.gov/before-you-ship/security/dynamic-scanning/#caveats) to the project's ATO folder.
+        * [ ] Add the issue-free scan report or [documentation about false positives](https://before-you-ship.18f.gov/security/dynamic-scanning/#caveats) to the project's ATO folder.
 - [ ] If this is a new system, add a prominent [`Beta`](https://18f.gsa.gov/dashboard/stages/) label to the site.
 - [ ] Ensure the staging environment has sufficient capacity to withstand the testing.
     * The testing tools create very heavy usage and traffic.
@@ -59,12 +59,12 @@ Everything in this section needs to be completed before the project will be sche
 
 - [ ] Read the LATO guide<!-- unless not doing a LATO -->.
     * Search [this page](https://insite.gsa.gov/portal/content/627230) for "Lightweight Security Authorization Process".
-- [ ] Create a [system diagram](https://pages.18f.gov/before-you-ship/ato/ssp/#systemnetwork-diagrams)
+- [ ] Create a [system diagram](https://before-you-ship.18f.gov/ato/ssp/#systemnetwork-diagrams)
 - [ ] Fill out the Rules of Engagement (RoE)
     * Use staging URLs, rather than production ones.
 - [ ] Fill out the Project Plan
 - [ ] Add an [`.about.yml`](https://github.com/18F/about_yml) for the main repository
-- [ ] [Update relevant documentation](https://pages.18f.gov/before-you-ship/ato/tips/), primarily the README
+- [ ] [Update relevant documentation](https://before-you-ship.18f.gov/ato/tips/), primarily the README
 - [ ] Fill out the System Security Plan (SSP)
     * Work with your Infrastructure Lead on this.
     * Totally fine for this to be a rough first pass.
@@ -101,6 +101,6 @@ Everything in this section needs to be completed before the project will be sche
 
 ---
 
-See the [Before You Ship](https://pages.18f.gov/before-you-ship/ato/) site for more information.
+See the [Before You Ship](https://before-you-ship.18f.gov/ato/) site for more information.
 
 /cc @18F/ato

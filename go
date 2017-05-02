@@ -53,7 +53,7 @@ end
 
 def_command :test_build, 'Build the site for testing' do
   # https://github.com/jekyll/jekyll/issues/4122#issuecomment-159439360
-  build_jekyll('-d _test_site/before-you-ship/')
+  build_jekyll('-d _test_site/')
 end
 
 
