@@ -5,7 +5,7 @@ title: Infrastructure
 At some point, you're going to want to move the system you are building
 into production. You should decide the final destination of your system early on
 in the project. If you're building a site that has no server-side
-code, your options are [cloud.gov](#cloudgov-1), [Federalist](#federalist), or [18F Pages](#f-pages). If you're
+code, your options are [cloud.gov](#cloudgov-1) or [Federalist](#federalist). If you're
 going to host server-side code, you should aim to deploy to [cloud.gov](#cloudgov).
 We also support deployments to [Amazon Web Services(AWS)](#amazon-web-services-aws), but with no external support.
 
@@ -46,7 +46,7 @@ cloud.gov or use new AWS services not yet available in cloud.gov**.
 Comprehensive [documentation](https://docs.cloud.gov/) for
 cloud.gov is available.
 
-Cloud.gov has 
+Cloud.gov has
 [a FedRAMP JAB Provisional ATO at
 the Moderate level](https://www.fedramp.gov/marketplace/fedramp-ready-systems/18f-cloud-gov/).
 
@@ -79,10 +79,3 @@ See [the Federalist homepage](https://federalist.18f.gov) for more information.
 
 * **Internal:** Likely free, but start by checking with #federalist with your use case.
 * **External:** Federalist is currently offered for $12000/year. Check in with #federalist about your sales lead!
-
-#### 18F Pages
-
-Find instructions [here](https://github.com/18f/pages-server#publishing).
-
-* **Internal:** Check with #wg-documentation with your use case.
-* **External:** not applicable
