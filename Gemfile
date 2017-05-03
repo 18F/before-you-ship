@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 3.1'
+# https://github.com/18F/jekyll_pages_api_search/issues/37
+gem 'jekyll', '~> 3.1.0'
 gem 'go_script'
 
 group :jekyll_plugins do
