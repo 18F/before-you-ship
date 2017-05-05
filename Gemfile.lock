@@ -17,7 +17,7 @@ GEM
     go_script (0.1.9)
       bundler (~> 1.10)
       safe_yaml (~> 1.0)
-    guides_style_18f (1.0.1)
+    guides_style_18f (1.0.2)
       jekyll
       jekyll_pages_api
       jekyll_pages_api_search
