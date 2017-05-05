@@ -10,3 +10,17 @@ img.inline {
 .anchorjs-link {
   border: none;
 }
+
+/* USWDS positions checkboxes absolutely and hides them in favor of a styled
+ * :before element. We need to show disabled input boxes on the checklist page
+ * so that people can copy a checklist from markdown to GH and get the boxes. */
+#checklist-preview ~ ul input[type="checkbox"] {
+  position: relative;
+  opacity: 1;
+  width: 1.8rem;
+  height: 1.8rem;
+  display: block;
+  margin: 0.3rem 0.6rem 0 0;
+  border-radius: 0.3rem;
+  float: left;
+}
