@@ -1,5 +1,5 @@
 ---
-title: PIA
+title: Privacy Impact Assessment (PIA)
 ---
 
 ***Privacy Impact Assessment (PIA) and the E-Government Act of 2002***
@@ -10,7 +10,7 @@ When personal information on individuals is collected and used as a part of a sy
 * The information is timely and accurate;
 * The information is protected according to applicable laws and regulations while in GSA's possession;
 * The impact of the information systems on individual privacy is fully addressed; and
-* [The public is aware of the information GSA collects and how the information is used.](../../security/pii/#privacy-act-statement)
+* [The public is aware of the information GSA collects and how the information is used.](../../privacy/pii/#privacy-act-statement)
 
 Further work and approval from the agency's Chief Privacy Officer may be required.
 

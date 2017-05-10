@@ -1,13 +1,12 @@
 ---
-title: Personally Identifiable Information
-parent: Security
+title: Personally Identifiable Information (PII)
 ---
 
 ***...and the Privacy Act of 1974.***
 
 **Personally Identifiable Information (PII)** is any information that can distinguish or trace an individual, either alone or when combined with other information. **Sensitive PII** is information that, if misused, could cause substantial harm, embarrassment, inconvenience, or unfairness to a person. Sensitive PII cannot be on a system unless it has received an [Authority to Operate](../../ato/). If you are uncertain if the information you want to work with is Sensitive PII in your context, speak with [the GSA Privacy Office](https://insite.gsa.gov/portal/category/533866) or 18F Infrastructure beforehand. Some notes:
 
-* This process is not analogous to the [PIA](../../laws/pia/)/[SORN](../../laws/sorn/) process – those must be handled separately and, if necessary, should be initiated as close to the start of your project as possible.
+* This process is not analogous to the [PIA](../../privacy/pia/)/[SORN](../../privacy/sorn/) process – those must be handled separately and, if necessary, should be initiated as close to the start of your project as possible.
 * Collecting some PII that is ancillary to your system's purpose, for example in a search box, does not necessarily trigger [the Privacy Act](https://www.gsa.gov/portal/content/104250). If however, for example, your system is using contact information to communicate with people, it is processing PII.
 
 ### Always
