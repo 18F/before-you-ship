@@ -1,5 +1,5 @@
 ---
-title: PRA
+title: Paperwork Reduction Act (PRA)
 ---
 
 ***The Paperwork Reduction Act of 1980***
@@ -10,7 +10,7 @@ Designed to reduce the government forms and paperwork required of private busine
 * Does not apply to collection from fewer than 10 people or Federal employees.
 * The Office of Management and Budget (OMB) Office of Information and Regulatory Affairs (OIRA) must approve your survey questions. Exceptions do apply.
 * This should not interfere with most forms of user research and usability testing.
-* _@rjmajma is a good contact for this, and there is a dedicated #pra Slack channel for any questions._
+* There is a dedicated [#pra](https://gsa-tts.slack.com/messages/C02C6M61M/) Slack channel for any questions.
 
 ### Triggers
 

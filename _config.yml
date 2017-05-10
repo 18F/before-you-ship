@@ -98,10 +98,10 @@ navigation:
   url: laws/
   internal: true
   children:
-  - text: '508'
+  - text: 508 (Accessibility)
     url: 508/
     internal: true
-  - text: PRA
+  - text: Paperwork Reduction Act (PRA)
     url: pra/
     internal: true
 - text: Privacy
