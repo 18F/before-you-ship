@@ -25,7 +25,7 @@ Everything in this section needs to be completed before the project will be sche
         * Search [this page](https://insite.gsa.gov/portal/content/627238) for "Rules of Engagement (RoE) 90-Day LATO Penetration Test TEMPLATE", even if this isn't for a 90-day LATO.
     - [ ] Add [System Security Plan (SSP)](https://before-you-ship.18f.gov/ato/ssp/) template
         * For Low systems on cloud.gov, use [this template](https://docs.google.com/a/gsa.gov/document/d/1tVbH39TFfvSaBbjWfLaR3GLOuvsLuhLFJ75xKowEV5c/edit?usp=sharing)
-        * Not applicable to 90-day ATOs.
+        * For a 90-day ATO, delete Section 13.
     - [ ] Add Project Plan template
         * Search [this page](https://insite.gsa.gov/portal/content/627238) for "One Year LATO Project Plan Template", even if this isn't for a one-year LATO.
 - [ ] Make a copy of the [ATO Sprinting notes template](https://docs.google.com/document/d/1EdcNyE1kkQve3tHyiV1QIRWNOBlTeh33lAbX0h4h18M/edit) and save it in the [Sprinting Team folder](https://drive.google.com/drive/folders/0B2tmNhXsZ-EyVkVra21NTmc0U00?usp=sharing) with a title of `ATO Sprinting Team notes - <project>`.
@@ -44,7 +44,7 @@ Everything in this section needs to be completed before the project will be sche
     * [ ] [Downtime alerts](https://before-you-ship.18f.gov/infrastructure/monitoring/#downtime)
     * [ ] [Error & performance alerts](https://before-you-ship.18f.gov/infrastructure/monitoring/#errors--performance-problems)
 - [ ] Perform security scans, and put the results (or a link to them) in the project's `ATO folder`.
-    * [ ] Set up [static analysis](https://before-you-ship.18f.gov/security/static-analysis/) service
+    * [ ] Set up [static analysis](https://before-you-ship.18f.gov/security/static-analysis/) for each language used in all relevant repositories
         * [ ] Add service badges to the README
         * [ ] Put a point-in-time PDF of the scan results in the project's `ATO folder`.
     * [ ] [Perform dynamic vulnerability scanning](https://before-you-ship.18f.gov/security/dynamic-scanning/)
@@ -66,7 +66,6 @@ Everything in this section needs to be completed before the project will be sche
 - [ ] Add an [`.about.yml`](https://github.com/18F/about_yml) for the main repository.
 - [ ] [Update relevant documentation](https://before-you-ship.18f.gov/ato/tips/), primarily the README.
 - [ ] [Fill out the System Security Plan (SSP).](https://before-you-ship.18f.gov/ato/ssp/)
-    * Not applicable to 90-day ATOs.
 
 ### Phase 2: Documentation review
 
@@ -82,7 +81,6 @@ Everything in this section needs to be completed before the project will be sche
 
 1. [ ] Sprint started.
 1. [ ] Polish up the System Security Plan (SSP).
-    * Not applicable to 90-day ATOs.
 1. [ ] Penetration test complete. - @[tester]
     * [ ] Enhanced Scanning and Assessment Process (ESAP) document added to ATO folder - @[tester]
 1. [ ] Put all vulnerabilities from the ESAP in the project's issue tracker.
