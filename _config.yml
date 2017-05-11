@@ -60,9 +60,6 @@ navigation:
   url: security/
   internal: true
   children:
-  - text: Personally Identifiable Information
-    url: pii/
-    internal: true
   - text: Scanning
     url: scanning/
     internal: true
@@ -94,20 +91,30 @@ navigation:
   - text: Monitoring
     url: monitoring/
     internal: true
+  - text: Pinning Dependencies
+    url: pinning-dependencies/
+    internal: true
 - text: Laws
   url: laws/
   internal: true
   children:
-  - text: '508'
+  - text: 508 (Accessibility)
     url: 508/
     internal: true
-  - text: PIA
-    url: pia/
-    internal: true
-  - text: PRA
+  - text: Paperwork Reduction Act (PRA)
     url: pra/
     internal: true
-  - text: SORN
+- text: Privacy
+  url: privacy/
+  internal: true
+  children:
+  - text: Privacy Impact Assessment (PIA)
+    url: pia/
+    internal: true
+  - text: Personally Identifiable Information (PII)
+    url: pii/
+    internal: true
+  - text: System of Records Notice (SORN)
     url: sorn/
     internal: true
 
