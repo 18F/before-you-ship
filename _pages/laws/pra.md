@@ -9,7 +9,7 @@ Designed to reduce the government forms and paperwork required of private busine
 * Requires a minimum 90-day process before collecting information from the public.
 * Does not apply to collection from fewer than 10 people or Federal employees.
 * The Office of Management and Budget (OMB) Office of Information and Regulatory Affairs (OIRA) must approve your survey questions. Exceptions do apply.
-* This should not interfere with most forms of user research and usability testing.
+* This should not interfere with most forms of design research and usability testing.
 * There is a dedicated [#pra](https://gsa-tts.slack.com/messages/C02C6M61M/) Slack channel for any questions.
 
 ### Triggers
