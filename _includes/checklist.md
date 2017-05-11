@@ -8,6 +8,8 @@
 
 ## TODOs
 
+If your system isn't live yet, "production" refers to the environment that _will_ be production.
+
 ### Phase 1: ATO Sprint prerequisites
 
 Everything in this section needs to be completed before the project will be scheduled for an ATO Sprint.
@@ -38,8 +40,7 @@ Everything in this section needs to be completed before the project will be sche
 
 - [ ] Enable [protected branches](https://help.github.com/articles/about-protected-branches/) for the project repositor(ies).
     * Get admin access via #admins-github, if needed.
-- [ ] Ensure that a staging environment is fully set up.
-    * This should be as [production](https://before-you-ship.18f.gov/infrastructure/)-like as possible.
+- [ ] Ensure that your production environment is fully set up, and matches what's described in your ATO materials.
 - [ ] [Set up monitoring](https://before-you-ship.18f.gov/infrastructure/monitoring/)
     * [ ] [Downtime alerts](https://before-you-ship.18f.gov/infrastructure/monitoring/#downtime)
     * [ ] [Error & performance alerts](https://before-you-ship.18f.gov/infrastructure/monitoring/#errors--performance-problems)
@@ -51,7 +52,7 @@ Everything in this section needs to be completed before the project will be sche
         * [ ] Resolve any visible security issues, re-running the scan as needed
         * [ ] Add the issue-free scan report or [documentation about false positives](https://before-you-ship.18f.gov/security/dynamic-scanning/#caveats) to the project's ATO folder.
 - [ ] If this is a new system, add a prominent [`Beta`](https://18f.gsa.gov/dashboard/stages/) label to the site.
-- [ ] Ensure the staging environment has sufficient capacity to withstand the testing.
+- [ ] Ensure the production environment has sufficient capacity to withstand the testing.
     * The testing tools create very heavy usage and traffic.
 
 ##### Documentation
@@ -61,7 +62,6 @@ Everything in this section needs to be completed before the project will be sche
 - [ ] Read the LATO guide<!-- unless not doing a LATO -->.
     * Search [this page](https://insite.gsa.gov/portal/content/627230) for "Lightweight Security Authorization Process".
 - [ ] Fill out the Rules of Engagement (RoE)
-    * Use staging URLs, rather than production ones.
 - [ ] Fill out the Project Plan.
 - [ ] Add an [`.about.yml`](https://github.com/18F/about_yml) for the main repository.
 - [ ] [Update relevant documentation](https://before-you-ship.18f.gov/ato/tips/), primarily the README.
