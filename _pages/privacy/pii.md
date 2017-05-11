@@ -8,7 +8,7 @@ title: Personally Identifiable Information (PII)
 
 No system may store Sensitive PII until it has received an [Authority to Operate](../../ato/). If you are uncertain as to the sensitivity of the information your system may process, please speak with [the GSA Privacy Office](https://insite.gsa.gov/portal/category/533866) or 18F Infrastructure beforehand. Note that this process is not analogous to the [Privacy Impact Assessment (PIA)](../../privacy/pia/) and [System of Record Notice (SORN)](../../privacy/sorn/) processes; those must be handled separately and, if necessary, should be initiated as close to the start of the project as possible.
 
-Collecting information that is ancillary to your system's purpose — in a search box, for expample — does not necessarily trigger [the Privacy Act](https://www.gsa.gov/portal/content/104250). On the other hand, a system that, for example, prompts people for contact information to later communicate with them is definitely processing PII.
+Collecting information that is ancillary to your system's purpose — in a search box, for example — does not necessarily trigger [the Privacy Act](https://www.gsa.gov/portal/content/104250). On the other hand, a system that, for example, prompts people for contact information to later communicate with them is definitely processing PII.
 
 ### Always
 
