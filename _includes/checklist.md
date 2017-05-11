@@ -8,6 +8,8 @@
 
 ## TODOs
 
+If your system isn't live yet, "production" refers to the environment that _will_ be production.
+
 ### Phase 1: ATO Sprint prerequisites
 
 Everything in this section needs to be completed before the project will be scheduled for an ATO Sprint.
@@ -38,7 +40,7 @@ Everything in this section needs to be completed before the project will be sche
 
 - [ ] Enable [protected branches](https://help.github.com/articles/about-protected-branches/) for the project repositor(ies).
     * Get admin access via #admins-github, if needed.
-- [ ] Ensure that your (soon-to-be) production environment is fully set up, and matches what's described in your ATO materials.
+- [ ] Ensure that your production environment is fully set up, and matches what's described in your ATO materials.
 - [ ] [Set up monitoring](https://before-you-ship.18f.gov/infrastructure/monitoring/)
     * [ ] [Downtime alerts](https://before-you-ship.18f.gov/infrastructure/monitoring/#downtime)
     * [ ] [Error & performance alerts](https://before-you-ship.18f.gov/infrastructure/monitoring/#errors--performance-problems)
