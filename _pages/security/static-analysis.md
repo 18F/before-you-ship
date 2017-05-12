@@ -13,11 +13,11 @@ There are tools for JS, Ruby, and Python, and you are encouraged to set up this 
 
 ### Services
 
-Service | Languages/frameworks | Dependency analysis | Code security analysis
+Service | Dependency analysis | Code security analysis
 --- | --- | --- | ---
-[Code Climate](https://codeclimate.com/) | Ruby, JS, Python | Ruby and Node (on `push` only) | Rails, Node, and Ember
-[Gemnasium](#gemnasium) | Ruby, Node, Python, PHP | Y | N
-[Hakiri](https://hakiri.io/) | Ruby | Y | Rails only
+[Code Climate](https://codeclimate.com/) | Ruby and Node (on `push` only) | Rails, Node, and Ember
+[Gemnasium](#gemnasium) | Ruby, Node, Python, PHP | N
+[Hakiri](https://hakiri.io/) | Ruby | Rails only
 
 Code analysis can be run locally with the following open source tools. These tools provide results similar (and in some cases, identical) to the hosted services above.
 
