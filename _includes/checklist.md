@@ -36,8 +36,10 @@ Everything in this section needs to be completed before the project will be sche
 
 ##### Technical
 
-- [ ] Enable [protected branches](https://help.github.com/articles/about-protected-branches/) for the project repositor(ies).
-    * Get admin access via #admins-github, if needed.
+These tasks apply to every repository/application/hostname/language that is directly involved in your project.
+
+- [ ] Enable [protected branches](https://help.github.com/articles/about-protected-branches/) for the project repository.
+    * Get help via #admins-github, if needed.
 - [ ] Ensure that a staging environment is fully set up.
     * This should be as [production](https://before-you-ship.18f.gov/infrastructure/)-like as possible.
 - [ ] [Set up monitoring](https://before-you-ship.18f.gov/infrastructure/monitoring/)
