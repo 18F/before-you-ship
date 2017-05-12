@@ -44,8 +44,11 @@ Everything in this section needs to be completed before the project will be sche
     * [ ] [Downtime alerts](https://before-you-ship.18f.gov/infrastructure/monitoring/#downtime)
     * [ ] [Error & performance alerts](https://before-you-ship.18f.gov/infrastructure/monitoring/#errors--performance-problems)
 - [ ] Perform security scans, and put the results (or a link to them) in the project's `ATO folder`.
-    * [ ] Set up [static analysis](https://before-you-ship.18f.gov/security/static-analysis/) service
-        * [ ] Add service badges to the README
+    * [ ] Set up [dependency analysis](https://before-you-ship.18f.gov/security/static-analysis/) service
+        * [ ] Add service badge to your README
+        * [ ] Put a point-in-time PDF of the scan results in the project's `ATO folder`.
+    * [ ] Set up [static code analysis](https://before-you-ship.18f.gov/security/static-analysis/)
+        * [ ] If using a service, add the badge to your README
         * [ ] Put a point-in-time PDF of the scan results in the project's `ATO folder`.
     * [ ] [Perform dynamic vulnerability scanning](https://before-you-ship.18f.gov/security/dynamic-scanning/)
         * [ ] Resolve any visible security issues, re-running the scan as needed
