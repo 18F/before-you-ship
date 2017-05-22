@@ -43,17 +43,15 @@ Just because we need `availability: high`, doesn't mean it needs `confidentialit
 
 ### Selecting the overall impact level
 
-Once you have decided on the impact level (`low`, `moderate`, `high`) for each of three objectives (`confidentiality`, `integrity`, and `availability`), you must then determine the overall impact level of the system. A _low impact system_ is one in which all three of the security objectives are `low`. A _moderate impact system_ is one in which at least one of the objectives is `moderate`, and none are `high`. A _high impact system_ is one in which at least one objective is `high`. Finally, the 18F recognizes a category of system classified as _open data_, in which the integrity and availability objectives are classified as `low`, and there is zero confidentiality impact because the system contains only open data.
+Once you have decided on the impact level (`low`, `moderate`, `high`) for each of three objectives (`confidentiality`, `integrity`, and `availability`), you must then determine the overall impact level of the system. A _low impact system_ is one in which all three of the security objectives are `low`. A _moderate impact system_ is one in which at least one of the objectives is `moderate`, and none are `high`. A _high impact system_ is one in which at least one objective is `high`.
 
 For more information, see [NIST 800-18](http://csrc.nist.gov/publications/nistpubs/800-18-Rev1/sp800-18-Rev1-final.pdf):
 
 * [Table 1](http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-18r1.pdf#page=27) for FIPS categorization
 * [Section 3.13](http://csrc.nist.gov/publications/nistpubs/800-18-Rev1/sp800-18-Rev1-final.pdf#page=31) for security controls
 
-Note that `Open Data` won't be listed, as it was developed within 18F.
-
 ### Examples
 
 * Low: [CALC](https://calc.gsa.gov)
-* Moderate: [cloud.gov](https://cloud.ogv), future-state of [fec.gov](https://fec.gov/).
+* Moderate: [cloud.gov](https://cloud.gov), future-state of [fec.gov](https://fec.gov/).
 * High: the future-state of [login.gov](https://login.gov)
