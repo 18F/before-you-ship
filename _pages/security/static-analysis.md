@@ -57,9 +57,9 @@ There are several tools available for running analysis on JS projects, but the m
 
 To install:
 
-    $ npm install eslint
-    $ npm install eslint-plugin-scanjs-rules
-    $ npm install eslint-plugin-no-unsafe-innerhtml
+    $ npm install --save-dev eslint
+    $ npm install --save-dev eslint-plugin-scanjs-rules
+    $ npm install --save-dev eslint-plugin-no-unsanitized
 
 Download the [config file](https://github.com/18F/compliance-toolkit/blob/master/configs/static/.eslintrc) from the compliance-toolkit repo and copy it to project root.
 
