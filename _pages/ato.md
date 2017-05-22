@@ -18,7 +18,7 @@ There are a few factors that will determine how long it takes a project to get a
 
 ATO Sprints are staffed by cross-divisionally by the GSA Office of the Chief Information Security Officer (OCISO) and 18F. Beyond the project team roles (ex: system owner, product owner, etc) ATO Sprint roles typically include:
 
-* **Authorizing Official** (AO): Responsible for overall impact categorization and risk acceptance.
+* **Authorizing Official (AO)**: Responsible for overall impact categorization and risk acceptance.
 * **Infrastructure Lead**: Manages infrastructure decisions and ATO queue within a business unit. In consult with the other leads, reaches consensus on what projects go into each sprint.
 * **Information System Security Officer**: Supports the information security system, consults on control selection, organizes scanning process.
 * **Penetration tester(s)**: Conducts the penetration test after terms are agreed to as documented in the Rules of Engagement (RoE) signed by 18F.
