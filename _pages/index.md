@@ -1,5 +1,6 @@
 ---
 title: Your guide to launching software at 18F
+navtitle: Overview
 permalink: /
 ---
 

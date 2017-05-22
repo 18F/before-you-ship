@@ -66,7 +66,7 @@ Use common sense when handling this information. Unless you have permission *and
 
 Regardless of your own norms around privacy, always assume the owner of that data has the most conservative requirements unless they have taken express action, either through a communication or the system itself, telling you otherwise.
 
-We also take particular care in protecting [sensitive personally identifiable information (PII)](../../security/pii). PII is any information that can be linked back to an individual. For example, this can potentially include a person's full name when combined with other data, like their home address or phone number.
+We also take particular care in protecting [sensitive personally identifiable information (PII)](../../privacy/pii). PII is any information that can be linked back to an individual. For example, this can potentially include a person's full name when combined with other data, like their home address or phone number.
 
 ### Your information
 

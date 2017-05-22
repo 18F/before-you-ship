@@ -8,6 +8,8 @@
 
 ## TODOs
 
+If your system isn't live yet, "production" refers to the environment that _will_ be production.
+
 ### Phase 1: ATO Sprint prerequisites
 
 Everything in this section needs to be completed before the project will be scheduled for an ATO Sprint.
@@ -25,7 +27,7 @@ Everything in this section needs to be completed before the project will be sche
         * Search [this page](https://insite.gsa.gov/portal/content/627238) for "Rules of Engagement (RoE) 90-Day LATO Penetration Test TEMPLATE", even if this isn't for a 90-day LATO.
     - [ ] Add [System Security Plan (SSP)](https://before-you-ship.18f.gov/ato/ssp/) template
         * For Low systems on cloud.gov, use [this template](https://docs.google.com/a/gsa.gov/document/d/1tVbH39TFfvSaBbjWfLaR3GLOuvsLuhLFJ75xKowEV5c/edit?usp=sharing)
-        * Not applicable to 90-day ATOs.
+        * For a 90-day ATO, delete Section 13.
     - [ ] Add Project Plan template
         * Search [this page](https://insite.gsa.gov/portal/content/627238) for "One Year LATO Project Plan Template", even if this isn't for a one-year LATO.
 - [ ] Make a copy of the [ATO Sprinting notes template](https://docs.google.com/document/d/1EdcNyE1kkQve3tHyiV1QIRWNOBlTeh33lAbX0h4h18M/edit) and save it in the [Sprinting Team folder](https://drive.google.com/drive/folders/0B2tmNhXsZ-EyVkVra21NTmc0U00?usp=sharing) with a title of `ATO Sprinting Team notes - <project>`.
@@ -40,8 +42,7 @@ These tasks apply to every repository/application/hostname/language that is dire
 
 - [ ] Enable [protected branches](https://help.github.com/articles/about-protected-branches/) for the project repository.
     * Get help via #admins-github, if needed.
-- [ ] Ensure that a staging environment is fully set up.
-    * This should be as [production](https://before-you-ship.18f.gov/infrastructure/)-like as possible.
+- [ ] Ensure that your production environment is fully set up, and matches what's described in your ATO materials.
 - [ ] [Set up monitoring](https://before-you-ship.18f.gov/infrastructure/monitoring/)
     * [ ] [Downtime alerts](https://before-you-ship.18f.gov/infrastructure/monitoring/#downtime)
     * [ ] [Error & performance alerts](https://before-you-ship.18f.gov/infrastructure/monitoring/#errors--performance-problems)
@@ -50,13 +51,12 @@ These tasks apply to every repository/application/hostname/language that is dire
         * [ ] Add service badge to your README
         * [ ] Put a point-in-time PDF of the scan results in the project's `ATO folder`.
     * [ ] Set up [static code analysis](https://before-you-ship.18f.gov/security/static-analysis/)
-        * [ ] If using a service, add the badge to your README
-        * [ ] Put a point-in-time PDF of the scan results in the project's `ATO folder`.
+        * [ ] If using a service, add the badge to your README.
     * [ ] [Perform dynamic vulnerability scanning](https://before-you-ship.18f.gov/security/dynamic-scanning/)
         * [ ] Resolve any visible security issues, re-running the scan as needed
         * [ ] Add the issue-free scan report or [documentation about false positives](https://before-you-ship.18f.gov/security/dynamic-scanning/#caveats) to the project's ATO folder.
 - [ ] If this is a new system, add a prominent [`Beta`](https://18f.gsa.gov/dashboard/stages/) label to the site.
-- [ ] Ensure the staging environment has sufficient capacity to withstand the testing.
+- [ ] Ensure the production environment has sufficient capacity to withstand the testing.
     * The testing tools create very heavy usage and traffic.
 
 ##### Documentation
@@ -66,12 +66,10 @@ These tasks apply to every repository/application/hostname/language that is dire
 - [ ] Read the LATO guide<!-- unless not doing a LATO -->.
     * Search [this page](https://insite.gsa.gov/portal/content/627230) for "Lightweight Security Authorization Process".
 - [ ] Fill out the Rules of Engagement (RoE)
-    * Use staging URLs, rather than production ones.
 - [ ] Fill out the Project Plan.
 - [ ] Add an [`.about.yml`](https://github.com/18F/about_yml) for the main repository.
 - [ ] [Update relevant documentation](https://before-you-ship.18f.gov/ato/tips/), primarily the README.
 - [ ] [Fill out the System Security Plan (SSP).](https://before-you-ship.18f.gov/ato/ssp/)
-    * Not applicable to 90-day ATOs.
 
 ### Phase 2: Documentation review
 
@@ -87,7 +85,6 @@ These tasks apply to every repository/application/hostname/language that is dire
 
 1. [ ] Sprint started.
 1. [ ] Polish up the System Security Plan (SSP).
-    * Not applicable to 90-day ATOs.
 1. [ ] Penetration test complete. - @[tester]
     * [ ] Enhanced Scanning and Assessment Process (ESAP) document added to ATO folder - @[tester]
 1. [ ] Put all vulnerabilities from the ESAP in the project's issue tracker.
