@@ -14,15 +14,15 @@ There are a few factors that will determine how long it takes a project to get a
 
 **The ATO Sprinting Team makes no _guarantees_ regarding the timeline of ATOs.**
 
-### team
+### Team
 
 ATO Sprints are staffed by cross-divisionally by the GSA Office of the Chief Information Security Officer (OCISO) and 18F. Beyond the project team roles (ex: system owner, product owner, etc) ATO Sprint roles typically include:
 
 * **Authorizing Official (AO)**: Responsible for overall impact categorization and risk acceptance.
 * **Infrastructure Lead**: Manages infrastructure decisions and ATO queue within a business unit. In consult with the other leads, reaches consensus on what projects go into each sprint.
-* **Information System Security Officer**: Supports the information security system, consults on control selection, organizes scanning process.
+* **Information System Security Officer (ISSO)**: Supports the information security system, consults on control selection, organizes scanning process. Reports to the Information System Security Manager (ISSM).
 * **Penetration tester(s)**: Conducts the penetration test after terms are agreed to as documented in the Rules of Engagement (RoE) signed by 18F.
-* **Assessor**: Validates and verifies that the documented controls (see Step 3) actually work, using the assessment cases (see Step 4)
+* **Assessor**: Validates and verifies that the documented controls (see [Step 3](#step-3--document-the-controls)) actually work, using the assessment cases (see [Step 4](#step-4--assess-the-controls)).
 
 ### Steps
 
@@ -67,7 +67,7 @@ The controls that are _not_ inherited from an underlying system must be listed i
 
 In other words, "verify that your system is secure". The first step in doing so is to run the [security scans](../security/scanning/). This is a preliminary assessment, final assessment will be done in collaboration with GSA OCISO. You are encouraged to run scans yourself, so that there aren't big surprises during the ATO Sprint.
 
-In parallel, you will collaborate with a GSA OCISO assessor to verify all the controls in the SSP. The exact tests are given by this [assessment case template](https://docs.google.com/spreadsheets/d/1xYv9PHk6P1ePHSQcJWXSAYbAvmxzSsDOZrdS285DKYY/edit?ts=58eba80c#gid=1541480683)
+In parallel, you will collaborate with a GSA OCISO assessor to verify all the controls in the SSP. The exact tests are given by this [assessment case template](https://docs.google.com/spreadsheets/d/1xYv9PHk6P1ePHSQcJWXSAYbAvmxzSsDOZrdS285DKYY/edit?ts=58eba80c#gid=1541480683).
 
 #### Step 5 — Complete documentation package
 
