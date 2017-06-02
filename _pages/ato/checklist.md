@@ -3,6 +3,8 @@ title: ATO Checklist
 navtitle: Checklist
 ---
 
+jvvhhj
+
 The ATO checklist helps you track progress towards a successful launch throughout your project. It is a formatted issue on GitHub, and is the canonical source of information for your path to launch.
 
 To start the security clearance process, [create an issue in the Infrastructure repository](https://github.com/18F/Infrastructure/issues/new?title=ATO+for+%5Bproject%5D-+due+%5Bdeadline%5D) using [this template](https://raw.githubusercontent.com/18F/before-you-ship/master/_includes/checklist.md) as the body. Make sure to replace the placeholders (the things in `[square brackets]`). Feel free to add a username after each task to assign it, and/or make corresponding items in your issue tracker. Unless otherwise specified, all tasks are the responsibility of the project team.
