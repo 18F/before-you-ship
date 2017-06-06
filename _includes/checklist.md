@@ -36,16 +36,20 @@ Everything in this section needs to be completed before the project will be sche
 
 ##### Technical
 
-- [ ] Enable [protected branches](https://help.github.com/articles/about-protected-branches/) for the project repositor(ies).
-    * Get admin access via #admins-github, if needed.
+These tasks apply to every repository/application/hostname/language that is directly involved in your project.
+
+- [ ] Enable [protected branches](https://help.github.com/articles/about-protected-branches/) for the project repository.
+    * Get help via #admins-github, if needed.
 - [ ] Ensure that your production environment is fully set up, and matches what's described in your ATO materials.
 - [ ] [Set up monitoring](https://before-you-ship.18f.gov/infrastructure/monitoring/)
     * [ ] [Downtime alerts](https://before-you-ship.18f.gov/infrastructure/monitoring/#downtime)
     * [ ] [Error & performance alerts](https://before-you-ship.18f.gov/infrastructure/monitoring/#errors--performance-problems)
 - [ ] Perform security scans, and put the results (or a link to them) in the project's `ATO folder`.
-    * [ ] Set up [static analysis](https://before-you-ship.18f.gov/security/static-analysis/) for each language used in all relevant repositories
-        * [ ] Add service badges to the README
+    * [ ] Set up [dependency analysis](https://before-you-ship.18f.gov/security/static-analysis/) service
+        * [ ] Add service badge to your README
         * [ ] Put a point-in-time PDF of the scan results in the project's `ATO folder`.
+    * [ ] Set up [static code analysis](https://before-you-ship.18f.gov/security/static-analysis/)
+        * [ ] If using a service, add the badge to your README.
     * [ ] [Perform dynamic vulnerability scanning](https://before-you-ship.18f.gov/security/dynamic-scanning/)
         * [ ] Resolve any visible security issues, re-running the scan as needed
         * [ ] Add the issue-free scan report or [documentation about false positives](https://before-you-ship.18f.gov/security/dynamic-scanning/#caveats) to the project's ATO folder.
