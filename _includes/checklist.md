@@ -25,6 +25,7 @@ Everything in this section needs to be completed before the project will be sche
     - [ ] [In the `ATOs` folder in Google Drive](https://drive.google.com/a/gsa.gov/folderview?id=0BynIxtx-CfkdckljM3BPSkdQT1U&usp=sharing), go to `18F`/`OPP`/`PIF`, then `Work in progress`, and create a subfolder called in the format `<project> ATO - <duration> <level>`. Link to it as the `ATO folder` at the top of this issue.
     - [ ] Add Rules of Engagement (RoE) template
         * Search [this page](https://insite.gsa.gov/portal/content/627238) for "Rules of Engagement (RoE) 90-Day LATO Penetration Test TEMPLATE", even if this isn't for a 90-day LATO.
+        * [System/network diagram tips](https://before-you-ship.18f.gov/ato/ssp/#systemnetwork-diagrams)
     - [ ] Add [System Security Plan (SSP)](https://before-you-ship.18f.gov/ato/ssp/) template
         * For Low systems on cloud.gov, use [this template](https://docs.google.com/a/gsa.gov/document/d/1tVbH39TFfvSaBbjWfLaR3GLOuvsLuhLFJ75xKowEV5c/edit?usp=sharing)
         * For a 90-day ATO, delete Section 13.
