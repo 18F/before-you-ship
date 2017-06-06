@@ -19,8 +19,6 @@ Service | Dependency analysis | Code security analysis
 [Gemnasium](#gemnasium) | Ruby, Node, Python, PHP | N
 [Hakiri](https://hakiri.io/) | Ruby | Rails only
 
-Code analysis can be run locally with the following open source tools. These tools provide results similar (and in some cases, identical) to the hosted services above.
-
 #### Gemnasium
 
 ##### Setting up your account
@@ -49,7 +47,7 @@ Use one of the services above, which should support adding public repositories y
 
 ### Code analysis
 
-This is commonly referred to as "static analysis". Code analysis can be done by a [service](#services) (easiest), or within your existing continuous integration tool.
+This is commonly referred to as "static analysis". Code analysis can be done by a [service](#services) (easiest), or within your existing continuous integration tool. Code analysis can be run locally with the following open source tools. These tools provide results similar (and in some cases, identical) to the hosted [services](#services) above.
 
 #### JavaScript
 
