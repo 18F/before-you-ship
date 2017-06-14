@@ -18,7 +18,7 @@ You may operate without further authorization, based on our approved pre-existin
 * The system is deployed to [cloud.gov](https://cloud.gov) or the [18F AWS East/West environment](../../infrastructure/aws/).
 * The system does _not_:
     * interact with or change the state of any production Federal information system, whether it is operated by 18F or our Federal partners
-    * collect or store any [sensitive PII](../../privacy/pii)
+    * collect or store any sensitive personally identifable information (PII)
     * is not the canonical source of any "production" data
 * The system is _only_ available to:
     * staff of the General Services Administration
