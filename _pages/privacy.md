@@ -2,9 +2,11 @@
 title: Privacy
 ---
 
-The GSA Privacy Office preserves and evolves privacy protections for any individual whose personal information is handled by the agency. In practice, this requires the Office to [conduct a periodic privacy threshold (or impact) analysis](https://gsa.gov/portal/getMediaData?mediaId=199855) for each of the GSA&rsquo;s programs and information systems. Privacy risk is often based on to the degree to which a system and its associated business processes collect and make use of [personally identifiable information (PII)](https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2017/m-17-12_0.pdf).
+The GSA Privacy Office preserves and evolves privacy protections for any individual whose personal information is handled by the agency. In practice, this requires the Office to [conduct periodic privacy threshold (or impact) analyses](https://gsa.gov/portal/getMediaData?mediaId=199855) for each of the GSA&rsquo;s programs and information systems. Such analyses help the Office ensure legal compliance and mitigate privacy risks.
 
-As someone interested in shipping a product or service, you&rsquo;ll need to first **identify the agency** at which the product or service in question will obtain its authorization to operate (ATO). If that agency *not* the GSA, please skip the guidance below and instead contact the Privacy Office at the agency granting the ATO (as each agency has its own process for conducting privacy threshold analyses). 
+Privacy risks are often based on to the degree to which a program or information system collects and makes use of [personally identifiable information (PII)](https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/OMB/circulars/a130/a130revised.pdf). Personally identifiable information (PII) is information that can be used to distinguish or trace an individual&rsquo;s identity, either alone or when combined with other information that is linked or linkable to a specific individual.
+
+As someone interested in shipping a product or service, you&rsquo;ll need to first **identify the agency** at which the product or service in question will obtain its authorization to operate (ATO). If that agency *not* the GSA, please skip the guidance below and instead contact the Privacy Office at the agency granting the ATO (as each agency has its own process for conducting privacy threshold and impact analyses). 
 
 Otherwise, take the following steps:
 
