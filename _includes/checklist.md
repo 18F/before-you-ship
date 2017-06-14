@@ -28,6 +28,7 @@ Everything in this section needs to be completed before the project will be sche
     - [ ] Add [System Security Plan (SSP)](https://before-you-ship.18f.gov/ato/ssp/) template
         * For Low systems on cloud.gov, use [this template](https://docs.google.com/a/gsa.gov/document/d/1tVbH39TFfvSaBbjWfLaR3GLOuvsLuhLFJ75xKowEV5c/edit?usp=sharing)
         * For a 90-day ATO, delete Section 13.
+    - [ ] Request a [privacy threshold analysis (PTA)](https://before-you-ship.18f.gov/privacy/)
 - [ ] Make a copy of the [ATO Sprinting notes template](https://docs.google.com/document/d/1EdcNyE1kkQve3tHyiV1QIRWNOBlTeh33lAbX0h4h18M/edit) and save it in the [Sprinting Team folder](https://drive.google.com/drive/folders/0B2tmNhXsZ-EyVkVra21NTmc0U00?usp=sharing) with a title of `ATO Sprinting Team notes - <project>`.
     - [ ] Fill out the placeholders.
     - [ ] Link to it as the `Sprint notes` at the top of this issue.
