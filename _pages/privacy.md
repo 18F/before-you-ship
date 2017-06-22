@@ -8,7 +8,7 @@ Privacy risks are often based on to the degree to which a program or information
 
 > information that can be used to distinguish or trace an individual&rsquo;s identity, either alone or when combined with other information that is linked or linkable to a specific individual.
 
-As someone interested in shipping a product or service, you&rsquo;ll need to first **identify the agency** at which the product or service in question will obtain its authorization to operate (ATO). If that agency *not* the GSA, please skip the guidance below and instead contact the Privacy Office at the agency granting the ATO (as each agency has its own process for conducting privacy threshold and impact analyses).
+As someone interested in shipping a product or service, you&rsquo;ll need to first **identify the agency** at which the product or service in question will obtain its authorization to operate (ATO). If that agency *not* the GSA, please skip the guidance below and instead contact the Privacy Office at the agency granting the ATO (as each agency has its own process for conducting privacy threshold analyses and impact assessments).
 
 ## Procedure for GSA projects
 
