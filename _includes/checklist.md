@@ -63,6 +63,7 @@ These tasks apply to every repository/application/hostname/language that is dire
 
 - [ ] Read the LATO guide<!-- unless not doing a LATO -->.
     * Search [this page](https://insite.gsa.gov/portal/content/627230) for "Lightweight Security Authorization Process".
+- [ ] Request a [privacy threshold analysis (PTA)](https://before-you-ship.18f.gov/privacy/)
 - [ ] Fill out the Rules of Engagement (RoE)
 - [ ] Add an [`.about.yml`](https://github.com/18F/about_yml) for the main repository.
 - [ ] [Update relevant documentation](https://before-you-ship.18f.gov/ato/tips/), primarily the README.

@@ -35,7 +35,7 @@ The canonical or singular nature of a function being provided by the system must
 
 For example, if we re-post data from weather.gov, it is less impactful for us to lose availability than it is for weather.gov itself. Conversely, GSA is the only source of FedBizOpps data - therefore our availability is much more important for that data and function, and we should select a higher impact level for `availability`.
 
-Storing [PII](../../privacy/pii/) always raises the level to at least `moderate` for the `confidentiality` and `integrity` objectives.
+Storing [personally identifiable information (PII)](../../privacy/) always raises the level to at least `moderate` for the `confidentiality` and `integrity` objectives.
 
 If there is any authorization or authentication being done, it is _likely_ at the `moderate` level for all metrics.
 

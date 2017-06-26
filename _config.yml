@@ -98,7 +98,7 @@ navigation:
   url: laws/
   internal: true
   children:
-  - text: 508 (Accessibility)
+  - text: 508 - Accessibility
     url: 508/
     internal: true
   - text: Paperwork Reduction Act (PRA)
@@ -107,16 +107,6 @@ navigation:
 - text: Privacy
   url: privacy/
   internal: true
-  children:
-  - text: Privacy Impact Assessment (PIA)
-    url: pia/
-    internal: true
-  - text: Personally Identifiable Information (PII)
-    url: pii/
-    internal: true
-  - text: System of Records Notice (SORN)
-    url: sorn/
-    internal: true
 
 repos:
 - name: Guides Template
