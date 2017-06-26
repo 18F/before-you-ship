@@ -19,7 +19,7 @@ These are just the concepts necessary for initial on-boarding. AWS has an [exten
 
 ## Building systems that will be deployed directly to AWS
 
-Although cloud.gov is strongly preferred as the production environment for the systems we build, there are some systems that will need to run on AWS.
+Although cloud.gov is strongly preferred as the production environment for the systems we build, there are some systems that will need to run on AWS. You can **see the GSA approval status and caveats for using different AWS services in [this spreadsheet](https://docs.google.com/spreadsheets/d/1kJrPqu10x80LaGQ_oXFDuoPkBdnaXrXTQVF_uJ14-ok/edit#gid=0)**.
 
 In order to ensure systems deployed to AWS are robust and reliable, and to ensure the integrity of information stored in AWS, we impose some additional restrictions on systems deployed to the 18F production AWS environment.
 
