@@ -56,7 +56,7 @@ We use a pre-hardened version of [Ubuntu](https://en.wikipedia.org/wiki/Ubuntu_%
 
 ### Other people's information
 
-Any system in AWS might have the public's information (as opposed to *public* data) at any time. Some systems, like [MyUSA](https://github.com/18F/myusa), use row-level encryption to help protect the information if it is sensitive. If you are unsure of the sensitivity of the data you're going to be handling, consult with 18F Infrastructure first.
+Any system in AWS might have the public's information (as opposed to *public* data) at any time. Some systems use stronger measures to help protect the information if it is sensitive. For example, [MyUSA](https://github.com/18F/myusa) uses row-level encryption.  If you are unsure of the sensitivity of the data you're going to be handling, consult with 18F Infrastructure first.
 
 Use common sense when handling this information. Unless you have permission *and* need to in order to do your job:
 
