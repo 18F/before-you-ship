@@ -10,7 +10,7 @@ The system security plan (SSP) is a long Google Doc. 18F is actively working on 
 
 ### Tips
 
-* Remember that the reviewer knows nothing about your system, and likely isn't even technical. The purpose of the SSP is to get the entire system and everything security-related around it into the brain of the reviewer.
+* Remember that the reviewer knows nothing about your system, and likely doesn't have software development background. The purpose of the SSP is to get the entire system and everything security-related around it into the brain of the reviewer.
 * Filling out the SSP is hard, and will likely be the most time-consuming part of the ATO process.
 * Work with your Infrastructure Lead to complete the SSP.
 * Sections 9, 10, and 13 are the hard/important ones to fill out. Focus on these first.
@@ -21,7 +21,7 @@ The system security plan (SSP) is a long Google Doc. 18F is actively working on 
 * When filling out the SSP, try taking a rough first pass, and flesh it out later.
 * Don't Repeat Yourself.
     * Lots of controls and sections have overlap - you will be tempted to restate the same thing multiple times. If this seems to be the case, reread the question _carefully_ to be sure. The SSP template authors choose their words carefully.
-    * Referencing an explanation in another control/section is preferable to restating the same thing.
+    * Rather than repeating the same thing across multiple controls/sections, give a brief summary with the core details of who's responsible and how the control is fulfilled, and then cross-reference the more detailed explanation in the other place.
 * Maintain consistency.
     * Inconsistency can confuse the reviewers, forcing them to come back and say "well, which is it?" which slows down the process.
     * Be especially careful to be consistent with terminology, using the exact names from the following tables throughout your ATO materials:
