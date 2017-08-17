@@ -21,13 +21,18 @@ Service | Dependency analysis | Code security analysis
 
 #### Gemnasium
 
+Gemnasium is used to scan your code for possible security issues and provides alerts for new issues that come to light.
+
 ##### Setting up your account
 
-1. [Sign into Gemnasium via GitHub.](https://gemnasium.com/login)
+1. [Sign into Gemnasium using your GitHub account.](https://gemnasium.com/login)
 1. Go to [your settings page](https://gemnasium.com/settings) and change it to use your work email, if it isn't already.
 1. Ask in [#infrastructure](https://gsa-tts.slack.com/messages/infrastructure/) to be invited to the devops@gsa.gov account.
+1. This provides you with access to the common dashboard for our projects.
 
 ##### Adding projects
+
+Do not add repos to Gemnasium on your individual account.
 
 Unfortunately, Gemnasium struggles (as of 01/2017) to handle all of 18F's repositories when adding a new one to monitor. Instead, use this work around:
 
