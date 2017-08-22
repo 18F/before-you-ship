@@ -28,7 +28,7 @@ Gemnasium is used to scan your code for possible security issues and provides al
 1. [Sign into Gemnasium using your GitHub account.](https://gemnasium.com/login)
 1. Go to [your settings page](https://gemnasium.com/settings) and change it to use your work email, if it isn't already.
 1. Ask in [#infrastructure](https://gsa-tts.slack.com/messages/infrastructure/) to be invited to the devops@gsa.gov account.
-1. This provides you with access to the common dashboard for our projects. Make sure that your project also has a backup with access to the dashboard.
+1. This provides you with access to the common dashboard for our projects. Make sure your project has multiple people with access to the gemnasium dashboard.
 
 ##### Adding projects
 
