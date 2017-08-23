@@ -28,6 +28,7 @@ The system security plan (SSP) is a long Google Doc. 18F is actively working on 
         * User Roles
         * Software Components
 * Refer to specific User Roles and Software Components in Title Case.
+* Only include information about your [soon-to-be] production system. Other environments (development/staging) are out of scope.
 
 ### System/network diagrams
 
