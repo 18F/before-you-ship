@@ -8,14 +8,27 @@ As described in [the NIST guide](http://csrc.nist.gov/publications/nistpubs/800-
 
 The system security plan (SSP) is a long Google Doc. 18F is actively working on a tool to generate them called [Compliance Masonry](https://github.com/opencontrol/compliance-masonry), which uses a machine-readable format for which template is below. For now, the Google Docs are the canonical versions of the SSP.
 
+### Tips
+
+* Remember that the reviewer knows nothing about your system, and likely doesn't have software development background. The purpose of the SSP is to get the entire system and everything security-related around it into the brain of the reviewer.
 * Filling out the SSP is hard, and will likely be the most time-consuming part of the ATO process.
-* Work with your Infrastructure Lead on completing the SSP.
-* Sections 9, 10, and 13 are the hard/important ones to fill out.
+* Work with your Infrastructure Lead to complete the SSP.
+* Sections 9, 10, and 13 are the hard/important ones to fill out. Focus on these first.
 * It will be easiest to fill out your SSP while going through side-by-side with a recent SSP, ideally for a similar system.
     * Looking at another SSP will help you understand the language/detail required.
     * Reuse/adapt content from previous SSP(s) whenever possible.
     * Your Infrastructure Lead can find an example SSP for you.
 * When filling out the SSP, try taking a rough first pass, and flesh it out later.
+* Don't Repeat Yourself.
+    * Lots of controls and sections have overlap - you will be tempted to restate the same thing multiple times. If this seems to be the case, reread the question _carefully_ to be sure. The SSP template authors choose their words carefully.
+    * Rather than repeating the same thing across multiple controls/sections, give a brief summary with the core details of who's responsible and how the control is fulfilled, and then cross-reference the more detailed explanation in the other place.
+* Maintain consistency.
+    * Inconsistency can confuse the reviewers, forcing them to come back and say "well, which is it?" which slows down the process.
+    * Be especially careful to be consistent with terminology, using the exact names from the following tables throughout your ATO materials:
+        * User Roles
+        * Software Components
+* Refer to specific User Roles and Software Components in Title Case.
+* Only include information about your [soon-to-be] production system. Other environments (development/staging) are out of scope.
 
 ### System/network diagrams
 
