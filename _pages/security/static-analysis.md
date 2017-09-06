@@ -69,9 +69,3 @@ Basic config files for the three static analysis tools can be found in the [comp
 We are especially interested to know if you get lots of false positives. We believe the default config files will grow and evolve, but the most up-to-date versions will always be found in the repo.
 
 More advanced configuration options for all three tools can be found in their respective docs.
-
-## Automation and future plans
-
-A representative from Code Climate recently gave a presentation at 18F about their new platform and [CLI](https://github.com/codeclimate/codeclimate). It acts as a wrapper around Docker images that can run any number of scans across projects, and many of the above tools are already available as [engines](https://docs.codeclimate.com/docs/list-of-engines) for the platform (Brakeman, bundler-audit, nsp, and ESLint). The lift to [create a new engine](http://blog.codeclimate.com/blog/2015/07/07/build-your-own-codeclimate-engine/) seems relatively low, so plans are in the works to [attempt to package Bandit as an engine](https://trello.com/c/PTL7z9uU/20-investigate-writing-a-code-climate-platform-engine-for-bandit) as well.
-
-Using a single tool for all of our static security analysis would allow all projects and teams, regardless of language, to have the same workflow with minor config changes required. It also would allow for easy insertion into a project's existing CI workflow. We already have this advantage with dependency analysis.
