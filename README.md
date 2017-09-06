@@ -1,4 +1,4 @@
-# 18F Before You Ship Guide [![Build Status](https://travis-ci.org/18F/before-you-ship.svg?branch=master)](https://travis-ci.org/18F/before-you-ship) [![CircleCI](https://circleci.com/gh/18F/before-you-ship.svg?style=svg)](https://circleci.com/gh/18F/before-you-ship)
+# 18F Before You Ship Guide [![CircleCI](https://circleci.com/gh/18F/before-you-ship.svg?style=svg)](https://circleci.com/gh/18F/before-you-ship)
 
 This is the source repository for the 18F [Before You Ship](https://before-you-ship.18f.gov/) guide.
 

@@ -6,8 +6,6 @@ exclude:
 - LICENSE.md
 - README.md
 - go
-# exclude cached gems on Travis
-# https://github.com/jekyll/jekyll/issues/2938#issuecomment-56237068
 - vendor/
 
 permalink: pretty
