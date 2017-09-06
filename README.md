@@ -1,14 +1,14 @@
-18F Before You Ship Guide [![Build Status](https://travis-ci.org/18F/before-you-ship.svg?branch=master)](https://travis-ci.org/18F/before-you-ship)
+# 18F Before You Ship Guide [![Build Status](https://travis-ci.org/18F/before-you-ship.svg?branch=master)](https://travis-ci.org/18F/before-you-ship) [![CircleCI](https://circleci.com/gh/18F/before-you-ship.svg?style=svg)](https://circleci.com/gh/18F/before-you-ship)
 
 This is the source repository for the 18F [Before You Ship](https://before-you-ship.18f.gov/) guide.
 
 This guide is maintained by the 18F/TTS Infrastructure team.
 
-### Development
+## Development
 
-See the Usage section of our [Contributing guidelines](https://github.com/18F/before-you-ship/blob/master/CONTRIBUTING.md#usage). 
+See the Usage section of our [Contributing guidelines](https://github.com/18F/before-you-ship/blob/master/CONTRIBUTING.md#usage).
 
-### Public domain
+## Public domain
 
 This project is in the worldwide [public domain](LICENSE.md). As stated in [CONTRIBUTING](CONTRIBUTING.md):
 
