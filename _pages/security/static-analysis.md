@@ -16,7 +16,7 @@ There are tools for JS, Ruby, and Python, and you are encouraged to set up this 
 Service | Dependency analysis | Code security analysis
 --- | --- | --- | ---
 [Code Climate](https://codeclimate.com/) | [Ruby](https://docs.codeclimate.com/v1.0/docs/bundler-audit) and [Node](https://docs.codeclimate.com/v1.0/docs/nodesecurity) (on `push` only) | [Rails](https://docs.codeclimate.com/v1.0/docs/brakeman) and [Node](https://docs.codeclimate.com/v1.0/docs/eslint) (using [plugins](#javascript))
-[Gemnasium](#gemnasium) | Ruby, Node, Python, PHP | N
+[Gemnasium](#gemnasium) | [list](http://support.gemnasium.com/knowledgebase/articles/1162735-what-dependency-technologies-are-you-supporting) | N
 [Hakiri](https://hakiri.io/) | Ruby | Rails only
 
 #### Gemnasium
