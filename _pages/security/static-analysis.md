@@ -52,7 +52,7 @@ Use one of the services above, which should support adding public repositories y
 
 ### Code analysis
 
-This is commonly referred to as "static analysis". Code analysis can be done by a [service](#services) (easiest), or within your existing continuous integration tool. Code analysis can be run locally with the following open source tools. These tools provide results similar (and in some cases, identical) to the hosted [services](#services) above.
+This is commonly referred to as "static analysis". Code analysis can be done by a [service](#services) (recommended), or within your existing continuous integration tool. Additional configuration information available below.
 
 #### JavaScript
 
@@ -73,30 +73,6 @@ To scan, from your project directory:
 If you have an existing `.eslintrc` file in your project root, you can instead download the file elsewhere and run:
 
     $ eslint -c <PATH_TO_ESLINTRC> .
-
-#### Ruby
-
-##### Rails
-
-There are several free and paid services that will do static security analysis of Ruby code, but almost all of them appear to be wrappers around [Brakeman](https://github.com/presidentbeef/brakeman). As such, we suggest going straight to the source.
-
-To install:
-
-    $ gem install brakeman
-
-Download the [config file](https://github.com/18F/compliance-toolkit/blob/master/configs/static/brakeman.yml) from the compliance-toolkit repo and copy it to ./config/brakeman.yml.
-
-To scan, from your project directory:
-
-    $ brakeman
-
-If you saved the config file elsewhere, you can also run:
-
-    $ brakeman -c <PATH_TO_BRAKEMAN_YML>
-
-##### Other Ruby Frameworks
-
-We do not have a recommended scanner for non-Rails frameworks. If there is a service or tool that works well, please [tell us about it](https://github.com/18F/before-you-ship/issues/new).
 
 #### Python
 
