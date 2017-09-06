@@ -11,13 +11,19 @@ Static analysis is an important part of the development process, and is required
 
 There are tools for JS, Ruby, and Python, and you are encouraged to set up this scanning early on in the development cycle to prevent unexpected delays when it's time to get your ATO. Note that there are _many_ tools out there for doing code style linting, but this page is specifically security-focused.
 
-## Services
+## Recommendations by language
 
-Service | Dependency analysis | Code security analysis
---- | --- | --- | ---
-[Code Climate](https://codeclimate.com/) | [Ruby](https://docs.codeclimate.com/v1.0/docs/bundler-audit) and [Node](https://docs.codeclimate.com/v1.0/docs/nodesecurity) (on `push` only) | [Rails](https://docs.codeclimate.com/v1.0/docs/brakeman) and [Node](https://docs.codeclimate.com/v1.0/docs/eslint) (using [plugins](#javascript))
-[Gemnasium](#gemnasium) | [list](http://support.gemnasium.com/knowledgebase/articles/1162735-what-dependency-technologies-are-you-supporting) | N
-[Hakiri](https://hakiri.io/) | Ruby | Rails only
+Language | Dependency analysis | Code security analysis
+--- | --- | ---
+Go | none known | see [below](#go)
+JavaScript | [Code Climate](https://docs.codeclimate.com/v1.0/docs/nodesecurity) or [Gemnasium](#gemnasium) | see [below](#javascript)
+Python | [Gemnasium](#gemnasium) | see [below](#python)
+Ruby | [Code Climate](https://docs.codeclimate.com/v1.0/docs/bundler-audit) or [Gemnasium](#gemnasium) | [Code Climate](https://docs.codeclimate.com/v1.0/docs/brakeman) or [Hakiri](https://hakiri.io/)<br>_both Rails only_
+
+### Notes
+
+* Code Climate only scans when the code is `push`ed, meaning it won't catch any vulnerabilities if the code isn't being actively worked on.
+* Wherever the table says "see below", that means there is no service available for scanning. Therefore, the recommended tool(s) should be run in continuous integration. Alternatively, you can also look into [building a Code Climate engine](https://docs.codeclimate.com/docs/building-a-code-climate-engine).
 
 ### Gemnasium
 
@@ -52,7 +58,7 @@ Use one of the services above, which should support adding public repositories y
 
 ## Code analysis
 
-This is commonly referred to as "static analysis". Code analysis can be done by a [service](#services) (recommended), or within your existing continuous integration tool. Additional configuration information available below.
+This is commonly referred to as "static analysis". Code analysis can be done by a [service](#recommendations-by-language) (recommended), or within your existing continuous integration tool. Additional configuration information available below.
 
 ### Go
 
