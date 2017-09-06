@@ -56,37 +56,15 @@ This is commonly referred to as "static analysis". Code analysis can be done by 
 
 ### JavaScript
 
-There are several tools available for running analysis on JS projects, but the most full featured seems to be [ESLint](http://eslint.org). ESLint doesn't offer security scanning out of the box, but it is pluggable and Mozilla has provided a set of rules that mimic the behavior of their now deprecated ScanJS. These rules are available on [github](https://github.com/mozfreddyb/eslint-plugin-scanjs-rules).
-
-To install:
-
-    $ npm install eslint-config-scanjs
-
-To scan, from your project directory:
-
-    $ eslint .
-
-If you have an existing `.eslintrc` file in your project root, you can instead download the file elsewhere and run:
-
-    $ eslint -c <PATH_TO_ESLINTRC> .
+Use [eslint-config-scanjs](https://github.com/mozfreddyb/eslint-config-scanjs).
 
 ### Python
 
-There are surprisingly few security-focused static code analyzers for Python. The best seems to be OpenStack's [Bandit](https://github.com/openstack/bandit).
-
-To install (preferably in a virtual environment):
-
-    $ pip install bandit
-
-Download the [config file](https://github.com/18F/compliance-toolkit/blob/master/configs/static/.bandit) from the compliance-toolkit repo into your project root. It will be automatically detected when you run Bandit.
-
-To scan, from your project directory:
-
-    $ bandit -r .
+Use [Bandit](https://github.com/openstack/bandit) with the provided [config file](https://github.com/18F/compliance-toolkit/blob/master/configs/static/.bandit) in your project root.
 
 ### Config files
 
-Basic config files for the three static analysis tools can be found in the [compliance-toolkit repo](https://github.com/18F/compliance-toolkit). These currently are little more than the default settings, but the recommendations may change. If you find a test that you believe is invalid, file an issue in the repo and give a shout in #cloud-gov-highbar in Slack.
+Basic config files for the three static analysis tools can be found in the [compliance-toolkit repo](https://github.com/18F/compliance-toolkit). These currently are little more than the default settings, but the recommendations may change. If you find a test that you believe is invalid, file an issue in the repo.
 
 We are especially interested to know if you get lots of false positives. We believe the default config files will grow and evolve, but the most up-to-date versions will always be found in the repo.
 

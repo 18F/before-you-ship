@@ -95,4 +95,4 @@ The [ZAP User Guide](https://github.com/zaproxy/zap-core-help/wiki) is phenomena
 
 The [OWASP Vulnerable Web Applications Directory](https://www.owasp.org/index.php/OWASP_Vulnerable_Web_Applications_Directory_Project#tab=Main) has a great list of (intentionally) vulnerable targets that are useful for testing the capability of ZAP.
 
-We are currently collecting best practices for using ZAP. If you have a particular approach, extension, or option that you find effective, let us know in #cloud-gov-highbar or [open an issue](https://github.com/18f/before-you-ship/issues/new)!
+We are currently collecting best practices for using ZAP. If you have a particular approach, extension, or option that you find effective, [open an issue](https://github.com/18f/before-you-ship/issues/new)!
