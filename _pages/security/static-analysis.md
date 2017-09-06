@@ -21,7 +21,7 @@ Service | Dependency analysis | Code security analysis
 
 ### Gemnasium
 
-Gemnasium is used to scan your code for possible security issues and provides alerts for new issues that come to light.
+Gemnasium is used to scan your code for possible security issues and provides alerts for new issues that come to light. Their list of supported dependency technologies is [here](http://support.gemnasium.com/knowledgebase/articles/1162735-what-dependency-technologies-are-you-supporting).
 
 #### Setting up your account
 
@@ -54,18 +54,22 @@ Use one of the services above, which should support adding public repositories y
 
 This is commonly referred to as "static analysis". Code analysis can be done by a [service](#services) (recommended), or within your existing continuous integration tool. Additional configuration information available below.
 
+### Go
+
+Use [Go Meta Linter](https://github.com/alecthomas/gometalinter), with the security-related [linters](https://github.com/alecthomas/gometalinter#supported-linters) (like [SafeSQL](https://github.com/stripe/safesql), if you're doing SQL queries) enabled.
+
 ### JavaScript
 
-Use [eslint-config-scanjs](https://github.com/mozfreddyb/eslint-config-scanjs).
+Try [eslint-config-scanjs](https://www.npmjs.com/package/eslint-config-scanjs) and [eslint-plugin-security](https://www.npmjs.com/package/eslint-plugin-security).
 
 ### Python
 
-Use [Bandit](https://github.com/openstack/bandit) with the provided [config file](https://github.com/18F/compliance-toolkit/blob/master/configs/static/.bandit) in your project root.
+Use [Bandit](https://github.com/openstack/bandit) with the provided [config file](https://github.com/18F/compliance-toolkit/blob/master/configs/static/.bandit) in your project root. There is also a work-in-progress [engine for Code Climate](https://github.com/18F/codeclimate-bandit).
 
 ### Config files
 
-Basic config files for the three static analysis tools can be found in the [compliance-toolkit repo](https://github.com/18F/compliance-toolkit). These currently are little more than the default settings, but the recommendations may change. If you find a test that you believe is invalid, file an issue in the repo.
+Basic config files for some static analysis tools can be found in the [compliance-toolkit repo](https://github.com/18F/compliance-toolkit). These currently are little more than the default settings, but the recommendations may change. If you find a test that you believe is invalid, file an issue in the repo.
 
 We are especially interested to know if you get lots of false positives. We believe the default config files will grow and evolve, but the most up-to-date versions will always be found in the repo.
 
-More advanced configuration options for all three tools can be found in their respective docs.
+More advanced configuration options for all the tools can be found in their respective docs.
