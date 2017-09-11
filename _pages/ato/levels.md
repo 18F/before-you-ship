@@ -49,6 +49,7 @@ For more information, see [NIST 800-18](http://csrc.nist.gov/publications/nistpu
 
 * [Table 1](http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-18r1.pdf#page=27) for FIPS categorization
 * [Section 3.13](http://csrc.nist.gov/publications/nistpubs/800-18-Rev1/sp800-18-Rev1-final.pdf#page=31) for security controls
+* [GSA FIPS 199 Security Categorization Template](https://insite.gsa.gov/portal/getMediaData?mediaId=547329)
 
 ### Examples
 
