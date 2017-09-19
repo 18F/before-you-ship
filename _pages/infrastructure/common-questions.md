@@ -8,8 +8,6 @@ navtitle: Common Questions
 See:
 
 * [cloud.gov DNSSEC information](https://cloud.gov/docs/apps/custom-domains/)
-* [18F DNSSEC policy](../../assets/18F DNSSEC Policy 2015.pdf)
-
 ### Do you support IPv6?
 
 Yes! [More information.](https://cloud.gov/docs/apps/custom-domains/)
