@@ -5,7 +5,7 @@ navtitle: Common Questions
 
 ### Do you support DNSSEC?
 
-For domains owned by 18F that speak HTTP, 18F follows the requirements of [OMB M-15-13](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2015/m-15-13.pdf) including [HTTP Strict Transport Security](https://https.cio.gov/hsts/) and the recommended additional step of [HSTS preloading](https://https.cio.gov/hsts/#hsts-preloading). 
+For domains owned by 18F that speak HTTP, 18F follows the requirements of [OMB M-15-13](https://www.whitehouse.gov/sites/whitehouse.gov/files/omb/memoranda/2015/m-15-13.pdf), including [HTTP Strict Transport Security](https://https.cio.gov/hsts/) and the recommended additional step of [HSTS preloading](https://https.cio.gov/hsts/#hsts-preloading). 
 
 For information on how HTTPS and HSTS compensate for an absence of DNSSEC for HTTP-based services, see:
 
