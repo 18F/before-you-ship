@@ -7,8 +7,3 @@ permalink: /
 The goal of this guide is to provide 18F staff with the information they need to launch software from a technical and compliance perspective. It explains requirements and best practices for projects at 18F, and the process of obtaining an ATO. **This site is a companion to [the Lifecycle section of 18F's Product Guide](https://product-guide.18f.gov/lifecycle-of-a-project/)**, which gives broader guidance.
 
 **Read this guide early and often**, especially when you're starting to consider a future project launch or feature release. **This isn't a last-minute pre-launch checklist.**
-
-### Key roles
-
-- **Authorizing Official (AO)** The AO is ultimately responsible for determining if the risk of operating the system is acceptable, and if so, issuing an Authority to Operate (ATO) for that system. At 18F the Director of Infrastructure is the AO.
-- **System Owner** The system owner is usually the product lead or tech lead of the project team. They will be named in the ATO documents and are the main contact during the evaluation process that leads up to an ATO.
