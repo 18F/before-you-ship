@@ -92,6 +92,9 @@ navigation:
   - text: Pinning Dependencies
     url: pinning-dependencies/
     internal: true
+  - text: Logging
+    url: logging/
+    internal: true
 - text: Laws
   url: laws/
   internal: true
