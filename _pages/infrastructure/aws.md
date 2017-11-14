@@ -19,7 +19,7 @@ These are just the concepts necessary for initial on-boarding. AWS has an [exten
 
 ## Building systems that will be deployed directly to AWS
 
-Although cloud.gov is strongly preferred as the production environment for the systems we build, there are some systems that will need to run on AWS.
+Although cloud.gov is strongly preferred as the production environment for the systems we build, there are some systems that will need to run on AWS. You can **see the GSA approval status and caveats for using different AWS services in [this spreadsheet](https://docs.google.com/spreadsheets/d/1kJrPqu10x80LaGQ_oXFDuoPkBdnaXrXTQVF_uJ14-ok/edit#gid=0)**.
 
 In order to ensure systems deployed to AWS are robust and reliable, and to ensure the integrity of information stored in AWS, we impose some additional restrictions on systems deployed to the 18F production AWS environment.
 
@@ -56,7 +56,7 @@ We use a pre-hardened version of [Ubuntu](https://en.wikipedia.org/wiki/Ubuntu_%
 
 ### Other people's information
 
-Any system in AWS might have the public's information (as opposed to *public* data) at any time. Some systems, like [MyUSA](https://github.com/18F/myusa), use row-level encryption to help protect the information if it is sensitive. If you are unsure of the sensitivity of the data you're going to be handling, consult with 18F Infrastructure first.
+Any system in AWS might have the public's information (as opposed to *public* data) at any time. Some systems use stronger measures to help protect the information if it is sensitive. For example, [MyUSA](https://github.com/18F/myusa) uses row-level encryption.  If you are unsure of the sensitivity of the data you're going to be handling, consult with 18F Infrastructure first.
 
 Use common sense when handling this information. Unless you have permission *and* need to in order to do your job:
 
@@ -64,10 +64,8 @@ Use common sense when handling this information. Unless you have permission *and
 * Don't share information
 * Don't view information
 
-Regardless of your own norms around privacy, always assume the owner of that data has the most conservative requirements unless they have taken express action, either through a communication or the system itself, telling you otherwise.
-
-We also take particular care in protecting [sensitive personally identifiable information (PII)](../../privacy/pii). PII is any information that can be linked back to an individual. For example, this can potentially include a person's full name when combined with other data, like their home address or phone number.
+Regardless of your own norms around privacy, always assume the owner of that data has the most conservative requirements unless they have taken express action, either through a communication or the system itself, telling you otherwise. Take particular care in protecting sensitive [personally identifiable information (PII)](../../privacy/).
 
 ### Your information
 
-In order to make sure we are protecting the integrity of the public systems, **_you_ have no expectation of privacy on any federal system**. Everything you do on these systems is subject to monitoring and auditing. 
+In order to make sure we are protecting the integrity of the public systems, **_you_ have no expectation of privacy on any federal system**. Everything you do on these systems is subject to monitoring and auditing.

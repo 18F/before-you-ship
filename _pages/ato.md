@@ -99,7 +99,7 @@ Your system may need a new ATO if your application team is planning to make subs
 
 * Encryption methodologies
 * Administrative functionality within the application
-* The kinds of information you store (e.g. [personally identifiable information](../privacy/pii/))
+* The kinds of information you store (for example, [personally identifiable information (PII)](../privacy/))
 
 The 18F Infrastructure team determines whether a system needs a new ATO. If you're planning a change that you think may require a new ATO, please [open a new issue in the Infrastructure repository](https://github.com/18F/Infrastructure/issues/new?title=ATO+re-authorization+for+%3Cproject%3E?) to explain your planned change, so they can evaluate whether it needs a new ATO.
 

@@ -35,7 +35,7 @@ The canonical or singular nature of a function being provided by the system must
 
 For example, if we re-post data from weather.gov, it is less impactful for us to lose availability than it is for weather.gov itself. Conversely, GSA is the only source of FedBizOpps data - therefore our availability is much more important for that data and function, and we should select a higher impact level for `availability`.
 
-Storing [PII](../../privacy/pii/) always raises the level to at least `moderate` for the `confidentiality` and `integrity` objectives.
+Storing [personally identifiable information (PII)](../../privacy/) always raises the level to at least `moderate` for the `confidentiality` and `integrity` objectives.
 
 If there is any authorization or authentication being done, it is _likely_ at the `moderate` level for all metrics.
 
@@ -49,6 +49,7 @@ For more information, see [NIST 800-18](http://csrc.nist.gov/publications/nistpu
 
 * [Table 1](http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-18r1.pdf#page=27) for FIPS categorization
 * [Section 3.13](http://csrc.nist.gov/publications/nistpubs/800-18-Rev1/sp800-18-Rev1-final.pdf#page=31) for security controls
+* [GSA FIPS 199 Security Categorization Template](https://insite.gsa.gov/portal/getMediaData?mediaId=547329)
 
 ### Examples
 

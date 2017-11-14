@@ -25,11 +25,10 @@ Everything in this section needs to be completed before the project will be sche
     - [ ] [In the `ATOs` folder in Google Drive](https://drive.google.com/a/gsa.gov/folderview?id=0BynIxtx-CfkdckljM3BPSkdQT1U&usp=sharing), go to `18F`/`OPP`/`PIF`, then `Work in progress`, and create a subfolder called in the format `<project> ATO - <duration> <level>`. Link to it as the `ATO folder` at the top of this issue.
     - [ ] Add Rules of Engagement (RoE) template
         * Search [this page](https://insite.gsa.gov/portal/content/627238) for "Rules of Engagement (RoE) 90-Day LATO Penetration Test TEMPLATE", even if this isn't for a 90-day LATO.
+        * [System/network diagram tips](https://before-you-ship.18f.gov/ato/ssp/#systemnetwork-diagrams)
     - [ ] Add [System Security Plan (SSP)](https://before-you-ship.18f.gov/ato/ssp/) template
         * For Low systems on cloud.gov, use [this template](https://docs.google.com/a/gsa.gov/document/d/1tVbH39TFfvSaBbjWfLaR3GLOuvsLuhLFJ75xKowEV5c/edit?usp=sharing)
         * For a 90-day ATO, delete Section 13.
-    - [ ] Add Project Plan template
-        * Search [this page](https://insite.gsa.gov/portal/content/627238) for "One Year LATO Project Plan Template", even if this isn't for a one-year LATO.
 - [ ] Make a copy of the [ATO Sprinting notes template](https://docs.google.com/document/d/1EdcNyE1kkQve3tHyiV1QIRWNOBlTeh33lAbX0h4h18M/edit) and save it in the [Sprinting Team folder](https://drive.google.com/drive/folders/0B2tmNhXsZ-EyVkVra21NTmc0U00?usp=sharing) with a title of `ATO Sprinting Team notes - <project>`.
     - [ ] Fill out the placeholders.
     - [ ] Link to it as the `Sprint notes` at the top of this issue.
@@ -38,16 +37,20 @@ Everything in this section needs to be completed before the project will be sche
 
 ##### Technical
 
-- [ ] Enable [protected branches](https://help.github.com/articles/about-protected-branches/) for the project repositor(ies).
-    * Get admin access via #admins-github, if needed.
+These tasks apply to every repository/application/hostname/language that is directly involved in your project.
+
+- [ ] Enable [protected branches](https://help.github.com/articles/about-protected-branches/) for the project repository.
+    * Get help via #admins-github, if needed.
 - [ ] Ensure that your production environment is fully set up, and matches what's described in your ATO materials.
 - [ ] [Set up monitoring](https://before-you-ship.18f.gov/infrastructure/monitoring/)
     * [ ] [Downtime alerts](https://before-you-ship.18f.gov/infrastructure/monitoring/#downtime)
     * [ ] [Error & performance alerts](https://before-you-ship.18f.gov/infrastructure/monitoring/#errors--performance-problems)
 - [ ] Perform security scans, and put the results (or a link to them) in the project's `ATO folder`.
-    * [ ] Set up [static analysis](https://before-you-ship.18f.gov/security/static-analysis/) for each language used in all relevant repositories
-        * [ ] Add service badges to the README
+    * [ ] Set up [dependency analysis](https://before-you-ship.18f.gov/security/static-analysis/) service
+        * [ ] Add service badge to your README
         * [ ] Put a point-in-time PDF of the scan results in the project's `ATO folder`.
+    * [ ] Set up [static code analysis](https://before-you-ship.18f.gov/security/static-analysis/)
+        * [ ] If using a service, add the badge to your README.
     * [ ] [Perform dynamic vulnerability scanning](https://before-you-ship.18f.gov/security/dynamic-scanning/)
         * [ ] Resolve any visible security issues, re-running the scan as needed
         * [ ] Add the issue-free scan report or [documentation about false positives](https://before-you-ship.18f.gov/security/dynamic-scanning/#caveats) to the project's ATO folder.
@@ -59,10 +62,12 @@ Everything in this section needs to be completed before the project will be sche
 
 ...reading and writing.
 
+- [ ] Read the [Overview](https://before-you-ship.18f.gov/) and [the ATO section (including sub-pages)](https://before-you-ship.18f.gov/ato/) of Before You Ship.
 - [ ] Read the LATO guide<!-- unless not doing a LATO -->.
     * Search [this page](https://insite.gsa.gov/portal/content/627230) for "Lightweight Security Authorization Process".
+- [ ] Request a [privacy threshold analysis (PTA)](https://before-you-ship.18f.gov/privacy/)
 - [ ] Fill out the Rules of Engagement (RoE)
-- [ ] Fill out the Project Plan.
+    * [Network diagram tips](https://before-you-ship.18f.gov/ato/ssp/#systemnetwork-diagrams)
 - [ ] Add an [`.about.yml`](https://github.com/18F/about_yml) for the main repository.
 - [ ] [Update relevant documentation](https://before-you-ship.18f.gov/ato/tips/), primarily the README.
 - [ ] [Fill out the System Security Plan (SSP).](https://before-you-ship.18f.gov/ato/ssp/)
