@@ -75,7 +75,4 @@ See cloud.gov page on [deploying static sites](https://docs.cloud.gov/apps/stati
 
 #### Federalist
 
-See [the Federalist homepage](https://federalist.18f.gov) for more information.
-
-* **Internal:** Likely free, but start by checking with #federalist with your use case.
-* **External:** Federalist is currently offered for $12000/year. Check in with #federalist about your sales lead!
+[More information.](federalist/)

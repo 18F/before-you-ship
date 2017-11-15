@@ -83,6 +83,9 @@ navigation:
   - text: Amazon Web Services
     url: aws/
     internal: true
+  - text: Federalist
+    url: federalist/
+    internal: true
   - text: Good Production Practices
     url: good-production-practices/
     internal: true

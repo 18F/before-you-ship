@@ -4,6 +4,11 @@ title: Lifecycle of a Launch
 
 Every federal information system must go through NIST's [Risk Management Framework](background/) before it can be used to process federal information. This process culminates in a signed Authority to Operate (ATO) being issued. Because the ATO process is a complex, multi-step process which will constrain the design and implementation of your system, you should start thinking about how it applies to your system _before_ you begin designing and implementing it.
 
+### Key roles
+
+- **Authorizing Official (AO)** The AO is ultimately responsible for determining if the risk of operating the system is acceptable, and if so, issuing an Authority to Operate (ATO) for that system. At 18F the Director of Infrastructure is the AO.
+- **System Owner** The system owner is usually the product lead or tech lead of the project team. They will be named in the ATO documents and are the main contact during the evaluation process that leads up to an ATO.
+
 ### Timeline
 
 There are a few factors that will determine how long it takes a project to get an ATO. These map to [the checklist](checklist/), so might be helpful to open that up in another window and follow along.
