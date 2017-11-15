@@ -8,7 +8,7 @@ Organized by language.
 
 ### [Node.js](https://nodejs.org/)
 
-* See info on JavaScript [static security analysis](../static-analysis/#javascript)
+* See info on JavaScript [static security analysis](../static-analysis/#recommendations-by-language)
 
 #### [Express](https://expressjs.com/)
 
@@ -22,7 +22,7 @@ Organized by language.
 
 #### [Django](https://www.djangoproject.com/)
 
-* Set up [static security analysis](../static-analysis/#python).
+* Set up [static security analysis](../static-analysis/#recommendations-by-language).
 * Read through the official [deployment checklist](https://docs.djangoproject.com/en/stable/howto/deployment/checklist/).
 
 See also:
@@ -34,7 +34,7 @@ See also:
 
 #### [Flask](http://flask.pocoo.org/)
 
-* Set up [static security analysis](../static-analysis/#python)
+* Set up [static security analysis](../static-analysis/#recommendations-by-language)
 * Read through the [official security docs](http://flask.pocoo.org/docs/security/)
 * Consider using [Flask-Security](https://pythonhosted.org/Flask-Security/)
 
@@ -47,7 +47,7 @@ See also:
 
 #### [Rails](http://rubyonrails.org/)
 
-* Set up [static security analysis](../static-analysis/#rails).
+* Set up [static security analysis](../static-analysis/#recommendations-by-language).
 * Read through [Secure Rails](https://github.com/ankane/secure_rails).
 * If you need authorization, consider using the gems listed below. Use the linked instructions to ensure you have authorization applied to all appropriate controller actions.
     * [CanCanCan](https://github.com/CanCanCommunity/cancancan#4-lock-it-down)
@@ -60,7 +60,7 @@ More info:
 
 #### [Sinatra](http://www.sinatrarb.com/)/[Padrino](http://padrinorb.com/)
 
-* Set up [static security analysis](../static-analysis/#other-ruby-frameworks). We are currently seeking recommendations for this configuration.
+* Set up [static security analysis](../static-analysis/#recommendations-by-language). We are currently seeking recommendations for this configuration.
 * Ensure that [rack-protection](https://github.com/sinatra/rack-protection) and/or [SecureHeaders](https://github.com/twitter/secureheaders) is enabled and configured.
 
 More info:
