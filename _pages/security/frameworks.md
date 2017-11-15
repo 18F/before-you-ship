@@ -8,7 +8,7 @@ Organized by language.
 
 ### [Node.js](https://nodejs.org/)
 
-* See info on JavaScript [static security analysis](../static-analysis/#javascript)
+* See info on JavaScript [static security analysis](../static-analysis/#recommendations-by-language)
 
 #### [Express](https://expressjs.com/)
 
@@ -22,7 +22,7 @@ Organized by language.
 
 #### [Django](https://www.djangoproject.com/)
 
-* Set up [static security analysis](../static-analysis/#python).
+* Set up [static security analysis](../static-analysis/#recommendations-by-language).
 * Read through the official [deployment checklist](https://docs.djangoproject.com/en/stable/howto/deployment/checklist/).
 
 See also:
@@ -34,7 +34,7 @@ See also:
 
 #### [Flask](http://flask.pocoo.org/)
 
-* Set up [static security analysis](../static-analysis/#python)
+* Set up [static security analysis](../static-analysis/#recommendations-by-language)
 * Read through the [official security docs](http://flask.pocoo.org/docs/security/)
 * Consider using [Flask-Security](https://pythonhosted.org/Flask-Security/)
 

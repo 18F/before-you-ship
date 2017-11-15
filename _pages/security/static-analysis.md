@@ -15,10 +15,10 @@ There are tools for JS, Ruby, and Python, and you are encouraged to set up this 
 
 Language | Dependency analysis | Code security analysis
 --- | --- | ---
-Go | none known | see [below](#go)
-JavaScript | [Code Climate](https://docs.codeclimate.com/v1.0/docs/nodesecurity) or [Gemnasium](#gemnasium) | see [below](#javascript)
-Python | [Gemnasium](#gemnasium) | see [below](#python)
-Ruby | [Code Climate](https://docs.codeclimate.com/v1.0/docs/bundler-audit) or [Gemnasium](#gemnasium) | [Code Climate](https://docs.codeclimate.com/v1.0/docs/brakeman) or [Hakiri](https://hakiri.io/)<br>_both Rails only_
+Go | none known | [Go Meta Linter](https://github.com/alecthomas/gometalinter), with the security-related [linters](https://github.com/alecthomas/gometalinter#supported-linters) (like [SafeSQL](https://github.com/stripe/safesql), if you're doing SQL queries) enabled
+JavaScript | [Code Climate](https://docs.codeclimate.com/v1.0/docs/nodesecurity) or [Gemnasium](#gemnasium) | [eslint-config-scanjs](https://www.npmjs.com/package/eslint-config-scanjs) / [eslint-plugin-security](https://www.npmjs.com/package/eslint-plugin-security)
+Python | [Gemnasium](#gemnasium) | [Bandit](https://github.com/openstack/bandit) with the provided [config file](https://github.com/18F/compliance-toolkit/blob/master/configs/static/.bandit); [engine for Code Climate](https://github.com/18F/codeclimate-bandit)
+Ruby | [Code Climate](https://docs.codeclimate.com/v1.0/docs/bundler-audit) or [Gemnasium](#gemnasium) | [Code Climate](https://docs.codeclimate.com/v1.0/docs/brakeman) or [Hakiri](https://hakiri.io/) - _Rails only_
 
 ### Notes
 
@@ -59,18 +59,6 @@ Use one of the services above, which should support adding public repositories y
 ## Code analysis
 
 This is commonly referred to as "static analysis". Code analysis can be done by a [service](#recommendations-by-language) (recommended), or within your existing continuous integration tool. Additional configuration information available below.
-
-### Go
-
-Use [Go Meta Linter](https://github.com/alecthomas/gometalinter), with the security-related [linters](https://github.com/alecthomas/gometalinter#supported-linters) (like [SafeSQL](https://github.com/stripe/safesql), if you're doing SQL queries) enabled.
-
-### JavaScript
-
-Try [eslint-config-scanjs](https://www.npmjs.com/package/eslint-config-scanjs) and [eslint-plugin-security](https://www.npmjs.com/package/eslint-plugin-security).
-
-### Python
-
-Use [Bandit](https://github.com/openstack/bandit) with the provided [config file](https://github.com/18F/compliance-toolkit/blob/master/configs/static/.bandit) in your project root. There is also a work-in-progress [engine for Code Climate](https://github.com/18F/codeclimate-bandit).
 
 ### Config files
 
