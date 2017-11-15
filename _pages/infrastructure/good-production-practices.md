@@ -36,9 +36,7 @@ We will be adding more documentation about how to achieve these within 18F's inf
 
 ### Logs
 
-- **Logs are captured to durable storage before rotation**
-- **Logs with sensitive data are only available to appropriate people**
-- Logs can be browsed/drilled with low-latency (eg grepping not necessary)
+See [Logging](../logging/).
 
 ### Monitoring
 
