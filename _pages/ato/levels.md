@@ -54,5 +54,5 @@ For more information, see [NIST 800-18](http://csrc.nist.gov/publications/nistpu
 ### Examples
 
 * Low: [CALC](https://calc.gsa.gov)
-* Moderate: [cloud.gov](https://cloud.ogv), future-state of [fec.gov](https://fec.gov/).
+* Moderate: [cloud.gov](https://cloud.gov), future-state of [fec.gov](https://fec.gov/).
 * High: the future-state of [login.gov](https://login.gov)

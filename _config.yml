@@ -70,6 +70,9 @@ navigation:
   - text: Frameworks
     url: frameworks/
     internal: true
+  - text: Multi-Factor Authentication
+    url: mfa/
+    internal: true
 - text: Infrastructure
   url: infrastructure/
   internal: true
