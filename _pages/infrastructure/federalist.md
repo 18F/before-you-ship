@@ -8,7 +8,7 @@ Use Federalist for publishing static sites. See [the Federalist homepage](https:
 ## Cost
 
 * **Internal:** Likely free, but start by checking with #federalist with your use case.
-* **External:** Federalist is currently offered for $12000/year. Check in with #federalist about your sales lead!
+* **External:** Federalist is currently offered for $2494/year. Check in with #federalist-business about your sales lead!
 
 ## ATOs
 
