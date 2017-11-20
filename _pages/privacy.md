@@ -10,7 +10,7 @@ The privacy risk posed by PII largely depends upon the degree to which it can be
 
 ## Procedure for GSA projects
 
-1. Identify the agency at which the product or service in question will obtain its authorization to operate (ATO). If that agency *not* the GSA, skip the remaining steps and instead contact the Privacy Office at the agency granting the ATO (as each agency has its own process for conducting privacy threshold analyses and impact assessments).
+1. Identify the agency at which the product or service in question will obtain its authorization to operate (ATO). If that agency is *not* the GSA, skip the remaining steps and instead contact the Privacy Office at the agency granting the ATO (as each agency has its own process for conducting privacy threshold analyses and impact assessments).
 1. Submit a request for a Privacy Threshold Analysis (PTA).
     1. Download and complete the "Privacy Threshold Analysis (PTA) Template" from [this page](https://insite.gsa.gov/portal/content/627238).
     1. Send completed document to [gsa.privacyact@gsa.gov](mailto:gsa.privacyact@gsa.gov).
