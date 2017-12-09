@@ -9,6 +9,10 @@ Every federal information system must go through NIST's [Risk Management Framewo
 - **Authorizing Official (AO)** The AO is ultimately responsible for determining if the risk of operating the system is acceptable, and if so, issuing an Authority to Operate (ATO) for that system. At 18F the Director of Infrastructure is the AO.
 - **System Owner** The system owner is usually the product lead or tech lead of the project team. They will be named in the ATO documents and are the main contact during the evaluation process that leads up to an ATO.
 
+### Definitions
+
+- **Information system** means a discrete set of information resources organized for the collection, processing, maintenance, use, sharing, dissemination, or disposition of information ([44 U.S.C. § 3502](https://www.law.cornell.edu/uscode/text/44/3502#8)).
+
 ### Timeline
 
 There are a few factors that will determine how long it takes a project to get an ATO. These map to [the checklist](checklist/), so might be helpful to open that up in another window and follow along.
