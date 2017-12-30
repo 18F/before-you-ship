@@ -54,7 +54,7 @@ These tasks apply to every repository/application/hostname/language that is dire
         * [ ] If using a service, add the badge to your README.
     * [ ] [Perform dynamic vulnerability scanning](https://before-you-ship.18f.gov/security/dynamic-scanning/)
         * [ ] Resolve any visible security issues, re-running the scan as needed
-        * [ ] Add the issue-free scan report or [documentation about false positives](https://before-you-ship.18f.gov/security/dynamic-scanning/#caveats) to the project's ATO folder.
+        * [ ] Add the issue-free scan report or documentation about false positives to the project's ATO folder.
 - [ ] If this is a new system, add a prominent [`Beta`](https://18f.gsa.gov/dashboard/stages/) label to the site.
 - [ ] Ensure the production environment has sufficient capacity to withstand the testing.
     * The testing tools create very heavy usage and traffic.
