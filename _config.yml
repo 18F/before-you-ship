@@ -101,6 +101,9 @@ navigation:
   - text: Logging
     url: logging/
     internal: true
+  - text: Decommissioning
+    url: decommissioning/
+    internal: true
 - text: Laws
   url: laws/
   internal: true
