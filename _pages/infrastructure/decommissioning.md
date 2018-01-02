@@ -3,10 +3,17 @@ title: Decommissioning
 parent: infrastructure
 ---
 
-When taking down a production system, do the following:
+When taking down a production system, [create an issue in the Infrastructure repository](https://github.com/18F/Infrastructure/issues/new?title=Decommissioning+%5Bproject%5D) using [this template](https://raw.githubusercontent.com/18F/before-you-ship/master/_includes/decommissioning_checklist.md) as the body. Feel free to add a username after each task to assign it, and/or make corresponding items in your issue tracker.
 
-* Export any production data and put it into Google Drive, for [records retention](https://handbook.18f.gov/records-management/) purposes.
-* Ask in [#cg-support](https://gsa-tts.slack.com/messages/cg-support) for the cloud.gov organization to be deleted.
-* Delete any associated AWS resources.
-* [Archive the GitHub repositor(ies)](https://help.github.com/articles/archiving-repositories/). Ask in [#admins-github](https://gsa-tts.slack.com/messages/admins-github) if you need help.
-* Optional: Put up a Federalist site with an embedded Google Form at [the same URL](https://federalist-docs.18f.gov/pages/how-federalist-works/custom-urls/). See [the Fugacious page](https://fugacious.18f.gov/) ([code](https://github.com/18F/fugacious-landing)) as an example.
+You are welcome to ask any questions as comments in the issue or [#infrastructure](https://gsa-tts.slack.com/messages/infrastructure).
+
+## Checklist preview
+
+---
+
+{% comment %}
+  render the checklist, showing the checkboxes (as GitHub will) and making the links back to this site relative
+  https://github.com/jekyll/jekyll/issues/1303#issuecomment-21067548
+{% endcomment %}
+{% capture checklist_content %}{% include decommissioning_checklist.md %}{% endcapture %}
+{{ checklist_content | replace: '- [ ]', '* [ ]' | replace: '* [ ]', '* <input type="checkbox" disabled>' | replace: '1. [ ]', '1. <input type="checkbox" disabled>' | replace: 'https://before-you-ship.18f.gov/', '../../' }}

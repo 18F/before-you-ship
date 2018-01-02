@@ -14,7 +14,7 @@ Make sure to:
 * Mention the [@18F/ato](https://github.com/orgs/18F/teams/ato) team in any issues or pull requests.
 * Leave a comment in the ATO issue when the `Project team` section of the checklist is complete and ready for review.
 
-You are welcome to ask any questions as comments in the issue or #infrastructure.
+You are welcome to ask any questions as comments in the issue or [#infrastructure](https://gsa-tts.slack.com/messages/infrastructure).
 
 ## Checklist preview
 
