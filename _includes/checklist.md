@@ -69,7 +69,6 @@ These tasks apply to every repository/application/hostname/language that is dire
 - [ ] Request a [privacy threshold analysis (PTA)](https://before-you-ship.18f.gov/privacy/)
 - [ ] Fill out the Rules of Engagement (RoE)
     * [Network diagram tips](https://before-you-ship.18f.gov/ato/ssp/#systemnetwork-diagrams)
-- [ ] Add an [`.about.yml`](https://github.com/18F/about_yml) for the main repository.
 - [ ] [Update relevant documentation](https://before-you-ship.18f.gov/ato/tips/), primarily the README.
 - [ ] [Fill out the System Security Plan (SSP).](https://before-you-ship.18f.gov/ato/ssp/)
 
