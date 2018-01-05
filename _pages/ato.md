@@ -99,8 +99,8 @@ Once all of the materials are prepared and testing is done and the system is con
 There are several ways to ensure that your system remains compliant:
 
 * Act on any security notifications from your [static analysis](../security/static-analysis/).
-* Perform and act on finding from [dynamic scanning](../security/dynamic-scanning/).
-* Keep your `about.yml`, a copy of your System Security Plan, and any other architecture/security-related documentation up-to-date.
+* Perform and act on findings from [dynamic scanning](../security/dynamic-scanning/).
+* Keep your System Security Plan (and any other architecture/security-related documentation) up-to-date.
 
 ### System changes that may require a new ATO
 
