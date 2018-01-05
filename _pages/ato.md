@@ -100,7 +100,7 @@ There are several ways to ensure that your system remains compliant:
 
 * Act on any security notifications from your [static analysis](../security/static-analysis/).
 * Act on any security notifications from your [automated vulnerability scanning](../security/dynamic-scanning/#automated-scanning).
-* Keep your `about.yml`, a copy of your System Security Plan, and any other architecture/security-related documentation up-to-date.
+* Keep your System Security Plan (and any other architecture/security-related documentation) up-to-date.
 
 ### System changes that may require a new ATO
 
