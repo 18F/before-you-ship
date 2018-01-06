@@ -67,6 +67,9 @@ As configured, the Spider does not follow links to other domains or subdomains. 
 
 The Alerts pane lists all alerts discovered while scanning the site. As described on the [alerts page](../scanning#alerts), the red and orange-flagged alerts must be taken care of before the application can be ATO'd. You have a little more flexibility when dealing with the yellow and blue flags, but all of them must be either corrected or, in the case of false positives, documented.
 
+
+Optional: When you get false positives, you can [file issues with the ZAP project](https://github.com/zaproxy/zaproxy/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+false+positive) to help them improve the alerting rules to prevent false positives.
+
 If you're running the attack against a local server you may see some alerts that you wouldn't see on cloud.gov. Debugging web servers are more 'chatty' about errors than production servers.
 
 ## Other Tools Within ZAP
