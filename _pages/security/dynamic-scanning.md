@@ -5,13 +5,13 @@ parent: Security
 
 In order for an application to get ATO, it needs to meet more than a minimum level of application security, so the application team needs to run [both static and dynamic security scans](../scanning/) and document good results. Running a "dynamic" scan means running a program that analyzes a live running application for common vulnerabilities.
 
-As part of the process of getting an ATO at 18F, **your application team will need to set up [OWASP ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project) to do dynamic vulnerability scanning of your application (either automated or manual scans)**. ZAP can function as either an active (Spider & Attack options) or a passive (man-in-the-middle/proxy) scanner, but is usually used as a combination of both. If you (or another person on your application team) has questions about setting this up, ask #infrastructure for help.
+As part of the process of getting an ATO at 18F, **your application team will need to set up [OWASP ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project) to do dynamic vulnerability scanning of your application**. ZAP can function as either an active (Spider & Attack options) or a passive (man-in-the-middle/proxy) scanner, but is usually used as a combination of both. If you (or another person on your application team) has questions about setting this up, ask #infrastructure for help.
 
 ![ZAP home screen](../../assets/images/zap_home.png)
 
 ## Preface
 
-You will need a running application to test, which you will want to be as production-like as possible—ideally a staging environment. Running a scan can cause a spike in requests and errors, so **inform your team and [#infrastructure](https://18f.slack.com/messages/infrastructure/) if you are going to run it on a production site.**
+You will need a running application to test, which you will want to be as production-like as possible—ideally a staging environment. Running a scan can cause a spike in requests and errors, so **inform your team and [#infrastructure](https://gsa-tts.slack.com/messages/infrastructure/) if you are going to run it on a production site.**
 
 We gave an introduction to ZAP talk as part of our engineering tech talks series.
 
@@ -50,7 +50,6 @@ Using the the [Quick Start](https://github.com/zaproxy/zap-core-help/wiki/HelpAd
     1. Click the `Alerts` tab.
     1. Above the `Alerts` list, click the ![target icon](../../assets/images/zap_target.png) (so that it turns red) to `Show only URLs in scope`.
 1. [Investigate the listed alerts.](#alerts)
-1. [Mark false positives.](http://stackoverflow.com/a/24779317/358804)
 1. Export the results.
     1. In the menu bar, go to `Report` -> `Generate HTML Report`.
 
@@ -67,6 +66,9 @@ As configured, the Spider does not follow links to other domains or subdomains. 
 ![alert results](../../assets/images/alert_results.png)
 
 The Alerts pane lists all alerts discovered while scanning the site. As described on the [alerts page](../scanning#alerts), the red and orange-flagged alerts must be taken care of before the application can be ATO'd. You have a little more flexibility when dealing with the yellow and blue flags, but all of them must be either corrected or, in the case of false positives, documented.
+
+
+Optional: When you get false positives, you can [file issues with the ZAP project](https://github.com/zaproxy/zaproxy/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+false+positive) to help them improve the alerting rules to prevent false positives.
 
 If you're running the attack against a local server you may see some alerts that you wouldn't see on cloud.gov. Debugging web servers are more 'chatty' about errors than production servers.
 
