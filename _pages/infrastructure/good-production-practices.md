@@ -33,7 +33,6 @@ We will be adding more documentation about how to achieve these within 18F's inf
 - Clear entry point for complaints
 - Clear escalation for handling infrastructure vs application vs api problems
 - Support queue is public
-- Resources are appropriately tagged
 
 ### Logs
 
