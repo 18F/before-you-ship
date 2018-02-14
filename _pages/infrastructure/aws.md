@@ -69,9 +69,3 @@ Regardless of your own norms around privacy, always assume the owner of that dat
 ### Your information
 
 In order to make sure we are protecting the integrity of the public systems, **_you_ have no expectation of privacy on any federal system**. Everything you do on these systems is subject to monitoring and auditing.
-
-### Tagging
-
-Tagging resources in AWS is essential for identifying and tracking resources deployed.  A tagged resource makes it easier for reasoning from a [billing perspective](../sandbox#other-people's-money) and aids in determining if a system is in a particular environment (ex. production).  See the [sandbox](../sandbox) environment to see how tagged resources enables lifecycle management of resources in AWS.
-
-At a minimum, an AWS resource must have a `Project` tag defined with enough information to be able to identify a project that the AWS resource is associated with.
