@@ -13,4 +13,4 @@ Most of the security practices have been integrated into the [ATO](../ato) porti
     * trust unsanitized information from the internet
     * do not encrypt data, both at rest and in transit
     * may be subject to privilege escalation
-    * other items from the [OWASP Top 10](https://www.owasp.org/index.php/Top_10_2013-Top_10)
+    * other items from the [OWASP Top 10](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project)
