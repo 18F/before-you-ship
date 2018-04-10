@@ -28,6 +28,25 @@ in development, causing it to be deployed along with the source code:
 
 ## Node.JS
 
+### Using npm
+
+Package locking is built into `npm` >= 5. As you `npm install` packages,
+they'll be added to your `package.json` file and exact versions of all
+libraries (including dependencies of dependencies) will be referenced in the
+[`package-lock.json`](https://docs.npmjs.com/files/package-lock.json) file.
+Running `npm install` with no arguments will install the versions of libraries
+defined in that lock file. Both the `package.json` and lock file should be
+committed to the project repo.
+
+If using `npm` < 5, you may imitate some of the above behavior by creating a
+"shrinkwrap" file. As you install packages, use `npm install --save` to update
+your `package.json`. After making changes, run [`npm
+shrinkwrap`](https://docs.npmjs.com/cli/shrinkwrap) to generate an
+`npm-shrinkwrap.json` file, which references the versions of all the currently
+installed packages. `npm install` with no arguments will inspect that file and
+install the versions it defines. Both the `package.json` and shrinkwrap file
+should be committed to the project repo.
+
 ### Using yarn
 
 If you are using [`yarn`](https://yarnpkg.com) to manage your node dependencies,
@@ -39,25 +58,6 @@ during development:
 > This allows Yarn to install the same exact dependency tree across all machines,
 > whether it be your coworker’s laptop or a CI server.
 
-### Using npm shrinkwrap
-
-If you are using `npm` to manage your node dependencies, you can use
-`npm shrinkwrap` to pin module versions. When run, `npm shrinkwrap` will recursively
-traverse the dependency tree of the target project and generate a file called
-`npm-shrinkwrap.json`. This file will list the currently installed versions of
-all packages in the local project's `node_modules` folder. You should commit
-`npm-shrinkwrap.json` to your project's repository.
-
-When `npm-shrinkwrap.json` is present, installing dependencies using
-`npm install` will reproduce the dependency tree represented in it.
-If you have `npm` version 3+, which is recommended, then running
-`npm install --save <package_name>` will update `npm-shrinkwrap.json` with the
-new or updated package and its dependencies.
-If you are using a previous version `npm`, you will have to regenerate your
-`npm-shrinkwrap.json` by running `npm shrinkwrap` again to update dependencies
-specified in it.
-
-More information on `npm shrinkwrap` can be found at [https://docs.npmjs.com/cli/shrinkwrap](https://docs.npmjs.com/cli/shrinkwrap)
 
 ## Python
 
