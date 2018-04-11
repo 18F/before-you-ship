@@ -10,8 +10,8 @@ pinning takes different forms in different frameworks, but the high-level idea
 is to "freeze" dependencies so that deployments are repeatable. Without this,
 we run the risk of executing different software whenever servers are restaged,
 a new team-member joins the project, or between development and production
-environments. In addition to repeatability, pinning dependencies allow
-automatic notifications of vulnerable dependencies (via
+environments. In addition to repeatability, pinning dependencies allows
+automatic notification of vulnerable dependencies (via
 [Gemnasium](https://gemnasium.com), [Requires.io](https://requires.io/),
 etc.).
 
