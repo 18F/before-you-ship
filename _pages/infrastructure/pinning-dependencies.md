@@ -4,14 +4,16 @@ parent: Good Production Practices
 ---
 
 The practice of "pinning dependencies" refers to making explicit the versions
-of software your application depends on. It takes different forms in different
-frameworks, but the high-level idea is to "freeze" dependencies so that
-deployments are repeatable. Without this, we run the risk of executing
-different software whenever servers are restaged, a new team-member joins the
-project, or between development and production environments. In addition to
-repeatability, pinning dependencies allow automatic notifications of
-vulnerable dependencies (via [Gemnasium](https://gemnasium.com),
-[Requires.io](https://requires.io/), etc.).
+of software your _application_ depends on (defining the dependencies of new
+software _libraries_ is outside the scope of this document). Dependency
+pinning takes different forms in different frameworks, but the high-level idea
+is to "freeze" dependencies so that deployments are repeatable. Without this,
+we run the risk of executing different software whenever servers are restaged,
+a new team-member joins the project, or between development and production
+environments. In addition to repeatability, pinning dependencies allows
+automatic notification of vulnerable dependencies (via
+[Gemnasium](https://gemnasium.com), [Requires.io](https://requires.io/),
+etc.).
 
 As such, all deployed applications should be pinning their library (and where
 possible: language, OS, etc.) versions. Let's look at how to implement this in
@@ -61,33 +63,49 @@ during development:
 
 ## Python
 
-In Python, you should specify pinned dependencies in `requirements.txt`, and
-you should be sure to use specific, frozen versions -- e.g. `Django==1.9.6`,
-`six==1.10.0`, etc. You can generate this using `pip freeze`; a common idiom
-is `pip freeze > requirements.txt` to generate the frozen list and stream it
-into `requirements.txt`. Be sure to run this command in an activated virtualenv
-to avoid freezing system-wide dependencies.
+### Using pipenv
 
-Unlike Ruby and Node, Python doesn't have a separate file for "input"
-dependencies (`Gemfile` in Ruby, `package.json` in Node) vs "frozen" ones
-(`Gemfile.lock` / `npm-shrinkwrap.json`). This can lead to some confusion:
-you'll sometimes see un-pinned dependencies (e.g. just `Django` or `six`) in
-`requirements.txt`. This is a bad idea as it can cause dependency failures in
-the future.
+[Pipenv](https://docs.pipenv.org/) is [Python.org](https://python.org)'s
+officially recommended packaging tool. It's a mixture of dependency tracking
+and virtualenv management (bringing it close to Ruby's `bundler`). To install
+dependencies use
 
-However, since having an "input" dependency list can be useful, here are
-a couple of not-yet-standardized-but-widespread practices you can use:
+```
+pipenv install django
+# or, with stricter version bounds
+pipenv install django~=2.0.4
+```
 
-- Create a `requirements.in` file, specifying un-pinned dependencies. You can
-then use `pip install --upgrade -r requirements.in` to upgrade all your
-requirements, test that they work, and the `pip freeze > requirements.txt` to
-re-freeze them. [pip-tools](https://github.com/nvie/pip-tools) automates this
-(and might end up becoming a built-in part of `pip` in the future).
-`requirements.in` is a good choice for *sites* that are themselves not
-dependencies of other codebases.
+This will generate a `Pipfile` containing a loose Django definition and a
+`Pipfile.lock` referencing an exact Django version as well as all its
+dependencies. Users need only run `pipenv install` with no arguments to
+synchronize the latest libraries.
 
-- Specify un-pinned (or semi-pinned, e.g. `Django>1.9,<1.10`) dependencies in a
-`setup.py`. `setup.py` is out of scope for this document; see [the Python
-Packaging Guide](http://python-packaging.readthedocs.io/en/latest/index.html)
-for information. This `setup.py` technique is a good choice for *libraries* that
-will be installed as a dependency elsewhere.
+Pipenv can also export a `requirements.txt` file for tools that need one:
+
+```
+pipenv lock -r > requirements.txt
+```
+
+### Manually
+
+If Pipenv isn't available, we can imitate some of its functionality by using
+pip directly. We'll create a `requirements.in` file, specifying un-pinned
+dependencies and install it via
+
+```
+pip install -r requirments.in
+```
+
+Then, we can "freeze" our libraries, generating a list of the exact versions
+of not only our immediate dependencies but _their_ dependencies, by using:
+
+```
+pip freeze > requirements.txt
+```
+
+Be sure to run this command in an activated virtualenv to avoid freezing
+system-wide dependencies.
+
+[`pip-tools`](https://github.com/nvie/pip-tools) provides a more automated
+method of managing this flow.
