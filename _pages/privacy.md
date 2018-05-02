@@ -17,4 +17,7 @@ The privacy risk posed by PII largely depends upon the degree to which it can be
     - [System of Records Notices (SORNs)](https://docs.google.com/document/d/1hDIDvcTv-zplMBl_uQbg7GQ5uwrC-2Jr8xg4D073q5Y/edit), which apprise the public of PII collections.
     - [Privacy Impact Assessments (PIAs)](https://drive.google.com/open?id=19eoRUodDEOxrM5AeBIYQfbA1MLyrjCOGuRYl9K_73Io), which provide a complete assessment of privacy risks and mitigations.
 1. As you complete and receive sign off on your product or service&rsquo;s privacy-related documentation, the Privacy Office may work with you to plan for the creation of any necessary role-based training for the staff who will operate the product or service. This ensures privacy compliance in perpetuity.
-1. [Submit significant changes (e.g. collection of new types of information) or re-certify your PTA (required annually).](https://docs.google.com/forms/d/e/1FAIpQLSdUQeMI8fT21ggQ7dt-vgYpeJyoezlDjyC67V_5vPna1j2c4A/viewform)
+
+### Re-certification
+
+[Submit significant changes (e.g. collection of new types of information), and re-certify your PTA annually).](https://docs.google.com/forms/d/e/1FAIpQLSdUQeMI8fT21ggQ7dt-vgYpeJyoezlDjyC67V_5vPna1j2c4A/viewform)
