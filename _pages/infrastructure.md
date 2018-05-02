@@ -7,7 +7,7 @@ into production. You should decide the final destination of your system early on
 in the project. If you're building a site that has no server-side
 code, your options are [cloud.gov](#cloudgov-1) or [Federalist](#federalist). If you're
 going to host server-side code, you should aim to deploy to [cloud.gov](#cloudgov).
-We also support deployments to [Amazon Web Services(AWS)](#amazon-web-services-aws), but with no external support.
+We also support deployments to [Amazon Web Services(AWS)](#amazon-web-services-aws), but with no external support. For GSA systems, see [comparison of hosting options](https://docs.google.com/spreadsheets/d/1TTu6R9vKOR5eiyC0tjF5XfaM9ozVp0FMoKDn_ZJOxG8/edit#gid=0).
 
 Whichever option you choose, you should start deploying to a
 production-like environment from early on in the development
