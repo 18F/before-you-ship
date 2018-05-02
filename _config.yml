@@ -92,6 +92,9 @@ navigation:
   - text: Common Questions
     url: common-questions/
     internal: true
+  - text: HTTPS Certificates
+    url: certs/
+    internal: true
   - text: Monitoring
     url: monitoring/
     internal: true

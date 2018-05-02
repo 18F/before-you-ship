@@ -44,7 +44,7 @@ Occasionally, out-of-date documentation from third parties and Amazon itself may
 
 ### HTTPS Everywhere
 
-Regardless of what your system does, we enforce [HTTPS Everywhere](https://18f.gsa.gov/2014/11/13/why-we-use-https-in-every-gov-website-we-make/).
+Regardless of what your system does, we enforce [HTTPS Everywhere](../certs/).
 
 ### Approved services for production use
 
