@@ -11,11 +11,10 @@ The privacy risk posed by PII largely depends upon the degree to which it can be
 ## Procedure for GSA projects
 
 1. Identify the agency at which the product or service in question will obtain its authorization to operate (ATO). If that agency is *not* the GSA, skip the remaining steps and instead contact the Privacy Office at the agency granting the ATO (as each agency has its own process for conducting privacy threshold analyses and impact assessments).
-1. Submit a request for a Privacy Threshold Analysis (PTA).
-    1. Download and complete the "Privacy Threshold Analysis (PTA) Template" from [this page](https://insite.gsa.gov/portal/content/627238).
-    1. Send completed document to [gsa.privacyact@gsa.gov](mailto:gsa.privacyact@gsa.gov).
+1. For a new system or application, [complete a Privacy Threshold Analysis (PTA)](https://docs.google.com/forms/d/e/1FAIpQLSe67dJP618fki34die_dLfbf1YJps6j6_PoZT1trSkJNgA2Tw/viewform).
 1. GSA&rsquo;s Privacy Office will reach out to help you collaboratively identify, discuss, and evaluate privacy risks, and to determine the ways in which they might be mitigated. It&rsquo;s important to note that this collaboration may ultimately affect the design of the product or service in question. It might also result in the creation of the following privacy-related documentation:
-  - [Privacy Act Notices](https://docs.google.com/a/gsa.gov/document/d/1CcVLPNNra1WCGqHewK2ojQ_ysHcGxmJ1IlsCo9pAiSU/edit?usp=drive_web), which appear at the point of PII collection.
-  - [System of Records Notices (SORNs)](https://docs.google.com/document/d/1hDIDvcTv-zplMBl_uQbg7GQ5uwrC-2Jr8xg4D073q5Y/edit), which apprise the public of PII collections.
-  - [Privacy Impact Assessments (PIAs)](https://docs.google.com/document/d/1o6FtuHPW41ZLkjXnANjZ60-sUojDexh3r3afm1yE9b8/edit#heading=h.s85zskw81fkz), which provide a complete assessment of privacy risks and mitigations.
+    - [Privacy Act Notices](https://docs.google.com/a/gsa.gov/document/d/1CcVLPNNra1WCGqHewK2ojQ_ysHcGxmJ1IlsCo9pAiSU/edit?usp=drive_web), which appear at the point of PII collection.
+    - [System of Records Notices (SORNs)](https://docs.google.com/document/d/1hDIDvcTv-zplMBl_uQbg7GQ5uwrC-2Jr8xg4D073q5Y/edit), which apprise the public of PII collections.
+    - [Privacy Impact Assessments (PIAs)](https://drive.google.com/open?id=19eoRUodDEOxrM5AeBIYQfbA1MLyrjCOGuRYl9K_73Io), which provide a complete assessment of privacy risks and mitigations.
 1. As you complete and receive sign off on your product or service&rsquo;s privacy-related documentation, the Privacy Office may work with you to plan for the creation of any necessary role-based training for the staff who will operate the product or service. This ensures privacy compliance in perpetuity.
+1. [Submit significant changes (e.g. collection of new types of information) or re-certify your PTA (required annually).](https://docs.google.com/forms/d/e/1FAIpQLSdUQeMI8fT21ggQ7dt-vgYpeJyoezlDjyC67V_5vPna1j2c4A/viewform)
