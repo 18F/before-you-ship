@@ -110,6 +110,14 @@ Your system may need to be reassessed and re-authorized if your application team
 * Administrative functionality within the application
 * The kinds of information you store (for example, [personally identifiable information (PII)](../privacy/))
 * The external services used or how/what data flows to/from them
+* Anything that will requires an update to the System Security Plan, system diagram, etc.
+
+Example changes that do _not_ require re-authorization, as long as they don't include the above:
+
+* Features
+* Bug fixes
+* Interface changes
+* Documentation updates
 
 The Authorizing Official determines whether a system needs re-authorization. If you're planning a change that you think may require re-authorization, please [open an issue in the Infrastructure repository](https://github.com/18F/Infrastructure/issues/new?title=ATO+re-authorization+for+%3Cproject%3E?) to explain your planned change, so they can evaluate it.
 
