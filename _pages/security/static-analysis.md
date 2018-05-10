@@ -15,42 +15,15 @@ There are tools for JS, Ruby, and Python, and you are encouraged to set up this 
 
 Language | Dependency analysis | Code security analysis
 --- | --- | ---
-Go | none known | [Go Meta Linter](https://github.com/alecthomas/gometalinter), with the security-related [linters](https://github.com/alecthomas/gometalinter#supported-linters) (like [SafeSQL](https://github.com/stripe/safesql), if you're doing SQL queries) enabled
-JavaScript | [Code Climate](https://docs.codeclimate.com/v1.0/docs/nodesecurity) or [Gemnasium](#gemnasium) | [eslint-config-scanjs](https://www.npmjs.com/package/eslint-config-scanjs) / [eslint-plugin-security](https://www.npmjs.com/package/eslint-plugin-security)
-Python | [Gemnasium](#gemnasium) | [Bandit](https://github.com/openstack/bandit) with the provided [config file](https://github.com/18F/compliance-toolkit/blob/master/configs/static/.bandit); [engine for Code Climate](https://github.com/18F/codeclimate-bandit)
-Ruby | [Code Climate](https://docs.codeclimate.com/v1.0/docs/bundler-audit) or [Gemnasium](#gemnasium) | [Code Climate](https://docs.codeclimate.com/v1.0/docs/brakeman) or [Hakiri](https://hakiri.io/) - _Rails only_
+Go | [Snyk](https://snyk.io/docs/snyk-for-golang) | [Go Meta Linter](https://github.com/alecthomas/gometalinter), with the security-related [linters](https://github.com/alecthomas/gometalinter#supported-linters) (like [SafeSQL](https://github.com/stripe/safesql), if you're doing SQL queries) enabled
+JavaScript | [Code Climate](https://docs.codeclimate.com/v1.0/docs/nodesecurity) or [Snyk](https://snyk.io/docs/snyk-for-nodejs) | [eslint-config-scanjs](https://www.npmjs.com/package/eslint-config-scanjs) / [eslint-plugin-security](https://www.npmjs.com/package/eslint-plugin-security)
+Python | [Snyk](https://snyk.io/docs/snyk-for-python) | [Bandit](https://github.com/openstack/bandit) with the provided [config file](https://github.com/18F/compliance-toolkit/blob/master/configs/static/.bandit); [engine for Code Climate](https://github.com/18F/codeclimate-bandit)
+Ruby | [Code Climate](https://docs.codeclimate.com/v1.0/docs/bundler-audit) or [Snyk](https://snyk.io/docs/snyk-for-ruby) | [Code Climate](https://docs.codeclimate.com/v1.0/docs/brakeman) or [Hakiri](https://hakiri.io/) - _Rails only_
 
 ### Notes
 
 * Code Climate only scans when the code is `push`ed, meaning it won't catch any vulnerabilities if the code isn't being actively worked on.
 * Wherever the table says "see below", that means there is no service available for scanning. Therefore, the recommended tool(s) should be run in continuous integration. Alternatively, you can also look into [building a Code Climate engine](https://docs.codeclimate.com/docs/building-a-code-climate-engine).
-
-### Gemnasium
-
-Gemnasium is used to scan your code for possible security issues and provides alerts for new issues that come to light. Their list of supported dependency technologies is [here](http://support.gemnasium.com/knowledgebase/articles/1162735-what-dependency-technologies-are-you-supporting).
-
-#### Setting up your account
-
-1. [Sign into Gemnasium using your GitHub account.](https://gemnasium.com/login)
-1. Go to [your settings page](https://gemnasium.com/settings) and change it to use your work email, if it isn't already.
-1. Ask in [#infrastructure](https://gsa-tts.slack.com/messages/infrastructure/) to be invited to the devops@gsa.gov account.
-1. This provides you with access to the common dashboard for our projects. Make sure your project has multiple people with access to the gemnasium dashboard.
-
-#### Adding projects
-
-Do not add repos to Gemnasium on your individual account.
-
-Unfortunately, Gemnasium struggles (as of 01/2017) to handle all of 18F's repositories when adding a new one to monitor. Instead, use this work around:
-
-1. Go to [https://gemnasium.com/projects/new_from_github?for=11206](https://gemnasium.com/projects/new_from_github?for=11206).
-1. Open the web developer console in your browser.
-1. Edit this text (replacing `18F/repo-name` for your repo) and execute it:
-
-    ```
-    $('[name=submit_github_projects]').before('<input type="hidden" name="full_names[]" value="18F/repo-name" />').click()
-    ```
-
-1. [Add the Gemnasium webhook to the GitHub repository.](http://support.gemnasium.com/knowledgebase/articles/829368-how-do-i-manually-create-a-webhook-on-github)
 
 ## Dependency analysis
 

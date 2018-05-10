@@ -11,9 +11,7 @@ is to "freeze" dependencies so that deployments are repeatable. Without this,
 we run the risk of executing different software whenever servers are restaged,
 a new team-member joins the project, or between development and production
 environments. In addition to repeatability, pinning dependencies allows
-automatic notification of vulnerable dependencies (via
-[Gemnasium](https://gemnasium.com), [Requires.io](https://requires.io/),
-etc.).
+automatic notification of vulnerable dependencies via [static analysis](../../security/static-analysis/).
 
 As such, all deployed applications should be pinning their library (and where
 possible: language, OS, etc.) versions. Let's look at how to implement this in
