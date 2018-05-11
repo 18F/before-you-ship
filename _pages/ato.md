@@ -102,18 +102,27 @@ There are several ways to ensure that your system remains compliant:
 * Perform and act on findings from [dynamic scanning](../security/dynamic-scanning/).
 * Keep your System Security Plan (and any other architecture/security-related documentation) up-to-date.
 
-### System changes that may require a new ATO
+### Re-authorization
 
-Your system may need a new ATO if your application team is planning to make substantive changes, such as changes to:
+Your system may need to be reassessed and re-authorized if your application team is planning to make substantive changes, such as changes to:
 
 * Encryption methodologies
 * Administrative functionality within the application
 * The kinds of information you store (for example, [personally identifiable information (PII)](../privacy/))
+* The external services used or how/what data flows to/from them
+* Anything that will requires an update to the System Security Plan, system diagram, etc.
 
-The 18F Infrastructure team determines whether a system needs a new ATO. If you're planning a change that you think may require a new ATO, please [open a new issue in the Infrastructure repository](https://github.com/18F/Infrastructure/issues/new?title=ATO+re-authorization+for+%3Cproject%3E?) to explain your planned change, so they can evaluate whether it needs a new ATO.
+Example changes that do _not_ require re-authorization, as long as they don't include the above:
 
-If it needs a new ATO, follow the usual steps for getting an ATO, starting with [the checklist](checklist/). You may be able to reuse and update your existing ATO materials.
+* Features
+* Bug fixes
+* Interface changes
+* Documentation updates
 
-### Replacing an expiring ATO with a new one
+The Authorizing Official determines whether a system needs re-authorization. If you're planning a change that you think may require re-authorization, please [open an issue in the Infrastructure repository](https://github.com/18F/Infrastructure/issues/new?title=ATO+re-authorization+for+%3Cproject%3E?) to explain your planned change, so they can evaluate it.
 
-If your current ATO is going to expire, you'll need to replace that ATO with a new one. Follow the usual steps for getting an ATO, starting with [the checklist](checklist/). You may be able to reuse and update your existing ATO materials.
+If it needs re-authorization, follow the usual steps for getting an ATO, starting with [the checklist](checklist/). You should be able to reuse most of your existing ATO materials, assuming they have been kept up-to-date.
+
+### ATO renewal
+
+If your current ATO is going to expire, you'll need the ATO to be renewed. Follow the usual steps for getting an ATO, starting with [the checklist](checklist/). You should be able to reuse most of your existing ATO materials, assuming they have been kept up-to-date.
