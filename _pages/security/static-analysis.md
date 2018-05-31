@@ -29,6 +29,12 @@ Ruby | [Code Climate](https://docs.codeclimate.com/v1.0/docs/bundler-audit) or [
 
 Use one of the services above, which should support adding public repositories yourself. If you need scanning on a private repository, [file an issue in the Infrastructure repo](https://github.com/18F/Infrastructure/issues/new).
 
+### Snyk
+
+When starting a new project for an agency partner, consider [creating a new Snyk organization](https://snyk.io/docs/orgs#creating-a-new-organisation) for your project and [invite the agency partners (in addition to the 18F team)](https://snyk.io/docs/orgs#collaborating-with-team-members). This will facilitate the project's hand-off in the future.
+
+For repositories which include multiple dependency manifests (e.g. due to multiple sub-projects or crossing languages), be sure to configure Snyk to track each dependency file. By default, Snyk's import will stop after finding the first dependency manifest.
+
 ## Code analysis
 
 This is commonly referred to as "static analysis". Code analysis can be done by a [service](#recommendations-by-language) (recommended), or within your existing continuous integration tool. Additional configuration information available below.
