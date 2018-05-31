@@ -31,7 +31,7 @@ Use one of the services above, which should support adding public repositories y
 
 ### Snyk
 
-When starting a new project for an agency partner, consider creating a new Snyk organization for your project and invite the agency partners (in addition to the 18F team). This will facilitate the project's hand-off in the future.
+When starting a new project for an agency partner, consider [creating a new Snyk organization](https://snyk.io/docs/orgs#creating-a-new-organisation) for your project and [invite the agency partners (in addition to the 18F team)](https://snyk.io/docs/orgs#collaborating-with-team-members). This will facilitate the project's hand-off in the future.
 
 For repositories which include multiple dependency manifests (e.g. due to multiple sub-projects or crossing languages), be sure to configure Snyk to track each dependency file. By default, Snyk's import will stop after finding the first dependency manifest.
 
