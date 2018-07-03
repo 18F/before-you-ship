@@ -101,6 +101,7 @@ There are several ways to ensure that your system remains compliant:
 * Act on any security notifications from your [static analysis](../security/static-analysis/).
 * Perform and act on findings from [dynamic scanning](../security/dynamic-scanning/).
 * Keep your System Security Plan (and any other architecture/security-related documentation) up-to-date.
+* [Re-certify your Privacy Threshold Analysis (PTA).](../privacy/#re-certification)
 
 ### Re-authorization
 
