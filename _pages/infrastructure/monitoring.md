@@ -33,7 +33,13 @@ For a non-static site, you will want to know if exceptions are being thrown with
 * See [the FISMA Ready instructions](https://github.com/fisma-ready/new-relic) for useful settings to go in the New Relic `ini` file.
 * For [New Relic](https://newrelic.com) access, [open an issue in the Infrastructure repo](https://github.com/18F/Infrastructure/issues/new?title=New+Relic+account+for+%3Cname%3E) to get an account set up for your project.
 
-[DAP](https://digital.gov/dap/) is also useful for analytics.
+## Analytics
+
+[DAP](https://digital.gov/dap/) should be added to all public-facing pages.
+
+For custom events, DAP and/or [New Relic](https://docs.newrelic.com/docs/using-new-relic/metrics) can be used.
+
+Ask #g-analytics if you have questions.
 
 ### Alert Conditions
 
