@@ -15,7 +15,5 @@ title: Tips
 * Is your project accessible and [Section 508](../../laws/508/) compliant? The team will need to incorporate this throughout the project, but you'll also need to set up a review at least two weeks before launch.
 * How good is your code test coverage? Before shipping, you should have codecov badges on your GitHub repo READMEs and coverage should be above 90 percent (green). (This is not a perfect measure for code quality, but a helpful check.) The testing working group recommends reviewing your status early and often. _Ask #wg-testing if you have questions._
 * Are your APIs up to [18F's API Standards](https://github.com/18f/api-standards)? _Ask the #wg-api if you have questions._
-* Have you installed 18F's Google Analytics and [DAP](https://www.digitalgov.gov/services/dap/) on everything?
-    * Learn more in our [Analytics Standards](https://github.com/18F/analytics-standards).
-    * _Ask #g-analytics if you have questions._
+* Have you installed [DAP](https://digital.gov/dap/) on everything? [More info.](../../infrastructure/monitoring/#analytics)
 * Make sure you have all the social media metadata and preview images.
