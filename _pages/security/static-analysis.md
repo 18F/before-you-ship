@@ -17,7 +17,7 @@ Language | Dependency analysis | Code security analysis
 --- | --- | ---
 Go | [Snyk](https://snyk.io/docs/snyk-for-golang) | [Go Meta Linter](https://github.com/alecthomas/gometalinter), with the security-related [linters](https://github.com/alecthomas/gometalinter#supported-linters) (like [SafeSQL](https://github.com/stripe/safesql), if you're doing SQL queries) enabled
 JavaScript | [Code Climate](https://docs.codeclimate.com/v1.0/docs/nodesecurity) or [Snyk](https://snyk.io/docs/snyk-for-nodejs) | [eslint-config-scanjs](https://www.npmjs.com/package/eslint-config-scanjs) / [eslint-plugin-security](https://www.npmjs.com/package/eslint-plugin-security)
-Python | [Code Climate](https://docs.codeclimate.com/docs/bandit) or [Snyk](https://snyk.io/docs/snyk-for-python) | [Bandit](https://github.com/openstack/bandit) with the provided [config file](https://github.com/18F/compliance-toolkit/blob/master/configs/static/.bandit); [engine for Code Climate](https://github.com/18F/codeclimate-bandit)
+Python | [Snyk](https://snyk.io/docs/snyk-for-python) | [Bandit](https://github.com/openstack/bandit) with the provided [config file](https://github.com/18F/compliance-toolkit/blob/master/configs/static/.bandit); [engine for Code Climate](https://docs.codeclimate.com/docs/bandit)
 Ruby | [Code Climate](https://docs.codeclimate.com/v1.0/docs/bundler-audit) or [Snyk](https://snyk.io/docs/snyk-for-ruby) | [Code Climate](https://docs.codeclimate.com/v1.0/docs/brakeman) or [Hakiri](https://hakiri.io/) - _Rails only_
 
 ### Notes
