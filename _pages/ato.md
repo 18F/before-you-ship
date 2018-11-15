@@ -6,7 +6,7 @@ Every federal information system must go through NIST's [Risk Management Framewo
 
 ### Key roles
 
-- **Authorizing Official (AO)** The AO is ultimately responsible for determining if the risk of operating the system is acceptable, and if so, issuing an Authority to Operate (ATO) for that system. At 18F the Director of Infrastructure is the AO.
+- **Authorizing Official (AO)** The AO is ultimately responsible for determining if the risk of operating the system is acceptable, and if so, issuing an Authority to Operate (ATO) for that system. If you're unsure who your AO is, ask the TTS Infrastructure Team or in the #infrastructure Slack channel.
 - **System Owner** The system owner is usually the product lead or tech lead of the project team. They will be named in the ATO documents and are the main contact during the evaluation process that leads up to an ATO.
 
 ### Definitions
