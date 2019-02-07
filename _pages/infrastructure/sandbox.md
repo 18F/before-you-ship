@@ -25,19 +25,14 @@ Anybody in 18F can get an AWS sandbox account. Sandbox users have
 `power user` access, which means they have full privileges to all AWS services
 except Identity and Access Management (IAM).
 
-Everything in the sandbox accounts gets deleted once a week, at 11pm
-Eastern Time on Sunday night. A notification email gets sent out at
-11pm Eastern Time on Thursday night detailing the resources that will
-be deleted: all sandbox users should [subscribe to receive this email](https://groups.google.com/a/gsa.gov/forum/#!forum/chandika-updates).
-
-You can however protect resources from deletion by following two
-steps. First, register the system you are working on in
-[Chandika](https://chandika.fr.cloud.gov). When creating the system,
-make sure you enter a short, unique name for your system in the field
-`Infrastructure Tag`. Second, make sure you tag all resources you create
-in the AWS sandbox with the tag `Project=<system_infrastructure_tag>`,
-where `<system_infrastructure_tag>` is the name you entered under
-`Infrastructure Tag` in Chandika.
+Expect everything in the sandbox accounts gets deleted once a week. You can
+however protect resources from deletion by following two steps. First, register
+the system you are working on in
+[#infrastructure](https://gsa-tts.slack.com/messages/C039MHHF8/). Second, make
+sure you tag all resources you create in the AWS sandbox with the tag
+`Project=<system_infrastructure_tag>`, where `<system_infrastructure_tag>` is
+the name you registered with
+[#infrastructure](https://gsa-tts.slack.com/messages/C039MHHF8/).
 
 * [Request a sandbox account](https://docs.google.com/a/gsa.gov/forms/d/e/1FAIpQLSeXlsfDyAZi5P_5lS8InCeZxvA3JA3-g8aYWdkgkFmGPcYmLQ/viewform)
 * [Sign in to your sandbox account](https://tts-sandbox.signin.aws.amazon.com/console)
@@ -56,13 +51,13 @@ folks to be able to experiment. Thus sandbox users can spend up to
 money counts towards our operating costs, which are ultimately
 indirectly billed to customers in the form of increased rates.
 
-Thus in order to keep our rates low, it's extremely important to bill infrastructure costs,
-including non-production costs, to agency partners wherever
-possible. If the work you are doing is in support of a project which has an
-inter-agency agreement (IAA), you *must* create an entry for your
-system in [Chandika](https://chandika.fr.cloud.gov), including the
-Tock project code and the infrastructure tag you will be using, and tag
-any AWS resources accordingly so we can bill these costs to our partner agencies.
+Thus in order to keep our rates low, it's extremely important to bill
+infrastructure costs, including non-production costs, to agency partners
+wherever possible. If the work you are doing is in support of a project which
+has an inter-agency agreement (IAA), you *must* register your system with
+[#infrastructure](https://gsa-tts.slack.com/messages/C039MHHF8/), including the
+Tock project code and the infrastructure tag you will be using, and tag any AWS
+resources accordingly so we can bill these costs to our partner agencies.
 
 ### Credentials
 
