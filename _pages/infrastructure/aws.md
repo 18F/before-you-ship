@@ -25,7 +25,7 @@ In order to ensure systems deployed to AWS are robust and reliable, and to ensur
 
 ### Permissions
 
-Anyone in 18F can get access to the AWS [sandbox account](../sandbox). However only the 18F infrastructure team has login credentials to our production 18F account, and they are only used for debugging and incident management purposes. All systems are deployed using a continuous delivery service from scripts stored in version control, and registered in [Chandika](https://chandika.fr.cloud.gov).
+Anyone in 18F can get access to the AWS [sandbox account](../sandbox). However only the 18F infrastructure team has login credentials to our production 18F account, and they are only used for debugging and incident management purposes. All systems are deployed using a continuous delivery service from scripts stored in version control, and registered with [#infrastructure](https://gsa-tts.slack.com/messages/C039MHHF8/).
 
 This means:
 
