@@ -65,7 +65,7 @@ These tasks apply to every repository/application/hostname/language that is dire
 
 - [ ] Read the [Overview](https://before-you-ship.18f.gov/) and [the ATO section (including sub-pages)](https://before-you-ship.18f.gov/ato/) of Before You Ship.
 - [ ] Read the LATO guide<!-- unless not doing a LATO -->.
-    * Search [this page](https://insite.gsa.gov/portal/content/627230) for "Lightweight Security Authorization Process".
+    * Search [this page](https://insite.gsa.gov/topics/information-technology/security-and-privacy/it-security/it-security-procedural-guides) for "Lightweight Security Authorization Guide".
 - [ ] Request a [privacy threshold analysis (PTA)](https://before-you-ship.18f.gov/privacy/)
 - [ ] Fill out the Rules of Engagement (RoE)
     * [Network diagram tips](https://before-you-ship.18f.gov/ato/ssp/#systemnetwork-diagrams)

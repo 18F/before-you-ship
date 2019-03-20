@@ -3,7 +3,7 @@ title: Types of ATO
 navtitle: Types
 ---
 
-In most cases, the types of ATO that will be pursued for GSA systems are the *GSA Lightweight ATO (LATO)*. The GSA LATO process is described in a guide on [Insite](https://insite.gsa.gov/portal/content/627230) (search for "Lightweight Security Authorization Process" on that page). Systems that are under development must fulfill the requirements for [pre-assessment for internal government use](#conditions-for-pre-assessment).
+In most cases, the types of ATO that will be pursued for GSA systems are the *GSA Lightweight ATO (LATO)*. The GSA LATO process is described in a guide on [Insite](https://insite.gsa.gov/topics/information-technology/security-and-privacy/it-security/it-security-procedural-guides) (search for "Lightweight Security Authorization Guide" on that page). Systems that are under development must fulfill the requirements for [pre-assessment for internal government use](#conditions-for-pre-assessment).
 
 The GSA LATO is designed for **Low** and **Moderate** impact [level](../levels/) systems built using agile methods that run on top of cloud infrastructure which has already received an ATO (such as AWS, Azure, and [cloud.gov](https://cloud.gov)). It is "lightweight" because it represents a tailored subset of the hundreds of controls in NIST Special Publication (SP) 800-53.
 
