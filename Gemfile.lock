@@ -1,3 +1,15 @@
+GIT
+  remote: git://github.com/18F/guides-style.git
+  revision: 45a6ff8a5d942e4dcf39de033cad91604c8127b8
+  branch: v1.0.5
+  specs:
+    guides_style_18f (1.0.5)
+      jekyll
+      jekyll_pages_api
+      jekyll_pages_api_search
+      rouge
+      sass
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -17,12 +29,6 @@ GEM
     go_script (0.1.9)
       bundler (~> 1.10)
       safe_yaml (~> 1.0)
-    guides_style_18f (1.0.2)
-      jekyll
-      jekyll_pages_api
-      jekyll_pages_api_search
-      rouge
-      sass
     html-proofer (3.6.0)
       activesupport (>= 4.2, < 6.0)
       addressable (~> 2.3)
@@ -50,7 +56,7 @@ GEM
     jekyll_pages_api (0.1.6)
       htmlentities (~> 4.3)
       jekyll (>= 2.0, < 4.0)
-    jekyll_pages_api_search (0.4.4)
+    jekyll_pages_api_search (0.5.0)
       jekyll_pages_api (~> 0.1.4)
       sass (~> 3.4)
     kramdown (1.13.2)
@@ -83,7 +89,7 @@ PLATFORMS
 
 DEPENDENCIES
   go_script
-  guides_style_18f
+  guides_style_18f!
   html-proofer (~> 3.0)
   jekyll (~> 3.1.0)
 
