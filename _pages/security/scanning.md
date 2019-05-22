@@ -9,6 +9,7 @@ Security scanning is separated into a few categories:
 * [Static](../static-analysis/): Static Code Analysis (SCA) is similar to the [linters](https://en.wikipedia.org/wiki/Lint_(software)) that many developers use on a day-to-day basis. While many linters focus on stylistic concerns, we are interested in those tools that target security flaws.
 * [Dynamic](../dynamic-scanning/)
     * Active
+        * Antivirus and malware scanning
         * Infrastructure-level scan (done at the cloud.gov level)
         * Penetration test
     * Passive: Monitors network traffic, but does not generate its own traffic.
