@@ -30,13 +30,28 @@ in development, causing it to be deployed along with the source code:
 
 ### Using npm
 
-Package locking is built into `npm` >= 5. As you `npm install` packages,
+Package locking is built into npm >= 5. As you `npm install` packages,
 they'll be added to your `package.json` file and exact versions of all
 libraries (including dependencies of dependencies) will be referenced in the
 [`package-lock.json`](https://docs.npmjs.com/files/package-lock.json) file.
-Running `npm install` with no arguments will install the versions of libraries
-defined in that lock file. Both the `package.json` and lock file should be
+Both the `package.json` and lock file should be
 committed to the project repo.
+
+##### npm 6.x
+
+In npm 6.x, the `npm ci` command was introduced. This command will clear out
+`node_modules` and install the exact dependency tree as defined in
+`package-lock.json`. This is now the preferred method of ensuring dependencies
+are pinned in CI/CD.  npm 6 or greater is the default from Node.js 10.3.0.
+
+##### npm 5.x
+
+Be sure to use an up-to-date npm 5.x client, as the lockfile behavior was
+buggy in early versions. ***Use at least npm 5.4.2.*** Running `npm install`
+with no arguments will install the versions of libraries defined in the
+lockfile.
+
+##### npm < 5
 
 If using `npm` < 5, you may imitate some of the above behavior by creating a
 "shrinkwrap" file. As you install packages, use `npm install --save` to update
