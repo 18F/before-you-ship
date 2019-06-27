@@ -1,9 +1,9 @@
 GIT
   remote: git://github.com/18F/guides-style.git
-  revision: 45a6ff8a5d942e4dcf39de033cad91604c8127b8
-  branch: v1.0.5
+  revision: 5bc8289e08638edd311e62806de4b6fc5f2a0135
+  branch: v1.0.6
   specs:
-    guides_style_18f (1.0.5)
+    guides_style_18f (1.0.6)
       jekyll
       jekyll_pages_api
       jekyll_pages_api_search
@@ -94,4 +94,4 @@ DEPENDENCIES
   jekyll (~> 3.1.0)
 
 BUNDLED WITH
-   1.14.6
+   1.17.3
