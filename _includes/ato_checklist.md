@@ -100,7 +100,7 @@ These tasks apply to every repository/application/hostname/language that is dire
 1. [ ] Remove the `Beta` label from the site.
 1. [ ] Fix all `Moderate` vulnerabilities - due [30 days after ATO issued]
 1. [ ] Fix all `Low` vulnerabilities - due [60 days after ATO issued]
-1. [ ] Join the TTS Private Bug Bounty - ask [#bug-bounty](https://app.slack.com/client/T025AQGAN/C0X2FMJ86) - due [60 days after ATO issued]
+1. [ ] [Join the TTS Private Bug Bounty](https://docs.google.com/forms/d/1lvCBb2-jc5nNi-5V8J3IZQ8TcvMj8BWwryo1Qk3e_Bc/edit) - due [60 days after ATO issued]
 1. [ ] Join the TTS Public Bug Bounty - ask [#bug-bounty](https://app.slack.com/client/T025AQGAN/C0X2FMJ86) - due [90 days after ATO issued]
 
 ---
