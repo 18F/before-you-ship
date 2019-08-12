@@ -48,7 +48,7 @@ cloud.gov is available.
 
 Cloud.gov has
 [a FedRAMP JAB Provisional ATO at
-the Moderate level](https://www.fedramp.gov/marketplace/fedramp-ready-systems/18f-cloud-gov/).
+the Moderate level](https://marketplace.fedramp.gov/#/product/18f-cloudgov?sort=productName).
 
 #### Amazon Web Services (AWS)
 
