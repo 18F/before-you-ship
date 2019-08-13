@@ -105,4 +105,4 @@ These tasks apply to every repository/application/hostname/language that is dire
 
 See the [Before You Ship](https://before-you-ship.18f.gov/ato/) site for more information.
 
-/cc @18F/ato
+/cc @18F/tts-tech-portfolio
