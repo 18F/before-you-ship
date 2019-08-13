@@ -9,8 +9,8 @@ For domains owned by 18F that speak HTTP, 18F follows the requirements of [OMB M
 
 For information on how HTTPS and HSTS compensate for an absence of DNSSEC for HTTP-based services, see:
 
-* [Why isn’t DNSSEC good enough?](https://https.cio.gov/faq/#why-isn't-dnssec-good-enough%3f)
-* [How does HTTPS protect against DNS spoofing?](https://https.cio.gov/faq/#how-does-https-protect-against-dns-spoofing%3f)
+* [Why isn’t DNSSEC good enough?](https://https.cio.gov/faq/#why-isnt-dnssec-good-enough)
+* [How does HTTPS protect against DNS spoofing?](https://https.cio.gov/faq/#how-does-https-protect-against-dns-spoofing)
 
 Customer applications hosted on [cloud.gov](https://cloud.gov) that use domains owned by customers outside 18F (such as partner agency subdomains) can implement DNSSEC. See [cloud.gov's DNSSEC information](https://cloud.gov/docs/apps/custom-domains/) for details.
 
