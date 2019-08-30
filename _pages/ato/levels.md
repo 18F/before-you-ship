@@ -27,7 +27,7 @@ Go through each of the security objectives and determine the impact on the organ
 
 If the potential impact is a _limited_ adverse effect on organizational operations, organizational assets, or individuals, we select "low". If the potential adverse impact is _serious_, we select "moderate". If the potential adverse impact is _severe or catastrophic_, we choose "high".
 
-The answer to each question should then be interpreted in terms of impact to either the public or the government. The higher value for _either_ impacted party is be used.
+The answer to each question should then be interpreted in terms of impact to either the public or the government. The higher value for _either_ impacted party is used.
 
 ### Considerations
 
