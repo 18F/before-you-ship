@@ -45,6 +45,7 @@ These tasks apply to every repository/application/hostname/language that is dire
 - [ ] [Set up monitoring](https://before-you-ship.18f.gov/infrastructure/monitoring/)
     * [ ] [Downtime alerts](https://before-you-ship.18f.gov/infrastructure/monitoring/#downtime)
     * [ ] [Error & performance alerts](https://before-you-ship.18f.gov/infrastructure/monitoring/#errors--performance-problems)
+    * [ ] [DAP](https://digital.gov/dap/)
 - [ ] [Log required events](https://before-you-ship.18f.gov/infrastructure/logging/#what-to-log)
 - [ ] Perform security scans, and put the results (or a link to them) in the project's `ATO folder`.
     * [ ] Set up [dependency analysis](https://before-you-ship.18f.gov/security/static-analysis/) service
