@@ -45,12 +45,6 @@ navigation:
   - text: System Security Plan
     url: ssp/
     internal: true
-  - text: Impact Levels
-    url: levels/
-    internal: true
-  - text: Background
-    url: background/
-    internal: true
   - text: Tips
     url: tips/
     internal: true

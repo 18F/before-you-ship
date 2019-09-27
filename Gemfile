@@ -6,6 +6,7 @@ gem 'go_script'
 
 group :jekyll_plugins do
   gem "guides_style_18f", :github => '18F/guides-style', :branch => 'v1.0.6'
+  gem 'jekyll-redirect-from'
 end
 
 group :development, :test do
