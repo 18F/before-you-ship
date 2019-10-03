@@ -1,8 +1,8 @@
-# 18F Before You Ship Guide [![CircleCI](https://circleci.com/gh/18F/before-you-ship.svg?style=svg)](https://circleci.com/gh/18F/before-you-ship)
+# TTS Before You Ship Guide [![CircleCI](https://circleci.com/gh/18F/before-you-ship.svg?style=svg)](https://circleci.com/gh/18F/before-you-ship)
 
-This is the source repository for the 18F [Before You Ship](https://before-you-ship.18f.gov/) guide.
+This is the source repository for the TTS [Before You Ship](https://before-you-ship.18f.gov/) guide.
 
-This guide is maintained by the 18F/TTS Infrastructure team.
+This guide is maintained by the [TTS Tech Portfolio](https://handbook.18f.gov/tech-portfolio/) team.
 
 ## Development
 

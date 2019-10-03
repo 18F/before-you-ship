@@ -19,21 +19,21 @@ enable testing, you can request [sandbox accounts](sandbox/) on both cloud.gov o
 
 ### Notes
 
-* Below, "internal" projects mean "things built by and for 18F", i.e. "not for a partner agency".
-* **If an option isn't listed below, you probably can't use it** for deploying 18F projects. This includes:
-    * GitHub Pages ([why](https://18f.gsa.gov/2015/05/14/18Fpages/))
-    * Heroku and other platform services
-    * Your personal AWS account
-* Any questions? Ask in [#infrastructure](https://18f.slack.com/messages/infrastructure/).
+- Below, "internal" projects mean "things built by and for TTS", i.e. "not for a partner agency".
+- **If an option isn't listed below, you probably can't use it** for deploying TTS projects. This includes:
+  - GitHub Pages ([why](https://18f.gsa.gov/2015/05/14/18Fpages/))
+  - Heroku and other platform services
+  - Your personal AWS account
+- Any questions? Ask in [#infrastructure](https://18f.slack.com/messages/infrastructure/).
 
 ### Server-side code
 
 #### cloud.gov
 
-18F uses AWS as the underlying Infrastructure-as-a-Service (aka IaaS) cloud platform, but spending effort at the IaaS level is not the best use of your team’s time. 18F has invested in developing [cloud.gov](https://cloud.gov/) to provide for the most common infrastructure needs. cloud.gov uses [Cloud Foundry](https://www.cloudfoundry.org/) – an open source Platform-as-a-Service (PaaS) – as a team-friendly abstraction above AWS, encapsulating good practice cloud hosting without having to worry about a lot of the details. For most of the products that 18F develops, deploying onto cloud.gov will:
+TTS uses AWS as the underlying Infrastructure-as-a-Service (aka IaaS) cloud platform, but spending effort at the IaaS level is not the best use of your team’s time. TTS has invested in developing [cloud.gov](https://cloud.gov/) to provide for the most common infrastructure needs. cloud.gov uses [Cloud Foundry](https://www.cloudfoundry.org/) – an open source Platform-as-a-Service (PaaS) – as a team-friendly abstraction above AWS, encapsulating good practice cloud hosting without having to worry about a lot of the details. For most of the products that TTS develops, deploying onto cloud.gov will:
 
 - Minimize [ATO](../ato/) compliance overhead (which is quite hefty) and reduce security concerns
-- Reduce 18F’s overhead for handling infrastructure billing, since it is fully self-service
+- Reduce TTS’s overhead for handling infrastructure billing, since it is fully self-service
 - Make it easier for teams to ensure high availability/scalability
 
 As a result, cloud.gov significantly reduces the portion of your team’s capacity that
@@ -62,7 +62,7 @@ happen due to your product handling extremely sensitive information or
 being critical to normal government function. AWS GovCloud has
 received a [FedRAMP JAB Provisional ATO at the High level](https://www.fedramp.gov/marketplace/compliant-systems/amazon-web-services-aws-government-community-cloud-govcloud/).
 
-Note however that when partner agencies assert that **of course** their product will be FISMA High, 18F often finds upon examination that a product should be really be judged FISMA Moderate or FISMA Low... So don’t discard cloud.gov or AWS as options before probing that point carefully!
+Note however that when partner agencies assert that **of course** their product will be FISMA High, TTS often finds upon examination that a product should be really be judged FISMA Moderate or FISMA Low... So don’t discard cloud.gov or AWS as options before probing that point carefully!
 
 ### Static sites
 
@@ -70,8 +70,8 @@ Note however that when partner agencies assert that **of course** their product 
 
 See cloud.gov page on [deploying static sites](https://docs.cloud.gov/apps/static/).
 
-* **Internal:** Likely free, but start by checking with #cloud-gov-business with your use case.
-* **External:** see the [pricing page](https://docs.cloud.gov/intro/pricing/pricing-model/)
+- **Internal:** Likely free, but start by checking with #cloud-gov-business with your use case.
+- **External:** see the [pricing page](https://docs.cloud.gov/intro/pricing/pricing-model/)
 
 #### Federalist
 
