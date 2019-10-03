@@ -3,9 +3,9 @@ title: Amazon Web Services
 parent: Infrastructure
 ---
 
-At 18F, we use [Amazon Web Services](https://aws.amazon.com/) (AWS) as our [infrastructure as a service](https://en.wikipedia.org/wiki/Cloud_computing#Infrastructure_as_a_service_.28IaaS.29) (IaaS). We have separate AWS accounts for our production systems and [sandboxes](../sandbox) for development and testing. If you're used to developing locally, you should feel empowered to do everything you'd like in an AWS [sandbox account](../sandbox). Note that AWS is currently the **only** IaaS provider we are able to use in TTS right now. You're free to develop purely locally as long as you'd like, but _if you want to get a system online, AWS and cloud.gov are your only options_, of which cloud.gov is preferred.
+At TTS, we use [Amazon Web Services](https://aws.amazon.com/) (AWS) as our [infrastructure as a service](https://en.wikipedia.org/wiki/Cloud_computing#Infrastructure_as_a_service_.28IaaS.29) (IaaS). We have separate AWS accounts for our production systems and [sandboxes](../sandbox) for development and testing. If you're used to developing locally, you should feel empowered to do everything you'd like in an AWS [sandbox account](../sandbox). Note that AWS is currently the **only** IaaS provider we are able to use in TTS right now. You're free to develop purely locally as long as you'd like, but _if you want to get a system online, AWS and cloud.gov are your only options_, of which cloud.gov is preferred.
 
-In particular, you *cannot* send traffic from the internet to your local machine - you *must* use a sandbox account for this purpose.
+In particular, you _cannot_ send traffic from the internet to your local machine - you _must_ use a sandbox account for this purpose.
 
 ## Fundamentals
 
@@ -21,16 +21,16 @@ These are just the concepts necessary for initial on-boarding. AWS has an [exten
 
 Although cloud.gov is strongly preferred as the production environment for the systems we build, there are some systems that will need to run on AWS. You can **see the GSA approval status and caveats for using different AWS services in [this spreadsheet](https://docs.google.com/spreadsheets/d/1kJrPqu10x80LaGQ_oXFDuoPkBdnaXrXTQVF_uJ14-ok/edit#gid=0)**.
 
-In order to ensure systems deployed to AWS are robust and reliable, and to ensure the integrity of information stored in AWS, we impose some additional restrictions on systems deployed to the 18F production AWS environment.
+In order to ensure systems deployed to AWS are robust and reliable, and to ensure the integrity of information stored in AWS, we impose some additional restrictions on systems deployed to the TTS production AWS environment.
 
 ### Permissions
 
-Anyone in 18F can get access to the AWS [sandbox account](../sandbox). However only the 18F infrastructure team has login credentials to our production 18F account, and they are only used for debugging and incident management purposes. All systems are deployed using a continuous delivery service from scripts stored in version control, and registered with [#infrastructure](https://gsa-tts.slack.com/messages/C039MHHF8/).
+Anyone in TTS can get access to the AWS [sandbox account](../sandbox). However only the TTS infrastructure team has login credentials to our production TTS account, and they are only used for debugging and incident management purposes. All systems are deployed using a continuous delivery service from scripts stored in version control, and registered with [#infrastructure](https://gsa-tts.slack.com/messages/C039MHHF8/).
 
 This means:
 
-* All configuration of your production environment must be performed using Terraform scripts checked into version control.
-* There will be no "back channel" access to AWS resources for systems deployed into production. Any routine activities such as data management, import / export / archiving, must be performed through your system.
+- All configuration of your production environment must be performed using Terraform scripts checked into version control.
+- There will be no "back channel" access to AWS resources for systems deployed into production. Any routine activities such as data management, import / export / archiving, must be performed through your system.
 
 ### Auto scale groups
 
@@ -38,9 +38,9 @@ In order to ensure that systems remain available even in the face of hardware fa
 
 ### VPCs
 
-To ensure logical partitioning of systems running within the 18F production environment, every system must be hosted within its own [virtual private cloud](https://aws.amazon.com/vpc/) (VPC). Network security settings are set at the VPC level, including what ports IP addresses EC2 instances can communicate with each other and back out to the internet.
+To ensure logical partitioning of systems running within the TTS production environment, every system must be hosted within its own [virtual private cloud](https://aws.amazon.com/vpc/) (VPC). Network security settings are set at the VPC level, including what ports IP addresses EC2 instances can communicate with each other and back out to the internet.
 
-Occasionally, out-of-date documentation from third parties and Amazon itself may reference *EC2 Classic*. We at 18F do not support this environment.
+Occasionally, out-of-date documentation from third parties and Amazon itself may reference _EC2 Classic_. We at TTS do not support this environment.
 
 ### HTTPS Everywhere
 
@@ -56,13 +56,13 @@ We use a pre-hardened version of [Ubuntu](https://en.wikipedia.org/wiki/Ubuntu_%
 
 ### Other people's information
 
-Any system in AWS might have the public's information (as opposed to *public* data) at any time. Some systems use stronger measures to help protect the information if it is sensitive. For example, [MyUSA](https://github.com/18F/myusa) uses row-level encryption.  If you are unsure of the sensitivity of the data you're going to be handling, consult with 18F Infrastructure first.
+Any system in AWS might have the public's information (as opposed to _public_ data) at any time. Some systems use stronger measures to help protect the information if it is sensitive. For example, [MyUSA](https://github.com/18F/myusa) uses row-level encryption. If you are unsure of the sensitivity of the data you're going to be handling, consult with TTS Infrastructure first.
 
-Use common sense when handling this information. Unless you have permission *and* need to in order to do your job:
+Use common sense when handling this information. Unless you have permission _and_ need to in order to do your job:
 
-* Don't release information
-* Don't share information
-* Don't view information
+- Don't release information
+- Don't share information
+- Don't view information
 
 Regardless of your own norms around privacy, always assume the owner of that data has the most conservative requirements unless they have taken express action, either through a communication or the system itself, telling you otherwise. Take particular care in protecting sensitive [personally identifiable information (PII)](../../privacy/).
 
@@ -72,6 +72,6 @@ In order to make sure we are protecting the integrity of the public systems, **_
 
 ### Tagging
 
-Tagging resources in AWS is essential for identifying and tracking resources deployed.  A tagged resource makes it easier for reasoning from a [billing perspective](../sandbox#other-peoples-money) and aids in determining if a system is in a particular environment (ex. production).  See the [sandbox](../sandbox) environment to see how tagged resources enables lifecycle management of resources in AWS.
+Tagging resources in AWS is essential for identifying and tracking resources deployed. A tagged resource makes it easier for reasoning from a [billing perspective](../sandbox#other-peoples-money) and aids in determining if a system is in a particular environment (ex. production). See the [sandbox](../sandbox) environment to see how tagged resources enables lifecycle management of resources in AWS.
 
 At a minimum, an AWS resource must have a `Project` tag defined with enough information to be able to identify a project that the AWS resource is associated with.

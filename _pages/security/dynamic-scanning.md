@@ -5,7 +5,7 @@ parent: Security
 
 In order for an application to get ATO, it needs to meet more than a minimum level of application security, so the application team needs to run [both static and dynamic security scans](../scanning/) and document good results. Running a "dynamic" scan means running a program that analyzes a live running application for common vulnerabilities.
 
-As part of the process of getting an ATO at 18F, **your application team will need to set up [OWASP ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project) to do dynamic vulnerability scanning of your application**. ZAP can function as either an active (Spider & Attack options) or a passive (man-in-the-middle/proxy) scanner, but is usually used as a combination of both. If you (or another person on your application team) has questions about setting this up, ask #infrastructure for help.
+As part of the process of getting an ATO at TTS, **your application team will need to set up [OWASP ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project) to do dynamic vulnerability scanning of your application**. ZAP can function as either an active (Spider & Attack options) or a passive (man-in-the-middle/proxy) scanner, but is usually used as a combination of both. If you (or another person on your application team) has questions about setting this up, ask #infrastructure for help.
 
 ![ZAP home screen](../../assets/images/zap_home.png)
 
@@ -24,34 +24,34 @@ Using the the [Quick Start](https://github.com/zaproxy/zap-core-help/wiki/HelpAd
 ## Scanning
 
 1. [Set up ZAP as a proxy.](https://github.com/zaproxy/zap-core-help/wiki/HelpStartProxies)
-    * Unfortunately, the "Plug-n-Hack" extension mentioned on the Quick Start page is [currently non-functional](https://github.com/zaproxy/zaproxy/issues/2069).
-    * If the browser gives you a certificate error (e.g. `"This site uses HTTP Strict Transport Security (HSTS) to specify that Firefox may only connect to it securely."`), you will need to install ZAP's root certificate.
-      * In ZAP, go to `Tools`->`Options`->`Dynamic SSL Certificate` and click the `Save` button to save the certificate to your computer.
-      * You will then need to install the certificate. For Firefox, go to `Preferences`->`Advanced`>`Certificates`->`View Certificates`->`Import` to import the certificate you saved from ZAP.
-      * For additional information see ZAP's [documentation on Dynamic SSL Certificates](https://github.com/zaproxy/zap-core-help/wiki/HelpUiDialogsOptionsDynsslcert).
+   - Unfortunately, the "Plug-n-Hack" extension mentioned on the Quick Start page is [currently non-functional](https://github.com/zaproxy/zaproxy/issues/2069).
+   - If the browser gives you a certificate error (e.g. `"This site uses HTTP Strict Transport Security (HSTS) to specify that Firefox may only connect to it securely."`), you will need to install ZAP's root certificate.
+     - In ZAP, go to `Tools`->`Options`->`Dynamic SSL Certificate` and click the `Save` button to save the certificate to your computer.
+     - You will then need to install the certificate. For Firefox, go to `Preferences`->`Advanced`>`Certificates`->`View Certificates`->`Import` to import the certificate you saved from ZAP.
+     - For additional information see ZAP's [documentation on Dynamic SSL Certificates](https://github.com/zaproxy/zap-core-help/wiki/HelpUiDialogsOptionsDynsslcert).
 1. Seed the scanner.
-    1. Navigate through the various types of pages/interactions on your site, including signing in. You should see domain name(s) start to show up under the `Sites` list.
-    1. For each of the domains in the `Sites` list that you control (i.e. not `https://fonts.googleapis.com`):
-        1. Right-click the domain to bring up the context menu.
-        1. Select `Include in Context`->`Default Context`.
-        1. In the `Session Properties` window that pops up, click `OK`.
+   1. Navigate through the various types of pages/interactions on your site, including signing in. You should see domain name(s) start to show up under the `Sites` list.
+   1. For each of the domains in the `Sites` list that you control (i.e. not `https://fonts.googleapis.com`):
+      1. Right-click the domain to bring up the context menu.
+      1. Select `Include in Context`->`Default Context`.
+      1. In the `Session Properties` window that pops up, click `OK`.
 1. Run the spider.
-    1. In the menu bar, click `Tools`->`Spider...`.
-    1. Click `New Scan`.
-    1. Next to `Starting point`, click `Select...`.
-    1. In the `Select Node` window, click `Default Context`, the `Select`.
-    1. Click `Start Scan`.
-    1. You should see the `Spider` table fill up with results, but the domains you don't control should say `OUT_OF_CONTEXT`.
+   1. In the menu bar, click `Tools`->`Spider...`.
+   1. Click `New Scan`.
+   1. Next to `Starting point`, click `Select...`.
+   1. In the `Select Node` window, click `Default Context`, the `Select`.
+   1. Click `Start Scan`.
+   1. You should see the `Spider` table fill up with results, but the domains you don't control should say `OUT_OF_CONTEXT`.
 1. If your site uses AJAX, run the [AJAX Spider](https://github.com/zaproxy/zap-core-help/wiki/HelpAddonsSpiderAjaxConcepts).
 1. Run the actual scan.
-    1. In the menu bar, click `Tools`->`Active Scan...`.
-    1. In the `Active Scan` window, follow the same `Starting point` steps as above.
+   1. In the menu bar, click `Tools`->`Active Scan...`.
+   1. In the `Active Scan` window, follow the same `Starting point` steps as above.
 1. View the alerts.
-    1. Click the `Alerts` tab.
-    1. Above the `Alerts` list, click the ![target icon](../../assets/images/zap_target.png) (so that it turns red) to `Show only URLs in scope`.
+   1. Click the `Alerts` tab.
+   1. Above the `Alerts` list, click the ![target icon](../../assets/images/zap_target.png) (so that it turns red) to `Show only URLs in scope`.
 1. [Investigate the listed alerts.](#alerts)
 1. Export the results.
-    1. In the menu bar, go to `Report` -> `Generate HTML Report`.
+   1. In the menu bar, go to `Report` -> `Generate HTML Report`.
 
 ## Examining the Results
 
@@ -66,7 +66,6 @@ As configured, the Spider does not follow links to other domains or subdomains. 
 ![alert results](../../assets/images/alert_results.png)
 
 The Alerts pane lists all alerts discovered while scanning the site. As described on the [alerts page](../scanning#alerts), the red and orange-flagged alerts must be taken care of before the application can be ATO'd. You have a little more flexibility when dealing with the yellow and blue flags, but all of them must be either corrected or, in the case of false positives, documented.
-
 
 Optional: When you get false positives, you can [file issues with the ZAP project](https://github.com/zaproxy/zaproxy/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+false+positive) to help them improve the alerting rules to prevent false positives.
 

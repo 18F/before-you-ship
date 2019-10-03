@@ -5,33 +5,33 @@ parent: Infrastructure
 
 There are several kinds of monitoring that you will need to have in place for any application:
 
-* **Downtime:** Is the app available?
-* **Errors:** Is the app generating errors at an unacceptable rate?
-* **Performance:** Even if the app is functional, is it unusably slow?
+- **Downtime:** Is the app available?
+- **Errors:** Is the app generating errors at an unacceptable rate?
+- **Performance:** Even if the app is functional, is it unusably slow?
 
 Monitoring is only useful if the relevant people are alerted when something goes wrong, and then only if those individuals...
 
-* consider these alerts worth investigating
-* have sufficient access and understanding to at least triage and escalate an alert, if not fix it
-* have a clear escalation path
+- consider these alerts worth investigating
+- have sufficient access and understanding to at least triage and escalate an alert, if not fix it
+- have a clear escalation path
 
 It will likely take some tweaking of the thresholds to get the signal-to-noise ratio right. Plan to have monitoring active for several weeks before the go-live date to give the team time to spot problems, practice response and tune the alert conditions.
 
 ## Your DevOps Team
 
-At present we don't have a dedicated first-line support team across 18F. Projects need to coordinate their own DevOps teams for alert response. Teams will need:
+At present we don't have a dedicated first-line support team across TTS. Projects need to coordinate their own DevOps teams for alert response. Teams will need:
 
-* **Reachability:** Alerts should go directly to their devices, not just to Slack.
-* **Escalation path:** Team members should know how to at least _start_ dealing with alerts. [Here's a great example from College Scorecard](https://docs.google.com/document/d/1Lfr_IufB9nuTjsZJgsm5CxfBRFVbHj266zMddhzWCJg/edit). (Thanks, @abisker!)
-* **Direct access to monitoring systems:** Make sure everyone has a working login on whichever monitoring systems you pick, and has at least a little experience navigating them.
-* **Clear expectations of uptime & availability:** At present, 18F staff work 40 hour weeks and there is no requirement to be available in off hours. In practice, people want to make sure their stuff works, and many will jump online to fix things if they see a problem over the weekend. But **there should be no expectation of this**. Furthermore, **this understanding must be established with project partners.** Projects that need greater support coverage should arrange dedicated on-call staff elsewhere.
+- **Reachability:** Alerts should go directly to their devices, not just to Slack.
+- **Escalation path:** Team members should know how to at least _start_ dealing with alerts. [Here's a great example from College Scorecard](https://docs.google.com/document/d/1Lfr_IufB9nuTjsZJgsm5CxfBRFVbHj266zMddhzWCJg/edit). (Thanks, @abisker!)
+- **Direct access to monitoring systems:** Make sure everyone has a working login on whichever monitoring systems you pick, and has at least a little experience navigating them.
+- **Clear expectations of uptime & availability:** At present, TTS staff work 40 hour weeks and there is no requirement to be available in off hours. In practice, people want to make sure their stuff works, and many will jump online to fix things if they see a problem over the weekend. But **there should be no expectation of this**. Furthermore, **this understanding must be established with project partners.** Projects that need greater support coverage should arrange dedicated on-call staff elsewhere.
 
 ## Errors & Performance Problems
 
-For a non-static site, you will want to know if exceptions are being thrown within your application. 18F uses [New Relic](http://newrelic.com/).
+For a non-static site, you will want to know if exceptions are being thrown within your application. TTS uses [New Relic](http://newrelic.com/).
 
-* See [the FISMA Ready instructions](https://github.com/fisma-ready/new-relic) for useful settings to go in the New Relic `ini` file.
-* For [New Relic](https://newrelic.com) access, [open an issue in the Infrastructure repo](https://github.com/18F/Infrastructure/issues/new?title=New+Relic+account+for+%3Cname%3E) to get an account set up for your project.
+- See [the FISMA Ready instructions](https://github.com/fisma-ready/new-relic) for useful settings to go in the New Relic `ini` file.
+- For [New Relic](https://newrelic.com) access, [open an issue in the Infrastructure repo](https://github.com/18F/Infrastructure/issues/new?title=New+Relic+account+for+%3Cname%3E) to get an account set up for your project.
 
 ## Analytics
 
@@ -45,11 +45,11 @@ Ask #g-analytics if you have questions.
 
 Error & performance monitors can trigger alerts on a number of different conditions, including:
 
-* Error counts (total or percentage)
-* [Apdex score](http://apdex.org/overview.html) (a responsiveness statistic)
-* Throughput
-* Response time
-* Custom metric (which can be sent to monitors for logging using the monitor's  client library)
+- Error counts (total or percentage)
+- [Apdex score](http://apdex.org/overview.html) (a responsiveness statistic)
+- Throughput
+- Response time
+- Custom metric (which can be sent to monitors for logging using the monitor's client library)
 
 All of the above can be set with thresholds for given time periods; for example, alerting if more than 2% of transactions in any five-minute period return errors.
 
@@ -61,16 +61,16 @@ Once you've created alert conditions, **ensure that they're actually working.** 
 
 You will want to know if your site goes down. Options:
 
-* [New Relic Synthetics](http://newrelic.com/synthetics). ([Here's a walkthrough for setting up a simple ping with Synthetics, testing it and connecting it notification channels](https://docs.google.com/document/d/1pDya72sy37PUOMY5Th65LSqKa_tWYrX9kgtkys6WMm0/edit#))
+- [New Relic Synthetics](http://newrelic.com/synthetics). ([Here's a walkthrough for setting up a simple ping with Synthetics, testing it and connecting it notification channels](https://docs.google.com/document/d/1pDya72sy37PUOMY5Th65LSqKa_tWYrX9kgtkys6WMm0/edit#))
 
 ## Notification Methods
 
 Ways to alert DevOps & project team members:
 
-* **Slack**, though you may not want all errors going to the project's main Slack channel. (See the section below on [grouping notification channels](#grouping-notification-channels))
-* **SMS**, which is only available through certain services - PagerDuty provides SMS, but New Relic doesn't; instead it has...
-* **Push Notifications**, for which team members need to have the mobile app installed and registered.
-* **Email**, which in practice isn't as useful since most people aren't immediately alerted by it.
+- **Slack**, though you may not want all errors going to the project's main Slack channel. (See the section below on [grouping notification channels](#grouping-notification-channels))
+- **SMS**, which is only available through certain services - PagerDuty provides SMS, but New Relic doesn't; instead it has...
+- **Push Notifications**, for which team members need to have the mobile app installed and registered.
+- **Email**, which in practice isn't as useful since most people aren't immediately alerted by it.
 
 ### Grouping Notification Channels
 

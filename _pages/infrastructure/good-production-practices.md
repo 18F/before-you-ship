@@ -5,7 +5,7 @@ parent: Infrastructure
 
 Below is a list of "good" production ops practices, which product and tech leads should consider early in their development and review as part of any major launch. Items in **bold** are considered must-haves.
 
-We will be adding more documentation about how to achieve these within 18F's infrastructure soon, but [docs.cloud.gov](https://docs.cloud.gov/) is a good place to start. It includes a [guide to production-ready apps on cloud.gov](https://docs.cloud.gov/apps/production-ready/) with tips about how to implement relevant practices.
+We will be adding more documentation about how to achieve these within TTS' infrastructure soon, but [docs.cloud.gov](https://docs.cloud.gov/) is a good place to start. It includes a [guide to production-ready apps on cloud.gov](https://docs.cloud.gov/apps/production-ready/) with tips about how to implement relevant practices.
 
 ### Backups
 
