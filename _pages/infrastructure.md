@@ -57,7 +57,7 @@ If you do want to use AWS directly, see the [AWS](aws/) page.
 #### FISMA High systems
 
 There are some specific cases where the product is
-[classified](../ato/levels/) “FISMA High”. This would usually only
+[categorized](../ato/levels/) “FISMA High”. This would usually only
 happen due to your product handling extremely sensitive information or
 being critical to normal government function. AWS GovCloud has
 received a [FedRAMP JAB Provisional ATO at the High level](https://www.fedramp.gov/marketplace/compliant-systems/amazon-web-services-aws-government-community-cloud-govcloud/).
