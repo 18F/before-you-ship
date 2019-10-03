@@ -15,7 +15,7 @@ For each task to complete "before you ship", there should be a clear indication 
     * The legal or regulation text itself (where applicable)
     * Additional information
 * Whether it's a hard requirement or a guideline/recommendation/best practice
-* Where the item came from (law, regulation, OMB Memo, GSA, the TTS Infrastructure team, etc.)
+* Where the item came from (law, regulation, OMB Memo, GSA, the [TTS Tech Portfolio](https://handbook.18f.gov/tech-portfolio/) team, etc.)
 * Where to get help, e.g.
     * A Slack channel
     * An email list

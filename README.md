@@ -2,7 +2,7 @@
 
 This is the source repository for the TTS [Before You Ship](https://before-you-ship.18f.gov/) guide.
 
-This guide is maintained by the TTS Infrastructure team.
+This guide is maintained by the [TTS Tech Portfolio](https://handbook.18f.gov/tech-portfolio/) team.
 
 ## Development
 
