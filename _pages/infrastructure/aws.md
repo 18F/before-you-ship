@@ -75,3 +75,25 @@ In order to make sure we are protecting the integrity of the public systems, **_
 Tagging resources in AWS is essential for identifying and tracking resources deployed. A tagged resource makes it easier for reasoning from a [billing perspective](../sandbox#other-peoples-money) and aids in determining if a system is in a particular environment (ex. production). See the [sandbox](../sandbox) environment to see how tagged resources enables lifecycle management of resources in AWS.
 
 At a minimum, an AWS resource must have a `Project` tag defined with enough information to be able to identify a project that the AWS resource is associated with.
+
+## Creating new accounts
+
+Someone from the Tech Portfolio should do the following:
+
+1. Email Tara Hopkins at [thopkins@jhctechnology.com](mailto:thopkins@jhctechnology.com) asking for a new AWS sub-account
+   - Customer Name (Agency, Dept, etc.)
+   - Project/Program Name
+   - Optional Preferred Full Name (format: `<CUSTOMER> - <PROJECT>`): `tts-<program>-<env>`
+   - Optional Preferred Account Login email: `devops+aws-<program>-<env>@gsa.gov`
+   - Lead Technical Contact
+     - Name
+     - Email
+     - Phone
+   - Note if you need an associated GovCloud account
+1. JHC will send account ID once created
+1. Add to [account list](https://docs.google.com/spreadsheets/d/1DedSCiU9AsCAAVvAFZT0_Ii7AFIKlI-JNifzlpHNbDg/edit#gid=0)
+1. Reset password by email
+1. [Change account email](https://console.aws.amazon.com/billing/home#/account) to `devops+aws-<account number>@gsa.gov`
+1. [Add to KeePass](https://drive.google.com/drive/folders/1iQnvC8o_MU_DR5u7TYtC9pEKZXtBq03f?usp=sharing) and re-upload database
+1. [Set up MFA](https://console.aws.amazon.com/iam/home?#/security_credentials)
+1. Add relevant users via IAM
