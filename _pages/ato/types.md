@@ -25,7 +25,7 @@ You may operate without further authorization, based on our approved pre-existin
     * other Federal staff / agencies, by one of:
         * IP CIDR block
         * some kind of auth mechanism
-            * HTTP Basic Auth (one set of credentials shared amonst the team is fine - please send them through [Fugacious](https://fugacious.18f.gov/))
+            * HTTP Basic Auth (one set of credentials shared amonst the team is fine)
             * OAuth ([cloud.gov authentication](https://docs.cloud.gov/apps/leveraging-authentication/), or [GitHub authentication](https://developer.github.com/v3/oauth/) limited to a particular organization)
             * etc.
 
