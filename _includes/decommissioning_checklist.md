@@ -1,4 +1,5 @@
 * [ ] Notify any users of the system, via banner across the site, email, Slack, etc. Ideally, help them find alternatives, make sure they're off in time, etc. (The needs here will be specific to your use case.)
+* [ ] Set up redirect(s), if applicable.
 * [ ] Export any production data and put it into Google Drive, for [records retention](https://handbook.18f.gov/records-management/) purposes.
 * [ ] Ask [cloud-gov-support@gsa.gov](mailto:cloud-gov-support@gsa.gov) for the cloud.gov organization to be deleted.
 * [ ] Delete any associated AWS resources, and decommission any AWS accounts. Ask in [#infrastructure](https://gsa-tts.slack.com/messages/infrastructure) for help.
