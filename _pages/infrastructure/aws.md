@@ -78,21 +78,22 @@ At a minimum, an AWS resource must have a `Project` tag defined with enough info
 
 ## Creating new accounts
 
-Someone from the Tech Portfolio should do the following:
+1. Forecast the spending for the next 6-12 months.
+   - If you expect the spend across your accounts to increase by more than a few percent, the contract may need to be mofified.
+1. Reach out to [#admins-iaas](https://gsa-tts.slack.com/messages/admins-iaas) with info about:
+   - Who/what the account is for
+   - Mailing list to use as the technical contact
+   - If you need an associated GovCloud account
+1. The admins will:
+   1. Create an account using email `devops+aws-<program>-<env>@gsa.gov`
+   1. Add to [account list](https://docs.google.com/spreadsheets/d/1DedSCiU9AsCAAVvAFZT0_Ii7AFIKlI-JNifzlpHNbDg/edit#gid=0)
+   1. Create an IAM user with `Administrator` permissions
 
-1. Email Tara Hopkins at [thopkins@jhctechnology.com](mailto:thopkins@jhctechnology.com) asking for a new AWS sub-account
-   - Customer Name (Agency, Dept, etc.)
-   - Project/Program Name
-   - Optional Preferred Full Name (format: `<CUSTOMER> - <PROJECT>`): `tts-<program>-<env>`
-   - Optional Preferred Account Login email: `devops+aws-<program>-<env>@gsa.gov`
-   - Lead Technical Contact
-     - Name
-     - Email
-     - Phone
-   - Note if you need an associated GovCloud account
-1. JHC will send account ID once created
-1. Add to [account list](https://docs.google.com/spreadsheets/d/1DedSCiU9AsCAAVvAFZT0_Ii7AFIKlI-JNifzlpHNbDg/edit#gid=0)
-1. Reset password by email
+### If needed
+
+The Tech Portfolio will:
+
+1. Reset root password by email
 1. [Change account email](https://console.aws.amazon.com/billing/home#/account) to `devops+aws-<account number>@gsa.gov`
 1. [Add to KeePass](https://drive.google.com/drive/folders/1iQnvC8o_MU_DR5u7TYtC9pEKZXtBq03f?usp=sharing) and re-upload database
 1. [Set up MFA](https://console.aws.amazon.com/iam/home?#/security_credentials)
