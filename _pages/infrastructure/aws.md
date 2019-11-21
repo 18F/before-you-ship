@@ -80,11 +80,11 @@ At a minimum, an AWS resource must have a `Project` tag defined with enough info
 
 1. Forecast the spending for the next 6-12 months.
    - If you expect the spend across your accounts to increase by more than a few percent, the contract may need to be mofified.
-1. Reach out to the [Tech Portfolio](https://handbook.18f.gov/tech-portfolio/) with info about:
+1. Reach out to [#admins-iaas](https://gsa-tts.slack.com/messages/admins-iaas) with info about:
    - Who/what the account is for
    - Mailing list to use as the technical contact
    - If you need an associated GovCloud account
-1. The Tech Portfolio will:
+1. The admins will:
    1. Create an account using email `devops+aws-<program>-<env>@gsa.gov`
    1. Add to [account list](https://docs.google.com/spreadsheets/d/1DedSCiU9AsCAAVvAFZT0_Ii7AFIKlI-JNifzlpHNbDg/edit#gid=0)
    1. Create an IAM user with `Administrator` permissions
