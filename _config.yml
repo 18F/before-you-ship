@@ -123,7 +123,7 @@ repos:
 google_analytics_ua: UA-48605964-19
 
 back_link:
-  url: "https://pages.18f.gov/guides/"
+  url: "https://18f.gsa.gov/guides/"
   text: Read more 18F guides
 
 styles:
