@@ -57,7 +57,7 @@ We recommend creating a mixture of alert conditions during development and tunin
 
 Once you've created alert conditions, **ensure that they're actually working.** It helps if you have errors or performance problems that you can trigger on demand; if the production environment is already live to the public then you might need to push a test branch to staging and try your conditions there. Also, when testing conditions, make sure to limit their notifications to only go to you, or you'll need to warn everyone in advance.
 
-## Uptime/Downtime
+## Downtime
 
 You will want to know if your site goes down. Options (as of 1/20):
 
