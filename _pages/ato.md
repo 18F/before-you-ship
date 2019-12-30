@@ -18,7 +18,7 @@ There are a few factors that will determine how long it takes a project to get a
 
 ### Steps
 
-Some TTS-specific information beyond the [**general steps**](https://atos.open-control.org/steps/):
+Once you have [validated the path to production](https://docs.google.com/document/d/14nCznE0ofUxrQL50EokkLOS2_UPQyor7-W9OHjXH2XY/edit), see this TTS-specific information beyond the [**general steps**](https://atos.open-control.org/steps/):
 
 #### Step 0
 
