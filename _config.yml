@@ -109,8 +109,8 @@ navigation:
     url: 508/
     internal: true
   - text: Paperwork Reduction Act (PRA)
-    url: pra/
-    internal: true
+    url: https://pra.digital.gov/
+    internal: false
 - text: Privacy
   url: privacy/
   internal: true
