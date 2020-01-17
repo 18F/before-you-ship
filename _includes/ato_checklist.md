@@ -82,6 +82,7 @@ These tasks apply to every repository/application/hostname/language that is dire
 1. [ ] RoE signed
     * [ ] System Owner
     * [ ] GSA IT
+1. [ ] Confirm you can access [Archer](archer/)
 
 ### Phase 3: ATO Sprint
 
