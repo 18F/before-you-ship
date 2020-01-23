@@ -107,7 +107,7 @@ pip directly. We'll create a `requirements.in` file, specifying un-pinned
 dependencies and install it via
 
 ```
-pip install -r requirments.in
+pip install -r requirements.in
 ```
 
 Then, we can "freeze" our libraries, generating a list of the exact versions
