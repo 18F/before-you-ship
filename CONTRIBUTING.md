@@ -8,19 +8,19 @@ Before contributing, we encourage you to read our CONTRIBUTING policy (you are h
 
 For each task to complete "before you ship", there should be a clear indication of:
 
-* The "what" and the "when" (and maybe the "who")
-* The "how", either included in the site or with a link elsewhere
-* External links for:
-    * The "why" (when available)
-    * The legal or regulation text itself (where applicable)
-    * Additional information
-* Whether it's a hard requirement or a guideline/recommendation/best practice
-* Where the item came from (law, regulation, OMB Memo, GSA, the [TTS Tech Portfolio](https://handbook.18f.gov/tech-portfolio/) team, etc.)
-* Where to get help, e.g.
-    * A Slack channel
-    * An email list
-    * Where to file a GitHub issue
-    * A specific person (if necessary)
+- The "what" and the "when" (and maybe the "who")
+- The "how", either included in the site or with a link elsewhere
+- External links for:
+  - The "why" (when available)
+  - The legal or regulation text itself (where applicable)
+  - Additional information
+- Whether it's a hard requirement or a guideline/recommendation/best practice
+- Where the item came from (law, regulation, OMB Memo, GSA, the [TTS Tech Portfolio](https://handbook.18f.gov/tech-portfolio/) team, etc.)
+- Where to get help, e.g.
+  - A Slack channel
+  - An email list
+  - Where to file a GitHub issue
+  - A specific person (if necessary)
 
 ## Public domain
 
@@ -38,11 +38,11 @@ To run the site locally, you will need Ruby 1.9+. Run:
 
 ```bash
 bundle
-bundle exec ./go serve
+bundle exec jekyll serve
 ```
 
 ### Running the tests
 
 ```bash
-bundle exec ./go test
+docker-compose run web bundle exec rake test
 ```
