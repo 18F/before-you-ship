@@ -34,14 +34,21 @@ with this waiver of copyright.
 
 ## Usage
 
-To run the site locally, you will need Ruby 1.9+. Run:
+To run the site locally, you will need Docker. Run:
 
 ```bash
+
 bundle
 bundle exec jekyll serve
+
+OR
+
+docker-compose up --build
 ```
 
 ### Running the tests
+
+You will need Ruby 1.9+. Run:
 
 ```bash
 docker-compose run web bundle exec rake test
