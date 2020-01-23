@@ -1,11 +1,7 @@
-FROM ruby:2.7
+FROM starefossen/ruby-node:2-8
 
 WORKDIR /usr/src/app
 
-# throw errors if Gemfile has been modified since Gemfile.lock
-RUN bundle config --global frozen 1
-
-RUN gem install bundler -v 1.17.3
 COPY Gemfile Gemfile.lock ./
 RUN bundle install
 
