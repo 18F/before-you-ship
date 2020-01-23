@@ -5,5 +5,5 @@ jobs:
       - image: starefossen/ruby-node:2-8
     steps:
       - checkout
-      - run: gem install bundler
-      - run: ./go ci_test
+      - run: bundle
+      - run: bundle exec rake ci_test
