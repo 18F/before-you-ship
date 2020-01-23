@@ -48,8 +48,6 @@ The first step in doing so is to run the [security scans](../security/scanning/)
 
 In parallel, you will collaborate with a GSA OCISO assessor to verify all the controls in the SSP. The exact tests are given by this [assessment case template](https://docs.google.com/spreadsheets/d/1xYv9PHk6P1ePHSQcJWXSAYbAvmxzSsDOZrdS285DKYY/edit?ts=58eba80c#gid=1541480683).
 
-#### Step 5
-
 [General info](https://atos.open-control.org/steps/#step-5-authorize-information-system)
 
 Your Infrastructure Lead will work with you to schedule and prioritize your system assessment. Once assessment starts, the first step is that the AO will review all the items in your ATO checklist including all the documents you generated.
