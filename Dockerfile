@@ -5,7 +5,7 @@ WORKDIR /usr/src/app
 COPY Gemfile Gemfile.lock ./
 RUN bundle install
 
-COPY . .
+# COPY . .
 
 # Set some other necessary ENVs
 ENV LC_ALL=C.UTF-8
