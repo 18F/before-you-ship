@@ -5,7 +5,7 @@ parent: Infrastructure
 
 There are several kinds of monitoring that you will need to have in place for any application:
 
-- **Downtime:** Is the app available?
+- **Uptime/Downtime:** Is the app available?
 - **Errors:** Is the app generating errors at an unacceptable rate?
 - **Performance:** Even if the app is functional, is it unusably slow?
 
@@ -59,9 +59,26 @@ Once you've created alert conditions, **ensure that they're actually working.** 
 
 ## Downtime
 
-You will want to know if your site goes down. Options:
+You will want to know if your site goes down. Options (as of 1/20):
 
-- [New Relic Synthetics](http://newrelic.com/synthetics). ([Here's a walkthrough for setting up a simple ping with Synthetics, testing it and connecting it notification channels](https://docs.google.com/document/d/1pDya72sy37PUOMY5Th65LSqKa_tWYrX9kgtkys6WMm0/edit#))
+- [Uptrends](https://app.uptrends.com/Account/Saml/fb221443-bbf6-4c9b-a9f1-5190f90e2edf) - GSA Systems can request to have an account setup for their endpoints by submitting a Generic Request via GSA's Servicedesk. Optionally a public dashboard can be setup by the GSA Uptrends Administrator upon request. https://www.uptrends.com/support/academy/public-status-pages/configuration
+- [Statuspage](https://statuspage.io) - TBD
+- [New Relic Synthetics](http://newrelic.com/synthetics). -([Here's a walkthrough for setting up a simple ping with Synthetics, testing it and connecting it notification channels](https://docs.google.com/document/d/1pDya72sy37PUOMY5Th65LSqKa_tWYrX9kgtkys6WMm0/edit#)). In order to use this service you will need to consult with #acquisitions in slack, in order to apply funds to make a call on TTS's existing New Relic procurement for this service.
+
+### Status page
+Projects can supplement their uptime/ping services together with a status, by embedded it as an ``<iframe></iframe>`` on their own sub-domain. This allows the team to provide one place for their customers to go for the system's about how you are responsing to the outage and/or annoucements of degraded services or maintainace periods. 
+
+**Static site (JAMstack) alternatives:**
+to manage the domain/build and using some JAMstack/static site like https://github.com/netlify/netlify-statuskit or https://github.com/cstate/cstate.
+
+[Deploy it to Cloud.gov](https://gist.github.com/adborden/55bdc968251a3745ff2f7befbcf71148)
+Deploy it with `cf push <app-name>`
+
+[Deploy it to Federalist](https://federalist.18f.gov) or just host it in your app or in an s3 bucket (or alike).
+
+**Open Source alternatives (self-hosted):**
+- https://github.com/topics/statuspage
+- https://github.com/ivbeg/awesome-status-pages
 
 ## Notification Methods
 
