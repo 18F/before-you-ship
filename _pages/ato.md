@@ -48,15 +48,15 @@ The first step in doing so is to run the [security scans](../security/scanning/)
 
 In parallel, you will collaborate with a GSA OCISO assessor to verify all the controls in the SSP. The exact tests are given by this [assessment case template](https://docs.google.com/spreadsheets/d/1xYv9PHk6P1ePHSQcJWXSAYbAvmxzSsDOZrdS285DKYY/edit?ts=58eba80c#gid=1541480683).
 
-#### Step 5
-
-[General info](https://atos.open-control.org/steps/#step-5-authorize-information-system)
-
 Your Infrastructure Lead will work with you to schedule and prioritize your system assessment. Once assessment starts, the first step is that the AO will review all the items in your ATO checklist including all the documents you generated.
 
 Then, for most systems, a team with members from the project team, your AO, your Infrastructure Lead, and the GSA OCISO will convene for at least a week as the [ATO Sprinting Team](https://docs.google.com/document/d/1bGOV_pp_BlAzZsoa2D5pnsinx3R2gVnaBdFvHkwv0ig/edit), and begin to follow the [Lightweight Security Authorization Guide](https://insite.gsa.gov/topics/information-technology/security-and-privacy/it-security/it-security-procedural-guides).
 
 Folks from OCISO will conduct a penetration test on the system. Any penetration test findings deemed serious enough to prevent an ATO will need to be fixed right away to unblock the ATO process. They will also review the SSP document and test the control narratives. This testing and review process will take 1-2 weeks and should be the top priority for the project team at the time.
+
+#### Step 5
+
+[General info](https://atos.open-control.org/steps/#step-5-authorize-information-system)
 
 #### Step 6
 
