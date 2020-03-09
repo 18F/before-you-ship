@@ -50,7 +50,7 @@ In parallel, you will collaborate with a GSA OCISO assessor to verify all the co
 
 Your Infrastructure Lead will work with you to schedule and prioritize your system assessment. Once assessment starts, the first step is that the AO will review all the items in your ATO checklist including all the documents you generated.
 
-Then, for most systems, a team with members from the project team, your AO, your Infrastructure Lead, and the GSA OCISO will convene for at least a week as the [ATO Sprinting Team](https://docs.google.com/document/d/1bGOV_pp_BlAzZsoa2D5pnsinx3R2gVnaBdFvHkwv0ig/edit), and begin to follow the [Lightweight Security Authorization Guide](https://insite.gsa.gov/topics/information-technology/security-and-privacy/it-security/it-security-procedural-guides).
+Then, for most systems, a team with members from the project team, your AO, your Infrastructure Lead, and the GSA OCISO will convene for at least a week and begin to follow the [Lightweight Security Authorization Guide](https://insite.gsa.gov/topics/information-technology/security-and-privacy/it-security/it-security-procedural-guides).
 
 Folks from OCISO will conduct a penetration test on the system. Any penetration test findings deemed serious enough to prevent an ATO will need to be fixed right away to unblock the ATO process. They will also review the SSP document and test the control narratives. This testing and review process will take 1-2 weeks and should be the top priority for the project team at the time.
 
@@ -72,7 +72,7 @@ There are several ways to ensure that your system remains compliant:
 
 Beyond the [**general information**](https://atos.open-control.org/overview/#re-authorization):
 
-If you're planning a change that you think may require re-authorization, please [open an issue in the Infrastructure repository](https://github.com/18F/Infrastructure/issues/new?title=ATO+re-authorization+for+%3Cproject%3E?) to explain your planned change, so they can evaluate it.
+If you're planning a change that you think may require re-authorization, please [open an issue in the TTS Tech Portfolio repository](https://github.com/18F/tts-tech-portfolio/issues/new?title=ATO+re-authorization+for+%3Cproject%3E?) to explain your planned change, so they can evaluate it.
 
 If your systems needs re-authorization, follow the usual steps for getting an ATO, starting with [the checklist](checklist/). You should be able to reuse most of your existing ATO materials, assuming they have been kept up-to-date.
 
