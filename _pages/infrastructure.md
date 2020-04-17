@@ -62,7 +62,7 @@ happen due to your product handling extremely sensitive information or
 being critical to normal government function. AWS GovCloud has
 received a [FedRAMP JAB Provisional ATO at the High level](https://www.fedramp.gov/marketplace/compliant-systems/amazon-web-services-aws-government-community-cloud-govcloud/).
 
-Note however that when partner agencies assert that **of course** their product will be FISMA High, TTS often finds upon examination that a product should be really be judged FISMA Moderate or FISMA Low... So don’t discard cloud.gov or AWS as options before probing that point carefully!
+Note however that when partner agencies assert that **of course** their product will be FISMA High, TTS often finds upon examination that a product should really be judged FISMA Moderate or FISMA Low... So don’t discard cloud.gov or AWS as options before probing that point carefully!
 
 ### Static sites
 
