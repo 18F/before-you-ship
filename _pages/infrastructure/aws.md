@@ -88,6 +88,7 @@ At a minimum, an AWS resource must have a `Project` tag defined with enough info
    1. Create an account using email `devops+aws-<program>-<env>@gsa.gov`
    1. Add to [account list](https://docs.google.com/spreadsheets/d/1DedSCiU9AsCAAVvAFZT0_Ii7AFIKlI-JNifzlpHNbDg/edit#gid=0)
    1. Create an IAM user with `Administrator` permissions
+   1. [Add to aws-admin](https://github.com/18F/aws-admin#adding-a-new-destination-account)
 
 ### If needed
 
