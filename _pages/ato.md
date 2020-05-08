@@ -6,7 +6,7 @@ title: Lifecycle of a Launch
 
 ### Timeline
 
-ATO Sprints are staffed by cross-divisionally by the GSA Office of the Chief Information Security Officer (OCISO) and TTS.
+ATO Sprints are staffed cross-divisionally by the GSA Office of the Chief Information Security Officer (OCISO) and TTS.
 
 There are a few factors that will determine how long it takes a project to get an ATO. These map to [the checklist](https://github.com/18F/tts-tech-portfolio/blob/master/.github/ISSUE_TEMPLATE/ato.md), so might be helpful to open that up in another window and follow along.
 
