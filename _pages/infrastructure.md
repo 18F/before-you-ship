@@ -71,7 +71,7 @@ Note however that when partner agencies assert that **of course** their product 
 See cloud.gov page on [deploying static sites](https://docs.cloud.gov/apps/static/).
 
 - **Internal:** Likely free, but start by checking with #cloud-gov-business with your use case.
-- **External:** see the [pricing page](https://docs.cloud.gov/intro/pricing/pricing-model/)
+- **External:** see the [pricing page](https://cloud.gov/pricing/)
 
 #### Federalist
 
