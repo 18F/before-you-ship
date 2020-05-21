@@ -2,20 +2,13 @@
 title: Infrastructure
 ---
 
-At some point, you're going to want to move the system you are building
-into production. You should decide the final destination of your system early on
-in the project. If you're building a site that has no server-side
-code, your options are [cloud.gov](#cloudgov-1) or [Federalist](#federalist). If you're
-going to host server-side code, you should aim to deploy to [cloud.gov](#cloudgov).
-We also support deployments to [Amazon Web Services(AWS)](#amazon-web-services-aws), but with no external support. For GSA systems, see [comparison of hosting options](https://docs.google.com/spreadsheets/d/1TTu6R9vKOR5eiyC0tjF5XfaM9ozVp0FMoKDn_ZJOxG8/edit#gid=0).
+At some point, you're going to want to move the system you are building into production. You should decide the final destination of your system early on
+in the project. If you're building a site that has no server-side code, your options are [cloud.gov](#cloudgov-1) or [Federalist](#federalist). If you're
+going to host server-side code, you should aim to deploy to [cloud.gov](#cloudgov). We also support deployments to [Amazon Web Services(AWS)](#amazon-web-services-aws), but with no external support. For GSA systems, see [comparison of hosting options](https://docs.google.com/spreadsheets/d/1TTu6R9vKOR5eiyC0tjF5XfaM9ozVp0FMoKDn_ZJOxG8/edit#gid=0).
 
-Whichever option you choose, you should start deploying to a
-production-like environment from early on in the development
-process.
+Whichever option you choose, you should start deploying to a production-like environment from early on in the development process.
 
-Note that sending traffic from the internet to your
-local machine for _any_ testing purposes is not permitted. In order to
-enable testing, you can request [sandbox accounts](sandbox/) on both cloud.gov or AWS.
+Note that sending traffic from the internet to your local machine for _any_ testing purposes is not permitted. In order to enable testing, you can request [sandbox accounts](sandbox/) on both cloud.gov or AWS.
 
 ### Notes
 
@@ -36,19 +29,11 @@ TTS uses AWS as the underlying Infrastructure-as-a-Service (aka IaaS) cloud plat
 - Reduce TTS’s overhead for handling infrastructure billing, since it is fully self-service
 - Make it easier for teams to ensure high availability/scalability
 
-As a result, cloud.gov significantly reduces the portion of your team’s capacity that
-you need to dedicate to operational concerns. For this reason, when
-making infrastructure decisions, **opt to use cloud.gov for your
-deployment whenever possible, and only resort to directly using AWS
-for infrastructure pieces that are impossible to achieve through
-cloud.gov or use new AWS services not yet available in cloud.gov**.
+As a result, cloud.gov significantly reduces the portion of your team’s capacity that you need to dedicate to operational concerns. For this reason, when making infrastructure decisions, **opt to use cloud.gov for your deployment whenever possible, and only resort to directly using AWS for infrastructure pieces that are impossible to achieve through cloud.gov or use new AWS services not yet available in cloud.gov**.
 
-Comprehensive [documentation](https://docs.cloud.gov/) for
-cloud.gov is available.
+Comprehensive [documentation](https://docs.cloud.gov/) for cloud.gov is available.
 
-Cloud.gov has
-[a FedRAMP JAB Provisional ATO at
-the Moderate level](https://marketplace.fedramp.gov/#/product/18f-cloudgov?sort=productName).
+Cloud.gov has [a FedRAMP JAB Provisional ATO at the Moderate level](https://marketplace.fedramp.gov/#/product/18f-cloudgov?sort=productName).
 
 #### Amazon Web Services (AWS)
 
@@ -56,11 +41,7 @@ If you do want to use AWS directly, see the [AWS](aws/) page.
 
 #### FISMA High systems
 
-There are some specific cases where the product is
-[categorized](../ato/levels/) “FISMA High”. This would usually only
-happen due to your product handling extremely sensitive information or
-being critical to normal government function. AWS GovCloud has
-received a [FedRAMP JAB Provisional ATO at the High level](https://www.fedramp.gov/marketplace/compliant-systems/amazon-web-services-aws-government-community-cloud-govcloud/).
+There are some specific cases where the product is [categorized](../ato/levels/) “FISMA High”. This would usually only happen due to your product handling extremely sensitive information or being critical to normal government function. AWS GovCloud has received a [FedRAMP JAB Provisional ATO at the High level](https://www.fedramp.gov/marketplace/compliant-systems/amazon-web-services-aws-government-community-cloud-govcloud/).
 
 Note however that when partner agencies assert that **of course** their product will be FISMA High, TTS often finds upon examination that a product should really be judged FISMA Moderate or FISMA Low... So don’t discard cloud.gov or AWS as options before probing that point carefully!
 
