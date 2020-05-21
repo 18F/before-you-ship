@@ -34,7 +34,7 @@ _Previously known as "pre-authorization"._
 
 You may operate without further authorization, based on our approved pre-existing security authorization, if all of the following conditions are met:
 
-- The system is deployed to [cloud.gov](https://cloud.gov) or the [18F AWS East/West environment](../../infrastructure/aws/).
+- The system is deployed to [cloud.gov](https://cloud.gov) or [TTS-managed infrastructure-as-a-service (IaaS)](../../infrastructure/#infrastructure-as-a-service-iaas).
 - The system does _not_:
   - interact with or change the state of any production Federal information system, whether it is operated by TTS or our Federal partners
   - collect or store any sensitive [personally identifiable information (PII)](../../privacy/)

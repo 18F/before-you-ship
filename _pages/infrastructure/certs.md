@@ -7,7 +7,7 @@ HTTPS should be enforced on every public endpoint ([here's why](https://18f.gsa.
 
 - If using cloud.gov, obtain through the [CDN broker](https://cloud.gov/docs/services/cdn-route/).
 - If using [Federalist](https://federalist-docs.18f.gov/pages/how-federalist-works/custom-urls/#technical-steps-to-set-up-a-new-site), they are set up automatically.
-- If using AWS, there are a few options:
+- If using [TTS-managed infrastructure as a service (IaaS)](../../infrastructure/#infrastructure-as-a-service-iaas), there are a few options:
   - [Let's Encrypt](https://letsencrypt.org/)
   - GSA IT
     - [Service Desk](https://servicedesk.gsa.gov) > Service Catalog > New Account or Access Requests > Internal Certificate Request
