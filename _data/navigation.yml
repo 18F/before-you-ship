@@ -1,0 +1,62 @@
+primary:
+  - text: Overview
+    href: /
+  - text: Lifecycle of a Launch
+    href: /ato/
+    links:
+      - text: Checklist
+        href: /ato/checklist/
+      - text: Types
+        href: /ato/types/
+      - text: System Security Plan
+        href: /ato/ssp/
+      - text: Archer
+        href: /ato/archer/
+      - text: Tips
+        href: /ato/tips/
+  - text: Security
+    href: /security/
+    links:
+      - text: Scanning
+        href: /security/scanning/
+      - text: Static Analysis
+        href: /security/static-analysis/
+      - text: Dynamic Scanning
+        href: /security/dynamic-scanning/
+      - text: Frameworks
+        href: /security/frameworks/
+      - text: Multi-Factor Authentication
+        href: /security/mfa/
+  - text: Infrastructure
+    href: /infrastructure/
+    links:
+      - text: Sandbox Accounts
+        href: /infrastructure/sandbox/
+      - text: Amazon Web Services
+        href: /infrastructure/aws/
+      - text: Federalist
+        href: /infrastructure/federalist/
+      - text: Good Production Practices
+        href: /infrastructure/good-production-practices/
+      - text: Common Questions
+        href: /infrastructure/common-questions/
+      - text: HTTPS Certificates
+        href: /infrastructure/certs/
+      - text: Monitoring
+        href: /infrastructure/monitoring/
+      - text: Pinning Dependencies
+        href: /infrastructure/pinning-dependencies/
+      - text: Logging
+        href: /infrastructure/logging/
+      - text: Decommissioning
+        href: /infrastructure/decommissioning/
+  - text: Laws
+    href: /laws/
+    links:
+      - text: 508 - Accessibility
+        href: /laws/508/
+      - text: Paperwork Reduction Act (PRA)
+        href: https://pra.digital.gov/
+        external: true
+  - text: Privacy
+    href: /privacy/
