@@ -3,6 +3,9 @@ jobs:
   build:
     docker:
       - image: ruby:2.7
+    environment:
+      # fix encoding
+      - LANG: C.UTF-8
     steps:
       - checkout
       - run: bundle
