@@ -2,8 +2,9 @@ primary:
   - text: Overview
     href: /
   - text: Lifecycle of a Launch
-    href: /ato/
     links:
+      - text: ATOs
+        href: /ato/
       - text: Checklist
         href: /ato/checklist/
       - text: Types
@@ -15,8 +16,9 @@ primary:
       - text: Tips
         href: /ato/tips/
   - text: Security
-    href: /security/
     links:
+      - text: General Security Standards
+        href: /security/
       - text: Scanning
         href: /security/scanning/
       - text: Static Analysis
@@ -28,8 +30,9 @@ primary:
       - text: Multi-Factor Authentication
         href: /security/mfa/
   - text: Infrastructure
-    href: /infrastructure/
     links:
+      - text: Overview
+        href: /infrastructure/
       - text: Sandbox Accounts
         href: /infrastructure/sandbox/
       - text: Amazon Web Services
@@ -51,8 +54,9 @@ primary:
       - text: Decommissioning
         href: /infrastructure/decommissioning/
   - text: Laws
-    href: /laws/
     links:
+      - text: Overview
+        href: /laws/
       - text: 508 - Accessibility
         href: /laws/508/
       - text: Paperwork Reduction Act (PRA)
