@@ -13,10 +13,6 @@ permalink: pretty
 sass:
   style: :compressed
 
-logos:
-  - src: /assets/img/18f-logo.png
-    alt: 18F logo
-
 github_info:
   organization: 18F
   repository: before-you-ship
@@ -36,4 +32,4 @@ defaults:
   - scope:
       path: ""
     values:
-      layout: "page"
+      layout: page
