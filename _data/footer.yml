@@ -1,0 +1,8 @@
+type: default
+heading: Technology Transformation Services (TTS)
+edit_page:
+  text: Edit this page
+contact:
+  contact_links:
+    - text: devops@gsa.gov
+      href: mailto:devops@gsa.gov

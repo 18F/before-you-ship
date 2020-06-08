@@ -1,10 +1,3 @@
-require 'guides_style_18f'
-
-desc "Update the 'navigation:' data in _config.yml"
-task :update_nav do
-  GuidesStyle18F.update_navigation_configuration Dir.pwd
-end
-
 desc 'Build the site for testing'
 task :test_build do
   # https://github.com/jekyll/jekyll/issues/4122#issuecomment-159439360
