@@ -2,7 +2,7 @@
 title: Privacy
 ---
 
-The GSA Privacy Office preserves and evolves privacy protections for any individual whose personal information is handled by the agency. In practice, this requires the Office to [conduct periodic privacy threshold analyses (PTAs) and privacy impact assessments (PIAs)](https://gsa.gov/portal/getMediaData?mediaId=199855) for each of the GSA&rsquo;s programs and information systems. This helps the Office ensure legal compliance and mitigate privacy risks.
+The GSA Privacy Office ([public](https://www.gsa.gov/privacygsa) and [internal](https://insite.gsa.gov/privacygsa) pages) preserves and evolves privacy protections for any individual whose personal information is handled by the agency. In practice, this requires the Office to [conduct periodic privacy threshold analyses (PTAs) and privacy impact assessments (PIAs)](https://gsa.gov/portal/getMediaData?mediaId=199855) for each of the GSA&rsquo;s programs and information systems. This helps the Office ensure legal compliance and mitigate privacy risks.
 
 Privacy risk is partially assessed based on to the degree to which a program or information system collects and makes use of personally identifiable information (PII). Per [OMB Circular A-130](https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/OMB/circulars/a130/a130revised.pdf), PII is "information that can be used to distinguish or trace an individual&rsquo;s identity, either alone or when combined with other information that is linked or linkable to a specific individual."
 
