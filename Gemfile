@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'jekyll'
+gem 'jekyll-sitemap'
 
 group :jekyll_plugins do
   gem 'uswds-jekyll', github: '18F/uswds-jekyll', branch: 'update-uswds-2.0'

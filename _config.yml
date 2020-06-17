@@ -8,6 +8,10 @@ exclude:
   - README.md
   - vendor/
 
+url: "https://before-you-ship.18f.gov"
+plugins:
+  - jekyll-sitemap
+
 permalink: pretty
 
 sass:
