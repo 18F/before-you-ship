@@ -25,24 +25,15 @@ Anybody in TTS can get an AWS sandbox account. Sandbox users have
 `power user` access, which means they have full privileges to all AWS services
 except Identity and Access Management (IAM).
 
-Expect everything in the sandbox accounts gets deleted once a week. You can
-however protect resources from deletion by following two steps. First, register
-the system you are working on in
-[#infrastructure](https://gsa-tts.slack.com/messages/C039MHHF8/). Second, make
-sure you tag all resources you create in the AWS sandbox with the tag
-`Project=<system_infrastructure_tag>`, where `<system_infrastructure_tag>` is
-the name you registered with
-[#infrastructure](https://gsa-tts.slack.com/messages/C039MHHF8/).
-
 - [Request a sandbox account](https://docs.google.com/a/gsa.gov/forms/d/e/1FAIpQLSeXlsfDyAZi5P_5lS8InCeZxvA3JA3-g8aYWdkgkFmGPcYmLQ/viewform)
 - [Sign in to your sandbox account](https://tts-sandbox.signin.aws.amazon.com/console)
 
 ### Rules
 
 - The sandbox is for testing and demonstration purposes only. Nobody outside the federal government should be given access details for systems running in the sandbox unless authentication is in place.
-- No sensitive or personally identifiable information can be stored in the sandbox accounts.
-- Creating resources that will cost more than $500 per month requires prior agreement from the TTS Infrastructure team.
-- All resources that can be billed must be tagged with a `Project`.
+- No [sensitive information](https://github.com/18F/open-source-policy/blob/master/practice.md#protecting-sensitive-information) can be stored in the sandbox accounts.
+- Creating resources that will cost more than $500 per month requires prior agreement from the Tech Portfolio team.
+- All resources must be tagged with a `Project`. Resources without this tag can be deleted at any time.
 - Any website that is publicly routable for more than one day must have a robots.txt configuration that prevents indexing by search engines.
 
 ## Important notes for AWS users
