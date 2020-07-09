@@ -37,6 +37,14 @@ the name you registered with
 - [Request a sandbox account](https://docs.google.com/a/gsa.gov/forms/d/e/1FAIpQLSeXlsfDyAZi5P_5lS8InCeZxvA3JA3-g8aYWdkgkFmGPcYmLQ/viewform)
 - [Sign in to your sandbox account](https://tts-sandbox.signin.aws.amazon.com/console)
 
+### Rules
+
+- The sandbox is for testing and demonstration purposes only. Nobody outside the federal government should be given access details for systems running in the sandbox unless authentication is in place.
+- No sensitive or personally identifiable information can be stored in the sandbox accounts.
+- Creating resources that will cost more than $500 per month requires prior agreement from the TTS Infrastructure team.
+- All resources that can be billed must be tagged with a `Project`.
+- Any website that is publicly routable for more than one day must have a robots.txt configuration that prevents indexing by search engines.
+
 ## Important notes for AWS users
 
 There are a few special notes on using any "Infrastructure as a Service" in the Federal context.
