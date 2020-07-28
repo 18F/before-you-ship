@@ -1,11 +1,3 @@
-GIT
-  remote: https://github.com/18F/uswds-jekyll.git
-  revision: 7cf641447784b9769950bc15a21121a81ef29bea
-  branch: update-uswds-2.0
-  specs:
-    uswds-jekyll (5.0.0)
-      jekyll (>= 4.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -30,7 +22,7 @@ GEM
       typhoeus (~> 1.3)
       yell (~> 2.0)
     http_parser.rb (0.6.0)
-    i18n (1.8.4)
+    i18n (1.8.5)
       concurrent-ruby (~> 1.0)
     jekyll (4.1.1)
       addressable (~> 2.4)
@@ -88,6 +80,8 @@ GEM
     typhoeus (1.4.0)
       ethon (>= 0.9.0)
     unicode-display_width (1.7.0)
+    uswds-jekyll (5.0.0)
+      jekyll (>= 4.0, < 5)
     yell (2.2.2)
 
 PLATFORMS
@@ -99,7 +93,7 @@ DEPENDENCIES
   jekyll-redirect-from
   jekyll-sitemap
   rake
-  uswds-jekyll!
+  uswds-jekyll (~> 5.0)
 
 BUNDLED WITH
    2.1.4
