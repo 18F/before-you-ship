@@ -4,7 +4,7 @@ gem 'jekyll'
 gem 'jekyll-sitemap'
 
 group :jekyll_plugins do
-  gem 'uswds-jekyll', github: '18F/uswds-jekyll', branch: 'update-uswds-2.0'
+  gem 'uswds-jekyll'
   gem 'jekyll-redirect-from'
 end
 
