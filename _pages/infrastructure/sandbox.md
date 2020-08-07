@@ -25,7 +25,9 @@ Anybody in TTS can get an AWS sandbox account. Sandbox users have
 `power user` access, which means they have full privileges to all AWS services
 except Identity and Access Management (IAM).
 
-- [Request a sandbox account](https://github.com/18F/aws-admin/issues/new?template=new_sandbox_user.md&title=sandbox+account+for+[your+email])
+- Request a sandbox account:
+   - [18F](https://github.com/18F/aws-admin/issues/new?template=new_sandbox_user.md&title=sandbox+account+for+[your+email])
+   - [COE](https://docs.google.com/forms/d/e/1FAIpQLSdn8Pjof5xWZSkopkEU6pumQlXGYfU4fMN9efmoDzffm2MW4A/viewform)
 - [Sign in to your sandbox account](https://tts-sandbox.signin.aws.amazon.com/console)
 
 ### Rules
