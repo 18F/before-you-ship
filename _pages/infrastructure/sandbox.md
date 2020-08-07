@@ -27,7 +27,7 @@ except Identity and Access Management (IAM).
 
 - Request a sandbox account:
    - [18F](https://github.com/18F/aws-admin/issues/new?template=new_sandbox_user.md&title=sandbox+account+for+[your+email])
-   - [COE](https://docs.google.com/forms/d/1MrhLWxci95J3chE8CFTJ7tPeT_Y-xDbMk_8YYawr5zk/edit)
+   - [COE](https://docs.google.com/forms/d/e/1FAIpQLSdn8Pjof5xWZSkopkEU6pumQlXGYfU4fMN9efmoDzffm2MW4A/viewform)
 - [Sign in to your sandbox account](https://tts-sandbox.signin.aws.amazon.com/console)
 
 ### Rules
