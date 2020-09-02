@@ -2,6 +2,16 @@
 title: Domains
 ---
 
+## Getting a new second-level domain
+
+_something.gov_
+
+[Information from DotGov.](https://home.dotgov.gov/registration/)
+
+## DNS
+
+DNS for domains in TTS is managed one of a few ways—see [this diagram](https://docs.google.com/drawings/d/18POi-tbIqI7vzM2wnGKjOk4eC1fTAsnggGAeRK3Q3rk/edit?ts=5f4fea7a). For those that are managed within TTS, see [the DNS repository](https://github.com/18F/dns).
+
 ## Do you support DNSSEC?
 
 No. [More information from cloud.gov.](https://cloud.gov/docs/compliance/domain-standards/#dnssec)
