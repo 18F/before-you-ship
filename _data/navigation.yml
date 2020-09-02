@@ -43,8 +43,6 @@ primary:
         href: /infrastructure/domains/
       - text: Good Production Practices
         href: /infrastructure/good-production-practices/
-      - text: Common Questions
-        href: /infrastructure/common-questions/
       - text: HTTPS Certificates
         href: /infrastructure/certs/
       - text: Monitoring
