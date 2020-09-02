@@ -2,11 +2,11 @@
 title: Domains
 ---
 
-## Getting a new second-level domain
+## Second-level domains
 
 _something.gov_
 
-[Information from DotGov.](https://home.dotgov.gov/registration/)
+TTS owns [a number of second-level domains](https://docs.google.com/spreadsheets/d/12pfcEIEXaJTjIKex-3wnI89erIvgKf9B_XpGkDl6qsM/edit#gid=824448842). [Information from DotGov on getting a new one.](https://home.dotgov.gov/registration/) Purchases/renewals are done through [micropurchase requests](https://handbook.tts.gsa.gov/purchase-requests/).
 
 ## DNS
 
