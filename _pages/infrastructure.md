@@ -1,5 +1,7 @@
 ---
 title: Infrastructure
+redirect_from:
+  - /infrastructure/common-questions/
 ---
 
 At some point, you're going to want to move the system you are building into production. You should decide the final destination of your system early on
@@ -31,9 +33,20 @@ TTS uses AWS as the underlying IaaS, but spending effort at the IaaS level is no
 
 As a result, cloud.gov significantly reduces the portion of your team’s capacity that you need to dedicate to operational concerns. For this reason, when making infrastructure decisions, **opt to use cloud.gov for your deployment whenever possible, and only resort to directly using AWS for infrastructure pieces that are impossible to achieve through cloud.gov or use new AWS services not yet available in cloud.gov**.
 
-Comprehensive [documentation](https://docs.cloud.gov/) for cloud.gov is available.
+Comprehensive [documentation](https://cloud.gov/docs/) for cloud.gov is available.
 
 Cloud.gov has [a FedRAMP JAB Provisional ATO at the Moderate level](https://marketplace.fedramp.gov/#/product/18f-cloudgov?sort=productName).
+
+#### Compliance info
+
+cloud.gov's
+
+- FedRAMP package
+- System Security Plan
+- Control Implementation Summary
+- Customer Responsibility Matrix
+
+can be found on [cloud.gov's FedRAMP page](https://cloud.gov/docs/overview/fedramp-tracker/#how-you-can-use-this-p-ato).
 
 ### Infrastructure as a service (IaaS)
 
