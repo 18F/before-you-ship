@@ -4,7 +4,7 @@ gem 'jekyll'
 gem 'jekyll-sitemap'
 
 group :jekyll_plugins do
-  gem 'uswds-jekyll', '~> 5.0'
+  gem 'uswds-jekyll', '~> 5.2'
   gem 'jekyll-redirect-from'
 end
 
