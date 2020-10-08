@@ -27,6 +27,6 @@ The following have been used / are available for use in TTS:
 
 - Google Drawings
 - [Mermaid](http://mermaid-js.github.io/mermaid/)
-- [OmniGraffle]({{site.baseurl}}/design/#drawing-lines-on-a-screen)
+- [OmniGraffle](https://handbook.tts.gsa.gov/design/#drawing-lines-on-a-screen)
 - [PlantUML](https://plantuml.com/)
-- [Visio]({{site.baseurl}}/design/#drawing-lines-on-a-screen)
+- [Visio](https://handbook.tts.gsa.gov/design/#drawing-lines-on-a-screen)
