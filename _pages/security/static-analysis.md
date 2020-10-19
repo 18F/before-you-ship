@@ -13,12 +13,12 @@ There are tools for JS, Ruby, and Python, and you are encouraged to set up this 
 
 ## Recommendations by language
 
-| Language   | Dependency analysis                          | Code security analysis                                                                                                                                                                                                                                   |
-| ---------- | -------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Go         | [Snyk](https://snyk.io/docs/snyk-for-golang) | [Go Meta Linter](https://github.com/alecthomas/gometalinter), with the security-related [linters](https://github.com/alecthomas/gometalinter#supported-linters) (like [SafeSQL](https://github.com/stripe/safesql), if you're doing SQL queries) enabled |
-| JavaScript | [GitHub][github-alerts]<sup>\*</sup>         | [eslint-config-scanjs](https://www.npmjs.com/package/eslint-config-scanjs) / [eslint-plugin-security](https://www.npmjs.com/package/eslint-plugin-security)                                                                                              |
-| Python     | [GitHub][github-alerts]<sup>\*</sup>         | [Bandit](https://github.com/PyCQA/bandit) with the provided [config file](https://github.com/18F/compliance-toolkit/blob/master/configs/static/.bandit); [engine for Code Climate](https://docs.codeclimate.com/docs/bandit)                         |
-| Ruby       | [GitHub][github-alerts]<sup>\*</sup>         | [Code Climate](https://docs.codeclimate.com/v1.0/docs/brakeman) or [Hakiri](https://hakiri.io/) - _Rails only_                                                                                                                                           |
+| Language   | Dependency analysis                          | Code security analysis                                                                                                                                                                                                                                                      |
+| ---------- | -------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Go         | [Snyk](https://snyk.io/docs/snyk-for-golang) | [Go Meta Linter](https://github.com/alecthomas/gometalinter), with the security-related [linters](https://github.com/alecthomas/gometalinter#supported-linters) (like [SafeSQL](https://github.com/stripe/safesql), if you're doing SQL queries) enabled / [CodeQL][codeql] |
+| JavaScript | [GitHub][github-alerts]<sup>\*</sup>         | [eslint-config-scanjs](https://www.npmjs.com/package/eslint-config-scanjs) / [eslint-plugin-security](https://www.npmjs.com/package/eslint-plugin-security) / [CodeQL][codeql]                                                                                              |
+| Python     | [GitHub][github-alerts]<sup>\*</sup>         | [Bandit](https://github.com/PyCQA/bandit) with the provided [config file](https://github.com/18F/compliance-toolkit/blob/master/configs/static/.bandit); [engine for Code Climate](https://docs.codeclimate.com/docs/bandit) / [CodeQL][codeql]                             |
+| Ruby       | [GitHub][github-alerts]<sup>\*</sup>         | [Code Climate](https://docs.codeclimate.com/v1.0/docs/brakeman) or [Hakiri](https://hakiri.io/) - _Rails only_                                                                                                                                                              |
 
 \* Enabled automatically for repositories in [TTS GitHub organizations](https://handbook.18f.gov/github/#organizations) through [`ghad`](https://github.com/18F/ghad).
 
@@ -45,3 +45,4 @@ We are especially interested to know if you get lots of false positives. We beli
 More advanced configuration options for all the tools can be found in their respective docs.
 
 [github-alerts]: https://help.github.com/en/articles/about-security-alerts-for-vulnerable-dependencies#alerts-and-automated-security-fixes-for-vulnerable-dependencies
+[codeql]: https://docs.github.com/en/free-pro-team@latest/github/finding-security-vulnerabilities-and-errors-in-your-code/enabling-code-scanning-for-a-repository#enabling-code-scanning-using-actions
