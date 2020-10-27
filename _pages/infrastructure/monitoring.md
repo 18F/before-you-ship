@@ -30,7 +30,6 @@ At present we don't have a dedicated first-line support team across TTS. Project
 
 For a non-static site, you will want to know if exceptions are being thrown within your application. TTS uses [New Relic](http://newrelic.com/).
 
-- See [the FISMA Ready instructions](https://github.com/fisma-ready/new-relic) for useful settings to go in the New Relic `ini` file.
 - For [New Relic](https://newrelic.com) access, [open an issue in the Infrastructure repo](https://github.com/18F/Infrastructure/issues/new?title=New+Relic+account+for+%3Cname%3E) to get an account set up for your project.
 
 ## Analytics
