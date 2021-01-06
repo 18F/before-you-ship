@@ -4,17 +4,26 @@ redirect_from:
   - /infrastructure/common-questions/
 ---
 
-At some point, you're going to want to move the system you are building into production. You should decide the final destination of your system early on
-in the project. If you're building a site that has no server-side code, your options are [cloud.gov](#cloudgov-1) or [Federalist](#federalist). If you're
-going to host server-side code, you should aim to deploy to [cloud.gov](#cloudgov). You can also deploy to [TTS-managed infrastructure as a service (IaaS)](#infrastructure-as-a-service-iaas) directly, but your life will be harder. For GSA systems, see [comparison of hosting options](https://docs.google.com/spreadsheets/d/1TTu6R9vKOR5eiyC0tjF5XfaM9ozVp0FMoKDn_ZJOxG8/edit#gid=0).
+At some point, you're going to want to deploy your system. You have a good idea of the final destination of your system early on
+in the project. **If you're building [a site that has no server-side code](#static-sites), aim to use [Federalist](#federalist). If you're
+going to host server-side code, aim to deploy to [cloud.gov](#cloudgov).** You can also deploy to [TTS-managed infrastructure as a service (IaaS)](#infrastructure-as-a-service-iaas) directly, but your life will be harder. For GSA systems, see [comparison of hosting options](https://docs.google.com/spreadsheets/d/1TTu6R9vKOR5eiyC0tjF5XfaM9ozVp0FMoKDn_ZJOxG8/edit#gid=0).
 
-Whichever option you choose, you should start deploying to a production-like environment from early on in the development process.
+Whichever option you choose, [you should start deploying to a production-like environment from early on in the development process](https://blog.thepete.net/blog/2019/10/04/hello-production/).
 
 Note that sending traffic from the internet to your local machine for _any_ testing purposes is not permitted. In order to enable testing, you can request [sandbox accounts](sandbox/) on both cloud.gov or AWS.
 
+## Themes
+
+In general:
+
+- The more your system looks like other TTS systems, the better
+  - This allows TTS to more easily share people, patterns, code, and services across projects
+- The more you can offload (to your hosting provider, frameworks, etc.), the better
+  - This will lower your operational and compliance burden
+
 ## Notes
 
-- Below, "internal" projects mean "things built by and for TTS", i.e. "not for a partner agency".
+- Below, "internal" projects mean "things built by and for TTS", i.e. "not for a partner agency". If you're building for a partner agency to own long term, you will want to factor in considerations for their environment.
 - **If an option isn't listed below, you probably can't use it** for deploying TTS projects. This includes:
   - GitHub Pages ([why](https://18f.gsa.gov/2015/05/14/18Fpages/))
   - Heroku and other platform services
@@ -24,6 +33,8 @@ Note that sending traffic from the internet to your local machine for _any_ test
 ## Server-side code
 
 ### cloud.gov
+
+_Preferred_
 
 TTS uses AWS as the underlying IaaS, but spending effort at the IaaS level is not the best use of your team’s time. TTS has invested in developing [cloud.gov](https://cloud.gov/) to provide for the most common infrastructure needs. cloud.gov uses [Cloud Foundry](https://www.cloudfoundry.org/) – an open source Platform-as-a-Service (PaaS) – as a team-friendly abstraction above AWS, encapsulating good practice cloud hosting without having to worry about a lot of the details. For most of the products that TTS develops, deploying onto cloud.gov will:
 
@@ -66,13 +77,15 @@ Note however that when partner agencies assert that **of course** their product 
 
 ## Static sites
 
+### Federalist
+
+_Preferred_
+
+[More information.](federalist/)
+
 ### cloud.gov
 
 See cloud.gov page on [deploying static sites](https://docs.cloud.gov/apps/static/).
 
 - **Internal:** Likely free, but start by checking with #cloud-gov-business with your use case.
 - **External:** see the [pricing page](https://cloud.gov/pricing/)
-
-### Federalist
-
-[More information.](federalist/)
