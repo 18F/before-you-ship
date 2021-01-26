@@ -76,6 +76,8 @@ If you're planning a change that you think may require re-authorization, please 
 
 If your systems needs re-authorization, follow the usual steps for getting an ATO, starting with [the checklist](checklist/). You should be able to reuse most of your existing ATO materials, assuming they have been kept up-to-date.
 
+See also: **site redesign [Concept form](https://forms.gle/mdHCktKLso8UFxMz9) and [process](https://docs.google.com/document/d/1saLHjVKj1AtKlZggyOOT27uIOQsfqu388aXxkjiJZi8/edit)**.
+
 ### ATO renewal
 
 Beyond the [**general information**](https://atos.open-control.org/overview/#ato-renewal), follow the usual steps for getting an ATO, starting with [the checklist](checklist/).
