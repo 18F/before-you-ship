@@ -6,8 +6,6 @@ As described in [the NIST guide](http://csrc.nist.gov/publications/nistpubs/800-
 
 > The purpose of the system security plan is to provide an overview of the security requirements of the system and describe the controls in place or planned for meeting those requirements.
 
-At TTS, the system security plan (SSP) is a long Google Doc.
-
 <a href="https://atos.open-control.org/tips/#system-security-plans-ssps" class="usa-button">Tips</a>
 
 ## Diagrams
