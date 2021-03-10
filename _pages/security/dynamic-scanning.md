@@ -81,6 +81,8 @@ Any request in ZAP can be fuzzed. Simply right click on it, select Attack -> Fuz
 
 ## More Information
 
+The lead engineer for OWASP ZAP, Simon Bennetts, has recorded a number of [useful YouTube videos](https://www.youtube.com/channel/UCD3gULJ53AgTHniwATxwdgg), and that's probably the best place to start learning ZAP.
+
 The [ZAP User Guide](https://github.com/zaproxy/zap-core-help/wiki) is phenomenal. If you run into an issue, this should be the first place you check.
 
 The [OWASP Vulnerable Web Applications Directory](https://www.owasp.org/index.php/OWASP_Vulnerable_Web_Applications_Directory_Project#tab=Main) has a great list of (intentionally) vulnerable targets that are useful for testing the capability of ZAP.
