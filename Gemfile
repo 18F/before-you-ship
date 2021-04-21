@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
-gem 'jekyll-sitemap'
+gem 'jekyll', '>= 4.2.0'
+gem 'jekyll-sitemap', '>= 1.4.0'
 
 group :jekyll_plugins do
-  gem 'uswds-jekyll', '~> 5.0'
-  gem 'jekyll-redirect-from'
+  gem 'uswds-jekyll', '~> 5.0', '>= 5.0.1'
+  gem 'jekyll-redirect-from', '>= 0.16.0'
 end
 
 group :development, :test do
