@@ -16,7 +16,7 @@ Once you have [validated the path to production](https://docs.google.com/documen
 
 #### Step 0
 
-As soon as you begin developing an [alpha](https://18f.gsa.gov/dashboard/stages/#alpha), [submit the TTS System Authorization Request Form](https://app.smartsheet.com/b/form/f44c0926e683473eac50a07cb5aa692e) to set up a tracking mechanism for your ATO. You can ask questions in your checklist thread to understand the specific considerations for your system. At this time it is also good to ensure your system is eligible for [pre-assessment](types/#conditions-for-pre-assessment) authorization for user testing purposes.
+As soon as you begin developing an [alpha](https://18f.gsa.gov/dashboard/stages/#alpha), [submit the TTS System Authorization Request Form](https://app.smartsheetgov.com/b/form/f89798bc740045ebb6f430345adf4a49) to set up a tracking mechanism for your ATO. You can ask questions in your checklist thread to understand the specific considerations for your system. At this time it is also good to ensure your system is eligible for [pre-assessment](types/#conditions-for-pre-assessment) authorization for user testing purposes.
 
 #### Step 1
 
@@ -66,10 +66,10 @@ There are several ways to ensure that your system remains compliant:
 
 Beyond the [**general information**](https://atos.open-control.org/overview/#re-authorization):
 
-If you're planning a change that you think may require re-authorization, please [submit the TTS System Authorization Request Form](https://app.smartsheet.com/b/form/f44c0926e683473eac50a07cb5aa692e) to explain your planned change, so they can evaluate it.
+If you're planning a change that you think may require re-authorization, please [submit the TTS System Authorization Request Form](https://app.smartsheetgov.com/b/form/f89798bc740045ebb6f430345adf4a49) to explain your planned change, so they can evaluate it.
 
-If your systems needs re-authorization, follow the usual steps for getting an ATO, starting with [the checklist](https://app.smartsheet.com/folders/9mfvjQr7Rh95RxvhvQqQW3VwchXhmp2x5mJJgVX1). You should be able to reuse most of your existing ATO materials, assuming they have been kept up-to-date.
+If your systems needs re-authorization, follow the usual steps for getting an ATO, starting with [the checklist](https://app.smartsheetgov.com/sheets/6chG6mMwRGFgF3hPgPwrhvc2GHQG4vq4R658X2w1). You should be able to reuse most of your existing ATO materials, assuming they have been kept up-to-date.
 
 ### ATO renewal
 
-Beyond the [**general information**](https://atos.open-control.org/overview/#ato-renewal), follow the usual steps for getting an ATO, starting with [submit the TTS System Authorization Request Form](https://app.smartsheet.com/b/form/f44c0926e683473eac50a07cb5aa692e).
+Beyond the [**general information**](https://atos.open-control.org/overview/#ato-renewal), follow the usual steps for getting an ATO, starting with [submit the TTS System Authorization Request Form](https://app.smartsheetgov.com/b/form/f89798bc740045ebb6f430345adf4a49).
