@@ -9,9 +9,7 @@ HTTPS should be enforced on every public endpoint ([here's why](https://18f.gsa.
 - If using [Federalist](https://federalist-docs.18f.gov/pages/how-federalist-works/custom-urls/#technical-steps-to-set-up-a-new-site), they are set up automatically.
 - If using [TTS-managed infrastructure as a service (IaaS)](../../infrastructure/#infrastructure-as-a-service-iaas), there are a few options:
   - [Let's Encrypt](https://letsencrypt.org/)
-  - GSA IT
-    - [Service Desk](https://servicedesk.gsa.gov) > Service Catalog > New Account or Access Requests > Internal Certificate Request
-    - Unclear if they can also create certificates for public web. Please update this page if you find out!
+  - GSA IT [Service Desk](https://servicedesk.gsa.gov) > Service Catalog > Account Services > Internal/External Certificate Request
   - SSLMate through #acquisition, via an approved [purchase request](https://handbook.18f.gov/purchase-requests/)
   - If in OPP, get a GoDaddy certificate through #opp-infra
 - If using another agency's infrastructure, consult their IT department.
