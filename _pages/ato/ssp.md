@@ -31,3 +31,10 @@ The following have been used / are available for use in TTS:
 - [OmniGraffle](https://handbook.tts.gsa.gov/design/#drawing-lines-on-a-screen)
 - [PlantUML](https://plantuml.com/)
 - [Visio](https://handbook.tts.gsa.gov/design/#drawing-lines-on-a-screen)
+
+## FedRAMP packages
+
+Often you'll be building on top of services that have FedRAMP authorizations. When writing your SSP, you'll need to mark certain controls as "inherited", based on the Customer Responsibility Matrices (CRMs) of the Cloud Service Providers (CSPs).
+
+- For cloud.gov, you can download the CRM from [their website](https://cloud.gov/docs/overview/fedramp-tracker/#how-you-can-use-this-p-ato).
+- For others, you'll need to [put in a package request](https://app.docusign.com/templates/details/434e60cc-fbd1-4708-9373-aef41439ff05).
