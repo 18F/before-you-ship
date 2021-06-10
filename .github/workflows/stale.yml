@@ -1,0 +1,31 @@
+name: Mark stale issues and pull requests
+
+on:
+  schedule:
+  - cron: '23 6 * * *'
+
+jobs:
+  stale:
+
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+
+    steps:
+    - uses: actions/stale@v3
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        days-before-stale: 45
+        days-before-close: -1 # Don't close the PR/issue
+        days-before-issue-stale: -1 # Ignore issues for now
+        debug-only: true #TODO remove me
+        stale-pr-message: |
+          Hello! I'm here to give this pull request a friendly nudge. It looks like this pull
+          request hasn't been active in 45 days. If you're still working on this, then please
+          comment and I won't bother you again for a while. I'm also letting
+          @GSA/tts-tech-portfolio know, in case they need to do something here.
+
+          You can leave [feedback](https://github.com/18F/tts-tech-portfolio/issues/1375) or
+          [open an issue](https://github.com/18F/tts-tech-portfolio/issues/new?assignees=&labels=g%3A+initial&template=general.md&title=stale-bot+feedback)
+          if I'm misbehaving.
