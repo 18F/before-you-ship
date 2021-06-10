@@ -18,6 +18,7 @@ jobs:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         days-before-stale: 45
         days-before-close: -1 # Don't close the PR/issue
+        days-before-issue-stale: -1 # Ignore issues for now
         debug-only: true #TODO remove me
         stale-pr-message: |
           Hello! I'm here to give this pull request a friendly nudge. It looks like this pull
