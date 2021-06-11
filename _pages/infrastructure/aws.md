@@ -7,6 +7,9 @@ At TTS, we use [Amazon Web Services](https://aws.amazon.com/) (AWS) as our [infr
 
 In particular, you _cannot_ send traffic from the internet to your local machine - you _must_ use a sandbox account for this purpose.
 
+TTS has opinions on how you should manage your infrastructure with AWS. For more information on how TTS manages its infrastructure, see the [AWS Management Guide](https://github.com/18F/aws-admin/blob/main/docs/aws-management.md).
+
+
 ## Fundamentals
 
 If you are familiar with running virtual machines on your own computer, through Parallels, VirtualBox, or VMWare, AWS operates on the same principles but on a truly massive [scale](http://www.enterprisetech.com/2014/11/14/rare-peek-massive-scale-aws/). Pretty much everything in AWS can be orchestrated via the [AWS API](https://aws.amazon.com/documentation/) & [command-line interface](https://docs.aws.amazon.com/cli/latest/reference/).
