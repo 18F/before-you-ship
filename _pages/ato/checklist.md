@@ -1,6 +1,7 @@
 ---
 title: ATO Checklist
 navtitle: Checklist
+redirect_to: https://handbook.tts.gsa.gov/lifecycle/#ato-checklist
 ---
 
 The ATO checklist helps you track progress towards a successful launch throughout your project. It is a formatted issue on GitHub, and is the canonical source of information for your path to launch.

@@ -2,7 +2,19 @@ primary:
   - text: Overview
     href: /
   - text: Lifecycle of a Launch
-    href: https://handbook.tts.gsa.gov/lifecycle
+    links:
+      - text: ATOs
+        href: /ato/
+      - text: Checklist
+        href: /ato/checklist/
+      - text: Types
+        href: /ato/types/
+      - text: System Security Plan
+        href: /ato/ssp/
+      - text: Archer
+        href: /ato/archer/
+      - text: Tips
+        href: /ato/tips/
   - text: Security
     links:
       - text: General Security Standards
