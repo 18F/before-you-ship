@@ -10,4 +10,4 @@ All TTS systems requiring authentication **must** use multiple factors. Examples
 - [**OMB Max**](https://max.gov/) - requires an Inter-Agency Agreement
 - [**Login.gov**](https://login.gov) - requires an Memorandum of Understanding for new agencies
 
-Systems in the [pre-assessment](../../ato/types/#conditions-for-pre-assessment) phase do not require MFA.
+Systems in the [pre-assessment](https://handbook.tts.gsa.gov/lifecycle/#conditions-for-pre-assessment) phase do not require MFA.
