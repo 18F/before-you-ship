@@ -1,5 +1,6 @@
 ---
 title: System Security Plan
+redirect_to: https://handbook.tts.gsa.gov/lifecycle/#system-security-plan
 ---
 
 As described in [the NIST guide](http://csrc.nist.gov/publications/nistpubs/800-18-Rev1/sp800-18-Rev1-final.pdf#page=7):

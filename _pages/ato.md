@@ -1,5 +1,6 @@
 ---
 title: Lifecycle of a Launch
+redirect_to: https://handbook.tts.gsa.gov/lifecycle/#atos
 ---
 
 <a href="https://atos.open-control.org/" class="usa-button">Learn about ATOs</a>
