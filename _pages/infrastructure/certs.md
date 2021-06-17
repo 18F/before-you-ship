@@ -1,7 +1,7 @@
 ---
 title: HTTPS Certificates
 parent: Infrastructure
-redirect_to: https://handbook.tts.gsa.gov/launching-software/infrastructure/#https-certificate
+redirect_to: https://handbook.tts.gsa.gov/launching-software/infrastructure/#https-certificates
 ---
 
 HTTPS should be enforced on every public endpoint ([here's why](https://18f.gsa.gov/2014/11/13/why-we-use-https-in-every-gov-website-we-make/)). There are a number of ways to get certificates for systems at TTS, depending on what [infrastructure](..) you're using:
