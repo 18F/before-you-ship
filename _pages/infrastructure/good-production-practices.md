@@ -1,6 +1,7 @@
 ---
 title: Good Production Practices
 parent: Infrastructure
+redirect_to: https://handbook.tts.gsa.gov/launching-software/infrastructure/#good-production-practices
 ---
 
 Below is a list of "good" production ops practices, which product and tech leads should consider early in their development and review as part of any major launch. Items in **bold** are considered must-haves.

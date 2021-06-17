@@ -1,6 +1,7 @@
 ---
 title: Monitoring
 parent: Infrastructure
+redirect_to: https://handbook.tts.gsa.gov/launching-software/infrastructure/#monitoring
 ---
 
 There are several kinds of monitoring that you will need to have in place for any application:
