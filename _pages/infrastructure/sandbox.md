@@ -1,7 +1,7 @@
 ---
 title: Sandbox Accounts
 parent: Infrastructure
-https://handbook.tts.gsa.gov/launching-software/infrastructure/#sandbox-accounts
+redirect_to: https://handbook.tts.gsa.gov/launching-software/infrastructure/#sandbox-accounts
 ---
 
 Sandbox accounts - both cloud.gov and AWS - are available to all TTS staff for non-production use. Things to bear in mind about sandbox accounts:

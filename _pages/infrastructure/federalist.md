@@ -1,7 +1,7 @@
 ---
 title: Federalist
 parent: infrastructure
-https://handbook.tts.gsa.gov/launching-software/infrastructure/#federalist
+redirect_to: https://handbook.tts.gsa.gov/launching-software/infrastructure/#federalist
 ---
 
 Use Federalist for publishing static sites. See [the Federalist homepage](https://federalist.18f.gov) for more information.
