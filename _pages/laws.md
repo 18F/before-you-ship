@@ -1,5 +1,6 @@
 ---
 title: Laws
+redirect_to: https://handbook.tts.gsa.gov/launching-software/laws
 ---
 
 Government requirements for shipping projects fall into the following categories:
