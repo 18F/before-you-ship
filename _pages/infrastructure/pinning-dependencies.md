@@ -1,6 +1,7 @@
 ---
 title: Pinning Dependencies
 parent: Good Production Practices
+https://handbook.tts.gsa.gov/launching-software/infrastructure/#pinning-dependencies
 ---
 
 The practice of "pinning dependencies" refers to making explicit the versions

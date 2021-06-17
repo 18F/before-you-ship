@@ -1,6 +1,7 @@
 ---
 title: Logging
 parent: Infrastructure
+https://handbook.tts.gsa.gov/launching-software/infrastructure/#logging
 ---
 
 When using cloud.gov, logs sent to standard out are automatically captured by [logs.fr.cloud.gov](https://logs.fr.cloud.gov). [More info.](https://cloud.gov/docs/apps/logs/)

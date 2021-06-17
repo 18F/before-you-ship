@@ -1,5 +1,6 @@
 ---
 title: Domains
+https://handbook.tts.gsa.gov/launching-software/infrastructure/#domains
 ---
 
 See also: [Requirements for Federal Websites and Digital Services](https://digital.gov/resources/checklist-of-requirements-for-federal-digital-services/#domains)
