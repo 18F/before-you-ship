@@ -2,6 +2,7 @@
 title: Security Scanning
 navtitle: Scanning
 parent: Security
+redirect_to: https://handbook.tts.gsa.gov/security/#security-scanning
 ---
 
 Security scanning is separated into a few categories:
