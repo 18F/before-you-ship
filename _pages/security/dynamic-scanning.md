@@ -1,7 +1,7 @@
 ---
 title: Dynamic Scanning
 parent: Security
-redirect_to: https://handbook.tts.gsa.gov/security/#dynamic-scanning
+redirect_to: https://handbook.tts.gsa.gov/launching-software/security/#dynamic-scanning
 ---
 
 In order for an application to get ATO, it needs to meet more than a minimum level of application security, so the application team needs to run [both static and dynamic security scans](../scanning/) and document good results. Running a "dynamic" scan means running a program that analyzes a live running application for common vulnerabilities.

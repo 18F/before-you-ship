@@ -1,6 +1,6 @@
 ---
 title: Tips
-redirect_to: https://handbook.tts.gsa.gov/lifecycle/#tips
+redirect_to: https://handbook.tts.gsa.gov/launching-software/lifecycle/#tips
 ---
 
 - Is your project accessible and [Section 508](../../laws/508/) compliant? The team will need to incorporate this throughout the project, but you'll also need to set up a review at least two weeks before launch.

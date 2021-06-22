@@ -2,7 +2,7 @@
 title: Framework-Specific Security Guidelines
 navtitle: Frameworks
 parent: Security
-redirect_to: https://handbook.tts.gsa.gov/security/#frameworks
+redirect_to: https://handbook.tts.gsa.gov/launching-software/security/#frameworks
 ---
 
 Organized by language.
