@@ -1,3 +1,7 @@
+**As of June 21, 2021, the Before You Ship content has been entirely merged into the [TTS Handbook](https://handbook.tts.gsa.gov/#launching-software). It has also been rebranded as `Launching software` so as to convey that the tips enclosed should be looked at earlier than right before software is shipped. For more information about this change, see the relevant [GitHub issue](https://github.com/18F/before-you-ship/issues/421).**
+
+---
+
 # TTS Before You Ship Guide [![CircleCI](https://circleci.com/gh/18F/before-you-ship.svg?style=svg)](https://circleci.com/gh/18F/before-you-ship)
 
 This is the source repository for the TTS [Before You Ship](https://before-you-ship.18f.gov/) guide.
