@@ -2,7 +2,7 @@
 title: Static Security Analysis
 navtitle: Static Analysis
 parent: Security
-redirect_to: https://handbook.tts.gsa.gov/security/#static-analysis
+redirect_to: https://handbook.tts.gsa.gov/launching-software/security/#static-analysis
 ---
 
 Static analysis is an important part of the development process, and is required for ATO. There are two main types of static security testing that needs to be done:

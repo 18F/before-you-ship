@@ -1,12 +1,12 @@
 ---
 title: ATO Checklist
 navtitle: Checklist
-redirect_to: https://handbook.tts.gsa.gov/lifecycle/#ato-checklist
+redirect_to: https://handbook.tts.gsa.gov/launching-software/lifecycle/#ato-checklist
 ---
 
 The ATO checklist helps you track progress towards a successful launch throughout your project. It is a formatted issue on GitHub, and is the canonical source of information for your path to launch.
 
-To start the security authorization process, [create an issue](https://github.com/18F/tts-tech-portfolio/issues/new?template=ato.md&title=ATO+for+%5Bsystem%5D+-+due+%5Bdate%5D) ([preview](https://github.com/18F/tts-tech-portfolio/blob/master/.github/ISSUE_TEMPLATE/ato.md)). Make sure to replace the placeholders (the things in `[square brackets]`). Feel free to add a username after each task to assign it, and/or make corresponding items in your issue tracker. Unless otherwise specified, all tasks are the responsibility of the project team.
+To start the security authorization process, [create an issue](https://github.com/18F/tts-tech-portfolio/issues/new?template=ato.md&title=ATO+for+%5Bsystem%5D+-+due+%5Bdate%5D) ([preview](https://github.com/18F/tts-tech-portfolio/blob/main/.github/ISSUE_TEMPLATE/ato.md)). Make sure to replace the placeholders (the things in `[square brackets]`). Feel free to add a username after each task to assign it, and/or make corresponding items in your issue tracker. Unless otherwise specified, all tasks are the responsibility of the project team.
 
 The tasks are in suggested order of priority, though they can often be done in parallel. Note that **all of the prerequisite tasks need to be completed before your project will be scheduled for a sprint**.
 

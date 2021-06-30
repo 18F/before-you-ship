@@ -1,7 +1,7 @@
 ---
 title: Multi-Factor Authentication
 parent: Security
-redirect_to: https://handbook.tts.gsa.gov/security/#multi-factor-authentication
+redirect_to: https://handbook.tts.gsa.gov/launching-software/security/#multi-factor-authentication
 ---
 
 All TTS systems requiring authentication **must** use multiple factors. Examples of multi-factor authentication (MFA) include, but are not limited to:
