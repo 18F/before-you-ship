@@ -10,7 +10,7 @@ This guide is maintained by the [TTS Tech Portfolio](https://handbook.18f.gov/te
 
 ## Development
 
-See the Usage section of our [Contributing guidelines](https://github.com/18F/before-you-ship/blob/master/CONTRIBUTING.md#usage).
+See the Usage section of our [Contributing guidelines](https://github.com/18F/before-you-ship/blob/main/CONTRIBUTING.md#usage).
 
 ## Public domain
 

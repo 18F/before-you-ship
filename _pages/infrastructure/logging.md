@@ -29,7 +29,7 @@ Things you are required to log:
 
 _This list comes from GSA’s [AU-2a](https://nvd.nist.gov/800-53/Rev4/control/au-2#Rev4Statements) Parameter Requirement - see the “Audit and Accountability” doc on [this page](https://insite.gsa.gov/topics/information-technology/security-and-privacy/it-security/it-security-procedural-guides)._
 
-**Do not log [sensitive information](https://github.com/18F/open-source-policy/blob/master/practice.md#protecting-sensitive-information).**
+**Do not log [sensitive information](https://github.com/18F/open-source-policy/blob/main/practice.md#protecting-sensitive-information).**
 
 ## Other notes
 
